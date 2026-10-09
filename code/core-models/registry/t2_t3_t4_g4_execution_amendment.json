@@ -1,0 +1,69 @@
+{
+  "amendment_id": "t2-t3-t4-g4-execution-v1",
+  "status": "engineering_frozen_prelaunch",
+  "base_registry": "registry/bert_scope.json",
+  "base_registry_sha256": "not-published",
+  "model": "google-bert/bert-base-uncased",
+  "world_size": 4,
+  "split_layer": 4,
+  "operator": {
+    "family": "o3",
+    "source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+    "source_sha256": "not-published",
+    "rank": 16,
+    "world_tokens": 16,
+    "law_count": 4,
+    "profile_search": false
+  },
+  "data_revision": "not-published",
+  "data_inputs": {
+    "csuite_schema_summary_sha256": "not-published",
+    "evidence_inference_schema_summary_sha256": "not-published",
+    "causalt5k_adjudication_report_sha256": "not-published",
+    "causalt5k_accepted_task_views_sha256": "not-published"
+  },
+  "families": {
+    "T2": {
+      "formal_source": "csuite_generated_development",
+      "supplementary_source": "causalt5k_adjudicated_9_task_views",
+      "seeds": [501, 502, 503, 504, 505],
+      "design": "leave_one_complete_named_sem_family_out",
+      "primary": "ood_and_retention_by_held_out_family",
+      "next_gate": "pinned_simulator_renderer_and_manifest"
+    },
+    "T3": {
+      "primary_source": "cladder_validation_perturbations",
+      "secondary_source": "corr2cause_native_development_robustness",
+      "selected_cladder_method": "a1_frozen_t3b_pointer",
+      "checkpoint_seeds": [2026090601, 2026090602, 2026090603, 2026090604, 2026090605, 2026090606, 2026090607, 2026090608, 2026090609, 2026090610, 2026090611, 2026090612, 2026090613, 2026090614, 2026090615, 2026090616, 2026090617, 2026090618, 2026090619, 2026090620],
+      "datasets": ["clean", "variable_rename", "cladder_variants"],
+      "boundless_das_role": "optional_method_axis",
+      "primary": "paired_graph_clean_minus_perturbed",
+      "next_gate": "prediction_export_and_fail_closed_measurement_runner"
+    },
+    "T4": {
+      "formal_source": "csuite_generated_development",
+      "secondary_source": "cladder_executable_scm",
+      "supplementary_source": "causalt5k_adjudicated_3_task_views",
+      "seeds": [511, 512, 513, 514, 515],
+      "methods": ["changing_only", "imagining_only", "joint"],
+      "primary": "rung_transfer_matrix",
+      "next_gate": "frozen_renderer_transformations_and_manifest"
+    },
+    "G4": {
+      "formal_source": "evidence_inference_2_development",
+      "auxiliary_source": "pubmedcausal_span_extraction",
+      "seeds": [521, 522, 523, 524, 525],
+      "methods": ["baseline", "o3"],
+      "primary": "article_grouped_intervention_comparator_outcome_direction_delta",
+      "scope_note": "comparative RCT evidence, not complete DAG world-state inference",
+      "next_gate": "source_validated_prompt_converter_and_manifest"
+    }
+  },
+  "data_access": {
+    "allowed_splits": ["train", "validation"],
+    "held_out_test": "forbidden",
+    "final_eval": false
+  },
+  "test_evaluated": false
+}

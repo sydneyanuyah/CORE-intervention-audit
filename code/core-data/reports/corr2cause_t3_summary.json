@@ -1,0 +1,22 @@
+{
+  "clean_validation_rows": 1076,
+  "duplicate_equivalent_perturbation_groups_collapsed": 353,
+  "graph_groups": 22,
+  "labels": {
+    "0": 937,
+    "1": 139
+  },
+  "official_perturbation_rows": 2246,
+  "pair_manifest_sha256": "not-published",
+  "paired_validation_rows": 1076,
+  "pinned_revision": "not-published",
+  "protocol": "corr2cause_native_robustness_v1",
+  "raw_sha256": {
+    "clean": "not-published",
+    "paraphrase": "not-published",
+    "refactorization": "not-published"
+  },
+  "scope": "T3 native classification robustness only; not CORE intervention-state evidence",
+  "source": "corr2cause",
+  "test_evaluated": false
+}

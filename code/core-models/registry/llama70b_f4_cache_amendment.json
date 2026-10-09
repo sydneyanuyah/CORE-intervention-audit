@@ -1,0 +1,8 @@
+{
+  "base_manifest": "${CORE_PROJECT_ROOT}/registry/llama70b_f4_manifest.json",
+  "base_manifest_sha256": "not-published",
+  "feature_cache": "outputs/llama70b-f4/cache/xor_features.pt",
+  "feature_cache_sha256": "not-published",
+  "protocol": "llama3_3_70b_f4_cache_binding_v1",
+  "test_evaluated": false
+}

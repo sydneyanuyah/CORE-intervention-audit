@@ -1,0 +1,41 @@
+{
+  "protocol": "g3_layer_selection_v1",
+  "registry": "registry/bert_scope.json",
+  "registry_sha256": "not-published",
+  "stage": "development_selection",
+  "evidence_status": "development_only",
+  "model_size": "base",
+  "seed": 2026090600,
+  "candidate_layers": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "method": {
+    "name": "edit_layer_sweep",
+    "implementation": "t3b_pointer"
+  },
+  "selection": {
+    "metric": "two_edit_balanced",
+    "direction": "maximize",
+    "tie_break": "smallest_layer"
+  },
+  "data_access": {
+    "allowed_splits": ["train", "validation"],
+    "held_out_test": "forbidden",
+    "final_eval": false
+  },
+  "paths": {
+    "data_root": "data",
+    "xor_artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_20graph/runs/graph_{graph}",
+    "xor_manifest_template": "data/two_edit/xor_graph_{graph}.jsonl",
+    "xor_graphs": [3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, 3009, 3010, 3011, 3012, 3013, 3014, 3015, 3016, 3017, 3018, 3019, 3020],
+    "output_template": "outputs/g3-development/layer-{layer}/seed-{seed}"
+  },
+  "training": {
+    "epochs": 3,
+    "batch_size": 16,
+    "variable_loss_weight": 1.0,
+    "balanced_variable_loss": true,
+    "transition_variable_loss": true,
+    "causal_task_readout": true,
+    "hard_pointer": true,
+    "pointer_loss_weight": 1.0
+  }
+}

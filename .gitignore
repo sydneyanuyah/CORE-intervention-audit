@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+outputs/
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+checkpoints/*.safetensors
+wandb/
+tensorboard/
+*.log
+

@@ -1,0 +1,1479 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "arms": {
+    "t0_no_instruction": "head receives factual-world feature only",
+    "t1_text": "intervention embedding added directly to reader feature",
+    "t2a_naive": "joint feature/instruction MLP without isolation",
+    "t2b_encode_only": "isolated conditional low-rank editor",
+    "t3a_conditioning": "state-gated editor",
+    "t3b_pointer": "target-pointer-weighted conditional editor with auxiliary target loss"
+  },
+  "cells": [
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:801",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-801",
+      "seed": 801
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:801",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-801",
+      "seed": 801
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:801",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-801",
+      "seed": 801
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:801",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-801",
+      "seed": 801
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:801",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-801",
+      "seed": 801
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:801",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-801",
+      "seed": 801
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:802",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-802",
+      "seed": 802
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:802",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-802",
+      "seed": 802
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:802",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-802",
+      "seed": 802
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:802",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-802",
+      "seed": 802
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:802",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-802",
+      "seed": 802
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:802",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-802",
+      "seed": 802
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:803",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-803",
+      "seed": 803
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:803",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-803",
+      "seed": 803
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:803",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-803",
+      "seed": 803
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:803",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-803",
+      "seed": 803
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:803",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-803",
+      "seed": 803
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:803",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-803",
+      "seed": 803
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:804",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-804",
+      "seed": 804
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:804",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-804",
+      "seed": 804
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:804",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-804",
+      "seed": 804
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:804",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-804",
+      "seed": 804
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:804",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-804",
+      "seed": 804
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:804",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-804",
+      "seed": 804
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:805",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-805",
+      "seed": 805
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:805",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-805",
+      "seed": 805
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:805",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-805",
+      "seed": 805
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:805",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-805",
+      "seed": 805
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:805",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-805",
+      "seed": 805
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:805",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-805",
+      "seed": 805
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:806",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-806",
+      "seed": 806
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:806",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-806",
+      "seed": 806
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:806",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-806",
+      "seed": 806
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:806",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-806",
+      "seed": 806
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:806",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-806",
+      "seed": 806
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:806",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-806",
+      "seed": 806
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:807",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-807",
+      "seed": 807
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:807",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-807",
+      "seed": 807
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:807",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-807",
+      "seed": 807
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:807",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-807",
+      "seed": 807
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:807",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-807",
+      "seed": 807
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:807",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-807",
+      "seed": 807
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:808",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-808",
+      "seed": 808
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:808",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-808",
+      "seed": 808
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:808",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-808",
+      "seed": 808
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:808",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-808",
+      "seed": 808
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:808",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-808",
+      "seed": 808
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:808",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-808",
+      "seed": 808
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:809",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-809",
+      "seed": 809
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:809",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-809",
+      "seed": 809
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:809",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-809",
+      "seed": 809
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:809",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-809",
+      "seed": 809
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:809",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-809",
+      "seed": 809
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:809",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-809",
+      "seed": 809
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:810",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-810",
+      "seed": 810
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:810",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-810",
+      "seed": 810
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:810",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-810",
+      "seed": 810
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:810",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-810",
+      "seed": 810
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:810",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-810",
+      "seed": 810
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:810",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-810",
+      "seed": 810
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:811",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-811",
+      "seed": 811
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:811",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-811",
+      "seed": 811
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:811",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-811",
+      "seed": 811
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:811",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-811",
+      "seed": 811
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:811",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-811",
+      "seed": 811
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:811",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-811",
+      "seed": 811
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:812",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-812",
+      "seed": 812
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:812",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-812",
+      "seed": 812
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:812",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-812",
+      "seed": 812
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:812",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-812",
+      "seed": 812
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:812",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-812",
+      "seed": 812
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:812",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-812",
+      "seed": 812
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:813",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-813",
+      "seed": 813
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:813",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-813",
+      "seed": 813
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:813",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-813",
+      "seed": 813
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:813",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-813",
+      "seed": 813
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:813",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-813",
+      "seed": 813
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:813",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-813",
+      "seed": 813
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:814",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-814",
+      "seed": 814
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:814",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-814",
+      "seed": 814
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:814",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-814",
+      "seed": 814
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:814",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-814",
+      "seed": 814
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:814",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-814",
+      "seed": 814
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:814",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-814",
+      "seed": 814
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:815",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-815",
+      "seed": 815
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:815",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-815",
+      "seed": 815
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:815",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-815",
+      "seed": 815
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:815",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-815",
+      "seed": 815
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:815",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-815",
+      "seed": 815
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:815",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-815",
+      "seed": 815
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:816",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-816",
+      "seed": 816
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:816",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-816",
+      "seed": 816
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:816",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-816",
+      "seed": 816
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:816",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-816",
+      "seed": 816
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:816",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-816",
+      "seed": 816
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:816",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-816",
+      "seed": 816
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:817",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-817",
+      "seed": 817
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:817",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-817",
+      "seed": 817
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:817",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-817",
+      "seed": 817
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:817",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-817",
+      "seed": 817
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:817",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-817",
+      "seed": 817
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:817",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-817",
+      "seed": 817
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:818",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-818",
+      "seed": 818
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:818",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-818",
+      "seed": 818
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:818",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-818",
+      "seed": 818
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:818",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-818",
+      "seed": 818
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:818",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-818",
+      "seed": 818
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:818",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-818",
+      "seed": 818
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:819",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-819",
+      "seed": 819
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:819",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-819",
+      "seed": 819
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:819",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-819",
+      "seed": 819
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:819",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-819",
+      "seed": 819
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:819",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-819",
+      "seed": 819
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:819",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-819",
+      "seed": 819
+    },
+    {
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen7b-a1:xor:t0_no_instruction:820",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "output": "outputs/qwen7b-a1/xor/t0_no_instruction/seed-820",
+      "seed": 820
+    },
+    {
+      "arm": "t1_text",
+      "cell_id": "qwen7b-a1:xor:t1_text:820",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "output": "outputs/qwen7b-a1/xor/t1_text/seed-820",
+      "seed": 820
+    },
+    {
+      "arm": "t2a_naive",
+      "cell_id": "qwen7b-a1:xor:t2a_naive:820",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "output": "outputs/qwen7b-a1/xor/t2a_naive/seed-820",
+      "seed": 820
+    },
+    {
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen7b-a1:xor:t2b_encode_only:820",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "output": "outputs/qwen7b-a1/xor/t2b_encode_only/seed-820",
+      "seed": 820
+    },
+    {
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen7b-a1:xor:t3a_conditioning:820",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "output": "outputs/qwen7b-a1/xor/t3a_conditioning/seed-820",
+      "seed": 820
+    },
+    {
+      "arm": "t3b_pointer",
+      "cell_id": "qwen7b-a1:xor:t3b_pointer:820",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "output": "outputs/qwen7b-a1/xor/t3b_pointer/seed-820",
+      "seed": 820
+    }
+  ],
+  "evaluation_split": "validation",
+  "feature_cache": "outputs/qwen7b-a1/cache/xor_features.pt",
+  "feature_cache_summary": "outputs/qwen7b-a1/cache/cache_summary.json",
+  "feature_contract": {
+    "backbone_frozen": true,
+    "max_length": 512,
+    "pooling": "last non-padding final-layer hidden state",
+    "quantization": "NF4 feature extraction only"
+  },
+  "graphs": [
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3021/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3021.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3021/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3021/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3021
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3022/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3022.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3022/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3022/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3022
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3023/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3023.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3023/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3023/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3023
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3024/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3024.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3024/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3024/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3024
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3025/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3025.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3025/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3025/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3025
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3026/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3026.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3026/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3026/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3026
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3027/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3027.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3027/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3027/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3027
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3028/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3028.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3028/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3028/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3028
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3029/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3029.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3029/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3029/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3029
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3030/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3030.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3030/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3030/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3030
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3031/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3031.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3031/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3031/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3031
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3032/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3032.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3032/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3032/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3032
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3033/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3033.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3033/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3033/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3033
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3034/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3034.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3034/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3034/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3034
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3035/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3035.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3035/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3035/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3035
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3036/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3036.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3036/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3036/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3036
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3037/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3037.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3037/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3037/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3037
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3038/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3038.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3038/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3038/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3038
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3039/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3039.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3039/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3039/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3039
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3040/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/confirmatory/xor_graph_3040.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3040/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_3040/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3040
+    }
+  ],
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_config_sha256": "not-published",
+  "model_revision": "not-published",
+  "model_snapshot": "${PRIVATE_STORAGE_ROOT}/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/not-published",
+  "operator_contract": {
+    "nodes": [
+      "X00",
+      "X01",
+      "X02",
+      "X03",
+      "X04",
+      "X05",
+      "X06",
+      "X07",
+      "X08",
+      "X09",
+      "X10",
+      "X11",
+      "X12",
+      "X13",
+      "X14",
+      "X15",
+      "X16",
+      "X17",
+      "X18",
+      "X19",
+      "X20",
+      "X21",
+      "X22",
+      "X23",
+      "X24",
+      "X25",
+      "X26",
+      "X27",
+      "X28",
+      "X29"
+    ],
+    "rank": 16
+  },
+  "protocol": "qwen2p5_7b_a1_addressing_screen_v1",
+  "scope": "XOR development architecture screen; frozen-feature analogs are explicitly distinct from token-level BERT implementations",
+  "seeds": [
+    801,
+    802,
+    803,
+    804,
+    805,
+    806,
+    807,
+    808,
+    809,
+    810,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817,
+    818,
+    819,
+    820
+  ],
+  "status": "preregistered_prelaunch",
+  "test_evaluated": false,
+  "training_contract": {
+    "batch_size": 64,
+    "learning_rate": 0.0003,
+    "pointer_loss_weight": 0.1,
+    "selection": "final preregistered step",
+    "steps": 1200
+  }
+}

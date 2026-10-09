@@ -1,0 +1,3434 @@
+{
+  "cell_count": 240,
+  "cells": [
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:201",
+      "family": "xor",
+      "graph_seed": 3041,
+      "method": "core_base_1law",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:201",
+      "family": "xor",
+      "graph_seed": 3041,
+      "method": "core_i_3law",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:201",
+      "family": "xor",
+      "graph_seed": 3041,
+      "method": "core_full_4law",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:201",
+      "family": "xor",
+      "graph_seed": 3041,
+      "method": "do_nothing",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:201",
+      "family": "xor",
+      "graph_seed": 3041,
+      "method": "do_everything",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:201",
+      "family": "xor",
+      "graph_seed": 3041,
+      "method": "random_init",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:202",
+      "family": "xor",
+      "graph_seed": 3042,
+      "method": "core_base_1law",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:202",
+      "family": "xor",
+      "graph_seed": 3042,
+      "method": "core_i_3law",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:202",
+      "family": "xor",
+      "graph_seed": 3042,
+      "method": "core_full_4law",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:202",
+      "family": "xor",
+      "graph_seed": 3042,
+      "method": "do_nothing",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:202",
+      "family": "xor",
+      "graph_seed": 3042,
+      "method": "do_everything",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:202",
+      "family": "xor",
+      "graph_seed": 3042,
+      "method": "random_init",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:203",
+      "family": "xor",
+      "graph_seed": 3043,
+      "method": "core_base_1law",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:203",
+      "family": "xor",
+      "graph_seed": 3043,
+      "method": "core_i_3law",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:203",
+      "family": "xor",
+      "graph_seed": 3043,
+      "method": "core_full_4law",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:203",
+      "family": "xor",
+      "graph_seed": 3043,
+      "method": "do_nothing",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:203",
+      "family": "xor",
+      "graph_seed": 3043,
+      "method": "do_everything",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:203",
+      "family": "xor",
+      "graph_seed": 3043,
+      "method": "random_init",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:204",
+      "family": "xor",
+      "graph_seed": 3044,
+      "method": "core_base_1law",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:204",
+      "family": "xor",
+      "graph_seed": 3044,
+      "method": "core_i_3law",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:204",
+      "family": "xor",
+      "graph_seed": 3044,
+      "method": "core_full_4law",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:204",
+      "family": "xor",
+      "graph_seed": 3044,
+      "method": "do_nothing",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:204",
+      "family": "xor",
+      "graph_seed": 3044,
+      "method": "do_everything",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:204",
+      "family": "xor",
+      "graph_seed": 3044,
+      "method": "random_init",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:205",
+      "family": "xor",
+      "graph_seed": 3045,
+      "method": "core_base_1law",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:205",
+      "family": "xor",
+      "graph_seed": 3045,
+      "method": "core_i_3law",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:205",
+      "family": "xor",
+      "graph_seed": 3045,
+      "method": "core_full_4law",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:205",
+      "family": "xor",
+      "graph_seed": 3045,
+      "method": "do_nothing",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:205",
+      "family": "xor",
+      "graph_seed": 3045,
+      "method": "do_everything",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:205",
+      "family": "xor",
+      "graph_seed": 3045,
+      "method": "random_init",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:206",
+      "family": "xor",
+      "graph_seed": 3046,
+      "method": "core_base_1law",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:206",
+      "family": "xor",
+      "graph_seed": 3046,
+      "method": "core_i_3law",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:206",
+      "family": "xor",
+      "graph_seed": 3046,
+      "method": "core_full_4law",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:206",
+      "family": "xor",
+      "graph_seed": 3046,
+      "method": "do_nothing",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:206",
+      "family": "xor",
+      "graph_seed": 3046,
+      "method": "do_everything",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:206",
+      "family": "xor",
+      "graph_seed": 3046,
+      "method": "random_init",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:207",
+      "family": "xor",
+      "graph_seed": 3047,
+      "method": "core_base_1law",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:207",
+      "family": "xor",
+      "graph_seed": 3047,
+      "method": "core_i_3law",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:207",
+      "family": "xor",
+      "graph_seed": 3047,
+      "method": "core_full_4law",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:207",
+      "family": "xor",
+      "graph_seed": 3047,
+      "method": "do_nothing",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:207",
+      "family": "xor",
+      "graph_seed": 3047,
+      "method": "do_everything",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:207",
+      "family": "xor",
+      "graph_seed": 3047,
+      "method": "random_init",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:208",
+      "family": "xor",
+      "graph_seed": 3048,
+      "method": "core_base_1law",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:208",
+      "family": "xor",
+      "graph_seed": 3048,
+      "method": "core_i_3law",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:208",
+      "family": "xor",
+      "graph_seed": 3048,
+      "method": "core_full_4law",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:208",
+      "family": "xor",
+      "graph_seed": 3048,
+      "method": "do_nothing",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:208",
+      "family": "xor",
+      "graph_seed": 3048,
+      "method": "do_everything",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:208",
+      "family": "xor",
+      "graph_seed": 3048,
+      "method": "random_init",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:209",
+      "family": "xor",
+      "graph_seed": 3049,
+      "method": "core_base_1law",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:209",
+      "family": "xor",
+      "graph_seed": 3049,
+      "method": "core_i_3law",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:209",
+      "family": "xor",
+      "graph_seed": 3049,
+      "method": "core_full_4law",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:209",
+      "family": "xor",
+      "graph_seed": 3049,
+      "method": "do_nothing",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:209",
+      "family": "xor",
+      "graph_seed": 3049,
+      "method": "do_everything",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:209",
+      "family": "xor",
+      "graph_seed": 3049,
+      "method": "random_init",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:210",
+      "family": "xor",
+      "graph_seed": 3050,
+      "method": "core_base_1law",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:210",
+      "family": "xor",
+      "graph_seed": 3050,
+      "method": "core_i_3law",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:210",
+      "family": "xor",
+      "graph_seed": 3050,
+      "method": "core_full_4law",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:210",
+      "family": "xor",
+      "graph_seed": 3050,
+      "method": "do_nothing",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:210",
+      "family": "xor",
+      "graph_seed": 3050,
+      "method": "do_everything",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:210",
+      "family": "xor",
+      "graph_seed": 3050,
+      "method": "random_init",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:211",
+      "family": "xor",
+      "graph_seed": 3051,
+      "method": "core_base_1law",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:211",
+      "family": "xor",
+      "graph_seed": 3051,
+      "method": "core_i_3law",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:211",
+      "family": "xor",
+      "graph_seed": 3051,
+      "method": "core_full_4law",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:211",
+      "family": "xor",
+      "graph_seed": 3051,
+      "method": "do_nothing",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:211",
+      "family": "xor",
+      "graph_seed": 3051,
+      "method": "do_everything",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:211",
+      "family": "xor",
+      "graph_seed": 3051,
+      "method": "random_init",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:212",
+      "family": "xor",
+      "graph_seed": 3052,
+      "method": "core_base_1law",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:212",
+      "family": "xor",
+      "graph_seed": 3052,
+      "method": "core_i_3law",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:212",
+      "family": "xor",
+      "graph_seed": 3052,
+      "method": "core_full_4law",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:212",
+      "family": "xor",
+      "graph_seed": 3052,
+      "method": "do_nothing",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:212",
+      "family": "xor",
+      "graph_seed": 3052,
+      "method": "do_everything",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:212",
+      "family": "xor",
+      "graph_seed": 3052,
+      "method": "random_init",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:213",
+      "family": "xor",
+      "graph_seed": 3053,
+      "method": "core_base_1law",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:213",
+      "family": "xor",
+      "graph_seed": 3053,
+      "method": "core_i_3law",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:213",
+      "family": "xor",
+      "graph_seed": 3053,
+      "method": "core_full_4law",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:213",
+      "family": "xor",
+      "graph_seed": 3053,
+      "method": "do_nothing",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:213",
+      "family": "xor",
+      "graph_seed": 3053,
+      "method": "do_everything",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:213",
+      "family": "xor",
+      "graph_seed": 3053,
+      "method": "random_init",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:214",
+      "family": "xor",
+      "graph_seed": 3054,
+      "method": "core_base_1law",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:214",
+      "family": "xor",
+      "graph_seed": 3054,
+      "method": "core_i_3law",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:214",
+      "family": "xor",
+      "graph_seed": 3054,
+      "method": "core_full_4law",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:214",
+      "family": "xor",
+      "graph_seed": 3054,
+      "method": "do_nothing",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:214",
+      "family": "xor",
+      "graph_seed": 3054,
+      "method": "do_everything",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:214",
+      "family": "xor",
+      "graph_seed": 3054,
+      "method": "random_init",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:215",
+      "family": "xor",
+      "graph_seed": 3055,
+      "method": "core_base_1law",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:215",
+      "family": "xor",
+      "graph_seed": 3055,
+      "method": "core_i_3law",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:215",
+      "family": "xor",
+      "graph_seed": 3055,
+      "method": "core_full_4law",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:215",
+      "family": "xor",
+      "graph_seed": 3055,
+      "method": "do_nothing",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:215",
+      "family": "xor",
+      "graph_seed": 3055,
+      "method": "do_everything",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:215",
+      "family": "xor",
+      "graph_seed": 3055,
+      "method": "random_init",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:216",
+      "family": "xor",
+      "graph_seed": 3056,
+      "method": "core_base_1law",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:216",
+      "family": "xor",
+      "graph_seed": 3056,
+      "method": "core_i_3law",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:216",
+      "family": "xor",
+      "graph_seed": 3056,
+      "method": "core_full_4law",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:216",
+      "family": "xor",
+      "graph_seed": 3056,
+      "method": "do_nothing",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:216",
+      "family": "xor",
+      "graph_seed": 3056,
+      "method": "do_everything",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:216",
+      "family": "xor",
+      "graph_seed": 3056,
+      "method": "random_init",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:217",
+      "family": "xor",
+      "graph_seed": 3057,
+      "method": "core_base_1law",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:217",
+      "family": "xor",
+      "graph_seed": 3057,
+      "method": "core_i_3law",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:217",
+      "family": "xor",
+      "graph_seed": 3057,
+      "method": "core_full_4law",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:217",
+      "family": "xor",
+      "graph_seed": 3057,
+      "method": "do_nothing",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:217",
+      "family": "xor",
+      "graph_seed": 3057,
+      "method": "do_everything",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:217",
+      "family": "xor",
+      "graph_seed": 3057,
+      "method": "random_init",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:218",
+      "family": "xor",
+      "graph_seed": 3058,
+      "method": "core_base_1law",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:218",
+      "family": "xor",
+      "graph_seed": 3058,
+      "method": "core_i_3law",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:218",
+      "family": "xor",
+      "graph_seed": 3058,
+      "method": "core_full_4law",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:218",
+      "family": "xor",
+      "graph_seed": 3058,
+      "method": "do_nothing",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:218",
+      "family": "xor",
+      "graph_seed": 3058,
+      "method": "do_everything",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:218",
+      "family": "xor",
+      "graph_seed": 3058,
+      "method": "random_init",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:219",
+      "family": "xor",
+      "graph_seed": 3059,
+      "method": "core_base_1law",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:219",
+      "family": "xor",
+      "graph_seed": 3059,
+      "method": "core_i_3law",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:219",
+      "family": "xor",
+      "graph_seed": 3059,
+      "method": "core_full_4law",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:219",
+      "family": "xor",
+      "graph_seed": 3059,
+      "method": "do_nothing",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:219",
+      "family": "xor",
+      "graph_seed": 3059,
+      "method": "do_everything",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:219",
+      "family": "xor",
+      "graph_seed": 3059,
+      "method": "random_init",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_base_1law:220",
+      "family": "xor",
+      "graph_seed": 3060,
+      "method": "core_base_1law",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_i_3law:220",
+      "family": "xor",
+      "graph_seed": 3060,
+      "method": "core_i_3law",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:core_full_4law:220",
+      "family": "xor",
+      "graph_seed": 3060,
+      "method": "core_full_4law",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_nothing:220",
+      "family": "xor",
+      "graph_seed": 3060,
+      "method": "do_nothing",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:do_everything:220",
+      "family": "xor",
+      "graph_seed": 3060,
+      "method": "do_everything",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:xor:random_init:220",
+      "family": "xor",
+      "graph_seed": 3060,
+      "method": "random_init",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:201",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:201",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:201",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:201",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:201",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:201",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 201,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:202",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:202",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:202",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:202",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:202",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:202",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 202,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:203",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:203",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:203",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:203",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:203",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:203",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 203,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:204",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:204",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:204",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:204",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:204",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:204",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 204,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:205",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:205",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:205",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:205",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:205",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:205",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 205,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:206",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:206",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:206",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:206",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:206",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:206",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 206,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:207",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:207",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:207",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:207",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:207",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:207",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 207,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:208",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:208",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:208",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:208",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:208",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:208",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 208,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:209",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:209",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:209",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:209",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:209",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:209",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 209,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:210",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:210",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:210",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:210",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:210",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:210",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 210,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:211",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:211",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:211",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:211",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:211",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:211",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 211,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:212",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:212",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:212",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:212",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:212",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:212",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 212,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:213",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:213",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:213",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:213",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:213",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:213",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 213,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:214",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:214",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:214",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:214",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:214",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:214",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 214,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:215",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:215",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:215",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:215",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:215",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:215",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 215,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:216",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:216",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:216",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:216",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:216",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:216",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 216,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:217",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:217",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:217",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:217",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:217",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:217",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 217,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:218",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:218",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:218",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:218",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:218",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:218",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 218,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:219",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:219",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:219",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:219",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:219",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:219",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 219,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_base_1law:220",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_base_1law",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_i_3law:220",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_i_3law",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:core_full_4law:220",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "core_full_4law",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_nothing:220",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_nothing",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:do_everything:220",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "do_everything",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "l1:cladder:random_init:220",
+      "family": "cladder",
+      "graph_seed": null,
+      "method": "random_init",
+      "seed": 220,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    }
+  ],
+  "held_out_sha256": {
+    "data/two_edit/cladder/artifact.json": "not-published",
+    "data/two_edit/cladder/manifest.jsonl": "not-published"
+  },
+  "manifest_sha256": "not-published",
+  "protocol": "l1_law_retention_v1",
+  "test_evaluated": false,
+  "xor_sha256": {
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3041/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3041/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3041/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3042/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3042/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3042/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3043/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3043/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3043/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3044/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3044/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3044/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3045/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3045/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3045/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3046/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3046/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3046/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3047/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3047/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3047/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3048/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3048/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3048/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3049/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3049/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3049/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3050/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3050/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3050/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3051/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3051/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3051/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3052/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3052/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3052/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3053/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3053/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3053/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3054/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3054/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3054/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3055/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3055/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3055/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3056/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3056/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3056/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3057/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3057/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3057/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3058/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3058/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3058/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3059/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3059/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3059/worlds.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3060/graph.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3060/records_real.json": "not-published",
+    "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3060/worlds.json": "not-published"
+  }
+}

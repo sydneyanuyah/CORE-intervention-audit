@@ -1,0 +1,16 @@
+{
+  "pilot_id": "C5K-001",
+  "task_view": "T2",
+  "annotator_a_file": "causalt5k.ann-001.jsonl",
+  "annotator_b_file": "causalt5k.ann-002.jsonl",
+  "disagreement_fields": [],
+  "adjudicator_id": "adj-001",
+  "final_decision": null,
+  "final_reason_codes": [],
+  "final_graph": null,
+  "final_factual_state": null,
+  "final_intervention": null,
+  "final_intervened_state": null,
+  "final_evidence_spans": [],
+  "adjudication_notes": null
+}

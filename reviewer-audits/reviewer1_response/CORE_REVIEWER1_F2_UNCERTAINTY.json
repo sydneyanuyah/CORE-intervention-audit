@@ -1,0 +1,3389 @@
+{
+  "protocol": "reviewer1_f2_uncertainty_consolidated_v1",
+  "comparisons": [
+    {
+      "backbone": "bert-base-uncased",
+      "family": "ccrgb",
+      "n_seeds": 20,
+      "n_graphs": 2,
+      "mean_o2_minus_o3": 0.16774475524475532,
+      "student_t_95": [
+        0.12461771270560186,
+        0.2108717977839088
+      ],
+      "equal_graph_mean_o2_minus_o3": 0.16925595238095237,
+      "graph_bootstrap_95": [
+        0.1364285714285714,
+        0.20208333333333334
+      ],
+      "eligible_for_paper": false,
+      "source_file": {
+        "backbone": "bert-base-uncased",
+        "family": "ccrgb",
+        "n_seeds": 20,
+        "n_graphs": 2,
+        "paired_seed_deltas_o2_minus_o3": [
+          0.19930069930069938,
+          0.19930069930069938,
+          0.25349650349650354,
+          0.21853146853146854,
+          0.23776223776223793,
+          0.2097902097902099,
+          0.256993006993007,
+          0.10839160839160844,
+          0.13111888111888126,
+          0.17657342657342667,
+          0.1923076923076924,
+          -0.036713286713286664,
+          0.2220279720279721,
+          0.029720279720279796,
+          0.02447552447552459,
+          0.2744755244755245,
+          0.034965034965035,
+          0.2902097902097902,
+          0.1451048951048951,
+          0.18706293706293708
+        ],
+        "paired_seed_mean": 0.16774475524475532,
+        "paired_seed_student_t_95": [
+          0.12461771270560186,
+          0.2108717977839088
+        ],
+        "equal_graph_mean": 0.16925595238095237,
+        "paired_graph_bootstrap_95": [
+          0.1364285714285714,
+          0.20208333333333334
+        ],
+        "graph_bootstrap_replicates": 10000,
+        "split": "validation",
+        "test_evaluated": false,
+        "provenance": [
+          {
+            "seed": 301,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:301",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-301/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 301,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:301",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-301/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 302,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:302",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-302/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 302,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:302",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-302/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 303,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:303",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-303/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 303,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:303",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-303/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 304,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:304",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-304/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 304,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:304",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-304/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 305,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:305",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-305/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 305,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:305",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-305/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 306,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:306",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-306/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 306,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:306",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-306/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 307,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:307",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-307/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 307,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:307",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-307/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 308,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:308",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-308/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 308,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:308",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-308/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 309,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:309",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-309/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 309,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:309",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-309/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 310,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:310",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-310/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 310,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:310",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-310/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 311,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:311",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-311/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 311,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:311",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-311/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 312,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:312",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-312/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 312,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:312",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-312/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 313,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:313",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-313/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 313,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:313",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-313/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 314,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:314",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-314/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 314,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:314",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-314/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 315,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:315",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-315/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 315,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:315",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-315/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 316,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:316",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-316/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 316,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:316",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-316/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 317,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:317",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-317/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 317,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:317",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-317/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 318,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:318",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-318/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 318,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:318",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-318/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 319,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:319",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-319/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 319,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:319",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-319/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 320,
+            "method": "o2",
+            "cell_id": "f2:ccrgb:o2:320",
+            "summary_path": "outputs/f2/ccrgb/o2/seed-320/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 320,
+            "method": "o3",
+            "cell_id": "f2:ccrgb:o3:320",
+            "summary_path": "outputs/f2/ccrgb/o3/seed-320/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          }
+        ]
+      }
+    },
+    {
+      "backbone": "bert-base-uncased",
+      "family": "cladder",
+      "n_seeds": 20,
+      "n_graphs": 20,
+      "mean_o2_minus_o3": 0.12917972459639124,
+      "student_t_95": [
+        0.10465725794914016,
+        0.15370219124364232
+      ],
+      "equal_graph_mean_o2_minus_o3": 0.14056170969996779,
+      "graph_bootstrap_95": [
+        0.1164481615910858,
+        0.16520294133009264
+      ],
+      "eligible_for_paper": true,
+      "source_file": {
+        "backbone": "bert-base-uncased",
+        "family": "cladder",
+        "n_seeds": 20,
+        "n_graphs": 20,
+        "paired_seed_deltas_o2_minus_o3": [
+          0.17022792022792022,
+          0.1152862569529236,
+          0.11274250440917111,
+          0.22446750780084113,
+          0.09129019129019134,
+          0.20131257631257626,
+          0.08492741826075156,
+          0.08693867860534532,
+          0.09964726631393306,
+          0.2598188848188848,
+          0.1346052096052096,
+          0.0868403201736534,
+          0.17947700447700443,
+          0.08519536019536034,
+          0.07917853751187076,
+          0.14380341880341885,
+          0.10737688237688237,
+          0.11604259937593275,
+          0.07471509971509971,
+          0.12970085470085468
+        ],
+        "paired_seed_mean": 0.12917972459639124,
+        "paired_seed_student_t_95": [
+          0.10465725794914016,
+          0.15370219124364232
+        ],
+        "equal_graph_mean": 0.14056170969996779,
+        "paired_graph_bootstrap_95": [
+          0.1164481615910858,
+          0.16520294133009264
+        ],
+        "graph_bootstrap_replicates": 10000,
+        "split": "validation",
+        "test_evaluated": false,
+        "provenance": [
+          {
+            "seed": 301,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:301",
+            "summary_path": "outputs/f2/cladder/o2/seed-301/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 301,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:301",
+            "summary_path": "outputs/f2/cladder/o3/seed-301/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 302,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:302",
+            "summary_path": "outputs/f2/cladder/o2/seed-302/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 302,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:302",
+            "summary_path": "outputs/f2/cladder/o3/seed-302/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 303,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:303",
+            "summary_path": "outputs/f2/cladder/o2/seed-303/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 303,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:303",
+            "summary_path": "outputs/f2/cladder/o3/seed-303/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 304,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:304",
+            "summary_path": "outputs/f2/cladder/o2/seed-304/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 304,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:304",
+            "summary_path": "outputs/f2/cladder/o3/seed-304/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 305,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:305",
+            "summary_path": "outputs/f2/cladder/o2/seed-305/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 305,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:305",
+            "summary_path": "outputs/f2/cladder/o3/seed-305/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 306,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:306",
+            "summary_path": "outputs/f2/cladder/o2/seed-306/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 306,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:306",
+            "summary_path": "outputs/f2/cladder/o3/seed-306/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 307,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:307",
+            "summary_path": "outputs/f2/cladder/o2/seed-307/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 307,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:307",
+            "summary_path": "outputs/f2/cladder/o3/seed-307/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 308,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:308",
+            "summary_path": "outputs/f2/cladder/o2/seed-308/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 308,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:308",
+            "summary_path": "outputs/f2/cladder/o3/seed-308/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 309,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:309",
+            "summary_path": "outputs/f2/cladder/o2/seed-309/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 309,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:309",
+            "summary_path": "outputs/f2/cladder/o3/seed-309/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 310,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:310",
+            "summary_path": "outputs/f2/cladder/o2/seed-310/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 310,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:310",
+            "summary_path": "outputs/f2/cladder/o3/seed-310/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 311,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:311",
+            "summary_path": "outputs/f2/cladder/o2/seed-311/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 311,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:311",
+            "summary_path": "outputs/f2/cladder/o3/seed-311/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 312,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:312",
+            "summary_path": "outputs/f2/cladder/o2/seed-312/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 312,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:312",
+            "summary_path": "outputs/f2/cladder/o3/seed-312/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 313,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:313",
+            "summary_path": "outputs/f2/cladder/o2/seed-313/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 313,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:313",
+            "summary_path": "outputs/f2/cladder/o3/seed-313/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 314,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:314",
+            "summary_path": "outputs/f2/cladder/o2/seed-314/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 314,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:314",
+            "summary_path": "outputs/f2/cladder/o3/seed-314/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 315,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:315",
+            "summary_path": "outputs/f2/cladder/o2/seed-315/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 315,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:315",
+            "summary_path": "outputs/f2/cladder/o3/seed-315/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 316,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:316",
+            "summary_path": "outputs/f2/cladder/o2/seed-316/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 316,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:316",
+            "summary_path": "outputs/f2/cladder/o3/seed-316/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 317,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:317",
+            "summary_path": "outputs/f2/cladder/o2/seed-317/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 317,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:317",
+            "summary_path": "outputs/f2/cladder/o3/seed-317/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 318,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:318",
+            "summary_path": "outputs/f2/cladder/o2/seed-318/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 318,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:318",
+            "summary_path": "outputs/f2/cladder/o3/seed-318/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 319,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:319",
+            "summary_path": "outputs/f2/cladder/o2/seed-319/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 319,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:319",
+            "summary_path": "outputs/f2/cladder/o3/seed-319/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 320,
+            "method": "o2",
+            "cell_id": "f2:cladder:o2:320",
+            "summary_path": "outputs/f2/cladder/o2/seed-320/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 320,
+            "method": "o3",
+            "cell_id": "f2:cladder:o3:320",
+            "summary_path": "outputs/f2/cladder/o3/seed-320/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          }
+        ]
+      }
+    },
+    {
+      "backbone": "bert-base-uncased",
+      "family": "com2",
+      "n_seeds": 20,
+      "n_graphs": 63,
+      "mean_o2_minus_o3": 0.0,
+      "student_t_95": [
+        0.0,
+        0.0
+      ],
+      "equal_graph_mean_o2_minus_o3": 0.0,
+      "graph_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "eligible_for_paper": false,
+      "source_file": {
+        "backbone": "bert-base-uncased",
+        "family": "com2",
+        "n_seeds": 20,
+        "n_graphs": 63,
+        "paired_seed_deltas_o2_minus_o3": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "paired_seed_mean": 0.0,
+        "paired_seed_student_t_95": [
+          0.0,
+          0.0
+        ],
+        "equal_graph_mean": 0.0,
+        "paired_graph_bootstrap_95": [
+          0.0,
+          0.0
+        ],
+        "graph_bootstrap_replicates": 10000,
+        "split": "validation",
+        "test_evaluated": false,
+        "provenance": [
+          {
+            "seed": 301,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:301",
+            "summary_path": "outputs/f2/com2/o2/seed-301/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 301,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:301",
+            "summary_path": "outputs/f2/com2/o3/seed-301/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 302,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:302",
+            "summary_path": "outputs/f2/com2/o2/seed-302/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 302,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:302",
+            "summary_path": "outputs/f2/com2/o3/seed-302/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 303,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:303",
+            "summary_path": "outputs/f2/com2/o2/seed-303/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 303,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:303",
+            "summary_path": "outputs/f2/com2/o3/seed-303/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 304,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:304",
+            "summary_path": "outputs/f2/com2/o2/seed-304/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 304,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:304",
+            "summary_path": "outputs/f2/com2/o3/seed-304/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 305,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:305",
+            "summary_path": "outputs/f2/com2/o2/seed-305/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 305,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:305",
+            "summary_path": "outputs/f2/com2/o3/seed-305/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 306,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:306",
+            "summary_path": "outputs/f2/com2/o2/seed-306/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 306,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:306",
+            "summary_path": "outputs/f2/com2/o3/seed-306/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 307,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:307",
+            "summary_path": "outputs/f2/com2/o2/seed-307/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 307,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:307",
+            "summary_path": "outputs/f2/com2/o3/seed-307/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 308,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:308",
+            "summary_path": "outputs/f2/com2/o2/seed-308/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 308,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:308",
+            "summary_path": "outputs/f2/com2/o3/seed-308/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 309,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:309",
+            "summary_path": "outputs/f2/com2/o2/seed-309/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 309,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:309",
+            "summary_path": "outputs/f2/com2/o3/seed-309/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 310,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:310",
+            "summary_path": "outputs/f2/com2/o2/seed-310/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 310,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:310",
+            "summary_path": "outputs/f2/com2/o3/seed-310/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 311,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:311",
+            "summary_path": "outputs/f2/com2/o2/seed-311/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 311,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:311",
+            "summary_path": "outputs/f2/com2/o3/seed-311/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 312,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:312",
+            "summary_path": "outputs/f2/com2/o2/seed-312/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 312,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:312",
+            "summary_path": "outputs/f2/com2/o3/seed-312/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 313,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:313",
+            "summary_path": "outputs/f2/com2/o2/seed-313/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 313,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:313",
+            "summary_path": "outputs/f2/com2/o3/seed-313/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 314,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:314",
+            "summary_path": "outputs/f2/com2/o2/seed-314/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 314,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:314",
+            "summary_path": "outputs/f2/com2/o3/seed-314/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 315,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:315",
+            "summary_path": "outputs/f2/com2/o2/seed-315/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 315,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:315",
+            "summary_path": "outputs/f2/com2/o3/seed-315/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 316,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:316",
+            "summary_path": "outputs/f2/com2/o2/seed-316/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 316,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:316",
+            "summary_path": "outputs/f2/com2/o3/seed-316/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 317,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:317",
+            "summary_path": "outputs/f2/com2/o2/seed-317/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 317,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:317",
+            "summary_path": "outputs/f2/com2/o3/seed-317/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 318,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:318",
+            "summary_path": "outputs/f2/com2/o2/seed-318/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 318,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:318",
+            "summary_path": "outputs/f2/com2/o3/seed-318/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 319,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:319",
+            "summary_path": "outputs/f2/com2/o2/seed-319/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 319,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:319",
+            "summary_path": "outputs/f2/com2/o3/seed-319/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 320,
+            "method": "o2",
+            "cell_id": "f2:com2:o2:320",
+            "summary_path": "outputs/f2/com2/o2/seed-320/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 320,
+            "method": "o3",
+            "cell_id": "f2:com2:o3:320",
+            "summary_path": "outputs/f2/com2/o3/seed-320/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          }
+        ]
+      }
+    },
+    {
+      "backbone": "bert-base-uncased",
+      "family": "wiqa",
+      "n_seeds": 20,
+      "n_graphs": 68,
+      "mean_o2_minus_o3": 0.040515647226173554,
+      "student_t_95": [
+        0.02157323806800566,
+        0.05945805638434144
+      ],
+      "equal_graph_mean_o2_minus_o3": 0.043589015151515136,
+      "graph_bootstrap_95": [
+        0.0277689950980392,
+        0.058750306372549
+      ],
+      "eligible_for_paper": false,
+      "source_file": {
+        "backbone": "bert-base-uncased",
+        "family": "wiqa",
+        "n_seeds": 20,
+        "n_graphs": 68,
+        "paired_seed_deltas_o2_minus_o3": [
+          0.04999999999999993,
+          0.061166429587482196,
+          0.025533428165007144,
+          0.04167852062588906,
+          0.10945945945945945,
+          0.006401137980085347,
+          0.14182076813655764,
+          0.07290184921763865,
+          -0.017994310099573307,
+          0.014153627311522143,
+          0.034850640113798015,
+          -0.02837837837837842,
+          0.03307254623044109,
+          0.04971550497866295,
+          0.08221906116642963,
+          -0.0018492176386912806,
+          0.024039829302987203,
+          0.03492176386913237,
+          0.026671408250355633,
+          0.04992887624466569
+        ],
+        "paired_seed_mean": 0.040515647226173554,
+        "paired_seed_student_t_95": [
+          0.02157323806800566,
+          0.05945805638434144
+        ],
+        "equal_graph_mean": 0.043589015151515136,
+        "paired_graph_bootstrap_95": [
+          0.0277689950980392,
+          0.058750306372549
+        ],
+        "graph_bootstrap_replicates": 10000,
+        "split": "validation",
+        "test_evaluated": false,
+        "provenance": [
+          {
+            "seed": 301,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:301",
+            "summary_path": "outputs/f2/wiqa/o2/seed-301/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 301,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:301",
+            "summary_path": "outputs/f2/wiqa/o3/seed-301/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 302,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:302",
+            "summary_path": "outputs/f2/wiqa/o2/seed-302/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 302,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:302",
+            "summary_path": "outputs/f2/wiqa/o3/seed-302/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 303,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:303",
+            "summary_path": "outputs/f2/wiqa/o2/seed-303/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 303,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:303",
+            "summary_path": "outputs/f2/wiqa/o3/seed-303/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 304,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:304",
+            "summary_path": "outputs/f2/wiqa/o2/seed-304/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 304,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:304",
+            "summary_path": "outputs/f2/wiqa/o3/seed-304/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 305,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:305",
+            "summary_path": "outputs/f2/wiqa/o2/seed-305/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 305,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:305",
+            "summary_path": "outputs/f2/wiqa/o3/seed-305/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 306,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:306",
+            "summary_path": "outputs/f2/wiqa/o2/seed-306/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 306,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:306",
+            "summary_path": "outputs/f2/wiqa/o3/seed-306/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 307,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:307",
+            "summary_path": "outputs/f2/wiqa/o2/seed-307/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 307,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:307",
+            "summary_path": "outputs/f2/wiqa/o3/seed-307/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 308,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:308",
+            "summary_path": "outputs/f2/wiqa/o2/seed-308/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 308,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:308",
+            "summary_path": "outputs/f2/wiqa/o3/seed-308/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 309,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:309",
+            "summary_path": "outputs/f2/wiqa/o2/seed-309/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 309,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:309",
+            "summary_path": "outputs/f2/wiqa/o3/seed-309/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 310,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:310",
+            "summary_path": "outputs/f2/wiqa/o2/seed-310/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 310,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:310",
+            "summary_path": "outputs/f2/wiqa/o3/seed-310/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 311,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:311",
+            "summary_path": "outputs/f2/wiqa/o2/seed-311/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 311,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:311",
+            "summary_path": "outputs/f2/wiqa/o3/seed-311/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 312,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:312",
+            "summary_path": "outputs/f2/wiqa/o2/seed-312/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 312,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:312",
+            "summary_path": "outputs/f2/wiqa/o3/seed-312/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 313,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:313",
+            "summary_path": "outputs/f2/wiqa/o2/seed-313/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 313,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:313",
+            "summary_path": "outputs/f2/wiqa/o3/seed-313/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 314,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:314",
+            "summary_path": "outputs/f2/wiqa/o2/seed-314/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 314,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:314",
+            "summary_path": "outputs/f2/wiqa/o3/seed-314/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 315,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:315",
+            "summary_path": "outputs/f2/wiqa/o2/seed-315/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 315,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:315",
+            "summary_path": "outputs/f2/wiqa/o3/seed-315/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 316,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:316",
+            "summary_path": "outputs/f2/wiqa/o2/seed-316/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 316,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:316",
+            "summary_path": "outputs/f2/wiqa/o3/seed-316/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 317,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:317",
+            "summary_path": "outputs/f2/wiqa/o2/seed-317/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 317,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:317",
+            "summary_path": "outputs/f2/wiqa/o3/seed-317/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 318,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:318",
+            "summary_path": "outputs/f2/wiqa/o2/seed-318/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 318,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:318",
+            "summary_path": "outputs/f2/wiqa/o3/seed-318/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 319,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:319",
+            "summary_path": "outputs/f2/wiqa/o2/seed-319/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 319,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:319",
+            "summary_path": "outputs/f2/wiqa/o3/seed-319/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 320,
+            "method": "o2",
+            "cell_id": "f2:wiqa:o2:320",
+            "summary_path": "outputs/f2/wiqa/o2/seed-320/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          },
+          {
+            "seed": 320,
+            "method": "o3",
+            "cell_id": "f2:wiqa:o3:320",
+            "summary_path": "outputs/f2/wiqa/o3/seed-320/run_summary.json",
+            "summary_sha256": "not-published",
+            "checkpoint_sha256": "not-published"
+          }
+        ]
+      }
+    },
+    {
+      "backbone": "meta-llama/Llama-3.3-70B-Instruct",
+      "family": "cladder",
+      "n_seeds": 20,
+      "n_graphs": 20,
+      "mean_o2_minus_o3": 0.02455653913987248,
+      "student_t_95": [
+        0.015914182605136194,
+        0.033198895674608764
+      ],
+      "equal_graph_mean_o2_minus_o3": 0.025088315141552,
+      "graph_bootstrap_95": [
+        0.0029558642547309615,
+        0.04559677273800007
+      ],
+      "eligible_for_paper": true,
+      "source_file": {
+        "amendment_path": "registry/llama70b_cladder_cache_amendment.json",
+        "amendment_sha256": "not-published",
+        "backbone": "meta-llama/Llama-3.3-70B-Instruct",
+        "equal_graph_mean_o2_minus_o3": 0.025088315141552,
+        "evaluation_split": "validation",
+        "graph_count": 20,
+        "manifest_path": "registry/llama70b_cladder_extension_manifest.json",
+        "manifest_sha256": "not-published",
+        "mean_o2_minus_o3": 0.02455653913987248,
+        "model_revision": "not-published",
+        "paired_graph_bootstrap_95": [
+          0.0029558642547309615,
+          0.04559677273800007
+        ],
+        "paired_seed_count": 20,
+        "paired_seed_student_t_95": [
+          0.015914182605136194,
+          0.033198895674608764
+        ],
+        "per_graph_mean_delta": {
+          "cladder:model:3241": 0.0847727272727273,
+          "cladder:model:3249": -0.016308713113322815,
+          "cladder:model:3265": 0.018999999999999972,
+          "cladder:model:3282": -0.0237132672578682,
+          "cladder:model:3359": 0.009268214055448077,
+          "cladder:model:3419": -0.025911458333333297,
+          "cladder:model:3435": 0.06510172143974963,
+          "cladder:model:3522": -0.05213043478260874,
+          "cladder:model:3527": 0.05233990147783248,
+          "cladder:model:3533": -0.03946428571428571,
+          "cladder:model:3534": -0.09454861111111111,
+          "cladder:model:3569": 0.03522167487684731,
+          "cladder:model:3607": 0.045696324951644045,
+          "cladder:model:3613": 0.07537338479610674,
+          "cladder:model:3627": 0.07687807881773401,
+          "cladder:model:3732": 0.051736111111111115,
+          "cladder:model:3752": 0.058438835258743424,
+          "cladder:model:3766": 0.0675818958695996,
+          "cladder:model:3781": 0.056287878787878776,
+          "cladder:model:3836": 0.056146324428147376
+        },
+        "per_seed": [
+          {
+            "o2": 0.7812135395468729,
+            "o2_minus_o3": 0.035144485144485094,
+            "o3": 0.7460690544023878,
+            "seed": 401
+          },
+          {
+            "o2": 0.7833469000135667,
+            "o2_minus_o3": 0.048154931488264774,
+            "o3": 0.7351919685253019,
+            "seed": 402
+          },
+          {
+            "o2": 0.7774284357617691,
+            "o2_minus_o3": 0.02862230362230367,
+            "o3": 0.7488061321394655,
+            "seed": 403
+          },
+          {
+            "o2": 0.7793854293854294,
+            "o2_minus_o3": 0.019441052774386125,
+            "o3": 0.7599443766110433,
+            "seed": 404
+          },
+          {
+            "o2": 0.7856430606430607,
+            "o2_minus_o3": 0.007946682946682992,
+            "o3": 0.7776963776963777,
+            "seed": 405
+          },
+          {
+            "o2": 0.7767704517704518,
+            "o2_minus_o3": 0.015961199294532658,
+            "o3": 0.7608092524759191,
+            "seed": 406
+          },
+          {
+            "o2": 0.7870031203364536,
+            "o2_minus_o3": 0.034618776285442854,
+            "o3": 0.7523843440510107,
+            "seed": 407
+          },
+          {
+            "o2": 0.7871523538190205,
+            "o2_minus_o3": 0.006257631257631235,
+            "o3": 0.7808947225613893,
+            "seed": 408
+          },
+          {
+            "o2": 0.7896113146113146,
+            "o2_minus_o3": 0.009483109483109486,
+            "o3": 0.7801282051282051,
+            "seed": 409
+          },
+          {
+            "o2": 0.7910425993759327,
+            "o2_minus_o3": 0.012800162800162829,
+            "o3": 0.7782424365757699,
+            "seed": 410
+          },
+          {
+            "o2": 0.7925518925518926,
+            "o2_minus_o3": 0.024470899470899532,
+            "o3": 0.7680809930809931,
+            "seed": 411
+          },
+          {
+            "o2": 0.7839981006647674,
+            "o2_minus_o3": 0.05078347578347586,
+            "o3": 0.7332146248812915,
+            "seed": 412
+          },
+          {
+            "o2": 0.7847714014380681,
+            "o2_minus_o3": 0.037695021028354425,
+            "o3": 0.7470763804097137,
+            "seed": 413
+          },
+          {
+            "o2": 0.7816815900149234,
+            "o2_minus_o3": 0.0390347307013974,
+            "o3": 0.742646859313526,
+            "seed": 414
+          },
+          {
+            "o2": 0.7873151539818206,
+            "o2_minus_o3": 0.029178537511870717,
+            "o3": 0.7581366164699499,
+            "seed": 415
+          },
+          {
+            "o2": 0.7900149233482567,
+            "o2_minus_o3": 0.05012549179215853,
+            "o3": 0.7398894315560982,
+            "seed": 416
+          },
+          {
+            "o2": 0.7858906525573193,
+            "o2_minus_o3": 0.030402930402930517,
+            "o3": 0.7554877221543888,
+            "seed": 417
+          },
+          {
+            "o2": 0.7796194546194546,
+            "o2_minus_o3": 0.007512549179215844,
+            "o3": 0.7721069054402387,
+            "seed": 418
+          },
+          {
+            "o2": 0.7877051960385293,
+            "o2_minus_o3": 0.02918532085198744,
+            "o3": 0.7585198751865418,
+            "seed": 419
+          },
+          {
+            "o2": 0.7847849681183015,
+            "o2_minus_o3": -0.025688509021842387,
+            "o3": 0.8104734771401438,
+            "seed": 420
+          }
+        ],
+        "protocol": "reviewer1_f2_frozen_checkpoint_reanalysis_v1",
+        "provenance": [
+          {
+            "cell_id": "llama70b-f2:cladder:o2:401",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-401/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-401/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:402",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-402/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-402/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:403",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-403/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-403/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:404",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-404/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-404/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:405",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-405/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-405/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:406",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-406/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-406/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:407",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-407/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-407/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:408",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-408/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-408/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:409",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-409/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-409/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:410",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-410/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-410/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:411",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-411/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-411/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:412",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-412/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-412/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:413",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-413/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-413/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:414",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-414/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-414/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:415",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-415/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-415/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:416",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-416/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-416/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:417",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-417/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-417/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:418",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-418/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-418/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:419",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-419/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-419/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o2:420",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o2/seed-420/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o2/seed-420/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:401",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-401/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-401/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:402",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-402/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-402/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:403",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-403/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-403/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:404",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-404/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-404/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:405",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-405/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-405/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:406",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-406/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-406/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:407",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-407/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-407/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:408",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-408/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-408/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:409",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-409/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-409/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:410",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-410/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-410/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:411",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-411/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-411/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:412",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-412/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-412/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:413",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-413/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-413/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:414",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-414/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-414/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:415",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-415/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-415/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:416",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-416/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-416/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:417",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-417/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-417/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:418",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-418/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-418/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:419",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-419/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-419/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "llama70b-f2:cladder:o3:420",
+            "checkpoint_path": "outputs/llama70b-f2/cladder/o3/seed-420/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/llama70b-f2/cladder/o3/seed-420/run_summary.json",
+            "metric_source_sha256": "not-published"
+          }
+        ],
+        "test_evaluated": false
+      }
+    },
+    {
+      "backbone": "microsoft/phi-4",
+      "family": "cladder",
+      "n_seeds": 20,
+      "n_graphs": 20,
+      "mean_o2_minus_o3": 0.004511090761090792,
+      "student_t_95": [
+        -7.379984320615186e-05,
+        0.009095981365387735
+      ],
+      "equal_graph_mean_o2_minus_o3": -8.364068869319213e-05,
+      "graph_bootstrap_95": [
+        -0.01883320131764624,
+        0.018811845821515134
+      ],
+      "eligible_for_paper": true,
+      "source_file": {
+        "amendment_path": "registry/phi14b_cladder_cache_amendment.json",
+        "amendment_sha256": "not-published",
+        "backbone": "microsoft/phi-4",
+        "equal_graph_mean_o2_minus_o3": -8.364068869319213e-05,
+        "evaluation_split": "validation",
+        "graph_count": 20,
+        "manifest_path": "registry/phi14b_cladder_extension_manifest.json",
+        "manifest_sha256": "not-published",
+        "mean_o2_minus_o3": 0.004511090761090792,
+        "model_revision": "not-published",
+        "paired_graph_bootstrap_95": [
+          -0.01883320131764624,
+          0.018811845821515134
+        ],
+        "paired_seed_count": 20,
+        "paired_seed_student_t_95": [
+          -7.379984320615186e-05,
+          0.009095981365387735
+        ],
+        "per_graph_mean_delta": {
+          "cladder:model:3241": 0.0032575757575757703,
+          "cladder:model:3249": -0.0038807403527152005,
+          "cladder:model:3265": -0.06204347826086966,
+          "cladder:model:3282": -0.055964180142583864,
+          "cladder:model:3359": 0.010170857511283094,
+          "cladder:model:3419": 0.014713541666666686,
+          "cladder:model:3435": 0.03209876543209878,
+          "cladder:model:3522": 0.08604347826086958,
+          "cladder:model:3527": -0.015147783251231589,
+          "cladder:model:3533": -0.09482142857142857,
+          "cladder:model:3534": -0.024618055555555563,
+          "cladder:model:3569": 0.005603448275862083,
+          "cladder:model:3607": 0.035751128304319806,
+          "cladder:model:3613": 0.044416009397549916,
+          "cladder:model:3627": -0.05354064039408866,
+          "cladder:model:3732": 0.011493055555555525,
+          "cladder:model:3752": 0.06091153663554362,
+          "cladder:model:3766": -0.00856939389143852,
+          "cladder:model:3781": 0.03159090909090907,
+          "cladder:model:3836": -0.019137419242186156
+        },
+        "per_seed": [
+          {
+            "o2": 0.7950888617555285,
+            "o2_minus_o3": 0.012372812372812403,
+            "o3": 0.7827160493827161,
+            "seed": 401
+          },
+          {
+            "o2": 0.7880884547551215,
+            "o2_minus_o3": -0.008842083842083737,
+            "o3": 0.7969305385972052,
+            "seed": 402
+          },
+          {
+            "o2": 0.7950820784154118,
+            "o2_minus_o3": 0.0082349749016416,
+            "o3": 0.7868471035137702,
+            "seed": 403
+          },
+          {
+            "o2": 0.7975478225478225,
+            "o2_minus_o3": 0.0061864061864062014,
+            "o3": 0.7913614163614163,
+            "seed": 404
+          },
+          {
+            "o2": 0.7919854836521503,
+            "o2_minus_o3": 0.027028218694885364,
+            "o3": 0.7649572649572649,
+            "seed": 405
+          },
+          {
+            "o2": 0.7940611857278523,
+            "o2_minus_o3": 0.004989146655813181,
+            "o3": 0.7890720390720392,
+            "seed": 406
+          },
+          {
+            "o2": 0.796102971102971,
+            "o2_minus_o3": -0.0015296431963098822,
+            "o3": 0.7976326142992809,
+            "seed": 407
+          },
+          {
+            "o2": 0.7981718898385566,
+            "o2_minus_o3": 0.0010921177587844833,
+            "o3": 0.7970797720797721,
+            "seed": 408
+          },
+          {
+            "o2": 0.7765228598561933,
+            "o2_minus_o3": -0.0015025098358431022,
+            "o3": 0.7780253696920364,
+            "seed": 409
+          },
+          {
+            "o2": 0.798568715235382,
+            "o2_minus_o3": 0.016575091575091627,
+            "o3": 0.7819936236602903,
+            "seed": 410
+          },
+          {
+            "o2": 0.7991486908153576,
+            "o2_minus_o3": -0.009021842355175558,
+            "o3": 0.8081705331705331,
+            "seed": 411
+          },
+          {
+            "o2": 0.7975478225478225,
+            "o2_minus_o3": 0.01429928096594757,
+            "o3": 0.783248541581875,
+            "seed": 412
+          },
+          {
+            "o2": 0.8094390177723512,
+            "o2_minus_o3": 0.012996879663546457,
+            "o3": 0.7964421381088047,
+            "seed": 413
+          },
+          {
+            "o2": 0.7922534255867589,
+            "o2_minus_o3": -0.005209605209605228,
+            "o3": 0.7974630307963642,
+            "seed": 414
+          },
+          {
+            "o2": 0.7938203771537105,
+            "o2_minus_o3": -0.010778727445394098,
+            "o3": 0.8045991045991046,
+            "seed": 415
+          },
+          {
+            "o2": 0.7940544023877357,
+            "o2_minus_o3": 0.012996879663546346,
+            "o3": 0.7810575227241894,
+            "seed": 416
+          },
+          {
+            "o2": 0.7962793379460047,
+            "o2_minus_o3": 0.008469000135666871,
+            "o3": 0.7878103378103378,
+            "seed": 417
+          },
+          {
+            "o2": 0.8033306199972867,
+            "o2_minus_o3": 0.003232261565594974,
+            "o3": 0.8000983584316917,
+            "seed": 418
+          },
+          {
+            "o2": 0.7935727852394519,
+            "o2_minus_o3": -0.0025573192239859432,
+            "o3": 0.7961301044634378,
+            "seed": 419
+          },
+          {
+            "o2": 0.7893840727174061,
+            "o2_minus_o3": 0.0011904761904762973,
+            "o3": 0.7881935965269298,
+            "seed": 420
+          }
+        ],
+        "protocol": "reviewer1_f2_frozen_checkpoint_reanalysis_v1",
+        "provenance": [
+          {
+            "cell_id": "phi14b-f2:cladder:o2:401",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-401/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-401/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:402",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-402/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-402/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:403",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-403/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-403/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:404",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-404/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-404/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:405",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-405/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-405/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:406",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-406/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-406/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:407",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-407/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-407/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:408",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-408/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-408/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:409",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-409/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-409/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:410",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-410/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-410/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:411",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-411/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-411/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:412",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-412/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-412/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:413",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-413/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-413/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:414",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-414/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-414/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:415",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-415/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-415/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:416",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-416/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-416/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:417",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-417/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-417/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:418",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-418/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-418/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:419",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-419/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-419/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o2:420",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-420/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-420/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:401",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-401/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-401/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:402",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-402/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-402/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:403",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-403/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-403/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:404",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-404/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-404/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:405",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-405/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-405/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:406",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-406/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-406/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:407",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-407/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-407/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:408",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-408/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-408/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:409",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-409/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-409/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:410",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-410/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-410/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:411",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-411/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-411/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:412",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-412/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-412/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:413",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-413/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-413/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:414",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-414/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-414/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:415",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-415/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-415/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:416",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-416/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-416/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:417",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-417/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-417/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:418",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-418/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-418/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:419",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-419/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-419/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "phi14b-f2:cladder:o3:420",
+            "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-420/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-420/run_summary.json",
+            "metric_source_sha256": "not-published"
+          }
+        ],
+        "test_evaluated": false
+      }
+    },
+    {
+      "backbone": "Qwen/Qwen2.5-32B-Instruct",
+      "family": "cladder",
+      "n_seeds": 20,
+      "n_graphs": 20,
+      "mean_o2_minus_o3": 0.009622846289512965,
+      "student_t_95": [
+        0.0027214682392827398,
+        0.01652422433974319
+      ],
+      "equal_graph_mean_o2_minus_o3": 0.007480971208454595,
+      "graph_bootstrap_95": [
+        -0.007544657402691622,
+        0.022549184944690253
+      ],
+      "eligible_for_paper": true,
+      "source_file": {
+        "amendment_path": "registry/qwen32_cladder_cache_amendment.json",
+        "amendment_sha256": "not-published",
+        "backbone": "Qwen/Qwen2.5-32B-Instruct",
+        "equal_graph_mean_o2_minus_o3": 0.007480971208454595,
+        "evaluation_split": "validation",
+        "graph_count": 20,
+        "manifest_path": "registry/qwen32_cladder_extension_manifest.json",
+        "manifest_sha256": "not-published",
+        "mean_o2_minus_o3": 0.009622846289512965,
+        "model_revision": "not-published",
+        "paired_graph_bootstrap_95": [
+          -0.007544657402691622,
+          0.022549184944690253
+        ],
+        "paired_seed_count": 20,
+        "paired_seed_student_t_95": [
+          0.0027214682392827398,
+          0.01652422433974319
+        ],
+        "per_graph_mean_delta": {
+          "cladder:model:3241": 0.015909090909090946,
+          "cladder:model:3249": -0.00034922297887201583,
+          "cladder:model:3265": 0.017652173913043467,
+          "cladder:model:3282": -0.028612415232133558,
+          "cladder:model:3359": -0.012217923920051582,
+          "cladder:model:3419": 0.00911458333333336,
+          "cladder:model:3435": 0.08151625804207965,
+          "cladder:model:3522": 0.004478260869565242,
+          "cladder:model:3527": -0.020412561576354748,
+          "cladder:model:3533": -0.06553571428571432,
+          "cladder:model:3534": -0.051770833333333335,
+          "cladder:model:3569": 0.01748768472906404,
+          "cladder:model:3607": -0.0029174725983236506,
+          "cladder:model:3613": 0.03749370699781839,
+          "cladder:model:3627": -0.007635467980295546,
+          "cladder:model:3732": 0.0244444444444444,
+          "cladder:model:3752": 0.06091549295774651,
+          "cladder:model:3766": 0.034115366355435994,
+          "cladder:model:3781": 0.04659090909090905,
+          "cladder:model:3836": -0.0106469355683604
+        },
+        "per_seed": [
+          {
+            "o2": 0.7681895265228599,
+            "o2_minus_o3": -0.01751797585130921,
+            "o3": 0.7857075023741691,
+            "seed": 401
+          },
+          {
+            "o2": 0.7800807217473884,
+            "o2_minus_o3": -0.00017636684303345973,
+            "o3": 0.7802570885904219,
+            "seed": 402
+          },
+          {
+            "o2": 0.7761056844390177,
+            "o2_minus_o3": 0.007654999321665912,
+            "o3": 0.7684506851173518,
+            "seed": 403
+          },
+          {
+            "o2": 0.7860195360195361,
+            "o2_minus_o3": 0.04381020214353559,
+            "o3": 0.7422093338760005,
+            "seed": 404
+          },
+          {
+            "o2": 0.7838793922127256,
+            "o2_minus_o3": 0.027092660425993786,
+            "o3": 0.7567867317867318,
+            "seed": 405
+          },
+          {
+            "o2": 0.7842049925383259,
+            "o2_minus_o3": 0.010785510785510821,
+            "o3": 0.773419481752815,
+            "seed": 406
+          },
+          {
+            "o2": 0.7728734228734229,
+            "o2_minus_o3": -0.001509293175959936,
+            "o3": 0.7743827160493828,
+            "seed": 407
+          },
+          {
+            "o2": 0.7694851444851445,
+            "o2_minus_o3": 0.010232668566001912,
+            "o3": 0.7592524759191426,
+            "seed": 408
+          },
+          {
+            "o2": 0.7750135666802334,
+            "o2_minus_o3": 0.01784357617690957,
+            "o3": 0.7571699905033238,
+            "seed": 409
+          },
+          {
+            "o2": 0.7803215303215303,
+            "o2_minus_o3": -0.001814543481210129,
+            "o3": 0.7821360738027404,
+            "seed": 410
+          },
+          {
+            "o2": 0.7794702211368878,
+            "o2_minus_o3": 0.02356193189526523,
+            "o3": 0.7559082892416226,
+            "seed": 411
+          },
+          {
+            "o2": 0.7856294939628273,
+            "o2_minus_o3": 0.024308099308099407,
+            "o3": 0.7613213946547279,
+            "seed": 412
+          },
+          {
+            "o2": 0.7829229412562746,
+            "o2_minus_o3": 0.000929317595984247,
+            "o3": 0.7819936236602903,
+            "seed": 413
+          },
+          {
+            "o2": 0.7800942884276219,
+            "o2_minus_o3": 0.007604124270790935,
+            "o3": 0.7724901641568309,
+            "seed": 414
+          },
+          {
+            "o2": 0.7820716320716321,
+            "o2_minus_o3": 0.008007733007733053,
+            "o3": 0.774063899063899,
+            "seed": 415
+          },
+          {
+            "o2": 0.7678910595577262,
+            "o2_minus_o3": -0.006023606023606076,
+            "o3": 0.7739146655813323,
+            "seed": 416
+          },
+          {
+            "o2": 0.7814204314204314,
+            "o2_minus_o3": 0.017602767602767466,
+            "o3": 0.7638176638176639,
+            "seed": 417
+          },
+          {
+            "o2": 0.7765228598561933,
+            "o2_minus_o3": 0.00907950074616748,
+            "o3": 0.7674433591100258,
+            "seed": 418
+          },
+          {
+            "o2": 0.7852394519061185,
+            "o2_minus_o3": 0.023684032017365353,
+            "o3": 0.7615554198887532,
+            "seed": 419
+          },
+          {
+            "o2": 0.7784086284086285,
+            "o2_minus_o3": -0.012698412698412653,
+            "o3": 0.7911070411070411,
+            "seed": 420
+          }
+        ],
+        "protocol": "reviewer1_f2_frozen_checkpoint_reanalysis_v1",
+        "provenance": [
+          {
+            "cell_id": "qwen32-f2:cladder:o2:401",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-401/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-401/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:402",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-402/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-402/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:403",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-403/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-403/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:404",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-404/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-404/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:405",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-405/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-405/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:406",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-406/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-406/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:407",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-407/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-407/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:408",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-408/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-408/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:409",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-409/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-409/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:410",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-410/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-410/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:411",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-411/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-411/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:412",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-412/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-412/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:413",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-413/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-413/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:414",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-414/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-414/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:415",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-415/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-415/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:416",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-416/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-416/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:417",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-417/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-417/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:418",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-418/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-418/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:419",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-419/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-419/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o2:420",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-420/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-420/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:401",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-401/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-401/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:402",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-402/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-402/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:403",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-403/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-403/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:404",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-404/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-404/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:405",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-405/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-405/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:406",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-406/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-406/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:407",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-407/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-407/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:408",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-408/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-408/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:409",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-409/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-409/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:410",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-410/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-410/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:411",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-411/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-411/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:412",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-412/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-412/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:413",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-413/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-413/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:414",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-414/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-414/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:415",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-415/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-415/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:416",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-416/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-416/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:417",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-417/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-417/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:418",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-418/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-418/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:419",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-419/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-419/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen32-f2:cladder:o3:420",
+            "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-420/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-420/run_summary.json",
+            "metric_source_sha256": "not-published"
+          }
+        ],
+        "test_evaluated": false
+      }
+    },
+    {
+      "backbone": "Qwen/Qwen2.5-7B-Instruct",
+      "family": "cladder",
+      "n_seeds": 20,
+      "n_graphs": 20,
+      "mean_o2_minus_o3": 0.027738603988603984,
+      "student_t_95": [
+        0.02068733340167236,
+        0.034789874575535604
+      ],
+      "equal_graph_mean_o2_minus_o3": 0.021606194982192642,
+      "graph_bootstrap_95": [
+        0.006527088622415035,
+        0.03850057617718948
+      ],
+      "eligible_for_paper": true,
+      "source_file": {
+        "amendment_path": "registry/qwen7b_cladder_cache_amendment.json",
+        "amendment_sha256": "not-published",
+        "backbone": "Qwen/Qwen2.5-7B-Instruct",
+        "equal_graph_mean_o2_minus_o3": 0.021606194982192642,
+        "evaluation_split": "validation",
+        "graph_count": 20,
+        "manifest_path": "registry/qwen7b_cladder_extension_manifest.json",
+        "manifest_sha256": "not-published",
+        "mean_o2_minus_o3": 0.027738603988603984,
+        "model_revision": "not-published",
+        "paired_graph_bootstrap_95": [
+          0.006527088622415035,
+          0.03850057617718948
+        ],
+        "paired_seed_count": 20,
+        "paired_seed_student_t_95": [
+          0.02068733340167236,
+          0.034789874575535604
+        ],
+        "per_graph_mean_delta": {
+          "cladder:model:3241": 0.04901515151515152,
+          "cladder:model:3249": 0.012209708398812618,
+          "cladder:model:3265": 0.0016086956521738972,
+          "cladder:model:3282": -0.003960180838115113,
+          "cladder:model:3359": -0.022171179883945853,
+          "cladder:model:3419": 0.022265624999999976,
+          "cladder:model:3435": 0.09903495044340113,
+          "cladder:model:3522": -0.018521739130434818,
+          "cladder:model:3527": -0.016594827586206902,
+          "cladder:model:3533": 7.216449660063518e-17,
+          "cladder:model:3534": 0.0013194444444444508,
+          "cladder:model:3569": 0.009790640394088695,
+          "cladder:model:3607": 0.025910702772404932,
+          "cladder:model:3613": 0.07247021312300721,
+          "cladder:model:3627": -0.017857142857142856,
+          "cladder:model:3732": 0.1036458333333333,
+          "cladder:model:3752": 0.06337632536793798,
+          "cladder:model:3766": 0.016818325684443736,
+          "cladder:model:3781": 0.018484848484848458,
+          "cladder:model:3836": 0.015278505325650426
+        },
+        "per_seed": [
+          {
+            "o2": 0.7633496133496134,
+            "o2_minus_o3": 0.008123049789716452,
+            "o3": 0.7552265635598969,
+            "seed": 401
+          },
+          {
+            "o2": 0.7715981549314883,
+            "o2_minus_o3": 0.04198209198209213,
+            "o3": 0.7296160629493962,
+            "seed": 402
+          },
+          {
+            "o2": 0.7714353547686881,
+            "o2_minus_o3": 0.02948039614706277,
+            "o3": 0.7419549586216253,
+            "seed": 403
+          },
+          {
+            "o2": 0.7695699362366029,
+            "o2_minus_o3": 0.034354226020892664,
+            "o3": 0.7352157102157102,
+            "seed": 404
+          },
+          {
+            "o2": 0.7651845068511736,
+            "o2_minus_o3": 0.04412901912901912,
+            "o3": 0.7210554877221544,
+            "seed": 405
+          },
+          {
+            "o2": 0.775301858635192,
+            "o2_minus_o3": 0.02959910459910453,
+            "o3": 0.7457027540360874,
+            "seed": 406
+          },
+          {
+            "o2": 0.7780965947632614,
+            "o2_minus_o3": 0.03824107990774661,
+            "o3": 0.7398555148555148,
+            "seed": 407
+          },
+          {
+            "o2": 0.7810575227241894,
+            "o2_minus_o3": 0.053574820241486965,
+            "o3": 0.7274827024827024,
+            "seed": 408
+          },
+          {
+            "o2": 0.7715201465201464,
+            "o2_minus_o3": 0.014251797585130843,
+            "o3": 0.7572683489350156,
+            "seed": 409
+          },
+          {
+            "o2": 0.7747659747659748,
+            "o2_minus_o3": 0.021431963098629714,
+            "o3": 0.753334011667345,
+            "seed": 410
+          },
+          {
+            "o2": 0.7628883462216796,
+            "o2_minus_o3": 0.02953805453805458,
+            "o3": 0.733350291683625,
+            "seed": 411
+          },
+          {
+            "o2": 0.7587132003798671,
+            "o2_minus_o3": -5.765839099169945e-05,
+            "o3": 0.7587708587708588,
+            "seed": 412
+          },
+          {
+            "o2": 0.7765296431963099,
+            "o2_minus_o3": 0.02584452584452579,
+            "o3": 0.7506851173517841,
+            "seed": 413
+          },
+          {
+            "o2": 0.7700176366843033,
+            "o2_minus_o3": 0.05704789038122371,
+            "o3": 0.7129697463030796,
+            "seed": 414
+          },
+          {
+            "o2": 0.7658289241622575,
+            "o2_minus_o3": 0.023215981549314813,
+            "o3": 0.7426129426129426,
+            "seed": 415
+          },
+          {
+            "o2": 0.7602801519468185,
+            "o2_minus_o3": 0.013224121557454782,
+            "o3": 0.7470560303893637,
+            "seed": 416
+          },
+          {
+            "o2": 0.7782458282458282,
+            "o2_minus_o3": 0.0171720255053589,
+            "o3": 0.7610738027404693,
+            "seed": 417
+          },
+          {
+            "o2": 0.7836589336589337,
+            "o2_minus_o3": 0.037786596119929516,
+            "o3": 0.7458723375390042,
+            "seed": 418
+          },
+          {
+            "o2": 0.7620811287477954,
+            "o2_minus_o3": 0.026031067697734334,
+            "o3": 0.7360500610500611,
+            "seed": 419
+          },
+          {
+            "o2": 0.7692172025505359,
+            "o2_minus_o3": 0.009801926468593125,
+            "o3": 0.7594152760819428,
+            "seed": 420
+          }
+        ],
+        "protocol": "reviewer1_f2_frozen_checkpoint_reanalysis_v1",
+        "provenance": [
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:401",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-401/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-401/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:402",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-402/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-402/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:403",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-403/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-403/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:404",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-404/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-404/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:405",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-405/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-405/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:406",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-406/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-406/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:407",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-407/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-407/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:408",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-408/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-408/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:409",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-409/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-409/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:410",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-410/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-410/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:411",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-411/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-411/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:412",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-412/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-412/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:413",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-413/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-413/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:414",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-414/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-414/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:415",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-415/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-415/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:416",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-416/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-416/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:417",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-417/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-417/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:418",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-418/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-418/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:419",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-419/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-419/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o2:420",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-420/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-420/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:401",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-401/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-401/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:402",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-402/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-402/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:403",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-403/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-403/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:404",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-404/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-404/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:405",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-405/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-405/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:406",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-406/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-406/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:407",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-407/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-407/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:408",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-408/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-408/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:409",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-409/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-409/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:410",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-410/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-410/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:411",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-411/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-411/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:412",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-412/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-412/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:413",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-413/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-413/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:414",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-414/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-414/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:415",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-415/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-415/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:416",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-416/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-416/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:417",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-417/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-417/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:418",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-418/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-418/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:419",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-419/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-419/run_summary.json",
+            "metric_source_sha256": "not-published"
+          },
+          {
+            "cell_id": "qwen7b-f2:cladder:o3:420",
+            "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-420/operator.pt",
+            "checkpoint_sha256": "not-published",
+            "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-420/run_summary.json",
+            "metric_source_sha256": "not-published"
+          }
+        ],
+        "test_evaluated": false
+      }
+    }
+  ]
+}

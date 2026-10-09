@@ -1,0 +1,62 @@
+{
+  "protocol": "l3_eight_method_law_v1",
+  "status": "preregistered_prelaunch",
+  "model": "google-bert/bert-base-uncased",
+  "world_size": 4,
+  "split_layer": 4,
+  "optimization_seeds": [301, 302, 303, 304, 305],
+  "graph_seeds": [3061, 3062, 3063, 3064, 3065],
+  "family": "xor",
+  "methods": ["prompting", "lora_matched", "loreft", "task_vector_add", "router", "o1", "o2", "o3"],
+  "method_semantics": {
+    "prompting": "Frozen F2 reader receives the intervention text through full attention; there is no trainable adapter.",
+    "lora_matched": "Frozen F2 reader with the parameter-matched query/value LoRA adapter trained in F2.",
+    "loreft": "Intervention-conditioned rank-16 residual representation transform on all 16 editable world tokens.",
+    "task_vector_add": "One intervention-specific 768-dimensional vector is added uniformly to all 16 editable world tokens.",
+    "router": "State-and-command-conditioned softmax mixture of canonical O1, O2, and O3 experts.",
+    "o1": "Canonical intervention-specific fixed vector with one distinct vector per editable world token.",
+    "o2": "Canonical intervention-conditioned low-rank additive operator trained in F2.",
+    "o3": "Canonical state-gated low-rank operator trained in F2."
+  },
+  "execution": {
+    "frozen_f2_validation_rescore": ["prompting", "lora_matched", "o2", "o3"],
+    "fresh_operator_training": ["loreft", "task_vector_add", "router", "o1"],
+    "operator_steps": 500,
+    "operator_learning_rate": 0.005,
+    "operator_batch_size_per_rank": 16,
+    "rank": 16,
+    "law_weights": "unit",
+    "checkpoint_selection": "final registered operator step after frozen-reader initialization"
+  },
+  "random_init_floor": {
+    "operator_methods": "The identically instantiated method before its first optimizer update.",
+    "lora_matched": "The installed LoRA adapter before loading its trained F2 weights.",
+    "prompting": "Identical to prompting because prompting has zero trainable adapter parameters; this degeneracy is reported explicitly."
+  },
+  "law_scoring": {
+    "level": "validation prediction states",
+    "identity": "no-command prediction versus factual SCM state",
+    "idempotence": "two identical commands versus one-command prediction and intervened SCM state",
+    "commutation": "two distinct-target commands in both orders versus each other and the joint-intervention SCM state",
+    "last_write_wins": "opposite then final same-target command versus the final-only prediction and final-intervention SCM state",
+    "primary": "per-law SCM correctness delta trained minus method-matched random initialization",
+    "secondary": "per-law answer agreement"
+  },
+  "paths": {
+    "artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_{graph_seed}",
+    "reader_template": "outputs/f2/readers/xor/seed-{seed}/reader.pt",
+    "f2_source_template": "outputs/f2/xor/{method}/seed-{seed}/operator.pt",
+    "output_template": "outputs/l3/{method}/seed-{seed}"
+  },
+  "canonical_core_source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+  "canonical_core_sha256": "not-published",
+  "runner_sha256": {
+    "src/train_l3_operator.py": "not-published",
+    "src/evaluate_l3_reused.py": "not-published",
+    "src/core_bert/l3_operators.py": "not-published"
+  },
+  "experimental_unit": "graph",
+  "intervals": ["paired_graph_bootstrap_95", "paired_seed_student_t_95"],
+  "allowed_splits": ["train", "validation"],
+  "test_evaluated": false
+}

@@ -1,0 +1,18 @@
+{
+  "protocol": "c3_f2_editor_ablation_v1",
+  "status": "preregistered_waiting_for_c2",
+  "families": ["xor", "ccrgb", "cladder", "wiqa", "com2"],
+  "f2_seeds": [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320],
+  "arms": ["full_f2_o3", "edit_zeroed"],
+  "full_source": "outputs/f2/{family}/o3/seed-{seed}/run_summary.json",
+  "zeroed_source": "reports/A2_MEASUREMENT.json",
+  "zeroed_source_sha256": "not-published",
+  "repaired_com2_zeroed_source": "outputs/c3/com2/edit_zeroed/seed-{seed}/run_summary.json",
+  "xor_zeroed_source": "outputs/c3/xor/edit_zeroed/seed-{seed}/run_summary.json",
+  "seed_mapping": "F2 seed s maps to A2 source seed 2026090300+s; both bind the same frozen A1 T2-b reader checkpoint",
+  "metric": "two_edit_balanced",
+  "primary": "paired full_f2_o3 minus edit_zeroed within family and mapped graph seed",
+  "intervals": ["paired_graph_bootstrap_95", "paired_graph_student_t_95"],
+  "allowed_splits": ["validation"],
+  "test_evaluated": false
+}

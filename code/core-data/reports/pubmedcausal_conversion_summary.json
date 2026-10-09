@@ -1,0 +1,27 @@
+{
+  "accepted": 0,
+  "long_candidates": 33628,
+  "long_relation_counts": {
+    "test": 3244,
+    "train": 3251,
+    "validation": 210
+  },
+  "pinned_revision": "not-published",
+  "raw_files": {
+    "30k_test.json": "not-published",
+    "30k_train.json": "not-published",
+    "validation_set.json": "not-published"
+  },
+  "raw_row_counts": {
+    "test": 15000,
+    "train": 15000,
+    "validation": 1000
+  },
+  "rejected": 33628,
+  "rejection_reason_counts": {
+    "cause/effect span relation has no intervention or paired world states": 6705,
+    "non-causal sentence has no intervention candidate": 26923
+  },
+  "source": "pubmedcausal",
+  "status": "wide-to-long reshape complete; CORE contract-incompatible"
+}

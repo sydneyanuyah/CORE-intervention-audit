@@ -1,0 +1,844 @@
+{
+  "backbone_frozen": true,
+  "cells": [
+    {
+      "cell_id": "qwen7b-l2:full:921",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-921",
+      "seed": 921,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:921",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-921",
+      "seed": 921,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:921",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-921",
+      "seed": 921,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:921",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-921",
+      "seed": 921,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:921",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-921",
+      "seed": 921,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen7b-l2:full:922",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-922",
+      "seed": 922,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:922",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-922",
+      "seed": 922,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:922",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-922",
+      "seed": 922,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:922",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-922",
+      "seed": 922,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:922",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-922",
+      "seed": 922,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen7b-l2:full:923",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-923",
+      "seed": 923,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:923",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-923",
+      "seed": 923,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:923",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-923",
+      "seed": 923,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:923",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-923",
+      "seed": 923,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:923",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-923",
+      "seed": 923,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen7b-l2:full:924",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-924",
+      "seed": 924,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:924",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-924",
+      "seed": 924,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:924",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-924",
+      "seed": 924,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:924",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-924",
+      "seed": 924,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:924",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-924",
+      "seed": 924,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen7b-l2:full:925",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-925",
+      "seed": 925,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:925",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-925",
+      "seed": 925,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:925",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-925",
+      "seed": 925,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:925",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-925",
+      "seed": 925,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:925",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-925",
+      "seed": 925,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen7b-l2:full:926",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-926",
+      "seed": 926,
+      "source_seed": 506
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:926",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-926",
+      "seed": 926,
+      "source_seed": 506
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:926",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-926",
+      "seed": 926,
+      "source_seed": 506
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:926",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-926",
+      "seed": 926,
+      "source_seed": 506
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:926",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-926",
+      "seed": 926,
+      "source_seed": 506
+    },
+    {
+      "cell_id": "qwen7b-l2:full:927",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-927",
+      "seed": 927,
+      "source_seed": 507
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:927",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-927",
+      "seed": 927,
+      "source_seed": 507
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:927",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-927",
+      "seed": 927,
+      "source_seed": 507
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:927",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-927",
+      "seed": 927,
+      "source_seed": 507
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:927",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-927",
+      "seed": 927,
+      "source_seed": 507
+    },
+    {
+      "cell_id": "qwen7b-l2:full:928",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-928",
+      "seed": 928,
+      "source_seed": 508
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:928",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-928",
+      "seed": 928,
+      "source_seed": 508
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:928",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-928",
+      "seed": 928,
+      "source_seed": 508
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:928",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-928",
+      "seed": 928,
+      "source_seed": 508
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:928",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-928",
+      "seed": 928,
+      "source_seed": 508
+    },
+    {
+      "cell_id": "qwen7b-l2:full:929",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-929",
+      "seed": 929,
+      "source_seed": 509
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:929",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-929",
+      "seed": 929,
+      "source_seed": 509
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:929",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-929",
+      "seed": 929,
+      "source_seed": 509
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:929",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-929",
+      "seed": 929,
+      "source_seed": 509
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:929",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-929",
+      "seed": 929,
+      "source_seed": 509
+    },
+    {
+      "cell_id": "qwen7b-l2:full:930",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-930",
+      "seed": 930,
+      "source_seed": 510
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:930",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-930",
+      "seed": 930,
+      "source_seed": 510
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:930",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-930",
+      "seed": 930,
+      "source_seed": 510
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:930",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-930",
+      "seed": 930,
+      "source_seed": 510
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:930",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-930",
+      "seed": 930,
+      "source_seed": 510
+    },
+    {
+      "cell_id": "qwen7b-l2:full:931",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-931",
+      "seed": 931,
+      "source_seed": 511
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:931",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-931",
+      "seed": 931,
+      "source_seed": 511
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:931",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-931",
+      "seed": 931,
+      "source_seed": 511
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:931",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-931",
+      "seed": 931,
+      "source_seed": 511
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:931",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-931",
+      "seed": 931,
+      "source_seed": 511
+    },
+    {
+      "cell_id": "qwen7b-l2:full:932",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-932",
+      "seed": 932,
+      "source_seed": 512
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:932",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-932",
+      "seed": 932,
+      "source_seed": 512
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:932",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-932",
+      "seed": 932,
+      "source_seed": 512
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:932",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-932",
+      "seed": 932,
+      "source_seed": 512
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:932",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-932",
+      "seed": 932,
+      "source_seed": 512
+    },
+    {
+      "cell_id": "qwen7b-l2:full:933",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-933",
+      "seed": 933,
+      "source_seed": 513
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:933",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-933",
+      "seed": 933,
+      "source_seed": 513
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:933",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-933",
+      "seed": 933,
+      "source_seed": 513
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:933",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-933",
+      "seed": 933,
+      "source_seed": 513
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:933",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-933",
+      "seed": 933,
+      "source_seed": 513
+    },
+    {
+      "cell_id": "qwen7b-l2:full:934",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-934",
+      "seed": 934,
+      "source_seed": 514
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:934",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-934",
+      "seed": 934,
+      "source_seed": 514
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:934",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-934",
+      "seed": 934,
+      "source_seed": 514
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:934",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-934",
+      "seed": 934,
+      "source_seed": 514
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:934",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-934",
+      "seed": 934,
+      "source_seed": 514
+    },
+    {
+      "cell_id": "qwen7b-l2:full:935",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-935",
+      "seed": 935,
+      "source_seed": 515
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:935",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-935",
+      "seed": 935,
+      "source_seed": 515
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:935",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-935",
+      "seed": 935,
+      "source_seed": 515
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:935",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-935",
+      "seed": 935,
+      "source_seed": 515
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:935",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-935",
+      "seed": 935,
+      "source_seed": 515
+    },
+    {
+      "cell_id": "qwen7b-l2:full:936",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-936",
+      "seed": 936,
+      "source_seed": 516
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:936",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-936",
+      "seed": 936,
+      "source_seed": 516
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:936",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-936",
+      "seed": 936,
+      "source_seed": 516
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:936",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-936",
+      "seed": 936,
+      "source_seed": 516
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:936",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-936",
+      "seed": 936,
+      "source_seed": 516
+    },
+    {
+      "cell_id": "qwen7b-l2:full:937",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-937",
+      "seed": 937,
+      "source_seed": 517
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:937",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-937",
+      "seed": 937,
+      "source_seed": 517
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:937",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-937",
+      "seed": 937,
+      "source_seed": 517
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:937",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-937",
+      "seed": 937,
+      "source_seed": 517
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:937",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-937",
+      "seed": 937,
+      "source_seed": 517
+    },
+    {
+      "cell_id": "qwen7b-l2:full:938",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-938",
+      "seed": 938,
+      "source_seed": 518
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:938",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-938",
+      "seed": 938,
+      "source_seed": 518
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:938",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-938",
+      "seed": 938,
+      "source_seed": 518
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:938",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-938",
+      "seed": 938,
+      "source_seed": 518
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:938",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-938",
+      "seed": 938,
+      "source_seed": 518
+    },
+    {
+      "cell_id": "qwen7b-l2:full:939",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-939",
+      "seed": 939,
+      "source_seed": 519
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:939",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-939",
+      "seed": 939,
+      "source_seed": 519
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:939",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-939",
+      "seed": 939,
+      "source_seed": 519
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:939",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-939",
+      "seed": 939,
+      "source_seed": 519
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:939",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-939",
+      "seed": 939,
+      "source_seed": 519
+    },
+    {
+      "cell_id": "qwen7b-l2:full:940",
+      "gpu_count": 1,
+      "method": "full",
+      "output": "outputs/qwen7b-l2/full/seed-940",
+      "seed": 940,
+      "source_seed": 520
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_identity:940",
+      "gpu_count": 1,
+      "method": "drop_identity",
+      "output": "outputs/qwen7b-l2/drop_identity/seed-940",
+      "seed": 940,
+      "source_seed": 520
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_idempotence:940",
+      "gpu_count": 1,
+      "method": "drop_idempotence",
+      "output": "outputs/qwen7b-l2/drop_idempotence/seed-940",
+      "seed": 940,
+      "source_seed": 520
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_commutation:940",
+      "gpu_count": 1,
+      "method": "drop_commutation",
+      "output": "outputs/qwen7b-l2/drop_commutation/seed-940",
+      "seed": 940,
+      "source_seed": 520
+    },
+    {
+      "cell_id": "qwen7b-l2:drop_selective_invariance:940",
+      "gpu_count": 1,
+      "method": "drop_selective_invariance",
+      "output": "outputs/qwen7b-l2/drop_selective_invariance/seed-940",
+      "seed": 940,
+      "source_seed": 520
+    }
+  ],
+  "evaluation_split": "validation",
+  "law_weight": 0.1,
+  "methods": [
+    "full",
+    "drop_identity",
+    "drop_idempotence",
+    "drop_commutation",
+    "drop_selective_invariance"
+  ],
+  "protocol": "qwen2p5_7b_l2_law_probe_v1",
+  "seeds": [
+    921,
+    922,
+    923,
+    924,
+    925,
+    926,
+    927,
+    928,
+    929,
+    930,
+    931,
+    932,
+    933,
+    934,
+    935,
+    936,
+    937,
+    938,
+    939,
+    940
+  ],
+  "source_amendment": "${CORE_PROJECT_ROOT}/registry/qwen7b_f1_cache_amendment.json",
+  "source_amendment_sha256": "not-published",
+  "source_manifest": "${CORE_PROJECT_ROOT}/registry/qwen7b_f1_manifest.json",
+  "source_manifest_sha256": "not-published",
+  "task": "l2",
+  "test_evaluated": false,
+  "training_steps": 600
+}

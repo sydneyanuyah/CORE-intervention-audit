@@ -1,0 +1,449 @@
+{
+  "amendment_path": "registry/qwen32_cladder_cache_amendment.json",
+  "amendment_sha256": "not-published",
+  "backbone": "Qwen/Qwen2.5-32B-Instruct",
+  "equal_graph_mean_o2_minus_o3": 0.007480971208454595,
+  "evaluation_split": "validation",
+  "graph_count": 20,
+  "manifest_path": "registry/qwen32_cladder_extension_manifest.json",
+  "manifest_sha256": "not-published",
+  "mean_o2_minus_o3": 0.009622846289512965,
+  "model_revision": "not-published",
+  "paired_graph_bootstrap_95": [
+    -0.007544657402691622,
+    0.022549184944690253
+  ],
+  "paired_seed_count": 20,
+  "paired_seed_student_t_95": [
+    0.0027214682392827398,
+    0.01652422433974319
+  ],
+  "per_graph_mean_delta": {
+    "cladder:model:3241": 0.015909090909090946,
+    "cladder:model:3249": -0.00034922297887201583,
+    "cladder:model:3265": 0.017652173913043467,
+    "cladder:model:3282": -0.028612415232133558,
+    "cladder:model:3359": -0.012217923920051582,
+    "cladder:model:3419": 0.00911458333333336,
+    "cladder:model:3435": 0.08151625804207965,
+    "cladder:model:3522": 0.004478260869565242,
+    "cladder:model:3527": -0.020412561576354748,
+    "cladder:model:3533": -0.06553571428571432,
+    "cladder:model:3534": -0.051770833333333335,
+    "cladder:model:3569": 0.01748768472906404,
+    "cladder:model:3607": -0.0029174725983236506,
+    "cladder:model:3613": 0.03749370699781839,
+    "cladder:model:3627": -0.007635467980295546,
+    "cladder:model:3732": 0.0244444444444444,
+    "cladder:model:3752": 0.06091549295774651,
+    "cladder:model:3766": 0.034115366355435994,
+    "cladder:model:3781": 0.04659090909090905,
+    "cladder:model:3836": -0.0106469355683604
+  },
+  "per_seed": [
+    {
+      "o2": 0.7681895265228599,
+      "o2_minus_o3": -0.01751797585130921,
+      "o3": 0.7857075023741691,
+      "seed": 401
+    },
+    {
+      "o2": 0.7800807217473884,
+      "o2_minus_o3": -0.00017636684303345973,
+      "o3": 0.7802570885904219,
+      "seed": 402
+    },
+    {
+      "o2": 0.7761056844390177,
+      "o2_minus_o3": 0.007654999321665912,
+      "o3": 0.7684506851173518,
+      "seed": 403
+    },
+    {
+      "o2": 0.7860195360195361,
+      "o2_minus_o3": 0.04381020214353559,
+      "o3": 0.7422093338760005,
+      "seed": 404
+    },
+    {
+      "o2": 0.7838793922127256,
+      "o2_minus_o3": 0.027092660425993786,
+      "o3": 0.7567867317867318,
+      "seed": 405
+    },
+    {
+      "o2": 0.7842049925383259,
+      "o2_minus_o3": 0.010785510785510821,
+      "o3": 0.773419481752815,
+      "seed": 406
+    },
+    {
+      "o2": 0.7728734228734229,
+      "o2_minus_o3": -0.001509293175959936,
+      "o3": 0.7743827160493828,
+      "seed": 407
+    },
+    {
+      "o2": 0.7694851444851445,
+      "o2_minus_o3": 0.010232668566001912,
+      "o3": 0.7592524759191426,
+      "seed": 408
+    },
+    {
+      "o2": 0.7750135666802334,
+      "o2_minus_o3": 0.01784357617690957,
+      "o3": 0.7571699905033238,
+      "seed": 409
+    },
+    {
+      "o2": 0.7803215303215303,
+      "o2_minus_o3": -0.001814543481210129,
+      "o3": 0.7821360738027404,
+      "seed": 410
+    },
+    {
+      "o2": 0.7794702211368878,
+      "o2_minus_o3": 0.02356193189526523,
+      "o3": 0.7559082892416226,
+      "seed": 411
+    },
+    {
+      "o2": 0.7856294939628273,
+      "o2_minus_o3": 0.024308099308099407,
+      "o3": 0.7613213946547279,
+      "seed": 412
+    },
+    {
+      "o2": 0.7829229412562746,
+      "o2_minus_o3": 0.000929317595984247,
+      "o3": 0.7819936236602903,
+      "seed": 413
+    },
+    {
+      "o2": 0.7800942884276219,
+      "o2_minus_o3": 0.007604124270790935,
+      "o3": 0.7724901641568309,
+      "seed": 414
+    },
+    {
+      "o2": 0.7820716320716321,
+      "o2_minus_o3": 0.008007733007733053,
+      "o3": 0.774063899063899,
+      "seed": 415
+    },
+    {
+      "o2": 0.7678910595577262,
+      "o2_minus_o3": -0.006023606023606076,
+      "o3": 0.7739146655813323,
+      "seed": 416
+    },
+    {
+      "o2": 0.7814204314204314,
+      "o2_minus_o3": 0.017602767602767466,
+      "o3": 0.7638176638176639,
+      "seed": 417
+    },
+    {
+      "o2": 0.7765228598561933,
+      "o2_minus_o3": 0.00907950074616748,
+      "o3": 0.7674433591100258,
+      "seed": 418
+    },
+    {
+      "o2": 0.7852394519061185,
+      "o2_minus_o3": 0.023684032017365353,
+      "o3": 0.7615554198887532,
+      "seed": 419
+    },
+    {
+      "o2": 0.7784086284086285,
+      "o2_minus_o3": -0.012698412698412653,
+      "o3": 0.7911070411070411,
+      "seed": 420
+    }
+  ],
+  "protocol": "reviewer1_f2_frozen_checkpoint_reanalysis_v1",
+  "provenance": [
+    {
+      "cell_id": "qwen32-f2:cladder:o2:401",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-401/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-401/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:402",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-402/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-402/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:403",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-403/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-403/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:404",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-404/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-404/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:405",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-405/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-405/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:406",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-406/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-406/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:407",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-407/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-407/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:408",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-408/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-408/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:409",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-409/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-409/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:410",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-410/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-410/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:411",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-411/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-411/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:412",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-412/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-412/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:413",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-413/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-413/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:414",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-414/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-414/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:415",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-415/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-415/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:416",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-416/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-416/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:417",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-417/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-417/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:418",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-418/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-418/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:419",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-419/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-419/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o2:420",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o2/seed-420/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o2/seed-420/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:401",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-401/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-401/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:402",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-402/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-402/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:403",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-403/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-403/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:404",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-404/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-404/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:405",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-405/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-405/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:406",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-406/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-406/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:407",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-407/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-407/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:408",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-408/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-408/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:409",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-409/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-409/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:410",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-410/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-410/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:411",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-411/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-411/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:412",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-412/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-412/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:413",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-413/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-413/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:414",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-414/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-414/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:415",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-415/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-415/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:416",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-416/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-416/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:417",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-417/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-417/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:418",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-418/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-418/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:419",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-419/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-419/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen32-f2:cladder:o3:420",
+      "checkpoint_path": "outputs/qwen32-f2/cladder/o3/seed-420/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen32-f2/cladder/o3/seed-420/run_summary.json",
+      "metric_source_sha256": "not-published"
+    }
+  ],
+  "test_evaluated": false
+}

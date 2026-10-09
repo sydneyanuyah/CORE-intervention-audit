@@ -1,0 +1,977 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "cells": [
+    {
+      "cell_id": "qwen32-f4:32b:o2:701",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3101,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-701",
+      "seed": 701
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:701",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3101,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-701",
+      "seed": 701
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:702",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3102,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-702",
+      "seed": 702
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:702",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3102,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-702",
+      "seed": 702
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:703",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3103,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-703",
+      "seed": 703
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:703",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3103,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-703",
+      "seed": 703
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:704",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3104,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-704",
+      "seed": 704
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:704",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3104,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-704",
+      "seed": 704
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:705",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3105,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-705",
+      "seed": 705
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:705",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3105,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-705",
+      "seed": 705
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:706",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3106,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-706",
+      "seed": 706
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:706",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3106,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-706",
+      "seed": 706
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:707",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3107,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-707",
+      "seed": 707
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:707",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3107,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-707",
+      "seed": 707
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:708",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3108,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-708",
+      "seed": 708
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:708",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3108,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-708",
+      "seed": 708
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:709",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3109,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-709",
+      "seed": 709
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:709",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3109,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-709",
+      "seed": 709
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:710",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3110,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-710",
+      "seed": 710
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:710",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3110,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-710",
+      "seed": 710
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:711",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3111,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-711",
+      "seed": 711
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:711",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3111,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-711",
+      "seed": 711
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:712",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3112,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-712",
+      "seed": 712
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:712",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3112,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-712",
+      "seed": 712
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:713",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3113,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-713",
+      "seed": 713
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:713",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3113,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-713",
+      "seed": 713
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:714",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3114,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-714",
+      "seed": 714
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:714",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3114,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-714",
+      "seed": 714
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:715",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3115,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-715",
+      "seed": 715
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:715",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3115,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-715",
+      "seed": 715
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:716",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3116,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-716",
+      "seed": 716
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:716",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3116,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-716",
+      "seed": 716
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:717",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3117,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-717",
+      "seed": 717
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:717",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3117,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-717",
+      "seed": 717
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:718",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3118,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-718",
+      "seed": 718
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:718",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3118,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-718",
+      "seed": 718
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:719",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3119,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-719",
+      "seed": 719
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:719",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3119,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-719",
+      "seed": 719
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:720",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3120,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-720",
+      "seed": 720
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:720",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3120,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-720",
+      "seed": 720
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:721",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3121,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-721",
+      "seed": 721
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:721",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3121,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-721",
+      "seed": 721
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:722",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3122,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-722",
+      "seed": 722
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:722",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3122,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-722",
+      "seed": 722
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:723",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3123,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-723",
+      "seed": 723
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:723",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3123,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-723",
+      "seed": 723
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:724",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3124,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-724",
+      "seed": 724
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:724",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3124,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-724",
+      "seed": 724
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o2:725",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3125,
+      "method": "o2",
+      "output": "outputs/qwen32-f4/32b/o2/seed-725",
+      "seed": 725
+    },
+    {
+      "cell_id": "qwen32-f4:32b:o3:725",
+      "condition": "real",
+      "gpu_count": 1,
+      "graph_seed": 3125,
+      "method": "o3",
+      "output": "outputs/qwen32-f4/32b/o3/seed-725",
+      "seed": 725
+    }
+  ],
+  "conditions": [
+    "real"
+  ],
+  "evaluation_split": "validation",
+  "feature_cache": "outputs/qwen32-f4/cache/xor_features.pt",
+  "feature_cache_summary": "outputs/qwen32-f4/cache/cache_summary.json",
+  "feature_contract": {
+    "backbone_frozen": true,
+    "max_length": 512,
+    "pooling": "last non-padding final-layer hidden state",
+    "quantization": "BF16 frozen feature extraction",
+    "scale_arm": "32b"
+  },
+  "graphs": [
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3101/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3101/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3101/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3101
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3102/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3102/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3102/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3102
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3103/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3103/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3103/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3103
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3104/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3104/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3104/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3104
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3105/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3105/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3105/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3105
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3106/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3106/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3106/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3106
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3107/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3107/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3107/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3107
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3108/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3108/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3108/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3108
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3109/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3109/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3109/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3109
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3110/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3110/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3110/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3110
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3111/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3111/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3111/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3111
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3112/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3112/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3112/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3112
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3113/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3113/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3113/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3113
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3114/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3114/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3114/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3114
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3115/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3115/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3115/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3115
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3116/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3116/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3116/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3116
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3117/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3117/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3117/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3117
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3118/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3118/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3118/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3118
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3119/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3119/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3119/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3119
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3120/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3120/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3120/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3120
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3121/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3121/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3121/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3121
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3122/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3122/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3122/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3122
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3123/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3123/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3123/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3123
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3124/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3124/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3124/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3124
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3125/graph.json",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3125/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/source_runs/f4/graph_3125/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3125
+    }
+  ],
+  "model": "Qwen/Qwen2.5-32B-Instruct",
+  "model_config_sha256": "not-published",
+  "model_revision": "not-published",
+  "model_snapshot": "${PRIVATE_STORAGE_ROOT}/hf_cache/models--Qwen--Qwen2.5-32B-Instruct/snapshots/not-published",
+  "operator_contract": {
+    "methods": [
+      "o2",
+      "o3"
+    ],
+    "nodes": [
+      "X00",
+      "X01",
+      "X02",
+      "X03",
+      "X04",
+      "X05",
+      "X06",
+      "X07",
+      "X08",
+      "X09",
+      "X10",
+      "X11",
+      "X12",
+      "X13",
+      "X14",
+      "X15",
+      "X16",
+      "X17",
+      "X18",
+      "X19",
+      "X20",
+      "X21",
+      "X22",
+      "X23",
+      "X24",
+      "X25",
+      "X26",
+      "X27",
+      "X28",
+      "X29"
+    ],
+    "rank": 16
+  },
+  "protocol": "qwen2_5_32b_f4_reader_scale_arm_v1",
+  "seeds": [
+    701,
+    702,
+    703,
+    704,
+    705,
+    706,
+    707,
+    708,
+    709,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    717,
+    718,
+    719,
+    720,
+    721,
+    722,
+    723,
+    724,
+    725
+  ],
+  "status": "preregistered_prelaunch",
+  "test_evaluated": false,
+  "training_contract": {
+    "batch_size": 64,
+    "learning_rate": 0.0003,
+    "selection": "final preregistered step",
+    "steps": 1200
+  }
+}

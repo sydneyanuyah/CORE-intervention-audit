@@ -1,0 +1,323 @@
+{
+  "backbone_frozen": true,
+  "cells": [
+    {
+      "cell_id": "qwen7b-g1:baseline:781",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-781",
+      "seed": 781
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:781",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-781",
+      "seed": 781
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:782",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-782",
+      "seed": 782
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:782",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-782",
+      "seed": 782
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:783",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-783",
+      "seed": 783
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:783",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-783",
+      "seed": 783
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:784",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-784",
+      "seed": 784
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:784",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-784",
+      "seed": 784
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:785",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-785",
+      "seed": 785
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:785",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-785",
+      "seed": 785
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:786",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-786",
+      "seed": 786
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:786",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-786",
+      "seed": 786
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:787",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-787",
+      "seed": 787
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:787",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-787",
+      "seed": 787
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:788",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-788",
+      "seed": 788
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:788",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-788",
+      "seed": 788
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:789",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-789",
+      "seed": 789
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:789",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-789",
+      "seed": 789
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:790",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-790",
+      "seed": 790
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:790",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-790",
+      "seed": 790
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:791",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-791",
+      "seed": 791
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:791",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-791",
+      "seed": 791
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:792",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-792",
+      "seed": 792
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:792",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-792",
+      "seed": 792
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:793",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-793",
+      "seed": 793
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:793",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-793",
+      "seed": 793
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:794",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-794",
+      "seed": 794
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:794",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-794",
+      "seed": 794
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:795",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-795",
+      "seed": 795
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:795",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-795",
+      "seed": 795
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:796",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-796",
+      "seed": 796
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:796",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-796",
+      "seed": 796
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:797",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-797",
+      "seed": 797
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:797",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-797",
+      "seed": 797
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:798",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-798",
+      "seed": 798
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:798",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-798",
+      "seed": 798
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:799",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-799",
+      "seed": 799
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:799",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-799",
+      "seed": 799
+    },
+    {
+      "cell_id": "qwen7b-g1:baseline:800",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g1/baseline/seed-800",
+      "seed": 800
+    },
+    {
+      "cell_id": "qwen7b-g1:o3:800",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g1/o3/seed-800",
+      "seed": 800
+    }
+  ],
+  "data": "${CORE_PROJECT_ROOT}/data/qwen7b/g1.jsonl",
+  "data_sha256": "not-published",
+  "evaluation_split": "validation",
+  "feature_shards": 32,
+  "methods": [
+    "baseline",
+    "o3"
+  ],
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "not-published",
+  "model_snapshot": "${PRIVATE_STORAGE_ROOT}/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/not-published",
+  "protocol": "qwen2p5_7b_g1_frozen_feature_v1",
+  "seeds": [
+    781,
+    782,
+    783,
+    784,
+    785,
+    786,
+    787,
+    788,
+    789,
+    790,
+    791,
+    792,
+    793,
+    794,
+    795,
+    796,
+    797,
+    798,
+    799,
+    800
+  ],
+  "task": "g1",
+  "test_evaluated": false,
+  "train_rows": 5400,
+  "validation_rows": 5160
+}

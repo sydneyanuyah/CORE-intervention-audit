@@ -1,0 +1,20 @@
+{
+  "evaluation_split": "validation",
+  "layers": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40
+  ],
+  "model_snapshot": "${PRIVATE_STORAGE_ROOT}/hf_cache/models--Qwen--Qwen2.5-32B-Instruct/snapshots/not-published",
+  "protocol": "qwen2_5_32b_g3_development_layer_selection_v1",
+  "seed": 900,
+  "selection": "maximum validation balanced accuracy; smallest-layer tie break",
+  "source_manifest": "${CORE_PROJECT_ROOT}/registry/qwen32_f1_manifest.json",
+  "source_manifest_sha256": "not-published",
+  "test_evaluated": false
+}

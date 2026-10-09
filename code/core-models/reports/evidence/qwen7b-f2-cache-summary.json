@@ -1,0 +1,10 @@
+{
+  "feature_cache_sha256": "not-published",
+  "hidden_size": 3584,
+  "manifest_sha256": "not-published",
+  "protocol": "qwen2p5_7b_cladder_o2_o3_extension_v1",
+  "test_evaluated": false,
+  "train_worlds": 20,
+  "validation_worlds": 20,
+  "world_count": 40
+}

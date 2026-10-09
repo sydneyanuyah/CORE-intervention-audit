@@ -1,0 +1,2769 @@
+{
+  "completed_cells": 40,
+  "evaluation_split": "validation",
+  "expected_cells": 40,
+  "protocol": "llama3_3_70b_f1_aggregate_v1",
+  "results": [
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:501",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.532258064516129,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.5482954545454546,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5402767595307918
+      },
+      "do_nothing": {
+        "change_accuracy": 0.5053763440860215,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.5606060606060606,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.532991202346041
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3041,
+      "history": [
+        {
+          "loss": 0.5508980751037598,
+          "step": 1
+        },
+        {
+          "loss": 0.4665212631225586,
+          "step": 200
+        },
+        {
+          "loss": 0.41696834564208984,
+          "step": 400
+        },
+        {
+          "loss": 0.38566532731056213,
+          "step": 600
+        },
+        {
+          "loss": 0.40419280529022217,
+          "step": 800
+        },
+        {
+          "loss": 0.4245486855506897,
+          "step": 1000
+        },
+        {
+          "loss": 0.36508068442344666,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.4274193548387097,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.5378787878787878,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.4826490713587488
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 501,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:502",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5423497267759563,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.6676029962546817,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.604976361515319
+      },
+      "do_nothing": {
+        "change_accuracy": 0.4057377049180328,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.7443820224719101,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.5750598636949714
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3042,
+      "history": [
+        {
+          "loss": 0.5861790776252747,
+          "step": 1
+        },
+        {
+          "loss": 0.42566898465156555,
+          "step": 200
+        },
+        {
+          "loss": 0.43376994132995605,
+          "step": 400
+        },
+        {
+          "loss": 0.36675480008125305,
+          "step": 600
+        },
+        {
+          "loss": 0.3874960243701935,
+          "step": 800
+        },
+        {
+          "loss": 0.33009767532348633,
+          "step": 1000
+        },
+        {
+          "loss": 0.33498620986938477,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.35792349726775957,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.6947565543071161,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.5263400257874379
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 502,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:503",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5671834625322998,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.571150097465887,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.5691667799990934
+      },
+      "do_nothing": {
+        "change_accuracy": 0.5258397932816538,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.5974658869395711,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.5616528401106125
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3043,
+      "history": [
+        {
+          "loss": 0.5809398889541626,
+          "step": 1
+        },
+        {
+          "loss": 0.4914673864841461,
+          "step": 200
+        },
+        {
+          "loss": 0.47229230403900146,
+          "step": 400
+        },
+        {
+          "loss": 0.4274921715259552,
+          "step": 600
+        },
+        {
+          "loss": 0.39402467012405396,
+          "step": 800
+        },
+        {
+          "loss": 0.42168208956718445,
+          "step": 1000
+        },
+        {
+          "loss": 0.41010260581970215,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.46770025839793283,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.5526315789473685,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.5101659186726506
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 503,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:504",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5263157894736842,
+        "change_decisions": 798,
+        "preservation_accuracy": 0.6137724550898204,
+        "preservation_decisions": 1002,
+        "two_edit_balanced": 0.5700441222817523
+      },
+      "do_nothing": {
+        "change_accuracy": 0.38721804511278196,
+        "change_decisions": 798,
+        "preservation_accuracy": 0.6796407185628742,
+        "preservation_decisions": 1002,
+        "two_edit_balanced": 0.5334293818378281
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3044,
+      "history": [
+        {
+          "loss": 0.6056944131851196,
+          "step": 1
+        },
+        {
+          "loss": 0.4556836783885956,
+          "step": 200
+        },
+        {
+          "loss": 0.443970650434494,
+          "step": 400
+        },
+        {
+          "loss": 0.39109301567077637,
+          "step": 600
+        },
+        {
+          "loss": 0.36878353357315063,
+          "step": 800
+        },
+        {
+          "loss": 0.37397676706314087,
+          "step": 1000
+        },
+        {
+          "loss": 0.3575524389743805,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.43734335839599,
+        "change_decisions": 798,
+        "preservation_accuracy": 0.6297405189620758,
+        "preservation_decisions": 1002,
+        "two_edit_balanced": 0.5335419386790329
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 504,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:505",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5456989247311828,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.5643939393939394,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5550464320625611
+      },
+      "do_nothing": {
+        "change_accuracy": 0.48655913978494625,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.6136363636363636,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5500977517106549
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3045,
+      "history": [
+        {
+          "loss": 0.5859923958778381,
+          "step": 1
+        },
+        {
+          "loss": 0.43437716364860535,
+          "step": 200
+        },
+        {
+          "loss": 0.4178149700164795,
+          "step": 400
+        },
+        {
+          "loss": 0.40005189180374146,
+          "step": 600
+        },
+        {
+          "loss": 0.39429792761802673,
+          "step": 800
+        },
+        {
+          "loss": 0.39379996061325073,
+          "step": 1000
+        },
+        {
+          "loss": 0.32773536443710327,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.40725806451612906,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.59375,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5005040322580645
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 505,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:506",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5384615384615384,
+        "change_decisions": 702,
+        "preservation_accuracy": 0.5500910746812386,
+        "preservation_decisions": 1098,
+        "two_edit_balanced": 0.5442763065713885
+      },
+      "do_nothing": {
+        "change_accuracy": 0.4843304843304843,
+        "change_decisions": 702,
+        "preservation_accuracy": 0.5264116575591985,
+        "preservation_decisions": 1098,
+        "two_edit_balanced": 0.5053710709448413
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3046,
+      "history": [
+        {
+          "loss": 0.5639041066169739,
+          "step": 1
+        },
+        {
+          "loss": 0.4186057448387146,
+          "step": 200
+        },
+        {
+          "loss": 0.4336670935153961,
+          "step": 400
+        },
+        {
+          "loss": 0.4410087466239929,
+          "step": 600
+        },
+        {
+          "loss": 0.37558895349502563,
+          "step": 800
+        },
+        {
+          "loss": 0.4096944332122803,
+          "step": 1000
+        },
+        {
+          "loss": 0.3749468922615051,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.396011396011396,
+        "change_decisions": 702,
+        "preservation_accuracy": 0.52367941712204,
+        "preservation_decisions": 1098,
+        "two_edit_balanced": 0.459845406566718
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 506,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:507",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.575880758807588,
+        "change_decisions": 738,
+        "preservation_accuracy": 0.5772128060263654,
+        "preservation_decisions": 1062,
+        "two_edit_balanced": 0.5765467824169768
+      },
+      "do_nothing": {
+        "change_accuracy": 0.3983739837398374,
+        "change_decisions": 738,
+        "preservation_accuracy": 0.6271186440677966,
+        "preservation_decisions": 1062,
+        "two_edit_balanced": 0.512746313903817
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3047,
+      "history": [
+        {
+          "loss": 0.5046090483665466,
+          "step": 1
+        },
+        {
+          "loss": 0.4588627815246582,
+          "step": 200
+        },
+        {
+          "loss": 0.40966638922691345,
+          "step": 400
+        },
+        {
+          "loss": 0.3737357258796692,
+          "step": 600
+        },
+        {
+          "loss": 0.3597950339317322,
+          "step": 800
+        },
+        {
+          "loss": 0.34436503052711487,
+          "step": 1000
+        },
+        {
+          "loss": 0.4358455240726471,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.4065040650406504,
+        "change_decisions": 738,
+        "preservation_accuracy": 0.5725047080979284,
+        "preservation_decisions": 1062,
+        "two_edit_balanced": 0.4895043865692894
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 507,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:508",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5430555555555555,
+        "change_decisions": 720,
+        "preservation_accuracy": 0.6064814814814815,
+        "preservation_decisions": 1080,
+        "two_edit_balanced": 0.5747685185185185
+      },
+      "do_nothing": {
+        "change_accuracy": 0.3486111111111111,
+        "change_decisions": 720,
+        "preservation_accuracy": 0.6861111111111111,
+        "preservation_decisions": 1080,
+        "two_edit_balanced": 0.5173611111111112
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3048,
+      "history": [
+        {
+          "loss": 0.5414330959320068,
+          "step": 1
+        },
+        {
+          "loss": 0.4407028257846832,
+          "step": 200
+        },
+        {
+          "loss": 0.39296120405197144,
+          "step": 400
+        },
+        {
+          "loss": 0.353290855884552,
+          "step": 600
+        },
+        {
+          "loss": 0.365153431892395,
+          "step": 800
+        },
+        {
+          "loss": 0.31470197439193726,
+          "step": 1000
+        },
+        {
+          "loss": 0.3674907386302948,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.325,
+        "change_decisions": 720,
+        "preservation_accuracy": 0.6648148148148149,
+        "preservation_decisions": 1080,
+        "two_edit_balanced": 0.49490740740740746
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 508,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:509",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.507183908045977,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.657608695652174,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.5823963018490754
+      },
+      "do_nothing": {
+        "change_accuracy": 0.3146551724137931,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.7273550724637681,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.5210051224387806
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3049,
+      "history": [
+        {
+          "loss": 0.5608508586883545,
+          "step": 1
+        },
+        {
+          "loss": 0.4568600058555603,
+          "step": 200
+        },
+        {
+          "loss": 0.3833060562610626,
+          "step": 400
+        },
+        {
+          "loss": 0.40227481722831726,
+          "step": 600
+        },
+        {
+          "loss": 0.40638473629951477,
+          "step": 800
+        },
+        {
+          "loss": 0.38077202439308167,
+          "step": 1000
+        },
+        {
+          "loss": 0.382931113243103,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3261494252873563,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.6875,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.5068247126436781
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 509,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:510",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.523224043715847,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.5655430711610487,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.5443835574384479
+      },
+      "do_nothing": {
+        "change_accuracy": 0.3879781420765027,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.6104868913857678,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.4992325167311353
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3050,
+      "history": [
+        {
+          "loss": 0.5555176138877869,
+          "step": 1
+        },
+        {
+          "loss": 0.4396629333496094,
+          "step": 200
+        },
+        {
+          "loss": 0.4336477816104889,
+          "step": 400
+        },
+        {
+          "loss": 0.42284733057022095,
+          "step": 600
+        },
+        {
+          "loss": 0.38631582260131836,
+          "step": 800
+        },
+        {
+          "loss": 0.3598299026489258,
+          "step": 1000
+        },
+        {
+          "loss": 0.34998345375061035,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3633879781420765,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.5711610486891385,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.46727451341560755
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 510,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:511",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5258397932816538,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.6169590643274854,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.5713994288045696
+      },
+      "do_nothing": {
+        "change_accuracy": 0.3708010335917313,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.6851851851851852,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.5279931093884582
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3051,
+      "history": [
+        {
+          "loss": 0.5697240829467773,
+          "step": 1
+        },
+        {
+          "loss": 0.439092755317688,
+          "step": 200
+        },
+        {
+          "loss": 0.40750613808631897,
+          "step": 400
+        },
+        {
+          "loss": 0.36037522554397583,
+          "step": 600
+        },
+        {
+          "loss": 0.3603629469871521,
+          "step": 800
+        },
+        {
+          "loss": 0.352524995803833,
+          "step": 1000
+        },
+        {
+          "loss": 0.3145415484905243,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.31912144702842377,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.6510721247563352,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.4850967858923795
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 511,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:512",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5708661417322834,
+        "change_decisions": 762,
+        "preservation_accuracy": 0.5202312138728323,
+        "preservation_decisions": 1038,
+        "two_edit_balanced": 0.5455486778025579
+      },
+      "do_nothing": {
+        "change_accuracy": 0.468503937007874,
+        "change_decisions": 762,
+        "preservation_accuracy": 0.5828516377649325,
+        "preservation_decisions": 1038,
+        "two_edit_balanced": 0.5256777873864033
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3052,
+      "history": [
+        {
+          "loss": 0.5756767988204956,
+          "step": 1
+        },
+        {
+          "loss": 0.46515747904777527,
+          "step": 200
+        },
+        {
+          "loss": 0.4032599627971649,
+          "step": 400
+        },
+        {
+          "loss": 0.44446760416030884,
+          "step": 600
+        },
+        {
+          "loss": 0.41866084933280945,
+          "step": 800
+        },
+        {
+          "loss": 0.3867504596710205,
+          "step": 1000
+        },
+        {
+          "loss": 0.40198925137519836,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.41863517060367456,
+        "change_decisions": 762,
+        "preservation_accuracy": 0.5433526011560693,
+        "preservation_decisions": 1038,
+        "two_edit_balanced": 0.4809938858798719
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 512,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:513",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5977011494252874,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.532608695652174,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.5651549225387307
+      },
+      "do_nothing": {
+        "change_accuracy": 0.5028735632183908,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.5561594202898551,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.529516491754123
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3053,
+      "history": [
+        {
+          "loss": 0.5880652666091919,
+          "step": 1
+        },
+        {
+          "loss": 0.45530635118484497,
+          "step": 200
+        },
+        {
+          "loss": 0.44677338004112244,
+          "step": 400
+        },
+        {
+          "loss": 0.3807772099971771,
+          "step": 600
+        },
+        {
+          "loss": 0.4015776813030243,
+          "step": 800
+        },
+        {
+          "loss": 0.40350690484046936,
+          "step": 1000
+        },
+        {
+          "loss": 0.42897674441337585,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3448275862068966,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.582427536231884,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.4636275612193903
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 513,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:514",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5973333333333334,
+        "change_decisions": 750,
+        "preservation_accuracy": 0.518095238095238,
+        "preservation_decisions": 1050,
+        "two_edit_balanced": 0.5577142857142857
+      },
+      "do_nothing": {
+        "change_accuracy": 0.508,
+        "change_decisions": 750,
+        "preservation_accuracy": 0.4961904761904762,
+        "preservation_decisions": 1050,
+        "two_edit_balanced": 0.5020952380952381
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3054,
+      "history": [
+        {
+          "loss": 0.6027252674102783,
+          "step": 1
+        },
+        {
+          "loss": 0.43175408244132996,
+          "step": 200
+        },
+        {
+          "loss": 0.4174996316432953,
+          "step": 400
+        },
+        {
+          "loss": 0.40036189556121826,
+          "step": 600
+        },
+        {
+          "loss": 0.40917080640792847,
+          "step": 800
+        },
+        {
+          "loss": 0.3762161135673523,
+          "step": 1000
+        },
+        {
+          "loss": 0.32583683729171753,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.39066666666666666,
+        "change_decisions": 750,
+        "preservation_accuracy": 0.4990476190476191,
+        "preservation_decisions": 1050,
+        "two_edit_balanced": 0.44485714285714284
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 514,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:515",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5038461538461538,
+        "change_decisions": 780,
+        "preservation_accuracy": 0.6245098039215686,
+        "preservation_decisions": 1020,
+        "two_edit_balanced": 0.5641779788838612
+      },
+      "do_nothing": {
+        "change_accuracy": 0.3641025641025641,
+        "change_decisions": 780,
+        "preservation_accuracy": 0.6705882352941176,
+        "preservation_decisions": 1020,
+        "two_edit_balanced": 0.5173453996983408
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3055,
+      "history": [
+        {
+          "loss": 0.574815571308136,
+          "step": 1
+        },
+        {
+          "loss": 0.47823187708854675,
+          "step": 200
+        },
+        {
+          "loss": 0.4000614881515503,
+          "step": 400
+        },
+        {
+          "loss": 0.3836354613304138,
+          "step": 600
+        },
+        {
+          "loss": 0.3909335732460022,
+          "step": 800
+        },
+        {
+          "loss": 0.4197433590888977,
+          "step": 1000
+        },
+        {
+          "loss": 0.380788654088974,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.367948717948718,
+        "change_decisions": 780,
+        "preservation_accuracy": 0.6235294117647059,
+        "preservation_decisions": 1020,
+        "two_edit_balanced": 0.49573906485671193
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 515,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:516",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5900537634408602,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.6060606060606061,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5980571847507332
+      },
+      "do_nothing": {
+        "change_accuracy": 0.5094086021505376,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.5823863636363636,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5458974828934506
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3056,
+      "history": [
+        {
+          "loss": 0.5822546482086182,
+          "step": 1
+        },
+        {
+          "loss": 0.42913269996643066,
+          "step": 200
+        },
+        {
+          "loss": 0.3821462094783783,
+          "step": 400
+        },
+        {
+          "loss": 0.37945258617401123,
+          "step": 600
+        },
+        {
+          "loss": 0.36865442991256714,
+          "step": 800
+        },
+        {
+          "loss": 0.3928993344306946,
+          "step": 1000
+        },
+        {
+          "loss": 0.39929425716400146,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.40053763440860213,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.6041666666666666,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5023521505376344
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 516,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:517",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.599388379204893,
+        "change_decisions": 654,
+        "preservation_accuracy": 0.5410122164048866,
+        "preservation_decisions": 1146,
+        "two_edit_balanced": 0.5702002978048898
+      },
+      "do_nothing": {
+        "change_accuracy": 0.4648318042813456,
+        "change_decisions": 654,
+        "preservation_accuracy": 0.5759162303664922,
+        "preservation_decisions": 1146,
+        "two_edit_balanced": 0.5203740173239189
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3057,
+      "history": [
+        {
+          "loss": 0.6051082611083984,
+          "step": 1
+        },
+        {
+          "loss": 0.4743315577507019,
+          "step": 200
+        },
+        {
+          "loss": 0.42446374893188477,
+          "step": 400
+        },
+        {
+          "loss": 0.3818533718585968,
+          "step": 600
+        },
+        {
+          "loss": 0.3723568022251129,
+          "step": 800
+        },
+        {
+          "loss": 0.38048651814460754,
+          "step": 1000
+        },
+        {
+          "loss": 0.3233562111854553,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.37767584097859325,
+        "change_decisions": 654,
+        "preservation_accuracy": 0.606457242582897,
+        "preservation_decisions": 1146,
+        "two_edit_balanced": 0.49206654178074516
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 517,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:518",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5634920634920635,
+        "change_decisions": 756,
+        "preservation_accuracy": 0.5881226053639846,
+        "preservation_decisions": 1044,
+        "two_edit_balanced": 0.5758073344280241
+      },
+      "do_nothing": {
+        "change_accuracy": 0.46825396825396826,
+        "change_decisions": 756,
+        "preservation_accuracy": 0.6206896551724138,
+        "preservation_decisions": 1044,
+        "two_edit_balanced": 0.544471811713191
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3058,
+      "history": [
+        {
+          "loss": 0.6029403805732727,
+          "step": 1
+        },
+        {
+          "loss": 0.44282177090644836,
+          "step": 200
+        },
+        {
+          "loss": 0.4346592426300049,
+          "step": 400
+        },
+        {
+          "loss": 0.3928055167198181,
+          "step": 600
+        },
+        {
+          "loss": 0.41769489645957947,
+          "step": 800
+        },
+        {
+          "loss": 0.3428880572319031,
+          "step": 1000
+        },
+        {
+          "loss": 0.42063263058662415,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.36243386243386244,
+        "change_decisions": 756,
+        "preservation_accuracy": 0.5814176245210728,
+        "preservation_decisions": 1044,
+        "two_edit_balanced": 0.47192574347746763
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 518,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:519",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5529595015576324,
+        "change_decisions": 642,
+        "preservation_accuracy": 0.5466321243523317,
+        "preservation_decisions": 1158,
+        "two_edit_balanced": 0.549795812954982
+      },
+      "do_nothing": {
+        "change_accuracy": 0.45794392523364486,
+        "change_decisions": 642,
+        "preservation_accuracy": 0.5457685664939551,
+        "preservation_decisions": 1158,
+        "two_edit_balanced": 0.5018562458638
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3059,
+      "history": [
+        {
+          "loss": 0.5803837776184082,
+          "step": 1
+        },
+        {
+          "loss": 0.46987271308898926,
+          "step": 200
+        },
+        {
+          "loss": 0.4324362874031067,
+          "step": 400
+        },
+        {
+          "loss": 0.4368504285812378,
+          "step": 600
+        },
+        {
+          "loss": 0.407123327255249,
+          "step": 800
+        },
+        {
+          "loss": 0.36326733231544495,
+          "step": 1000
+        },
+        {
+          "loss": 0.3714391589164734,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3629283489096573,
+        "change_decisions": 642,
+        "preservation_accuracy": 0.5639032815198618,
+        "preservation_decisions": 1158,
+        "two_edit_balanced": 0.46341581521475955
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 519,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o2:520",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5486725663716814,
+        "change_decisions": 678,
+        "preservation_accuracy": 0.5632798573975044,
+        "preservation_decisions": 1122,
+        "two_edit_balanced": 0.5559762118845929
+      },
+      "do_nothing": {
+        "change_accuracy": 0.45427728613569324,
+        "change_decisions": 678,
+        "preservation_accuracy": 0.5793226381461676,
+        "preservation_decisions": 1122,
+        "two_edit_balanced": 0.5167999621409304
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3060,
+      "history": [
+        {
+          "loss": 0.5872490406036377,
+          "step": 1
+        },
+        {
+          "loss": 0.456356406211853,
+          "step": 200
+        },
+        {
+          "loss": 0.41958633065223694,
+          "step": 400
+        },
+        {
+          "loss": 0.4258742332458496,
+          "step": 600
+        },
+        {
+          "loss": 0.37128445506095886,
+          "step": 800
+        },
+        {
+          "loss": 0.37148022651672363,
+          "step": 1000
+        },
+        {
+          "loss": 0.40004265308380127,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.4247787610619469,
+        "change_decisions": 678,
+        "preservation_accuracy": 0.5659536541889483,
+        "preservation_decisions": 1122,
+        "two_edit_balanced": 0.4953662076254476
+      },
+      "manifest_sha256": "not-published",
+      "method": "o2",
+      "operator_parameter_count": 761856,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 520,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:501",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.6518817204301075,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.4952651515151515,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5735734359726294
+      },
+      "do_nothing": {
+        "change_accuracy": 0.4327956989247312,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.5852272727272727,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.509011485826002
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3041,
+      "history": [
+        {
+          "loss": 0.5654236674308777,
+          "step": 1
+        },
+        {
+          "loss": 0.46746304631233215,
+          "step": 200
+        },
+        {
+          "loss": 0.3998193144798279,
+          "step": 400
+        },
+        {
+          "loss": 0.37185901403427124,
+          "step": 600
+        },
+        {
+          "loss": 0.38858795166015625,
+          "step": 800
+        },
+        {
+          "loss": 0.40440815687179565,
+          "step": 1000
+        },
+        {
+          "loss": 0.34845495223999023,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.478494623655914,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.5151515151515151,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.49682306940371457
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 501,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:502",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.476775956284153,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.7125468164794008,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.5946613863817769
+      },
+      "do_nothing": {
+        "change_accuracy": 0.43579234972677594,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.6151685393258427,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.5254804445263093
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3042,
+      "history": [
+        {
+          "loss": 0.5475556254386902,
+          "step": 1
+        },
+        {
+          "loss": 0.41505926847457886,
+          "step": 200
+        },
+        {
+          "loss": 0.4196780323982239,
+          "step": 400
+        },
+        {
+          "loss": 0.34695956110954285,
+          "step": 600
+        },
+        {
+          "loss": 0.364504873752594,
+          "step": 800
+        },
+        {
+          "loss": 0.3109900951385498,
+          "step": 1000
+        },
+        {
+          "loss": 0.3256032466888428,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.2978142076502732,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.7237827715355806,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.510798489592927
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 502,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:503",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5684754521963824,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.5916179337231969,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.5800466929597896
+      },
+      "do_nothing": {
+        "change_accuracy": 0.5103359173126615,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.5857699805068226,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.5480529489097421
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3043,
+      "history": [
+        {
+          "loss": 0.6054508686065674,
+          "step": 1
+        },
+        {
+          "loss": 0.48438912630081177,
+          "step": 200
+        },
+        {
+          "loss": 0.4453859329223633,
+          "step": 400
+        },
+        {
+          "loss": 0.415382444858551,
+          "step": 600
+        },
+        {
+          "loss": 0.374422550201416,
+          "step": 800
+        },
+        {
+          "loss": 0.3991950750350952,
+          "step": 1000
+        },
+        {
+          "loss": 0.3865862488746643,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.43023255813953487,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.5682261208576999,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.49922933949861736
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 503,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:504",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5952380952380952,
+        "change_decisions": 798,
+        "preservation_accuracy": 0.5748502994011976,
+        "preservation_decisions": 1002,
+        "two_edit_balanced": 0.5850441973196464
+      },
+      "do_nothing": {
+        "change_accuracy": 0.43734335839599,
+        "change_decisions": 798,
+        "preservation_accuracy": 0.5698602794411177,
+        "preservation_decisions": 1002,
+        "two_edit_balanced": 0.5036018189185538
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3044,
+      "history": [
+        {
+          "loss": 0.6190693974494934,
+          "step": 1
+        },
+        {
+          "loss": 0.4711093008518219,
+          "step": 200
+        },
+        {
+          "loss": 0.4188336431980133,
+          "step": 400
+        },
+        {
+          "loss": 0.36758822202682495,
+          "step": 600
+        },
+        {
+          "loss": 0.34748274087905884,
+          "step": 800
+        },
+        {
+          "loss": 0.3468816876411438,
+          "step": 1000
+        },
+        {
+          "loss": 0.3429211974143982,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.44862155388471175,
+        "change_decisions": 798,
+        "preservation_accuracy": 0.5598802395209581,
+        "preservation_decisions": 1002,
+        "two_edit_balanced": 0.504250896702835
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 504,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:505",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.4879032258064516,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.6013257575757576,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5446144916911047
+      },
+      "do_nothing": {
+        "change_accuracy": 0.5309139784946236,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.53125,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5310819892473118
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3045,
+      "history": [
+        {
+          "loss": 0.612800657749176,
+          "step": 1
+        },
+        {
+          "loss": 0.4365335702896118,
+          "step": 200
+        },
+        {
+          "loss": 0.4015313982963562,
+          "step": 400
+        },
+        {
+          "loss": 0.3772794306278229,
+          "step": 600
+        },
+        {
+          "loss": 0.3813127875328064,
+          "step": 800
+        },
+        {
+          "loss": 0.3693005442619324,
+          "step": 1000
+        },
+        {
+          "loss": 0.3002484440803528,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.34543010752688175,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.5984848484848485,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.4719574780058651
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 505,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:506",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5726495726495726,
+        "change_decisions": 702,
+        "preservation_accuracy": 0.5655737704918032,
+        "preservation_decisions": 1098,
+        "two_edit_balanced": 0.5691116715706879
+      },
+      "do_nothing": {
+        "change_accuracy": 0.4415954415954416,
+        "change_decisions": 702,
+        "preservation_accuracy": 0.5628415300546448,
+        "preservation_decisions": 1098,
+        "two_edit_balanced": 0.5022184858250431
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3046,
+      "history": [
+        {
+          "loss": 0.580931544303894,
+          "step": 1
+        },
+        {
+          "loss": 0.42554205656051636,
+          "step": 200
+        },
+        {
+          "loss": 0.41402360796928406,
+          "step": 400
+        },
+        {
+          "loss": 0.42783987522125244,
+          "step": 600
+        },
+        {
+          "loss": 0.3628135323524475,
+          "step": 800
+        },
+        {
+          "loss": 0.39266693592071533,
+          "step": 1000
+        },
+        {
+          "loss": 0.3519839942455292,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.38603988603988604,
+        "change_decisions": 702,
+        "preservation_accuracy": 0.5546448087431693,
+        "preservation_decisions": 1098,
+        "two_edit_balanced": 0.4703423473915277
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 506,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:507",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5785907859078591,
+        "change_decisions": 738,
+        "preservation_accuracy": 0.5781544256120528,
+        "preservation_decisions": 1062,
+        "two_edit_balanced": 0.5783726057599559
+      },
+      "do_nothing": {
+        "change_accuracy": 0.510840108401084,
+        "change_decisions": 738,
+        "preservation_accuracy": 0.5922787193973634,
+        "preservation_decisions": 1062,
+        "two_edit_balanced": 0.5515594138992237
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3047,
+      "history": [
+        {
+          "loss": 0.5039459466934204,
+          "step": 1
+        },
+        {
+          "loss": 0.4653615355491638,
+          "step": 200
+        },
+        {
+          "loss": 0.39436036348342896,
+          "step": 400
+        },
+        {
+          "loss": 0.3579207956790924,
+          "step": 600
+        },
+        {
+          "loss": 0.3422078490257263,
+          "step": 800
+        },
+        {
+          "loss": 0.32075241208076477,
+          "step": 1000
+        },
+        {
+          "loss": 0.40159517526626587,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3685636856368564,
+        "change_decisions": 738,
+        "preservation_accuracy": 0.6064030131826742,
+        "preservation_decisions": 1062,
+        "two_edit_balanced": 0.4874833494097653
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 507,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:508",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5444444444444444,
+        "change_decisions": 720,
+        "preservation_accuracy": 0.6361111111111111,
+        "preservation_decisions": 1080,
+        "two_edit_balanced": 0.5902777777777777
+      },
+      "do_nothing": {
+        "change_accuracy": 0.41805555555555557,
+        "change_decisions": 720,
+        "preservation_accuracy": 0.5564814814814815,
+        "preservation_decisions": 1080,
+        "two_edit_balanced": 0.4872685185185185
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3048,
+      "history": [
+        {
+          "loss": 0.5820353031158447,
+          "step": 1
+        },
+        {
+          "loss": 0.43863096833229065,
+          "step": 200
+        },
+        {
+          "loss": 0.36857491731643677,
+          "step": 400
+        },
+        {
+          "loss": 0.3411414623260498,
+          "step": 600
+        },
+        {
+          "loss": 0.3402496576309204,
+          "step": 800
+        },
+        {
+          "loss": 0.2956922650337219,
+          "step": 1000
+        },
+        {
+          "loss": 0.35195326805114746,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3416666666666667,
+        "change_decisions": 720,
+        "preservation_accuracy": 0.6407407407407407,
+        "preservation_decisions": 1080,
+        "two_edit_balanced": 0.4912037037037037
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 508,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:509",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5316091954022989,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.6385869565217391,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.585098075962019
+      },
+      "do_nothing": {
+        "change_accuracy": 0.4209770114942529,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.667572463768116,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.5442747376311844
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3049,
+      "history": [
+        {
+          "loss": 0.562527060508728,
+          "step": 1
+        },
+        {
+          "loss": 0.4488155245780945,
+          "step": 200
+        },
+        {
+          "loss": 0.36629313230514526,
+          "step": 400
+        },
+        {
+          "loss": 0.37385880947113037,
+          "step": 600
+        },
+        {
+          "loss": 0.37861210107803345,
+          "step": 800
+        },
+        {
+          "loss": 0.3535025417804718,
+          "step": 1000
+        },
+        {
+          "loss": 0.36495864391326904,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3448275862068966,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.6539855072463768,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.4994065467266367
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 509,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:510",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.4576502732240437,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.5955056179775281,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.526577945600786
+      },
+      "do_nothing": {
+        "change_accuracy": 0.47540983606557374,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.5393258426966292,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.5073678393811014
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3050,
+      "history": [
+        {
+          "loss": 0.5526063442230225,
+          "step": 1
+        },
+        {
+          "loss": 0.4453906714916229,
+          "step": 200
+        },
+        {
+          "loss": 0.413756787776947,
+          "step": 400
+        },
+        {
+          "loss": 0.39681476354599,
+          "step": 600
+        },
+        {
+          "loss": 0.3626815676689148,
+          "step": 800
+        },
+        {
+          "loss": 0.3417297899723053,
+          "step": 1000
+        },
+        {
+          "loss": 0.33231186866760254,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3073770491803279,
+        "change_decisions": 732,
+        "preservation_accuracy": 0.5833333333333334,
+        "preservation_decisions": 1068,
+        "two_edit_balanced": 0.44535519125683065
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 510,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:511",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.6111111111111112,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.5565302144249513,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.5838206627680312
+      },
+      "do_nothing": {
+        "change_accuracy": 0.3643410852713178,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.6705653021442495,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.5174531937077836
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3051,
+      "history": [
+        {
+          "loss": 0.5669940710067749,
+          "step": 1
+        },
+        {
+          "loss": 0.44859033823013306,
+          "step": 200
+        },
+        {
+          "loss": 0.39884769916534424,
+          "step": 400
+        },
+        {
+          "loss": 0.3468874990940094,
+          "step": 600
+        },
+        {
+          "loss": 0.34056639671325684,
+          "step": 800
+        },
+        {
+          "loss": 0.3332142233848572,
+          "step": 1000
+        },
+        {
+          "loss": 0.3020513653755188,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.4069767441860465,
+        "change_decisions": 774,
+        "preservation_accuracy": 0.5857699805068226,
+        "preservation_decisions": 1026,
+        "two_edit_balanced": 0.4963733623464346
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 511,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:512",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.55249343832021,
+        "change_decisions": 762,
+        "preservation_accuracy": 0.569364161849711,
+        "preservation_decisions": 1038,
+        "two_edit_balanced": 0.5609288000849605
+      },
+      "do_nothing": {
+        "change_accuracy": 0.5026246719160105,
+        "change_decisions": 762,
+        "preservation_accuracy": 0.5115606936416185,
+        "preservation_decisions": 1038,
+        "two_edit_balanced": 0.5070926827788145
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3052,
+      "history": [
+        {
+          "loss": 0.5528587102890015,
+          "step": 1
+        },
+        {
+          "loss": 0.4812668561935425,
+          "step": 200
+        },
+        {
+          "loss": 0.39936894178390503,
+          "step": 400
+        },
+        {
+          "loss": 0.42021745443344116,
+          "step": 600
+        },
+        {
+          "loss": 0.3991939425468445,
+          "step": 800
+        },
+        {
+          "loss": 0.3678433299064636,
+          "step": 1000
+        },
+        {
+          "loss": 0.37798428535461426,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.41732283464566927,
+        "change_decisions": 762,
+        "preservation_accuracy": 0.5539499036608864,
+        "preservation_decisions": 1038,
+        "two_edit_balanced": 0.4856363691532778
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 512,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:513",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5517241379310345,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.6186594202898551,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.5851917791104448
+      },
+      "do_nothing": {
+        "change_accuracy": 0.5632183908045977,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.4855072463768116,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.5243628185907047
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3053,
+      "history": [
+        {
+          "loss": 0.5818637609481812,
+          "step": 1
+        },
+        {
+          "loss": 0.46371886134147644,
+          "step": 200
+        },
+        {
+          "loss": 0.4244334101676941,
+          "step": 400
+        },
+        {
+          "loss": 0.3592025339603424,
+          "step": 600
+        },
+        {
+          "loss": 0.37877118587493896,
+          "step": 800
+        },
+        {
+          "loss": 0.3877624571323395,
+          "step": 1000
+        },
+        {
+          "loss": 0.40683141350746155,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3261494252873563,
+        "change_decisions": 696,
+        "preservation_accuracy": 0.6086956521739131,
+        "preservation_decisions": 1104,
+        "two_edit_balanced": 0.46742253873063466
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 513,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:514",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.576,
+        "change_decisions": 750,
+        "preservation_accuracy": 0.56,
+        "preservation_decisions": 1050,
+        "two_edit_balanced": 0.5680000000000001
+      },
+      "do_nothing": {
+        "change_accuracy": 0.472,
+        "change_decisions": 750,
+        "preservation_accuracy": 0.518095238095238,
+        "preservation_decisions": 1050,
+        "two_edit_balanced": 0.495047619047619
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3054,
+      "history": [
+        {
+          "loss": 0.643109142780304,
+          "step": 1
+        },
+        {
+          "loss": 0.42468076944351196,
+          "step": 200
+        },
+        {
+          "loss": 0.3988870680332184,
+          "step": 400
+        },
+        {
+          "loss": 0.378632128238678,
+          "step": 600
+        },
+        {
+          "loss": 0.37953710556030273,
+          "step": 800
+        },
+        {
+          "loss": 0.3514459729194641,
+          "step": 1000
+        },
+        {
+          "loss": 0.31371068954467773,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.38533333333333336,
+        "change_decisions": 750,
+        "preservation_accuracy": 0.5628571428571428,
+        "preservation_decisions": 1050,
+        "two_edit_balanced": 0.4740952380952381
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 514,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:515",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5679487179487179,
+        "change_decisions": 780,
+        "preservation_accuracy": 0.55,
+        "preservation_decisions": 1020,
+        "two_edit_balanced": 0.558974358974359
+      },
+      "do_nothing": {
+        "change_accuracy": 0.41025641025641024,
+        "change_decisions": 780,
+        "preservation_accuracy": 0.5882352941176471,
+        "preservation_decisions": 1020,
+        "two_edit_balanced": 0.49924585218702866
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3055,
+      "history": [
+        {
+          "loss": 0.60163414478302,
+          "step": 1
+        },
+        {
+          "loss": 0.46623915433883667,
+          "step": 200
+        },
+        {
+          "loss": 0.37468424439430237,
+          "step": 400
+        },
+        {
+          "loss": 0.35946252942085266,
+          "step": 600
+        },
+        {
+          "loss": 0.3736536502838135,
+          "step": 800
+        },
+        {
+          "loss": 0.40152788162231445,
+          "step": 1000
+        },
+        {
+          "loss": 0.3626111149787903,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3935897435897436,
+        "change_decisions": 780,
+        "preservation_accuracy": 0.5656862745098039,
+        "preservation_decisions": 1020,
+        "two_edit_balanced": 0.4796380090497737
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 515,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:516",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.625,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.6212121212121212,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.6231060606060606
+      },
+      "do_nothing": {
+        "change_accuracy": 0.5013440860215054,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.5577651515151515,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5295546187683284
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3056,
+      "history": [
+        {
+          "loss": 0.5363574624061584,
+          "step": 1
+        },
+        {
+          "loss": 0.4243747889995575,
+          "step": 200
+        },
+        {
+          "loss": 0.3744933307170868,
+          "step": 400
+        },
+        {
+          "loss": 0.3583924174308777,
+          "step": 600
+        },
+        {
+          "loss": 0.35107743740081787,
+          "step": 800
+        },
+        {
+          "loss": 0.38161808252334595,
+          "step": 1000
+        },
+        {
+          "loss": 0.36944058537483215,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.42338709677419356,
+        "change_decisions": 744,
+        "preservation_accuracy": 0.6335227272727273,
+        "preservation_decisions": 1056,
+        "two_edit_balanced": 0.5284549120234604
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 516,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:517",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5581039755351682,
+        "change_decisions": 654,
+        "preservation_accuracy": 0.6038394415357766,
+        "preservation_decisions": 1146,
+        "two_edit_balanced": 0.5809717085354724
+      },
+      "do_nothing": {
+        "change_accuracy": 0.4984709480122324,
+        "change_decisions": 654,
+        "preservation_accuracy": 0.5514834205933682,
+        "preservation_decisions": 1146,
+        "two_edit_balanced": 0.5249771843028003
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3057,
+      "history": [
+        {
+          "loss": 0.6047454476356506,
+          "step": 1
+        },
+        {
+          "loss": 0.46741923689842224,
+          "step": 200
+        },
+        {
+          "loss": 0.40808629989624023,
+          "step": 400
+        },
+        {
+          "loss": 0.3650961220264435,
+          "step": 600
+        },
+        {
+          "loss": 0.3477974534034729,
+          "step": 800
+        },
+        {
+          "loss": 0.35177886486053467,
+          "step": 1000
+        },
+        {
+          "loss": 0.3015586733818054,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3211009174311927,
+        "change_decisions": 654,
+        "preservation_accuracy": 0.6099476439790575,
+        "preservation_decisions": 1146,
+        "two_edit_balanced": 0.4655242807051251
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 517,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:518",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5859788359788359,
+        "change_decisions": 756,
+        "preservation_accuracy": 0.603448275862069,
+        "preservation_decisions": 1044,
+        "two_edit_balanced": 0.5947135559204524
+      },
+      "do_nothing": {
+        "change_accuracy": 0.4497354497354497,
+        "change_decisions": 756,
+        "preservation_accuracy": 0.578544061302682,
+        "preservation_decisions": 1044,
+        "two_edit_balanced": 0.5141397555190659
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3058,
+      "history": [
+        {
+          "loss": 0.569247841835022,
+          "step": 1
+        },
+        {
+          "loss": 0.43355265259742737,
+          "step": 200
+        },
+        {
+          "loss": 0.4206406772136688,
+          "step": 400
+        },
+        {
+          "loss": 0.3802432417869568,
+          "step": 600
+        },
+        {
+          "loss": 0.3803556263446808,
+          "step": 800
+        },
+        {
+          "loss": 0.31799590587615967,
+          "step": 1000
+        },
+        {
+          "loss": 0.40106356143951416,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.4087301587301587,
+        "change_decisions": 756,
+        "preservation_accuracy": 0.5842911877394636,
+        "preservation_decisions": 1044,
+        "two_edit_balanced": 0.4965106732348112
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 518,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:519",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.5841121495327103,
+        "change_decisions": 642,
+        "preservation_accuracy": 0.5630397236614854,
+        "preservation_decisions": 1158,
+        "two_edit_balanced": 0.5735759365970978
+      },
+      "do_nothing": {
+        "change_accuracy": 0.48753894080996885,
+        "change_decisions": 642,
+        "preservation_accuracy": 0.5103626943005182,
+        "preservation_decisions": 1158,
+        "two_edit_balanced": 0.4989508175552435
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3059,
+      "history": [
+        {
+          "loss": 0.6029690504074097,
+          "step": 1
+        },
+        {
+          "loss": 0.4506540894508362,
+          "step": 200
+        },
+        {
+          "loss": 0.4118194580078125,
+          "step": 400
+        },
+        {
+          "loss": 0.41445815563201904,
+          "step": 600
+        },
+        {
+          "loss": 0.38042396306991577,
+          "step": 800
+        },
+        {
+          "loss": 0.3401843309402466,
+          "step": 1000
+        },
+        {
+          "loss": 0.35518914461135864,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.3956386292834891,
+        "change_decisions": 642,
+        "preservation_accuracy": 0.5872193436960277,
+        "preservation_decisions": 1158,
+        "two_edit_balanced": 0.4914289864897584
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 519,
+      "test_evaluated": false
+    },
+    {
+      "amendment_sha256": "not-published",
+      "cell_id": "llama70b-f1:xor:o3:520",
+      "changed_pair_fraction": 1.0,
+      "changed_pair_vectors": 60,
+      "checkpoint_sha256": "not-published",
+      "clean": {
+        "change_accuracy": 0.532448377581121,
+        "change_decisions": 678,
+        "preservation_accuracy": 0.5793226381461676,
+        "preservation_decisions": 1122,
+        "two_edit_balanced": 0.5558855078636442
+      },
+      "do_nothing": {
+        "change_accuracy": 0.45427728613569324,
+        "change_decisions": 678,
+        "preservation_accuracy": 0.5704099821746881,
+        "preservation_decisions": 1122,
+        "two_edit_balanced": 0.5123436341551907
+      },
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3060,
+      "history": [
+        {
+          "loss": 0.6237379312515259,
+          "step": 1
+        },
+        {
+          "loss": 0.4517093300819397,
+          "step": 200
+        },
+        {
+          "loss": 0.407046914100647,
+          "step": 400
+        },
+        {
+          "loss": 0.3977382183074951,
+          "step": 600
+        },
+        {
+          "loss": 0.3561268448829651,
+          "step": 800
+        },
+        {
+          "loss": 0.35631075501441956,
+          "step": 1000
+        },
+        {
+          "loss": 0.37643852829933167,
+          "step": 1200
+        }
+      ],
+      "inverted_against_retained_gold": {
+        "change_accuracy": 0.38200589970501475,
+        "change_decisions": 678,
+        "preservation_accuracy": 0.5855614973262032,
+        "preservation_decisions": 1122,
+        "two_edit_balanced": 0.483783698515609
+      },
+      "manifest_sha256": "not-published",
+      "method": "o3",
+      "operator_parameter_count": 135118848,
+      "pair_count": 60,
+      "protocol": "llama3_3_70b_f1_xor_o2_o3_v1",
+      "seed": 520,
+      "test_evaluated": false
+    }
+  ],
+  "test_evaluated": false
+}

@@ -1,0 +1,8 @@
+{
+  "base_manifest": "${CORE_PROJECT_ROOT}/registry/qwen32_a1_manifest.json",
+  "base_manifest_sha256": "not-published",
+  "feature_cache": "outputs/qwen32-a1/cache/xor_features.pt",
+  "feature_cache_sha256": "not-published",
+  "protocol": "qwen2_5_32b_a1_cache_binding_v1",
+  "test_evaluated": false
+}

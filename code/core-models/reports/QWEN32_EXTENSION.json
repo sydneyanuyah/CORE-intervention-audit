@@ -1,0 +1,127 @@
+{
+  "amendment_sha256": "not-published",
+  "completed_cells": 40,
+  "evaluation_split": "validation",
+  "expected_cells": 40,
+  "feature_cache_sha256": "not-published",
+  "inference_unit": "paired training seed",
+  "manifest_sha256": "not-published",
+  "metrics": {
+    "o2": {
+      "changed_pair_fraction": {
+        "mean": 0.8878048780487806,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.8878048780487806,
+          0.8878048780487806
+        ]
+      },
+      "clean_two_edit_balanced": {
+        "mean": 0.7787922262922263,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.7761267172775562,
+          0.7814577353068964
+        ]
+      },
+      "do_nothing_two_edit_balanced": {
+        "mean": 0.5211630036630036,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.5173132272408698,
+          0.5250127800851374
+        ]
+      },
+      "inversion_retained_gold_delta": {
+        "mean": -0.5383608058608058,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          -0.5426023623751842,
+          -0.5341192493464274
+        ]
+      },
+      "inverted_two_edit_balanced": {
+        "mean": 0.24043142043142046,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.23754882745870673,
+          0.2433140134041342
+        ]
+      },
+      "operator_parameter_count": 220160
+    },
+    "o3": {
+      "changed_pair_fraction": {
+        "mean": 0.9123577235772358,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.908039431218991,
+          0.9166760159354805
+        ]
+      },
+      "clean_two_edit_balanced": {
+        "mean": 0.7691693800027133,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.7635254527167225,
+          0.7748133072887041
+        ]
+      },
+      "do_nothing_two_edit_balanced": {
+        "mean": 0.5106410256410256,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.5039174150739214,
+          0.5173646362081299
+        ]
+      },
+      "inversion_retained_gold_delta": {
+        "mean": -0.5241012074345408,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          -0.5328564640662881,
+          -0.5153459508027936
+        ]
+      },
+      "inverted_two_edit_balanced": {
+        "mean": 0.24506817256817257,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.2405218603436323,
+          0.24961448479271284
+        ]
+      },
+      "operator_parameter_count": 52736000
+    }
+  },
+  "model": "Qwen/Qwen2.5-32B-Instruct",
+  "model_revision": "not-published",
+  "paired_contrasts": {
+    "o2_minus_o3_changed_pair_fraction": {
+      "mean": -0.02455284552845527,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        -0.02887113788669999,
+        -0.02023455317021055
+      ]
+    },
+    "o2_minus_o3_clean": {
+      "mean": 0.009622846289512965,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        0.0027214682406289156,
+        0.016524224338397016
+      ]
+    },
+    "o2_minus_o3_inversion_drop": {
+      "mean": -0.014259598426265091,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        -0.02442288844134905,
+        -0.0040963084111811324
+      ]
+    }
+  },
+  "protocol": "qwen2_5_32b_cladder_o2_o3_extension_v1",
+  "test_evaluated": false
+}

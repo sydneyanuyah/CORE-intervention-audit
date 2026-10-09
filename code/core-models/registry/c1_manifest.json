@@ -1,0 +1,50 @@
+{
+  "protocol": "c1_fixed_o3_closing_controls_v1",
+  "status": "preregistered_prelaunch",
+  "model": "google-bert/bert-base-uncased",
+  "world_size": 4,
+  "split_layer": 4,
+  "optimization_seeds": [601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620],
+  "graph_seeds": [3081, 3082, 3083, 3084, 3085, 3086, 3087, 3088, 3089, 3090, 3091, 3092, 3093, 3094, 3095, 3096, 3097, 3098, 3099, 3100],
+  "conditions": ["real", "noncausal_placebo", "shuffled"],
+  "method": "o3",
+  "operator": {
+    "class": "O3StateGated",
+    "rank": 16,
+    "world_tokens": 16,
+    "law_weights": {"identity": 1.0, "idempotence": 1.0, "commutation": 1.0, "last_write_wins": 1.0},
+    "profile_search": false
+  },
+  "training": {
+    "reader_source_condition": "real",
+    "reader_epochs": 8,
+    "reader_batch_size_per_rank": 8,
+    "reader_learning_rate": 0.0001,
+    "operator_steps": 500,
+    "operator_batch_size_per_rank": 16,
+    "operator_learning_rate": 0.005,
+    "checkpoint_selection": "final fixed-O3 operator step with a shared same-graph reader"
+  },
+  "composition": {
+    "pair_rule": "first graph slot every three positions; second slot is first plus seven modulo node count",
+    "real": "SCM execution with both assignments",
+    "noncausal_placebo": "sequential application of the frozen cyclic non-DAG placebo transition",
+    "shuffled": "the second command's frozen within-stratum deranged outcome for the original validation world; the first command is a nuisance prefix",
+    "primary": "paired graph-level real minus noncausal_placebo two-edit balanced numerical score",
+    "secondary": "shuffled two-edit balanced numerical score"
+  },
+  "paths": {
+    "graph_artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_{graph_seed}",
+    "condition_template": "data/experiments/c1/{condition}/graph_{graph_seed}.jsonl",
+    "data_summary": "data/experiments/manifests/c1_controls_summary.json",
+    "reader_output_template": "outputs/c1/readers/seed-{seed}",
+    "cell_output_template": "outputs/c1/{condition}/seed-{seed}"
+  },
+  "data_summary_sha256": "not-published",
+  "canonical_core_source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+  "canonical_core_sha256": "not-published",
+  "experimental_unit": "graph",
+  "intervals": ["paired_graph_bootstrap_95", "paired_seed_student_t_95"],
+  "allowed_splits": ["train", "validation"],
+  "test_evaluated": false
+}

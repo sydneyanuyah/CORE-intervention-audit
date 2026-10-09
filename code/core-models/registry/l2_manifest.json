@@ -1,0 +1,18 @@
+{
+  "protocol": "l2_dropped_law_v1",
+  "status": "preregistered_prelaunch",
+  "model": "google-bert/bert-base-uncased",
+  "world_size": 4,
+  "split_layer": 4,
+  "seeds": [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220],
+  "families": ["xor", "cladder"],
+  "methods": ["full", "drop_identity", "drop_idempotence", "drop_commutation", "drop_selective_invariance"],
+  "floors": ["do_nothing", "do_everything", "random_init"],
+  "initialization_checkpoint_template": "outputs/a1-repaired/confirmatory/{family}/t2b_encode_only/seed-{seed}/best.pt",
+  "output_template": "outputs/l2/cells/{family}/{method}/seed-{seed}",
+  "xor_graph_seeds": [3041, 3042, 3043, 3044, 3045, 3046, 3047, 3048, 3049, 3050, 3051, 3052, 3053, 3054, 3055, 3056, 3057, 3058, 3059, 3060],
+  "primary": "held_out_delta_by_dropped_law",
+  "experimental_unit": "graph",
+  "allowed_splits": ["train", "validation"],
+  "test_evaluated": false
+}

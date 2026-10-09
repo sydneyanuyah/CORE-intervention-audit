@@ -1,0 +1,15 @@
+{
+  "protocol": "c4_parameter_accounting_v1",
+  "status": "preregistered_waiting_for_c3",
+  "model_sizes": {"bert_base": "google-bert/bert-base-uncased", "bert_large": "google-bert/bert-large-uncased"},
+  "t3b_modules": ["pointer_query_projection", "pointer_key_projection", "t3_editor"],
+  "t3b_rank": 16,
+  "matched_lora_rule": "select the integer LoRA rank minimizing absolute trainable-parameter difference from the complete instantiated T3-b module, with smaller-rank tie break",
+  "f2_families": ["xor", "ccrgb", "cladder", "wiqa", "com2"],
+  "f2_methods": ["prompting", "lora_matched", "o2", "o3"],
+  "f2_seeds": [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320],
+  "primary": "paired two-edit delta from prompting per 10000 measured trainable parameters",
+  "counts": "measured from instantiated modules and serialized trainable states; never hard-coded",
+  "allowed_splits": ["validation"],
+  "test_evaluated": false
+}

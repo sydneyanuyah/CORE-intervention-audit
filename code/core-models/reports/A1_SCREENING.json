@@ -1,0 +1,772 @@
+{
+  "completed_cells": 130,
+  "confirmatory": false,
+  "families": {
+    "ccrgb": {
+      "arms": {
+        "t1_text": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.0,
+          "mean_pointer_top1": null,
+          "mean_preservation": 1.0,
+          "mean_target_success": 0.0,
+          "mean_two_edit_balanced": 0.5,
+          "seed_scores": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.5,
+            0.5
+          ]
+        },
+        "t2a_naive": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.3076923076923077,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.2545454545454545,
+          "mean_target_success": 0.3333333333333333,
+          "mean_two_edit_balanced": 0.2811188811188811,
+          "seed_scores": [
+            0.24475524475524477,
+            0.2902097902097902,
+            0.2902097902097902,
+            0.2902097902097902,
+            0.2902097902097902
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.2558784710716284,
+            0.3063592911661338
+          ]
+        },
+        "t2b_encode_only": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.3076923076923077,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.23636363636363633,
+          "mean_target_success": 0.3333333333333333,
+          "mean_two_edit_balanced": 0.272027972027972,
+          "seed_scores": [
+            0.24475524475524477,
+            0.24475524475524477,
+            0.2902097902097902,
+            0.2902097902097902,
+            0.2902097902097902
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.24111490927077853,
+            0.30294103478516554
+          ]
+        },
+        "t3a_conditioning": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.21538461538461537,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.8181818181818181,
+          "mean_target_success": 0.21666666666666665,
+          "mean_two_edit_balanced": 0.5167832167832167,
+          "seed_scores": [
+            0.34265734265734266,
+            0.5629370629370629,
+            0.5,
+            0.6783216783216783,
+            0.5
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.36584565960633536,
+            0.6677207739600981
+          ]
+        },
+        "t3b_pointer": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.0,
+          "mean_pointer_top1": 1.0,
+          "mean_preservation": 1.0,
+          "mean_target_success": 0.0,
+          "mean_two_edit_balanced": 0.5,
+          "seed_scores": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.5,
+            0.5
+          ]
+        }
+      },
+      "ranked_arms": [
+        "t3a_conditioning",
+        "t1_text",
+        "t3b_pointer",
+        "t2a_naive",
+        "t2b_encode_only"
+      ],
+      "selected_arm_rank": 3
+    },
+    "cladder": {
+      "arms": {
+        "t1_text": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.47730294396961065,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.5165079365079365,
+          "mean_target_success": 0.4909560723514212,
+          "mean_two_edit_balanced": 0.49690544023877353,
+          "seed_scores": [
+            0.4895841812508479,
+            0.4890957807624474,
+            0.5160392077058744,
+            0.5007122507122508,
+            0.4890957807624474
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.4822641305708347,
+            0.5115467499067123
+          ]
+        },
+        "t2a_naive": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.5188983855650522,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.4838095238095238,
+          "mean_target_success": 0.5071490094745909,
+          "mean_two_edit_balanced": 0.501353954687288,
+          "seed_scores": [
+            0.5077397910731244,
+            0.4890957807624474,
+            0.5109042192375526,
+            0.48812576312576317,
+            0.5109042192375526
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.48681479174880327,
+            0.5158931176257728
+          ]
+        },
+        "t2b_encode_only": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.5413105413105412,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.4928571428571429,
+          "mean_target_success": 0.5086993970714901,
+          "mean_two_edit_balanced": 0.5170838420838421,
+          "seed_scores": [
+            0.5236195902862569,
+            0.5109042192375526,
+            0.52673314339981,
+            0.5109042192375526,
+            0.5132580382580383
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.5077334181490222,
+            0.526434266018662
+          ]
+        },
+        "t3a_conditioning": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.4839506172839506,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.5307936507936508,
+          "mean_target_success": 0.5037037037037038,
+          "mean_two_edit_balanced": 0.5073721340388007,
+          "seed_scores": [
+            0.5587606837606838,
+            0.4890042056708723,
+            0.5109042192375526,
+            0.4890957807624474,
+            0.4890957807624474
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.46981980491349246,
+            0.5449244631641088
+          ]
+        },
+        "t3b_pointer": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.4750237416904083,
+          "mean_pointer_top1": 0.26666666666666666,
+          "mean_preservation": 0.5317460317460317,
+          "mean_target_success": 0.4919896640826874,
+          "mean_two_edit_balanced": 0.50338488671822,
+          "seed_scores": [
+            0.5109042192375526,
+            0.4974494641161308,
+            0.4890957807624474,
+            0.5085707502374169,
+            0.5109042192375526
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.4912924929985707,
+            0.5154772804378693
+          ]
+        }
+      },
+      "ranked_arms": [
+        "t2b_encode_only",
+        "t3a_conditioning",
+        "t3b_pointer",
+        "t2a_naive",
+        "t1_text"
+      ],
+      "selected_arm_rank": 3
+    },
+    "com2": {
+      "arms": {
+        "t1_text": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.0,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.0,
+          "mean_target_success": 0.0,
+          "mean_two_edit_balanced": 0.0,
+          "seed_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.0,
+            0.0
+          ]
+        },
+        "t2a_naive": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.0,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.0,
+          "mean_target_success": 0.0,
+          "mean_two_edit_balanced": 0.0,
+          "seed_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.0,
+            0.0
+          ]
+        },
+        "t2b_encode_only": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.0,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.0,
+          "mean_target_success": 0.0,
+          "mean_two_edit_balanced": 0.0,
+          "seed_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.0,
+            0.0
+          ]
+        },
+        "t3a_conditioning": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.0,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.0,
+          "mean_target_success": 0.0,
+          "mean_two_edit_balanced": 0.0,
+          "seed_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.0,
+            0.0
+          ]
+        },
+        "t3b_pointer": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.0,
+          "mean_pointer_top1": 1.0,
+          "mean_preservation": 0.0,
+          "mean_target_success": 0.0,
+          "mean_two_edit_balanced": 0.0,
+          "seed_scores": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "ranked_arms": [
+        "t1_text",
+        "t2b_encode_only",
+        "t2a_naive",
+        "t3b_pointer",
+        "t3a_conditioning"
+      ],
+      "selected_arm_rank": 4
+    },
+    "wiqa": {
+      "arms": {
+        "t1_text": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.36702702702702705,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.7094736842105263,
+          "mean_target_success": 0.37,
+          "mean_two_edit_balanced": 0.5382503556187767,
+          "seed_scores": [
+            0.5419630156472262,
+            0.5306543385490754,
+            0.5748933143669985,
+            0.5240398293029872,
+            0.519701280227596
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.5107635700992691,
+            0.5657371411382842
+          ]
+        },
+        "t2a_naive": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.0,
+          "mean_pointer_top1": null,
+          "mean_preservation": 1.0,
+          "mean_target_success": 0.0,
+          "mean_two_edit_balanced": 0.5,
+          "seed_scores": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.5,
+            0.5
+          ]
+        },
+        "t2b_encode_only": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.0,
+          "mean_pointer_top1": null,
+          "mean_preservation": 1.0,
+          "mean_target_success": 0.0,
+          "mean_two_edit_balanced": 0.5,
+          "seed_scores": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.5,
+            0.5
+          ]
+        },
+        "t3a_conditioning": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.41243243243243244,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.5663157894736842,
+          "mean_target_success": 0.28714285714285714,
+          "mean_two_edit_balanced": 0.4893741109530583,
+          "seed_scores": [
+            0.455547652916074,
+            0.5943812233285918,
+            0.44103840682788054,
+            0.541394025604552,
+            0.41450924608819345
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.3955937791156109,
+            0.5831544427905058
+          ]
+        },
+        "t3b_pointer": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.4562162162162163,
+          "mean_pointer_top1": 0.97,
+          "mean_preservation": 0.9821052631578947,
+          "mean_target_success": 0.41,
+          "mean_two_edit_balanced": 0.7191607396870554,
+          "seed_scores": [
+            0.762375533428165,
+            0.7313655761024183,
+            0.6799431009957325,
+            0.7219061166429588,
+            0.7002133712660028
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.6802853548825524,
+            0.7580361244915584
+          ]
+        }
+      },
+      "ranked_arms": [
+        "t3b_pointer",
+        "t1_text",
+        "t2b_encode_only",
+        "t2a_naive",
+        "t3a_conditioning"
+      ],
+      "selected_arm_rank": 1
+    },
+    "xor": {
+      "arms": {
+        "t0_id": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.5539853570935211,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.49887556918501996,
+          "mean_target_success": 0.7559166666666667,
+          "mean_two_edit_balanced": 0.5264304631392707,
+          "paired_delta_vs_t0": 0.0,
+          "seed_scores": [
+            0.5263892404664771,
+            0.5261042363651985,
+            0.5259741542622198,
+            0.5269148545770472,
+            0.5267698300254102
+          ],
+          "student_t_95_delta_vs_t0": [
+            0.0,
+            0.0
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.525923753937127,
+            0.5269371723414144
+          ],
+          "within_two_point_rule": true
+        },
+        "t1_text": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.5490675507666805,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.4997119226837654,
+          "mean_target_success": 0.7473333333333334,
+          "mean_two_edit_balanced": 0.5243897367252229,
+          "paired_delta_vs_t0": -0.0020407264140476222,
+          "seed_scores": [
+            0.5272614577675758,
+            0.5260081406306245,
+            0.517151495209578,
+            0.5264425884742192,
+            0.5250850015441172
+          ],
+          "student_t_95_delta_vs_t0": [
+            -0.006883541175509416,
+            0.0028020883474141715
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.5192718910295859,
+            0.5295075824208599
+          ],
+          "within_two_point_rule": true
+        },
+        "t2a_naive": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.36263296035364,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.6238825387975095,
+          "mean_target_success": 0.3436666666666667,
+          "mean_two_edit_balanced": 0.4932577495755748,
+          "paired_delta_vs_t0": -0.0331727135636958,
+          "seed_scores": [
+            0.5,
+            0.4988942587992826,
+            0.49885643091218296,
+            0.4832856195530105,
+            0.4852524386133978
+          ],
+          "student_t_95_delta_vs_t0": [
+            -0.043875632584245004,
+            -0.02246979454314659
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.4830168102485484,
+            0.5034986889026012
+          ],
+          "within_two_point_rule": false
+        },
+        "t2b_encode_only": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.4399917115623705,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.5714245887928631,
+          "mean_target_success": 0.5254166666666666,
+          "mean_two_edit_balanced": 0.5057081501776167,
+          "paired_delta_vs_t0": -0.020722312961653788,
+          "seed_scores": [
+            0.510655188632432,
+            0.5056362107598493,
+            0.5015134620871758,
+            0.5036925756017618,
+            0.507043313806865
+          ],
+          "student_t_95_delta_vs_t0": [
+            -0.024940514918859825,
+            -0.01650411100444775
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.5014105317171523,
+            0.5100057686380811
+          ],
+          "within_two_point_rule": false
+        },
+        "t3a_conditioning": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.551788921121702,
+          "mean_pointer_top1": null,
+          "mean_preservation": 0.4995446519840163,
+          "mean_target_success": 0.7566666666666667,
+          "mean_two_edit_balanced": 0.5256667865528591,
+          "paired_delta_vs_t0": -0.0007636765864114326,
+          "seed_scores": [
+            0.5260546432253538,
+            0.5260546432253538,
+            0.5260546432253538,
+            0.5250850015441172,
+            0.5250850015441172
+          ],
+          "student_t_95_delta_vs_t0": [
+            -0.001907068587346938,
+            0.00037971541452407303
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.5250073454816899,
+            0.5263262276240284
+          ],
+          "within_two_point_rule": true
+        },
+        "t3b_pointer": {
+          "checkpoint_sha256": [
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published",
+            "not-published"
+          ],
+          "mean_change": 0.5747617074181517,
+          "mean_pointer_top1": 1.0,
+          "mean_preservation": 0.5010500882817582,
+          "mean_target_success": 0.8887499999999999,
+          "mean_two_edit_balanced": 0.5379058978499549,
+          "paired_delta_vs_t0": 0.011475434710684374,
+          "seed_scores": [
+            0.5386058475886412,
+            0.5385110419881652,
+            0.5385110419881652,
+            0.5378568284660424,
+            0.5360447292187607
+          ],
+          "student_t_95_delta_vs_t0": [
+            0.009756009376711837,
+            0.013194860044656911
+          ],
+          "student_t_95_two_edit_balanced": [
+            0.5365615872587182,
+            0.5392502084411916
+          ],
+          "within_two_point_rule": true
+        }
+      },
+      "ranked_arms": [
+        "t3b_pointer",
+        "t0_id",
+        "t3a_conditioning",
+        "t1_text",
+        "t2b_encode_only",
+        "t2a_naive"
+      ],
+      "selected_arm_rank": 1
+    }
+  },
+  "protocol": "a1_architecture_screening_report_v1",
+  "provenance": {
+    "checkpoint_count": 130,
+    "manifest_sha256": "not-published",
+    "unique_checkpoint_count": 130
+  },
+  "registered_cells": 130,
+  "scope": "all_five_families",
+  "seeds": [
+    2026090501,
+    2026090502,
+    2026090503,
+    2026090504,
+    2026090505
+  ],
+  "selected_arm": "t3b_pointer",
+  "selection_rule": "highest XOR mean two_edit_balanced among arms no more than 0.02 below synthetic T0; T0 remains undefined on real families",
+  "stage": "architecture_screening_only",
+  "test_evaluated": false
+}

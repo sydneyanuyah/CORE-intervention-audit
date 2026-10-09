@@ -1,0 +1,1367 @@
+{
+  "protocol": "reviewer1_reproducibility_config_export_v1",
+  "generated_from_existing_registry_and_runner_sources": true,
+  "source_files": {
+    "registry/a1_repaired_confirmatory_manifest.json": {
+      "sha256": "not-published",
+      "path": "registry/a1_repaired_confirmatory_manifest.json"
+    },
+    "registry/f2_manifest.json": {
+      "sha256": "not-published",
+      "path": "registry/f2_manifest.json"
+    },
+    "registry/l1_manifest.json": {
+      "sha256": "not-published",
+      "path": "registry/l1_manifest.json"
+    },
+    "registry/l2_manifest.json": {
+      "sha256": "not-published",
+      "path": "registry/l2_manifest.json"
+    },
+    "registry/l3_manifest.json": {
+      "sha256": "not-published",
+      "path": "registry/l3_manifest.json"
+    },
+    "registry/t2_manifest.json": {
+      "sha256": "not-published",
+      "path": "registry/t2_manifest.json"
+    },
+    "registry/t4_manifest.json": {
+      "sha256": "not-published",
+      "path": "registry/t4_manifest.json"
+    },
+    "registry/t5_manifest.json": {
+      "sha256": "not-published",
+      "path": "registry/t5_manifest.json"
+    },
+    "src/train_addressed.py": {
+      "sha256": "not-published",
+      "path": "src/train_addressed.py"
+    },
+    "src/train_f2_baselines.py": {
+      "sha256": "not-published",
+      "path": "src/train_f2_baselines.py"
+    },
+    "src/train_l3_operator.py": {
+      "sha256": "not-published",
+      "path": "src/train_l3_operator.py"
+    },
+    "src/train_candidate_transfer.py": {
+      "sha256": "not-published",
+      "path": "src/train_candidate_transfer.py"
+    },
+    "src/evaluate_candidate_final.py": {
+      "sha256": "not-published",
+      "path": "src/evaluate_candidate_final.py"
+    }
+  },
+  "registry_snapshots": {
+    "registry/a1_repaired_confirmatory_manifest.json": {
+      "arms": {
+        "t0_id": {
+          "mode": "t0",
+          "pointer": false
+        },
+        "t1_text": {
+          "mode": "t1",
+          "pointer": false
+        },
+        "t2a_naive": {
+          "mode": "t2a",
+          "pointer": false
+        },
+        "t2b_encode_only": {
+          "mode": "t2b",
+          "pointer": false
+        },
+        "t3a_conditioning": {
+          "mode": "t3a",
+          "pointer": false
+        },
+        "t3b_pointer": {
+          "mode": "t3b",
+          "pointer": true
+        }
+      },
+      "data_access": {
+        "allowed_splits": [
+          "train",
+          "validation"
+        ],
+        "final_eval": false,
+        "held_out_test": "forbidden"
+      },
+      "evidence_status": "preregistered_evidence",
+      "families": {
+        "ccrgb": {
+          "source": "ccrgb",
+          "two_edit": "authoritative_executable_boolean_scm"
+        },
+        "cladder": {
+          "source": "cladder",
+          "two_edit": "authoritative_executable_scm"
+        },
+        "com2": {
+          "source": "com2",
+          "two_edit": "authoritative_adjudicated_open_text"
+        },
+        "wiqa": {
+          "source": "wiqa",
+          "two_edit": "authoritative_executable_signed_graph"
+        },
+        "xor": {
+          "source": "xor",
+          "two_edit": "authoritative_xor"
+        }
+      },
+      "frozen_selection": {
+        "manifest": "registry/a1_repaired_screening_manifest.json",
+        "manifest_sha256": "not-published",
+        "report": "reports/A1_REPAIRED_SCREENING.json",
+        "selected_arm": "t3b_pointer",
+        "sha256": "not-published"
+      },
+      "model_size": "base",
+      "paths": {
+        "ccrgb_artifact": "data/two_edit/ccrgb/artifact.json",
+        "ccrgb_manifest": "data/two_edit/ccrgb/manifest.jsonl",
+        "cladder_artifact": "data/two_edit/cladder/artifact.json",
+        "cladder_manifest": "data/two_edit/cladder/manifest.jsonl",
+        "com2_provenance": "data/two_edit/manual/authoritative_manual_truth.provenance.json",
+        "com2_queue": "data/two_edit/manual/annotation_queue.jsonl",
+        "com2_truth": "data/two_edit/manual/authoritative_manual_truth.jsonl",
+        "data_root": "data",
+        "groups_dir": "data/groups",
+        "output_template": "outputs/a1-repaired/confirmatory/{family}/{arm}/seed-{seed}",
+        "paraphrase_catalog": "data/paraphrases/structured_catalog_repaired.json",
+        "wiqa_queue": "data/two_edit/wiqa/queue.jsonl",
+        "wiqa_truth": "data/two_edit/wiqa/truth.jsonl",
+        "xor_artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_{graph}",
+        "xor_graphs": [
+          3021,
+          3022,
+          3023,
+          3024,
+          3025,
+          3026,
+          3027,
+          3028,
+          3029,
+          3030,
+          3031,
+          3032,
+          3033,
+          3034,
+          3035,
+          3036,
+          3037,
+          3038,
+          3039,
+          3040
+        ],
+        "xor_manifest_template": "data/two_edit/confirmatory/xor_graph_{graph}.jsonl"
+      },
+      "protocol": "a1_confirmatory_v1",
+      "registry": "registry/bert_scope.json",
+      "registry_sha256": "not-published",
+      "seed_namespace": "a1-repaired-confirmatory-v2",
+      "seeds": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "stage": "confirmatory",
+      "training": {
+        "balanced_variable_loss": true,
+        "batch_size": 16,
+        "causal_task_readout": true,
+        "epochs": 3,
+        "pointer_loss_weight": 1.0,
+        "transition_variable_loss": true,
+        "variable_loss_weight": 1.0
+      }
+    },
+    "registry/f2_manifest.json": {
+      "protocol": "f2_main_sweep_v1",
+      "status": "preregistered_prelaunch",
+      "model": "google-bert/bert-base-uncased",
+      "world_size": 4,
+      "split_layer": 4,
+      "optimization_seeds": [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320
+      ],
+      "families": [
+        "xor",
+        "ccrgb",
+        "cladder",
+        "wiqa",
+        "com2"
+      ],
+      "xor_graph_seeds": [
+        3061,
+        3062,
+        3063,
+        3064,
+        3065,
+        3066,
+        3067,
+        3068,
+        3069,
+        3070,
+        3071,
+        3072,
+        3073,
+        3074,
+        3075,
+        3076,
+        3077,
+        3078,
+        3079,
+        3080
+      ],
+      "operator": {
+        "source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+        "source_sha256": "not-published",
+        "rank": 16,
+        "world_tokens": 16,
+        "law_count": 4,
+        "profile_search": false
+      },
+      "paths": {
+        "xor_artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_{graph_seed}",
+        "xor_provenance": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/provenance.json",
+        "ccrgb_artifact": "data/two_edit/ccrgb/artifact.json",
+        "ccrgb_manifest": "data/two_edit/ccrgb/manifest.jsonl",
+        "cladder_artifact": "data/two_edit/cladder/artifact.json",
+        "cladder_manifest": "data/two_edit/cladder/manifest.jsonl",
+        "wiqa_queue": "data/two_edit/wiqa/queue.jsonl",
+        "wiqa_truth": "data/two_edit/wiqa/truth.jsonl",
+        "com2_queue": "data/two_edit/manual/annotation_queue.jsonl",
+        "com2_truth": "data/two_edit/manual/authoritative_manual_truth.jsonl",
+        "com2_provenance": "data/two_edit/manual/authoritative_manual_truth.provenance.json",
+        "paraphrase_catalog": "data/paraphrases/structured_catalog.json"
+      },
+      "artifact_sha256": {
+        "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/provenance.json": "not-published",
+        "data/two_edit/ccrgb/artifact.json": "not-published",
+        "data/two_edit/ccrgb/manifest.jsonl": "not-published",
+        "data/two_edit/cladder/artifact.json": "not-published",
+        "data/two_edit/cladder/manifest.jsonl": "not-published",
+        "data/two_edit/wiqa/queue.jsonl": "not-published",
+        "data/two_edit/wiqa/truth.jsonl": "not-published",
+        "data/two_edit/manual/annotation_queue.jsonl": "not-published",
+        "data/two_edit/manual/authoritative_manual_truth.jsonl": "not-published",
+        "data/two_edit/manual/authoritative_manual_truth.provenance.json": "not-published",
+        "data/paraphrases/structured_catalog.json": "not-published"
+      },
+      "methods": {
+        "prompting": "full-attention command input with addressed editor bypassed",
+        "lora_matched": "LoRA rank selected deterministically against the instantiated O3 trainable-parameter count",
+        "o2": "canonical O2ConditionalLowRank from frozen CORE_closing_controls/core_components.py",
+        "o3": "canonical O3StateGated from frozen CORE_closing_controls/core_components.py"
+      },
+      "shared_selection": "maximum validation two_edit_balanced with smallest-epoch tie break",
+      "primary": "two_edit_balanced:o3-o2_per_family",
+      "experimental_unit": "graph",
+      "intervals": [
+        "paired_graph_bootstrap_95",
+        "paired_seed_student_t_95"
+      ],
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "test_evaluated": false
+    },
+    "registry/l1_manifest.json": {
+      "protocol": "l1_law_retention_v1",
+      "status": "preregistered_prelaunch",
+      "model": "google-bert/bert-base-uncased",
+      "world_size": 4,
+      "split_layer": 4,
+      "optimization_seeds": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "training_family": {
+        "name": "xor",
+        "graph_seeds": [
+          3041,
+          3042,
+          3043,
+          3044,
+          3045,
+          3046,
+          3047,
+          3048,
+          3049,
+          3050,
+          3051,
+          3052,
+          3053,
+          3054,
+          3055,
+          3056,
+          3057,
+          3058,
+          3059,
+          3060
+        ],
+        "artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_{graph_seed}",
+        "allowed_splits": [
+          "train",
+          "validation"
+        ]
+      },
+      "held_out_family": {
+        "name": "cladder",
+        "selection_reason": "authoritative executable SCM family already frozen before any L1 result",
+        "artifact": "data/two_edit/cladder/artifact.json",
+        "artifact_sha256": "not-published",
+        "manifest": "data/two_edit/cladder/manifest.jsonl",
+        "manifest_sha256": "not-published",
+        "allowed_splits": [
+          "train",
+          "validation"
+        ]
+      },
+      "methods": {
+        "core_base_1law": [
+          "identity"
+        ],
+        "core_i_3law": [
+          "identity",
+          "idempotence",
+          "commutation"
+        ],
+        "core_full_4law": [
+          "identity",
+          "idempotence",
+          "commutation",
+          "last_write_wins"
+        ],
+        "floors": [
+          "do_nothing",
+          "do_everything",
+          "random_init"
+        ]
+      },
+      "floor_semantics": {
+        "version": "deterministic_symbolic_validation_floor_v1",
+        "do_nothing": "return the factual state unchanged",
+        "do_everything": "for an intervention, set every graph variable to the intervention value; for identity, return the factual state unchanged",
+        "random_init": "derive every predicted binary variable deterministically from SHA-256(seed, factual state, target, intervention value)",
+        "evaluation": "validation states only; no training, checkpoint, or test access"
+      },
+      "law_weights": "unit",
+      "optimization": {
+        "epochs": 3,
+        "learning_rate": 2e-05,
+        "weight_decay": 0.01,
+        "per_rank_batch_size": 16,
+        "gradient_clip_norm": 1.0,
+        "checkpoint_selection": "maximum validation macro_f1"
+      },
+      "commutation_instruction": {
+        "version": "first_other_slot_same_value_v1",
+        "rule": "use the first observed same-graph different-target command; when the held-out family exposes only one observed intervention target per graph, synthesize a law-only command for the first other graph slot at the same value",
+        "task_supervision_from_synthetic_rows": false
+      },
+      "last_write_instruction": {
+        "version": "same_target_opposite_value_v1",
+        "rule": "use the first observed same-graph opposite-value command; when absent, synthesize a law-only command for the same target at the opposite binary value",
+        "task_supervision_from_synthetic_rows": false
+      },
+      "law_partner_wording": "fixed raw command text without task paraphrase augmentation; paraphrase augmentation remains enabled for supervised base rows",
+      "profile_search": false,
+      "primary": "held_out_retention_across_1_3_4_laws",
+      "experimental_unit": "graph",
+      "intervals": [
+        "paired_graph_bootstrap_95",
+        "paired_seed_student_t_95"
+      ],
+      "test_evaluated": false
+    },
+    "registry/l2_manifest.json": {
+      "protocol": "l2_dropped_law_v1",
+      "status": "preregistered_prelaunch",
+      "model": "google-bert/bert-base-uncased",
+      "world_size": 4,
+      "split_layer": 4,
+      "seeds": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "families": [
+        "xor",
+        "cladder"
+      ],
+      "methods": [
+        "full",
+        "drop_identity",
+        "drop_idempotence",
+        "drop_commutation",
+        "drop_selective_invariance"
+      ],
+      "floors": [
+        "do_nothing",
+        "do_everything",
+        "random_init"
+      ],
+      "initialization_checkpoint_template": "outputs/a1-repaired/confirmatory/{family}/t2b_encode_only/seed-{seed}/best.pt",
+      "output_template": "outputs/l2/cells/{family}/{method}/seed-{seed}",
+      "xor_graph_seeds": [
+        3041,
+        3042,
+        3043,
+        3044,
+        3045,
+        3046,
+        3047,
+        3048,
+        3049,
+        3050,
+        3051,
+        3052,
+        3053,
+        3054,
+        3055,
+        3056,
+        3057,
+        3058,
+        3059,
+        3060
+      ],
+      "primary": "held_out_delta_by_dropped_law",
+      "experimental_unit": "graph",
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "test_evaluated": false
+    },
+    "registry/l3_manifest.json": {
+      "protocol": "l3_eight_method_law_v1",
+      "status": "preregistered_prelaunch",
+      "model": "google-bert/bert-base-uncased",
+      "world_size": 4,
+      "split_layer": 4,
+      "optimization_seeds": [
+        301,
+        302,
+        303,
+        304,
+        305
+      ],
+      "graph_seeds": [
+        3061,
+        3062,
+        3063,
+        3064,
+        3065
+      ],
+      "family": "xor",
+      "methods": [
+        "prompting",
+        "lora_matched",
+        "loreft",
+        "task_vector_add",
+        "router",
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "method_semantics": {
+        "prompting": "Frozen F2 reader receives the intervention text through full attention; there is no trainable adapter.",
+        "lora_matched": "Frozen F2 reader with the parameter-matched query/value LoRA adapter trained in F2.",
+        "loreft": "Intervention-conditioned rank-16 residual representation transform on all 16 editable world tokens.",
+        "task_vector_add": "One intervention-specific 768-dimensional vector is added uniformly to all 16 editable world tokens.",
+        "router": "State-and-command-conditioned softmax mixture of canonical O1, O2, and O3 experts.",
+        "o1": "Canonical intervention-specific fixed vector with one distinct vector per editable world token.",
+        "o2": "Canonical intervention-conditioned low-rank additive operator trained in F2.",
+        "o3": "Canonical state-gated low-rank operator trained in F2."
+      },
+      "execution": {
+        "frozen_f2_validation_rescore": [
+          "prompting",
+          "lora_matched",
+          "o2",
+          "o3"
+        ],
+        "fresh_operator_training": [
+          "loreft",
+          "task_vector_add",
+          "router",
+          "o1"
+        ],
+        "operator_steps": 500,
+        "operator_learning_rate": 0.005,
+        "operator_batch_size_per_rank": 16,
+        "rank": 16,
+        "law_weights": "unit",
+        "checkpoint_selection": "final registered operator step after frozen-reader initialization"
+      },
+      "random_init_floor": {
+        "operator_methods": "The identically instantiated method before its first optimizer update.",
+        "lora_matched": "The installed LoRA adapter before loading its trained F2 weights.",
+        "prompting": "Identical to prompting because prompting has zero trainable adapter parameters; this degeneracy is reported explicitly."
+      },
+      "law_scoring": {
+        "level": "validation prediction states",
+        "identity": "no-command prediction versus factual SCM state",
+        "idempotence": "two identical commands versus one-command prediction and intervened SCM state",
+        "commutation": "two distinct-target commands in both orders versus each other and the joint-intervention SCM state",
+        "last_write_wins": "opposite then final same-target command versus the final-only prediction and final-intervention SCM state",
+        "primary": "per-law SCM correctness delta trained minus method-matched random initialization",
+        "secondary": "per-law answer agreement"
+      },
+      "paths": {
+        "artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_{graph_seed}",
+        "reader_template": "outputs/f2/readers/xor/seed-{seed}/reader.pt",
+        "f2_source_template": "outputs/f2/xor/{method}/seed-{seed}/operator.pt",
+        "output_template": "outputs/l3/{method}/seed-{seed}"
+      },
+      "canonical_core_source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+      "canonical_core_sha256": "not-published",
+      "runner_sha256": {
+        "src/train_l3_operator.py": "not-published",
+        "src/evaluate_l3_reused.py": "not-published",
+        "src/core_bert/l3_operators.py": "not-published"
+      },
+      "experimental_unit": "graph",
+      "intervals": [
+        "paired_graph_bootstrap_95",
+        "paired_seed_student_t_95"
+      ],
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "test_evaluated": false
+    },
+    "registry/t2_manifest.json": {
+      "protocol": "t2_csuite_ood_direction_v1",
+      "status": "preregistered_prelaunch",
+      "model": "google-bert/bert-base-uncased",
+      "world_size": 4,
+      "split_layer": 4,
+      "world_tokens": 16,
+      "max_nodes": 12,
+      "operator": "o3_state_gated_rank16_four_laws",
+      "operator_source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+      "operator_source_sha256": "not-published",
+      "train_data": "experiments/Experiment-16-T2/data/train/csuite_t2.jsonl",
+      "train_sha256": "not-published",
+      "validation_data": "experiments/Experiment-16-T2/data/validation/csuite_t2.jsonl",
+      "validation_sha256": "not-published",
+      "seeds": [
+        501,
+        502,
+        503,
+        504,
+        505
+      ],
+      "epochs": 3,
+      "batch_size_per_rank": 8,
+      "learning_rate": 3e-05,
+      "law_weight": 0.1,
+      "target_contract": "per-variable direction of intervened minus factual state: decrease=0, unchanged=1, increase=2",
+      "intervention_contract": "target variable index times 3 plus direction of intervention value minus reference value",
+      "input_contract": "graph and factual world only; intervention command is supplied exclusively through O3",
+      "primary": "mean_held_out_sem_family_balanced_direction_accuracy",
+      "allowed_splits": [
+        "development_generated"
+      ],
+      "test_evaluated": false
+    },
+    "registry/t4_manifest.json": {
+      "protocol": "t4_csuite_rung_transfer_v1",
+      "status": "preregistered_prelaunch",
+      "model": "google-bert/bert-base-uncased",
+      "world_size": 4,
+      "split_layer": 4,
+      "world_tokens": 16,
+      "max_nodes": 12,
+      "operator": "o3_state_gated_rank16_four_laws",
+      "operator_source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+      "operator_source_sha256": "not-published",
+      "train_data": "experiments/Experiment-18-T4/data/train/csuite_t4.jsonl",
+      "train_sha256": "not-published",
+      "validation_data": "experiments/Experiment-18-T4/data/validation/csuite_t4.jsonl",
+      "validation_sha256": "not-published",
+      "seeds": [
+        511,
+        512,
+        513,
+        514,
+        515
+      ],
+      "arms": [
+        "changing_only",
+        "imagining_only",
+        "joint"
+      ],
+      "epochs": 3,
+      "batch_size_per_rank": 8,
+      "learning_rate": 3e-05,
+      "law_weight": 0.1,
+      "primary": "rung_transfer_matrix_balanced_direction_accuracy",
+      "allowed_splits": [
+        "development_generated"
+      ],
+      "test_evaluated": false
+    },
+    "registry/t5_manifest.json": {
+      "cells": [
+        {
+          "cell_id": "t5:baseline:seed-101",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-101/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-101",
+          "seed": 101,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-102",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-102/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-102",
+          "seed": 102,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-103",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-103/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-103",
+          "seed": 103,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-104",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-104/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-104",
+          "seed": 104,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-105",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-105/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-105",
+          "seed": 105,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-106",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-106/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-106",
+          "seed": 106,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-107",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-107/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-107",
+          "seed": 107,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-108",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-108/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-108",
+          "seed": 108,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-109",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-109/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-109",
+          "seed": 109,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-110",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-110/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-110",
+          "seed": 110,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-111",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-111/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-111",
+          "seed": 111,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-112",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-112/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-112",
+          "seed": 112,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-113",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-113/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-113",
+          "seed": 113,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-114",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-114/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-114",
+          "seed": 114,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-115",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-115/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-115",
+          "seed": 115,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-116",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-116/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-116",
+          "seed": 116,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-117",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-117/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-117",
+          "seed": 117,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-118",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-118/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-118",
+          "seed": 118,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-119",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-119/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-119",
+          "seed": 119,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:baseline:seed-120",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-120/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "baseline",
+          "output": "outputs/t5/baseline/seed-120",
+          "seed": 120,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-101",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-101/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-101",
+          "seed": 101,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-102",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-102/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-102",
+          "seed": 102,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-103",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-103/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-103",
+          "seed": 103,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-104",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-104/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-104",
+          "seed": 104,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-105",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-105/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-105",
+          "seed": 105,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-106",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-106/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-106",
+          "seed": 106,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-107",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-107/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-107",
+          "seed": 107,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-108",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-108/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-108",
+          "seed": 108,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-109",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-109/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-109",
+          "seed": 109,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-110",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-110/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-110",
+          "seed": 110,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-111",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-111/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-111",
+          "seed": 111,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-112",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-112/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-112",
+          "seed": 112,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-113",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-113/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-113",
+          "seed": 113,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-114",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-114/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-114",
+          "seed": 114,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-115",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-115/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-115",
+          "seed": 115,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-116",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-116/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-116",
+          "seed": 116,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-117",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-117/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-117",
+          "seed": 117,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-118",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-118/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-118",
+          "seed": 118,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-119",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-119/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-119",
+          "seed": 119,
+          "test_evaluated": false,
+          "world_size": 4
+        },
+        {
+          "cell_id": "t5:o3:seed-120",
+          "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-120/operator.pt",
+          "checkpoint_sha256": "not-published",
+          "method": "o3",
+          "output": "outputs/t5/o3/seed-120",
+          "seed": 120,
+          "test_evaluated": false,
+          "world_size": 4
+        }
+      ],
+      "methods": [
+        "baseline",
+        "o3"
+      ],
+      "model": "google-bert/bert-base-uncased",
+      "operator_policy": "F1 O3 checkpoint frozen; only shared candidate probe backbone/head/state tokens fit",
+      "operator_source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+      "operator_source_sha256": "not-published",
+      "protocol": "t5_frozen_f1_candidate_probe_v1",
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "status": "preregistered_prelaunch",
+      "test_evaluated": false,
+      "train_data": "${CORE_PROJECT_ROOT}/data/experiments/t5/native_train.jsonl",
+      "train_data_sha256": "not-published",
+      "validation_data": "${CORE_PROJECT_ROOT}/data/experiments/t5/native_validation.jsonl",
+      "validation_data_sha256": "not-published",
+      "world_size": 4
+    }
+  },
+  "normalized": {
+    "L1_BERT": {
+      "optimizer": "AdamW",
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "epochs": 3,
+      "batch_size_per_rank": 16,
+      "effective_batch_size": 64,
+      "world_size": 4,
+      "operator_rank": 16,
+      "edited_layer": 4,
+      "edit_position": "30 structural world slots",
+      "loss_weights": {
+        "variable": 1.0,
+        "law": 1.0,
+        "pointer": 0.0
+      },
+      "model_parameter_count_recorded": 111333129,
+      "trainable_parameter_count": "not separately serialized in L1 summaries; do not substitute total model parameters",
+      "seeds": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "precision": "bf16",
+      "hardware": "NVIDIA A16, CUDA 13.0; four GPUs/cell",
+      "selection_criterion": "maximum validation macro_f1"
+    },
+    "L2_BERT": {
+      "optimizer": "AdamW",
+      "learning_rate": 2e-05,
+      "weight_decay": 0.01,
+      "epochs": 3,
+      "batch_size_per_rank": 16,
+      "effective_batch_size": 64,
+      "world_size": 4,
+      "operator_rank": 16,
+      "edited_layer": 4,
+      "edit_position": "30 structural world slots",
+      "loss_weights": {
+        "variable": 1.0,
+        "law": 1.0,
+        "pointer": 0.0
+      },
+      "model_parameter_count_recorded": 111333129,
+      "trainable_parameter_count": "not separately serialized in L2 summaries; do not substitute total model parameters",
+      "seeds": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "precision": "bf16",
+      "hardware": "NVIDIA A16, CUDA 13.0; four GPUs/cell",
+      "selection_criterion": "maximum validation macro_f1"
+    },
+    "F2_BERT": {
+      "optimizer": "AdamW",
+      "learning_rate": 0.001,
+      "weight_decay": 0.0001,
+      "steps": 500,
+      "batch_size_per_rank": 16,
+      "effective_batch_size": 64,
+      "world_size": 4,
+      "operator_rank": 16,
+      "edited_layer": 4,
+      "edit_position": "16 appended world-state tokens",
+      "operator_or_adapter_trainable_parameters": {
+        "prompting": 0,
+        "lora_matched": 1253376,
+        "o2": 234240,
+        "o3": 1242624
+      },
+      "C4_accounted_parameters_including_shared_scoring_components": {
+        "prompting": 0,
+        "lora_matched": 1253376,
+        "o2": 255744,
+        "o3": 1264128
+      },
+      "matched_lora_rank": 34,
+      "seeds": [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320
+      ],
+      "precision": "runner default float32",
+      "hardware": "NVIDIA A16; four GPUs/cell",
+      "selection_criterion": "fixed-step training; frozen protocol composed two-edit validation score"
+    },
+    "L3_BERT": {
+      "optimizer": "AdamW",
+      "learning_rate": 0.005,
+      "weight_decay": 0.0001,
+      "steps": 500,
+      "batch_size_per_rank": 16,
+      "effective_batch_size": 64,
+      "world_size": 4,
+      "operator_rank": 16,
+      "edited_layer": 4,
+      "edit_position": "16 appended world-state tokens",
+      "seeds": [
+        301,
+        302,
+        303,
+        304,
+        305
+      ],
+      "precision": "runner default float32",
+      "selection_criterion": "fixed-step training, validation-only frozen summaries"
+    },
+    "T2_BERT": {
+      "optimizer": "AdamW",
+      "learning_rate": 3e-05,
+      "epochs": 3,
+      "batch_size_per_rank": 8,
+      "effective_batch_size": 32,
+      "world_size": 4,
+      "operator_rank": 16,
+      "edited_layer": 4,
+      "law_loss_weight": 0.1,
+      "seeds": [
+        501,
+        502,
+        503,
+        504,
+        505
+      ]
+    },
+    "T4_BERT": {
+      "optimizer": "AdamW",
+      "learning_rate": 3e-05,
+      "epochs": 3,
+      "batch_size_per_rank": 8,
+      "effective_batch_size": 32,
+      "world_size": 4,
+      "operator_rank": 16,
+      "edited_layer": 4,
+      "law_loss_weight": 0.1,
+      "seeds": [
+        511,
+        512,
+        513,
+        514,
+        515
+      ]
+    },
+    "T5_BERT": {
+      "optimizer": "AdamW",
+      "learning_rate": 3e-05,
+      "epochs": 3,
+      "batch_size_per_rank": 8,
+      "effective_batch_size": 32,
+      "world_size": 4,
+      "operator_rank": 16,
+      "edited_layer": 4,
+      "edit_position": "16 appended learned state tokens",
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "selection_criterion": "maximum validation article/group-macro accuracy; strict greater-than, earliest epoch wins ties",
+      "precision": "float32 unless environment-level framework defaults differ"
+    }
+  },
+  "locked_test_baseline_definition": {
+    "T2": "No separately named baseline arm exists in the locked T2 manifest; T2 is an O3-only transfer measurement. Do not call it a baseline comparison.",
+    "T4": "No separately named baseline arm exists in the locked T4 manifest; changing-only, imagining-only, and joint are registered O3 arms. Do not call one a baseline.",
+    "T5": "The `baseline` cell uses the same BERT-base candidate-scoring architecture, 16 appended learned state tokens, split at layer 4, and trained binary candidate head, but bypasses O3 in forward (`if self.method == 'o3'`). It is not a zero-shot language-model baseline. O3 cells load a frozen F1 O3 operator; BERT and operator are frozen there, while state tokens and head train. Com2 is excluded from locked test evaluation."
+  },
+  "caveat": "Registry snapshots are included verbatim so every normalized statement can be checked. Fields absent from the frozen registry/runner are not inferred."
+}

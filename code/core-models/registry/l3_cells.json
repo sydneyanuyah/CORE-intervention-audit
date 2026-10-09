@@ -1,0 +1,1008 @@
+{
+  "cell_count": 40,
+  "cells": [
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3061",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:prompting:301",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "prompting",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-301/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 301,
+      "source_checkpoint": "outputs/f2/xor/prompting/seed-301/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3061",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:lora_matched:301",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "lora_matched",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-301/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 301,
+      "source_checkpoint": "outputs/f2/xor/lora_matched/seed-301/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3061",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:loreft:301",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "loreft",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-301/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 301,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3061",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:task_vector_add:301",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "task_vector_add",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-301/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 301,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3061",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:router:301",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "router",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-301/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 301,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3061",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o1:301",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "o1",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-301/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 301,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3061",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o2:301",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "o2",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-301/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 301,
+      "source_checkpoint": "outputs/f2/xor/o2/seed-301/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3061",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o3:301",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "o3",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-301/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 301,
+      "source_checkpoint": "outputs/f2/xor/o3/seed-301/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3062",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:prompting:302",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "prompting",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-302/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 302,
+      "source_checkpoint": "outputs/f2/xor/prompting/seed-302/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3062",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:lora_matched:302",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "lora_matched",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-302/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 302,
+      "source_checkpoint": "outputs/f2/xor/lora_matched/seed-302/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3062",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:loreft:302",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "loreft",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-302/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 302,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3062",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:task_vector_add:302",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "task_vector_add",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-302/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 302,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3062",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:router:302",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "router",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-302/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 302,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3062",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o1:302",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "o1",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-302/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 302,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3062",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o2:302",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "o2",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-302/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 302,
+      "source_checkpoint": "outputs/f2/xor/o2/seed-302/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3062",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o3:302",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "o3",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-302/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 302,
+      "source_checkpoint": "outputs/f2/xor/o3/seed-302/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3063",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:prompting:303",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "prompting",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-303/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 303,
+      "source_checkpoint": "outputs/f2/xor/prompting/seed-303/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3063",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:lora_matched:303",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "lora_matched",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-303/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 303,
+      "source_checkpoint": "outputs/f2/xor/lora_matched/seed-303/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3063",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:loreft:303",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "loreft",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-303/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 303,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3063",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:task_vector_add:303",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "task_vector_add",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-303/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 303,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3063",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:router:303",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "router",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-303/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 303,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3063",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o1:303",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "o1",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-303/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 303,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3063",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o2:303",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "o2",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-303/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 303,
+      "source_checkpoint": "outputs/f2/xor/o2/seed-303/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3063",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o3:303",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "o3",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-303/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 303,
+      "source_checkpoint": "outputs/f2/xor/o3/seed-303/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3064",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:prompting:304",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "prompting",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-304/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 304,
+      "source_checkpoint": "outputs/f2/xor/prompting/seed-304/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3064",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:lora_matched:304",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "lora_matched",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-304/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 304,
+      "source_checkpoint": "outputs/f2/xor/lora_matched/seed-304/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3064",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:loreft:304",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "loreft",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-304/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 304,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3064",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:task_vector_add:304",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "task_vector_add",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-304/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 304,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3064",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:router:304",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "router",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-304/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 304,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3064",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o1:304",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "o1",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-304/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 304,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3064",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o2:304",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "o2",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-304/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 304,
+      "source_checkpoint": "outputs/f2/xor/o2/seed-304/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3064",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o3:304",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "o3",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-304/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 304,
+      "source_checkpoint": "outputs/f2/xor/o3/seed-304/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3065",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:prompting:305",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "prompting",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-305/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 305,
+      "source_checkpoint": "outputs/f2/xor/prompting/seed-305/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3065",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:lora_matched:305",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "lora_matched",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-305/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 305,
+      "source_checkpoint": "outputs/f2/xor/lora_matched/seed-305/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3065",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:loreft:305",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "loreft",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-305/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 305,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3065",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:task_vector_add:305",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "task_vector_add",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-305/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 305,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3065",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:router:305",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "router",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-305/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 305,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3065",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o1:305",
+      "execution": "fresh_operator_training",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "o1",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-305/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 305,
+      "source_checkpoint": null,
+      "source_checkpoint_sha256": null,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3065",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o2:305",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "o2",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-305/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 305,
+      "source_checkpoint": "outputs/f2/xor/o2/seed-305/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "artifact_dir": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_3065",
+      "artifact_sha256": {
+        "graph.json": "not-published",
+        "records_real.json": "not-published",
+        "worlds.json": "not-published"
+      },
+      "cell_id": "l3:xor:o3:305",
+      "execution": "frozen_f2_validation_rescore",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "o3",
+      "reader_checkpoint": "outputs/f2/readers/xor/seed-305/reader.pt",
+      "reader_sha256": "not-published",
+      "seed": 305,
+      "source_checkpoint": "outputs/f2/xor/o3/seed-305/operator.pt",
+      "source_checkpoint_sha256": "not-published",
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    }
+  ],
+  "manifest_sha256": "not-published",
+  "protocol": "l3_eight_method_law_v1",
+  "test_evaluated": false
+}

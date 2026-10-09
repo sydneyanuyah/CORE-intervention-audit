@@ -1,0 +1,2571 @@
+{
+  "cells": [
+    {
+      "cell_id": "l2:xor:full:201",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-201/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:201",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-201/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:201",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-201/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:201",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-201/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:201",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-201/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:201",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:201",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:201",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:202",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-202/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:202",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-202/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:202",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-202/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:202",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-202/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:202",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-202/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:202",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:202",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:202",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:203",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-203/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:203",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-203/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:203",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-203/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:203",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-203/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:203",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-203/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:203",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:203",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:203",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:204",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-204/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:204",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-204/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:204",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-204/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:204",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-204/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:204",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-204/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:204",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:204",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:204",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:205",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-205/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:205",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-205/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:205",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-205/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:205",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-205/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:205",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-205/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:205",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:205",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:205",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:206",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-206/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:206",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-206/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:206",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-206/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:206",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-206/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:206",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-206/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:206",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:206",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:206",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:207",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-207/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:207",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-207/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:207",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-207/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:207",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-207/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:207",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-207/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:207",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:207",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:207",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:208",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-208/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:208",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-208/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:208",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-208/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:208",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-208/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:208",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-208/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:208",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:208",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:208",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:209",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-209/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:209",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-209/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:209",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-209/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:209",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-209/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:209",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-209/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:209",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:209",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:209",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:210",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-210/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:210",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-210/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:210",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-210/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:210",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-210/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:210",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-210/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:210",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:210",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:210",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:211",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-211/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:211",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-211/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:211",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-211/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:211",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-211/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:211",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-211/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:211",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:211",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:211",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:212",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-212/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:212",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-212/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:212",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-212/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:212",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-212/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:212",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-212/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:212",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:212",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:212",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:213",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-213/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:213",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-213/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:213",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-213/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:213",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-213/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:213",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-213/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:213",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:213",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:213",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:214",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-214/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:214",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-214/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:214",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-214/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:214",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-214/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:214",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-214/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:214",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:214",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:214",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:215",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-215/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:215",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-215/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:215",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-215/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:215",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-215/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:215",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-215/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:215",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:215",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:215",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:216",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-216/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:216",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-216/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:216",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-216/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:216",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-216/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:216",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-216/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:216",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:216",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:216",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:217",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-217/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:217",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-217/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:217",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-217/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:217",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-217/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:217",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-217/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:217",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:217",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:217",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:218",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-218/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:218",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-218/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:218",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-218/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:218",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-218/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:218",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-218/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:218",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:218",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:218",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:219",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-219/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:219",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-219/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:219",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-219/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:219",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-219/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:219",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-219/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:219",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:219",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:219",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:full:220",
+      "checkpoint": "outputs/l2/cells/xor/full/seed-220/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/full/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_identity:220",
+      "checkpoint": "outputs/l2/cells/xor/drop_identity/seed-220/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_identity/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_idempotence:220",
+      "checkpoint": "outputs/l2/cells/xor/drop_idempotence/seed-220/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_idempotence/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_commutation:220",
+      "checkpoint": "outputs/l2/cells/xor/drop_commutation/seed-220/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_commutation/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:drop_selective_invariance:220",
+      "checkpoint": "outputs/l2/cells/xor/drop_selective_invariance/seed-220/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/xor/drop_selective_invariance/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_nothing:220",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_nothing/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:do_everything:220",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/do_everything/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:xor:random_init:220",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/xor/random_init/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:201",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-201/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:201",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-201/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:201",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-201/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:201",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-201/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:201",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-201/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:201",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:201",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:201",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-201/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:202",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-202/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:202",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-202/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:202",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-202/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:202",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-202/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:202",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-202/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:202",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:202",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:202",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-202/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:203",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-203/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:203",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-203/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:203",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-203/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:203",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-203/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:203",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-203/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:203",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:203",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:203",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-203/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:204",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-204/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:204",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-204/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:204",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-204/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:204",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-204/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:204",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-204/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:204",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:204",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:204",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-204/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:205",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-205/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:205",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-205/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:205",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-205/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:205",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-205/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:205",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-205/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:205",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:205",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:205",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-205/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:206",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-206/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:206",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-206/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:206",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-206/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:206",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-206/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:206",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-206/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:206",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:206",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:206",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-206/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:207",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-207/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:207",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-207/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:207",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-207/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:207",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-207/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:207",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-207/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:207",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:207",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:207",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-207/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:208",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-208/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:208",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-208/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:208",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-208/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:208",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-208/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:208",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-208/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:208",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:208",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:208",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-208/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:209",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-209/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:209",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-209/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:209",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-209/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:209",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-209/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:209",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-209/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:209",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:209",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:209",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-209/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:210",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-210/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:210",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-210/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:210",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-210/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:210",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-210/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:210",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-210/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:210",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:210",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:210",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-210/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:211",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-211/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:211",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-211/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:211",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-211/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:211",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-211/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:211",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-211/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:211",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:211",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:211",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-211/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:212",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-212/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:212",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-212/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:212",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-212/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:212",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-212/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:212",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-212/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:212",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:212",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:212",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-212/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:213",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-213/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:213",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-213/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:213",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-213/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:213",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-213/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:213",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-213/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:213",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:213",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:213",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-213/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:214",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-214/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:214",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-214/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:214",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-214/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:214",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-214/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:214",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-214/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:214",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:214",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:214",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-214/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:215",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-215/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:215",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-215/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:215",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-215/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:215",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-215/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:215",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-215/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:215",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:215",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:215",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-215/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:216",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-216/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:216",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-216/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:216",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-216/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:216",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-216/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:216",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-216/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:216",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:216",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:216",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-216/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:217",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-217/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:217",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-217/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:217",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-217/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:217",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-217/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:217",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-217/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:217",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:217",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:217",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-217/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:218",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-218/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:218",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-218/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:218",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-218/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:218",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-218/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:218",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-218/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:218",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:218",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:218",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-218/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:219",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-219/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:219",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-219/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:219",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-219/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:219",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-219/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:219",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-219/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:219",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:219",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:219",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-219/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:full:220",
+      "checkpoint": "outputs/l2/cells/cladder/full/seed-220/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/full/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_identity:220",
+      "checkpoint": "outputs/l2/cells/cladder/drop_identity/seed-220/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_identity/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_idempotence:220",
+      "checkpoint": "outputs/l2/cells/cladder/drop_idempotence/seed-220/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_idempotence/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_commutation:220",
+      "checkpoint": "outputs/l2/cells/cladder/drop_commutation/seed-220/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_commutation/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:drop_selective_invariance:220",
+      "checkpoint": "outputs/l2/cells/cladder/drop_selective_invariance/seed-220/best.pt",
+      "checkpoint_sha256": "not-published",
+      "summary": "outputs/l2/cells/cladder/drop_selective_invariance/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_nothing:220",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_nothing/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:do_everything:220",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/do_everything/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    },
+    {
+      "cell_id": "l2:cladder:random_init:220",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "summary": "outputs/l2/cells/cladder/random_init/seed-220/run_summary.json",
+      "summary_sha256": "not-published",
+      "test_evaluated": false
+    }
+  ],
+  "complete": 320,
+  "manifest_sha256": "not-published",
+  "protocol": "l2_dropped_law_v1",
+  "registered": 320,
+  "rejected": {},
+  "remaining": 0,
+  "test_evaluated": false
+}

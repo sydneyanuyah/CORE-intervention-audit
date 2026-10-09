@@ -1,0 +1,20 @@
+{
+  "protocol": "f4_reader_size_v1",
+  "status": "preregistered_prelaunch",
+  "models": {
+    "base": {"checkpoint": "google-bert/bert-base-uncased", "world_size": 4},
+    "large": {"checkpoint": "google-bert/bert-large-uncased", "world_size": 8}
+  },
+  "split_layer": 4,
+  "optimization_seeds": [701,702,703,704,705,706,707,708,709,710,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725],
+  "graph_seeds": [3101,3102,3103,3104,3105,3106,3107,3108,3109,3110,3111,3112,3113,3114,3115,3116,3117,3118,3119,3120,3121,3122,3123,3124,3125],
+  "methods": ["o2", "o3"],
+  "artifacts": {"template": "${PRIVATE_STORAGE_ROOT}/CORE_f4/runs/graph_{graph_seed}", "provenance": "${PRIVATE_STORAGE_ROOT}/CORE_f4/runs/provenance.json", "provenance_sha256": "not-published"},
+  "operator": {"source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py", "source_sha256": "not-published", "rank": 16, "law_count": 4, "profile_search": false},
+  "training": {"reader_epochs": 8, "operator_steps": 500, "checkpoint_selection": "model-specific reader then final operator step"},
+  "primary": "two_edit_balanced:o3-o2_across_reader_size",
+  "experimental_unit": "graph",
+  "intervals": ["paired_graph_bootstrap_95", "paired_seed_student_t_95"],
+  "allowed_splits": ["train", "validation"],
+  "test_evaluated": false
+}

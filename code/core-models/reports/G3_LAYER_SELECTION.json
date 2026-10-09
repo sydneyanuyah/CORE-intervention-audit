@@ -1,0 +1,21 @@
+{
+  "completed_cells": 11,
+  "protocol": "g3_layer_selection_report_v1",
+  "ranked_layers": [
+    {"layer": 4, "two_edit_balanced": 0.5390918430289606},
+    {"layer": 2, "two_edit_balanced": 0.5385110419881652},
+    {"layer": 7, "two_edit_balanced": 0.5385110419881652},
+    {"layer": 8, "two_edit_balanced": 0.5385110419881652},
+    {"layer": 9, "two_edit_balanced": 0.5385110419881652},
+    {"layer": 10, "two_edit_balanced": 0.5385110419881652},
+    {"layer": 1, "two_edit_balanced": 0.5380306788496918},
+    {"layer": 5, "two_edit_balanced": 0.5379767050306334},
+    {"layer": 11, "two_edit_balanced": 0.537408574262025},
+    {"layer": 6, "two_edit_balanced": 0.5360447292187607},
+    {"layer": 3, "two_edit_balanced": 0.53555560472186}
+  ],
+  "selected_layer": 4,
+  "selection_metric": "two_edit_balanced",
+  "stage": "development_selection",
+  "test_evaluated": false
+}

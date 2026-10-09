@@ -1,0 +1,449 @@
+{
+  "amendment_path": "registry/qwen7b_cladder_cache_amendment.json",
+  "amendment_sha256": "not-published",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "equal_graph_mean_o2_minus_o3": 0.021606194982192642,
+  "evaluation_split": "validation",
+  "graph_count": 20,
+  "manifest_path": "registry/qwen7b_cladder_extension_manifest.json",
+  "manifest_sha256": "not-published",
+  "mean_o2_minus_o3": 0.027738603988603984,
+  "model_revision": "not-published",
+  "paired_graph_bootstrap_95": [
+    0.006527088622415035,
+    0.03850057617718948
+  ],
+  "paired_seed_count": 20,
+  "paired_seed_student_t_95": [
+    0.02068733340167236,
+    0.034789874575535604
+  ],
+  "per_graph_mean_delta": {
+    "cladder:model:3241": 0.04901515151515152,
+    "cladder:model:3249": 0.012209708398812618,
+    "cladder:model:3265": 0.0016086956521738972,
+    "cladder:model:3282": -0.003960180838115113,
+    "cladder:model:3359": -0.022171179883945853,
+    "cladder:model:3419": 0.022265624999999976,
+    "cladder:model:3435": 0.09903495044340113,
+    "cladder:model:3522": -0.018521739130434818,
+    "cladder:model:3527": -0.016594827586206902,
+    "cladder:model:3533": 7.216449660063518e-17,
+    "cladder:model:3534": 0.0013194444444444508,
+    "cladder:model:3569": 0.009790640394088695,
+    "cladder:model:3607": 0.025910702772404932,
+    "cladder:model:3613": 0.07247021312300721,
+    "cladder:model:3627": -0.017857142857142856,
+    "cladder:model:3732": 0.1036458333333333,
+    "cladder:model:3752": 0.06337632536793798,
+    "cladder:model:3766": 0.016818325684443736,
+    "cladder:model:3781": 0.018484848484848458,
+    "cladder:model:3836": 0.015278505325650426
+  },
+  "per_seed": [
+    {
+      "o2": 0.7633496133496134,
+      "o2_minus_o3": 0.008123049789716452,
+      "o3": 0.7552265635598969,
+      "seed": 401
+    },
+    {
+      "o2": 0.7715981549314883,
+      "o2_minus_o3": 0.04198209198209213,
+      "o3": 0.7296160629493962,
+      "seed": 402
+    },
+    {
+      "o2": 0.7714353547686881,
+      "o2_minus_o3": 0.02948039614706277,
+      "o3": 0.7419549586216253,
+      "seed": 403
+    },
+    {
+      "o2": 0.7695699362366029,
+      "o2_minus_o3": 0.034354226020892664,
+      "o3": 0.7352157102157102,
+      "seed": 404
+    },
+    {
+      "o2": 0.7651845068511736,
+      "o2_minus_o3": 0.04412901912901912,
+      "o3": 0.7210554877221544,
+      "seed": 405
+    },
+    {
+      "o2": 0.775301858635192,
+      "o2_minus_o3": 0.02959910459910453,
+      "o3": 0.7457027540360874,
+      "seed": 406
+    },
+    {
+      "o2": 0.7780965947632614,
+      "o2_minus_o3": 0.03824107990774661,
+      "o3": 0.7398555148555148,
+      "seed": 407
+    },
+    {
+      "o2": 0.7810575227241894,
+      "o2_minus_o3": 0.053574820241486965,
+      "o3": 0.7274827024827024,
+      "seed": 408
+    },
+    {
+      "o2": 0.7715201465201464,
+      "o2_minus_o3": 0.014251797585130843,
+      "o3": 0.7572683489350156,
+      "seed": 409
+    },
+    {
+      "o2": 0.7747659747659748,
+      "o2_minus_o3": 0.021431963098629714,
+      "o3": 0.753334011667345,
+      "seed": 410
+    },
+    {
+      "o2": 0.7628883462216796,
+      "o2_minus_o3": 0.02953805453805458,
+      "o3": 0.733350291683625,
+      "seed": 411
+    },
+    {
+      "o2": 0.7587132003798671,
+      "o2_minus_o3": -5.765839099169945e-05,
+      "o3": 0.7587708587708588,
+      "seed": 412
+    },
+    {
+      "o2": 0.7765296431963099,
+      "o2_minus_o3": 0.02584452584452579,
+      "o3": 0.7506851173517841,
+      "seed": 413
+    },
+    {
+      "o2": 0.7700176366843033,
+      "o2_minus_o3": 0.05704789038122371,
+      "o3": 0.7129697463030796,
+      "seed": 414
+    },
+    {
+      "o2": 0.7658289241622575,
+      "o2_minus_o3": 0.023215981549314813,
+      "o3": 0.7426129426129426,
+      "seed": 415
+    },
+    {
+      "o2": 0.7602801519468185,
+      "o2_minus_o3": 0.013224121557454782,
+      "o3": 0.7470560303893637,
+      "seed": 416
+    },
+    {
+      "o2": 0.7782458282458282,
+      "o2_minus_o3": 0.0171720255053589,
+      "o3": 0.7610738027404693,
+      "seed": 417
+    },
+    {
+      "o2": 0.7836589336589337,
+      "o2_minus_o3": 0.037786596119929516,
+      "o3": 0.7458723375390042,
+      "seed": 418
+    },
+    {
+      "o2": 0.7620811287477954,
+      "o2_minus_o3": 0.026031067697734334,
+      "o3": 0.7360500610500611,
+      "seed": 419
+    },
+    {
+      "o2": 0.7692172025505359,
+      "o2_minus_o3": 0.009801926468593125,
+      "o3": 0.7594152760819428,
+      "seed": 420
+    }
+  ],
+  "protocol": "reviewer1_f2_frozen_checkpoint_reanalysis_v1",
+  "provenance": [
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:401",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-401/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-401/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:402",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-402/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-402/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:403",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-403/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-403/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:404",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-404/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-404/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:405",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-405/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-405/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:406",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-406/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-406/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:407",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-407/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-407/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:408",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-408/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-408/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:409",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-409/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-409/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:410",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-410/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-410/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:411",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-411/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-411/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:412",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-412/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-412/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:413",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-413/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-413/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:414",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-414/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-414/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:415",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-415/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-415/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:416",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-416/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-416/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:417",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-417/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-417/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:418",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-418/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-418/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:419",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-419/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-419/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:420",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o2/seed-420/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o2/seed-420/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:401",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-401/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-401/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:402",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-402/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-402/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:403",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-403/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-403/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:404",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-404/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-404/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:405",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-405/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-405/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:406",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-406/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-406/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:407",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-407/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-407/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:408",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-408/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-408/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:409",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-409/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-409/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:410",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-410/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-410/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:411",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-411/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-411/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:412",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-412/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-412/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:413",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-413/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-413/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:414",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-414/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-414/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:415",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-415/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-415/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:416",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-416/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-416/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:417",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-417/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-417/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:418",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-418/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-418/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:419",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-419/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-419/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:420",
+      "checkpoint_path": "outputs/qwen7b-f2/cladder/o3/seed-420/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-f2/cladder/o3/seed-420/run_summary.json",
+      "metric_source_sha256": "not-published"
+    }
+  ],
+  "test_evaluated": false
+}

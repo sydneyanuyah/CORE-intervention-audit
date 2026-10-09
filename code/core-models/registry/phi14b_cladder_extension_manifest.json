@@ -1,0 +1,367 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "artifact": "${CORE_PROJECT_ROOT}/data/two_edit/cladder/artifact.json",
+  "artifact_sha256": "not-published",
+  "cells": [
+    {
+      "cell_id": "phi14b-f2:cladder:o2:401",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-401",
+      "seed": 401
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:401",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-401",
+      "seed": 401
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:402",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-402",
+      "seed": 402
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:402",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-402",
+      "seed": 402
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:403",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-403",
+      "seed": 403
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:403",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-403",
+      "seed": 403
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:404",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-404",
+      "seed": 404
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:404",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-404",
+      "seed": 404
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:405",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-405",
+      "seed": 405
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:405",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-405",
+      "seed": 405
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:406",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-406",
+      "seed": 406
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:406",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-406",
+      "seed": 406
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:407",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-407",
+      "seed": 407
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:407",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-407",
+      "seed": 407
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:408",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-408",
+      "seed": 408
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:408",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-408",
+      "seed": 408
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:409",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-409",
+      "seed": 409
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:409",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-409",
+      "seed": 409
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:410",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-410",
+      "seed": 410
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:410",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-410",
+      "seed": 410
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:411",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-411",
+      "seed": 411
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:411",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-411",
+      "seed": 411
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:412",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-412",
+      "seed": 412
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:412",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-412",
+      "seed": 412
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:413",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-413",
+      "seed": 413
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:413",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-413",
+      "seed": 413
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:414",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-414",
+      "seed": 414
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:414",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-414",
+      "seed": 414
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:415",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-415",
+      "seed": 415
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:415",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-415",
+      "seed": 415
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:416",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-416",
+      "seed": 416
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:416",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-416",
+      "seed": 416
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:417",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-417",
+      "seed": 417
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:417",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-417",
+      "seed": 417
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:418",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-418",
+      "seed": 418
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:418",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-418",
+      "seed": 418
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:419",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-419",
+      "seed": 419
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:419",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-419",
+      "seed": 419
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:420",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/phi14b-f2/cladder/o2/seed-420",
+      "seed": 420
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:420",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-f2/cladder/o3/seed-420",
+      "seed": 420
+    }
+  ],
+  "evaluation_split": "validation",
+  "feature_cache": "outputs/phi14b-f2/cache/cladder_features.pt",
+  "feature_cache_summary": "outputs/phi14b-f2/cache/cache_summary.json",
+  "feature_contract": {
+    "backbone_frozen": true,
+    "max_length": 512,
+    "pooling": "last non-padding final-layer hidden state",
+    "prompt": "factual passage followed by a fixed downstream-editing cue",
+    "quantization": "NF4 feature extraction only"
+  },
+  "inference_contract": {
+    "interval": "two-sided paired Student-t 95%",
+    "primary": "O2 minus O3 validation two_edit_balanced",
+    "secondary": [
+      "clean score versus inversion movement",
+      "each method minus do-nothing"
+    ],
+    "unit": "paired training seed"
+  },
+  "model": "microsoft/phi-4",
+  "model_config_sha256": "not-published",
+  "model_index_sha256": "not-published",
+  "model_revision": "not-published",
+  "model_snapshot": "${PRIVATE_STORAGE_ROOT}/.cache/huggingface/hub/models--microsoft--phi-4/snapshots/not-published",
+  "operator_contract": {
+    "methods": [
+      "o2",
+      "o3"
+    ],
+    "node_order": [
+      "V1",
+      "V2",
+      "V3",
+      "X",
+      "Y"
+    ],
+    "rank": 16,
+    "variable_graph_width": true
+  },
+  "pair_manifest": "${CORE_PROJECT_ROOT}/data/two_edit/cladder/manifest.jsonl",
+  "pair_manifest_sha256": "not-published",
+  "protocol": "phi4_14b_cladder_o2_o3_extension_v1",
+  "scope": [
+    "F2 composed operator comparison",
+    "inverted-command sensitivity",
+    "do-nothing floor"
+  ],
+  "seeds": [
+    401,
+    402,
+    403,
+    404,
+    405,
+    406,
+    407,
+    408,
+    409,
+    410,
+    411,
+    412,
+    413,
+    414,
+    415,
+    416,
+    417,
+    418,
+    419,
+    420
+  ],
+  "status": "preregistered_prelaunch",
+  "test_evaluated": false,
+  "training_contract": {
+    "full_batch": true,
+    "learning_rate": 0.0003,
+    "selection": "final preregistered step",
+    "steps": 1200
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "accuracy": 0.0,
+  "macro_f1": 0.0,
+  "pointer": {
+    "available": true,
+    "coverage": 1.0,
+    "eligible_count": 73,
+    "pointer_mass": 1.0,
+    "pointer_top1_accuracy": 1.0,
+    "unavailable_reason": null
+  },
+  "record_count": 73,
+  "selected_epoch": 3,
+  "source_summary": "outputs/a1-repaired/confirmatory/com2/t3b_pointer/seed-218/run_summary.json",
+  "source_summary_sha256": "not-published",
+  "target_accuracy": 0.0,
+  "test_evaluated": false,
+  "variable_accuracy": 0.0
+}

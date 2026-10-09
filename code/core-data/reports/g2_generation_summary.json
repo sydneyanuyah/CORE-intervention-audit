@@ -1,0 +1,19 @@
+{
+  "generator_seed": 271,
+  "graphs_by_split": {
+    "test": 100,
+    "train": 800,
+    "validation": 100
+  },
+  "output_sha256": "not-published",
+  "protocol": "g2_same_target_last_write_wins_v1",
+  "rows": 120000,
+  "rows_by_split": {
+    "test": 12000,
+    "train": 96000,
+    "validation": 12000
+  },
+  "split_unit": "graph_group_id",
+  "test_evaluated": false,
+  "test_rows_generated_but_not_evaluated": 12000
+}

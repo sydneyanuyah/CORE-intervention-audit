@@ -1,0 +1,81 @@
+{
+  "protocol": "a2_frozen_checkpoint_measurement_v1",
+  "registry": "registry/bert_scope.json",
+  "registry_sha256": "not-published",
+  "experiment": "A2",
+  "stage": "confirmatory_measurement",
+  "model_size": "base",
+  "mode": "t2b",
+  "world_size": 4,
+  "source": {
+    "report": "reports/A1_CONFIRMATORY.json",
+    "report_sha256": "not-published",
+    "manifest": "registry/a1_confirmatory_manifest.json",
+    "manifest_sha256": "not-published",
+    "catalog": "registry/a2_source_catalog.json",
+    "catalog_sha256": "not-published",
+    "arm": "t2b_encode_only",
+    "checkpoint_count": 100
+  },
+  "families": ["ccrgb", "cladder", "com2", "wiqa", "xor"],
+  "seeds": [
+    2026090601, 2026090602, 2026090603, 2026090604, 2026090605,
+    2026090606, 2026090607, 2026090608, 2026090609, 2026090610,
+    2026090611, 2026090612, 2026090613, 2026090614, 2026090615,
+    2026090616, 2026090617, 2026090618, 2026090619, 2026090620
+  ],
+  "controls": {
+    "t2b_editor_active": {
+      "a2_control": "active",
+      "editor_enabled": true,
+      "attention": "registered_t2b_isolation"
+    },
+    "t2b_editor_zeroed": {
+      "a2_control": "editor_zeroed",
+      "editor_enabled": false,
+      "attention": "registered_t2b_isolation"
+    },
+    "no_instruction_baseline": {
+      "a2_control": "no_instruction",
+      "editor_enabled": false,
+      "attention": "command_and_do_positions_physically_masked"
+    },
+    "prompting_baseline": {
+      "a2_control": "prompting",
+      "editor_enabled": false,
+      "attention": "ordinary_full_attention"
+    }
+  },
+  "analysis": {
+    "experimental_unit": "graph",
+    "primary": "t2b_editor_zeroed-minus-no_instruction_baseline",
+    "primary_expectation": "mechanical_equivalence",
+    "secondary": "t2b_editor_active-minus-t2b_editor_zeroed",
+    "prompting": "reported_separately",
+    "intervals": ["paired_graph_bootstrap_95", "student_t_95"]
+  },
+  "data_access": {
+    "allowed_split": "validation",
+    "held_out_test": "forbidden",
+    "final_eval": false
+  },
+  "paths": {
+    "output_template": "outputs/a2-measurement/{family}/{control}/seed-{seed}",
+    "data_root": "data",
+    "paraphrase_catalog": "data/paraphrases/structured_catalog.json",
+    "cladder_artifact": "data/two_edit/cladder/artifact.json",
+    "cladder_manifest": "data/two_edit/cladder/manifest.jsonl",
+    "wiqa_queue": "data/two_edit/wiqa/queue.jsonl",
+    "wiqa_truth": "data/two_edit/wiqa/truth.jsonl",
+    "ccrgb_artifact": "data/two_edit/ccrgb/artifact.json",
+    "ccrgb_manifest": "data/two_edit/ccrgb/manifest.jsonl",
+    "com2_queue": "data/two_edit/manual/annotation_queue.jsonl",
+    "com2_truth": "data/two_edit/manual/authoritative_manual_truth.jsonl",
+    "com2_provenance": "data/two_edit/manual/authoritative_manual_truth.provenance.json",
+    "xor_artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_{graph}",
+    "xor_manifest_template": "data/two_edit/confirmatory/xor_graph_{graph}.jsonl",
+    "xor_graphs": [3021, 3022, 3023, 3024, 3025, 3026, 3027, 3028, 3029, 3030, 3031, 3032, 3033, 3034, 3035, 3036, 3037, 3038, 3039, 3040]
+  },
+  "registered_cell_count": 400,
+  "test_evaluated": false
+}

@@ -1,0 +1,20 @@
+{
+  "protocol": "f3_causal_placebo_v1",
+  "status": "preregistered_prelaunch",
+  "models": {"base": {"checkpoint": "google-bert/bert-base-uncased", "world_size": 4}},
+  "split_layer": 4,
+  "optimization_seeds": [601,602,603,604,605,606,607,608,609,610,611,612,613,614,615,616,617,618,619,620],
+  "graph_seeds": [3081,3082,3083,3084,3085,3086,3087,3088,3089,3090,3091,3092,3093,3094,3095,3096,3097,3098,3099,3100],
+  "conditions": ["real", "placebo"],
+  "methods": ["o2", "o3"],
+  "reader_policy": "one real-trained reader shared by all four condition-method cells within seed",
+  "placebo": "fixed cyclic non-DAG target-to-support mapping matched per target on support size and rounded train-world flip count",
+  "artifacts": {"template": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_{graph_seed}", "provenance": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/provenance.json", "provenance_sha256": "not-published"},
+  "operator": {"source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py", "source_sha256": "not-published", "rank": 16, "law_count": 4, "profile_search": false},
+  "training": {"reader_epochs": 8, "operator_steps": 500, "checkpoint_selection": "shared_reader_then_final_operator_step"},
+  "primary": "causal_minus_placebo_under_shared_selection",
+  "experimental_unit": "graph",
+  "intervals": ["paired_graph_bootstrap_95", "paired_seed_student_t_95"],
+  "allowed_splits": ["train", "validation"],
+  "test_evaluated": false
+}

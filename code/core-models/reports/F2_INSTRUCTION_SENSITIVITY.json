@@ -1,0 +1,31 @@
+{
+  "allowed_splits": [
+    "validation"
+  ],
+  "completed_cells": 40,
+  "manifest_sha256": "not-published",
+  "methods": {
+    "o2": {
+      "cells": 20,
+      "changed_pair_vectors": 10920,
+      "changed_variable_decisions": 30142,
+      "mean_clean_two_edit_balanced": 0.7561974291140958,
+      "mean_inverted_two_edit_balanced_against_retained_gold": 0.2385254714421381,
+      "mean_retained_gold_accuracy_delta": -0.5176719576719576,
+      "pair_measurements": 12300,
+      "variable_decisions": 46260
+    },
+    "o3": {
+      "cells": 20,
+      "changed_pair_vectors": 9074,
+      "changed_variable_decisions": 26092,
+      "mean_clean_two_edit_balanced": 0.6270177045177044,
+      "mean_inverted_two_edit_balanced_against_retained_gold": 0.3543269230769231,
+      "mean_retained_gold_accuracy_delta": -0.2726907814407814,
+      "pair_measurements": 12300,
+      "variable_decisions": 46260
+    }
+  },
+  "protocol": "f2_cladder_inverted_instruction_positive_control_v1",
+  "test_evaluated": false
+}

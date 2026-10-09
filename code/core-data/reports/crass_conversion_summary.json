@@ -1,0 +1,12 @@
+{
+  "accepted": 0,
+  "pinned_revision": "not-published",
+  "raw_questions": 274,
+  "raw_sha256": "not-published",
+  "rejected": 274,
+  "rejection_reason_counts": {
+    "counterfactual multiple-choice item has no explicit causal graph or paired state maps": 274
+  },
+  "source": "crass",
+  "status": "evaluation-only; contract-incompatible"
+}

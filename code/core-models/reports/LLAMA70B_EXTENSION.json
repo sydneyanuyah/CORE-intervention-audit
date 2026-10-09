@@ -1,0 +1,127 @@
+{
+  "amendment_sha256": "not-published",
+  "completed_cells": 40,
+  "evaluation_split": "validation",
+  "expected_cells": 40,
+  "feature_cache_sha256": "not-published",
+  "inference_unit": "paired training seed",
+  "manifest_sha256": "not-published",
+  "metrics": {
+    "o2": {
+      "changed_pair_fraction": {
+        "mean": 0.8878048780487806,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.8878048780487806,
+          0.8878048780487806
+        ]
+      },
+      "clean_two_edit_balanced": {
+        "mean": 0.7848465269298603,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.7827625319820501,
+          0.7869305218776705
+        ]
+      },
+      "do_nothing_two_edit_balanced": {
+        "mean": 0.5279022520689187,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.5232062511406559,
+          0.5325982529971816
+        ]
+      },
+      "inversion_retained_gold_delta": {
+        "mean": -0.5356006647673315,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          -0.5389941681132928,
+          -0.5322071614213701
+        ]
+      },
+      "inverted_two_edit_balanced": {
+        "mean": 0.2492458621625288,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.24646937196309343,
+          0.2520223523619642
+        ]
+      },
+      "operator_parameter_count": 352256
+    },
+    "o3": {
+      "changed_pair_fraction": {
+        "mean": 0.900650406504065,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.8971683188865405,
+          0.9041324941215896
+        ]
+      },
+      "clean_two_edit_balanced": {
+        "mean": 0.7602899877899878,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.7514003158337808,
+          0.7691796597461948
+        ]
+      },
+      "do_nothing_two_edit_balanced": {
+        "mean": 0.5041361416361416,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.49701515400324237,
+          0.5112571292690409
+        ]
+      },
+      "inversion_retained_gold_delta": {
+        "mean": -0.47491368199701534,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          -0.4904285065743444,
+          -0.4593988574196863
+        ]
+      },
+      "inverted_two_edit_balanced": {
+        "mean": 0.28537630579297246,
+        "n_paired_seeds": 20,
+        "student_t_95": [
+          0.2770952261212331,
+          0.2936573854647118
+        ]
+      },
+      "operator_parameter_count": 134709248
+    }
+  },
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "model_revision": "not-published",
+  "paired_contrasts": {
+    "o2_minus_o3_changed_pair_fraction": {
+      "mean": -0.012845528455284532,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        -0.016327616072809133,
+        -0.009363440837759932
+      ]
+    },
+    "o2_minus_o3_clean": {
+      "mean": 0.02455653913987248,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        0.015914182606821963,
+        0.033198895672923
+      ]
+    },
+    "o2_minus_o3_inversion_drop": {
+      "mean": -0.060686982770316124,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        -0.07586897085591741,
+        -0.04550499468471483
+      ]
+    }
+  },
+  "protocol": "llama3_3_70b_cladder_o2_o3_extension_v1",
+  "test_evaluated": false
+}

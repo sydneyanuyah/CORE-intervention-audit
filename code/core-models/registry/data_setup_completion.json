@@ -1,0 +1,17 @@
+{
+  "protocol": "core_23_experiment_data_setup_v1",
+  "status": "all_required_datasets_present",
+  "core_data_repository": "${USER_HOME}/Documents/core-data",
+  "artifacts": {
+    "C1": {"summary": "reports/c1_controls_summary.json", "summary_sha256": "not-published", "rows": 93600, "graphs": 20},
+    "C2": {"summary": "reports/c2_floor_suite_summary.json", "summary_sha256": "not-published", "rows": 7200, "graphs": 20},
+    "T2": {"summary": "reports/csuite_t2_t4_generation_summary.json", "summary_sha256": "not-published", "rows": 15000, "sem_families": 15},
+    "T4": {"summary": "reports/csuite_t2_t4_generation_summary.json", "summary_sha256": "not-published", "rows": 45000, "sem_families": 15},
+    "T5": {"summary": "reports/t5_native_suite_summary.json", "summary_sha256": "not-published", "rows": 5050, "generated_held_out_rows": 590},
+    "G2": {"summary": "reports/g2_generation_summary.json", "summary_sha256": "not-published", "rows": 120000, "graphs": 1000},
+    "G4": {"summary": "reports/g4_evidence_inference_summary.json", "summary_sha256": "not-published", "valid_doctor_annotations": 4077, "adjudicated_prompts": 2141, "articles": 817}
+  },
+  "generated_rows_excluding_g4_aggregates": 289927,
+  "released_held_out_members_opened": false,
+  "test_evaluated": false
+}

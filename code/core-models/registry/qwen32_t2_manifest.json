@@ -1,0 +1,323 @@
+{
+  "backbone_frozen": true,
+  "cells": [
+    {
+      "cell_id": "qwen32-t2:baseline:701",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-701",
+      "seed": 701
+    },
+    {
+      "cell_id": "qwen32-t2:o3:701",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-701",
+      "seed": 701
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:702",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-702",
+      "seed": 702
+    },
+    {
+      "cell_id": "qwen32-t2:o3:702",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-702",
+      "seed": 702
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:703",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-703",
+      "seed": 703
+    },
+    {
+      "cell_id": "qwen32-t2:o3:703",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-703",
+      "seed": 703
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:704",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-704",
+      "seed": 704
+    },
+    {
+      "cell_id": "qwen32-t2:o3:704",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-704",
+      "seed": 704
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:705",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-705",
+      "seed": 705
+    },
+    {
+      "cell_id": "qwen32-t2:o3:705",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-705",
+      "seed": 705
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:706",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-706",
+      "seed": 706
+    },
+    {
+      "cell_id": "qwen32-t2:o3:706",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-706",
+      "seed": 706
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:707",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-707",
+      "seed": 707
+    },
+    {
+      "cell_id": "qwen32-t2:o3:707",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-707",
+      "seed": 707
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:708",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-708",
+      "seed": 708
+    },
+    {
+      "cell_id": "qwen32-t2:o3:708",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-708",
+      "seed": 708
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:709",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-709",
+      "seed": 709
+    },
+    {
+      "cell_id": "qwen32-t2:o3:709",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-709",
+      "seed": 709
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:710",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-710",
+      "seed": 710
+    },
+    {
+      "cell_id": "qwen32-t2:o3:710",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-710",
+      "seed": 710
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:711",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-711",
+      "seed": 711
+    },
+    {
+      "cell_id": "qwen32-t2:o3:711",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-711",
+      "seed": 711
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:712",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-712",
+      "seed": 712
+    },
+    {
+      "cell_id": "qwen32-t2:o3:712",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-712",
+      "seed": 712
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:713",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-713",
+      "seed": 713
+    },
+    {
+      "cell_id": "qwen32-t2:o3:713",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-713",
+      "seed": 713
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:714",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-714",
+      "seed": 714
+    },
+    {
+      "cell_id": "qwen32-t2:o3:714",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-714",
+      "seed": 714
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:715",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-715",
+      "seed": 715
+    },
+    {
+      "cell_id": "qwen32-t2:o3:715",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-715",
+      "seed": 715
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:716",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-716",
+      "seed": 716
+    },
+    {
+      "cell_id": "qwen32-t2:o3:716",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-716",
+      "seed": 716
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:717",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-717",
+      "seed": 717
+    },
+    {
+      "cell_id": "qwen32-t2:o3:717",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-717",
+      "seed": 717
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:718",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-718",
+      "seed": 718
+    },
+    {
+      "cell_id": "qwen32-t2:o3:718",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-718",
+      "seed": 718
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:719",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-719",
+      "seed": 719
+    },
+    {
+      "cell_id": "qwen32-t2:o3:719",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-719",
+      "seed": 719
+    },
+    {
+      "cell_id": "qwen32-t2:baseline:720",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen32-t2/baseline/seed-720",
+      "seed": 720
+    },
+    {
+      "cell_id": "qwen32-t2:o3:720",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-t2/o3/seed-720",
+      "seed": 720
+    }
+  ],
+  "data": "${CORE_PROJECT_ROOT}/data/qwen32/t2.jsonl",
+  "data_sha256": "not-published",
+  "evaluation_split": "validation",
+  "feature_shards": 1,
+  "methods": [
+    "baseline",
+    "o3"
+  ],
+  "model": "Qwen/Qwen2.5-32B-Instruct",
+  "model_revision": "not-published",
+  "model_snapshot": "${PRIVATE_STORAGE_ROOT}/hf_cache/models--Qwen--Qwen2.5-32B-Instruct/snapshots/not-published",
+  "protocol": "qwen2_5_32b_t2_frozen_feature_v1",
+  "seeds": [
+    701,
+    702,
+    703,
+    704,
+    705,
+    706,
+    707,
+    708,
+    709,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    717,
+    718,
+    719,
+    720
+  ],
+  "task": "t2",
+  "test_evaluated": false,
+  "train_rows": 12000,
+  "validation_rows": 3000
+}

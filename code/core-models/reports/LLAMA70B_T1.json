@@ -1,0 +1,36 @@
+{
+  "completed_cells": 40,
+  "evaluation_split": "validation",
+  "expected_cells": 40,
+  "paired_contrasts": {
+    "o2_minus_o3_changed_pair_fraction": {
+      "mean": -0.012845528455284532,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        -0.016327616072809133,
+        -0.009363440837759932
+      ]
+    },
+    "o2_minus_o3_clean": {
+      "mean": 0.02455653913987248,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        0.015914182606821963,
+        0.033198895672923
+      ]
+    },
+    "o2_minus_o3_inversion_drop": {
+      "mean": -0.060686982770316124,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        -0.07586897085591741,
+        -0.04550499468471483
+      ]
+    }
+  },
+  "protocol": "llama3_3_70b_t1_derived_from_f2_v1",
+  "scope": "F2 composed-pair transfer derivation",
+  "source_manifest_sha256": "not-published",
+  "source_report": "reports/LLAMA70B_EXTENSION.json",
+  "test_evaluated": false
+}

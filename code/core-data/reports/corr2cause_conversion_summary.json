@@ -1,0 +1,12 @@
+{
+  "accepted": 0,
+  "pinned_revision": "not-published",
+  "raw_questions": 2246,
+  "raw_sha256": "not-published",
+  "rejected": 2246,
+  "rejection_reason_counts": {
+    "correlation-to-causal-relation classification has no intervention or paired world states": 2246
+  },
+  "source": "corr2cause",
+  "status": "contract-incompatible"
+}

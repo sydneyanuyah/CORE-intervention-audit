@@ -1,0 +1,6369 @@
+{
+  "completed_cells": 120,
+  "evaluation_split": "validation",
+  "expected_cells": 120,
+  "protocol": "qwen2_5_32b_a1_aggregate_v1",
+  "results": [
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.5814714431762695,
+          "step": 1
+        },
+        {
+          "loss": 0.4634069800376892,
+          "step": 200
+        },
+        {
+          "loss": 0.4782404601573944,
+          "step": 400
+        },
+        {
+          "loss": 0.4627832770347595,
+          "step": 600
+        },
+        {
+          "loss": 0.4155969023704529,
+          "step": 800
+        },
+        {
+          "loss": 0.4710342288017273,
+          "step": 1000
+        },
+        {
+          "loss": 0.4101589024066925,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5247429609298706,
+        "change_accuracy": 0.42578125,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.6237046718597412,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.5536661148071289,
+          "step": 1
+        },
+        {
+          "loss": 0.4374334216117859,
+          "step": 200
+        },
+        {
+          "loss": 0.4239005446434021,
+          "step": 400
+        },
+        {
+          "loss": 0.4557431936264038,
+          "step": 600
+        },
+        {
+          "loss": 0.42614495754241943,
+          "step": 800
+        },
+        {
+          "loss": 0.38784104585647583,
+          "step": 1000
+        },
+        {
+          "loss": 0.39314714074134827,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5129024982452393,
+        "change_accuracy": 0.4994252920150757,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.5263797044754028,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.5822434425354004,
+          "step": 1
+        },
+        {
+          "loss": 0.48735493421554565,
+          "step": 200
+        },
+        {
+          "loss": 0.4151449501514435,
+          "step": 400
+        },
+        {
+          "loss": 0.47796830534935,
+          "step": 600
+        },
+        {
+          "loss": 0.3921378254890442,
+          "step": 800
+        },
+        {
+          "loss": 0.4277111291885376,
+          "step": 1000
+        },
+        {
+          "loss": 0.43715566396713257,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5290322452783585,
+        "change_accuracy": 0.4166666567325592,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.6413978338241577,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.5177875757217407,
+          "step": 1
+        },
+        {
+          "loss": 0.5033575296401978,
+          "step": 200
+        },
+        {
+          "loss": 0.5122602581977844,
+          "step": 400
+        },
+        {
+          "loss": 0.4425942301750183,
+          "step": 600
+        },
+        {
+          "loss": 0.4892900586128235,
+          "step": 800
+        },
+        {
+          "loss": 0.4529627561569214,
+          "step": 1000
+        },
+        {
+          "loss": 0.4279922842979431,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5086954683065414,
+        "change_accuracy": 0.44802865386009216,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5693622827529907,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.580388605594635,
+          "step": 1
+        },
+        {
+          "loss": 0.44186586141586304,
+          "step": 200
+        },
+        {
+          "loss": 0.4636419415473938,
+          "step": 400
+        },
+        {
+          "loss": 0.4112453758716583,
+          "step": 600
+        },
+        {
+          "loss": 0.43818873167037964,
+          "step": 800
+        },
+        {
+          "loss": 0.4179467558860779,
+          "step": 1000
+        },
+        {
+          "loss": 0.403074711561203,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5384520888328552,
+        "change_accuracy": 0.34391534328460693,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.7329888343811035,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.5658698081970215,
+          "step": 1
+        },
+        {
+          "loss": 0.4581226110458374,
+          "step": 200
+        },
+        {
+          "loss": 0.48741859197616577,
+          "step": 400
+        },
+        {
+          "loss": 0.3712994456291199,
+          "step": 600
+        },
+        {
+          "loss": 0.4148128926753998,
+          "step": 800
+        },
+        {
+          "loss": 0.3971659541130066,
+          "step": 1000
+        },
+        {
+          "loss": 0.3858895003795624,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5198532789945602,
+        "change_accuracy": 0.3950381577014923,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.6446684002876282,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.5555303692817688,
+          "step": 1
+        },
+        {
+          "loss": 0.4662171006202698,
+          "step": 200
+        },
+        {
+          "loss": 0.4932541251182556,
+          "step": 400
+        },
+        {
+          "loss": 0.4042592942714691,
+          "step": 600
+        },
+        {
+          "loss": 0.4246803820133209,
+          "step": 800
+        },
+        {
+          "loss": 0.36947232484817505,
+          "step": 1000
+        },
+        {
+          "loss": 0.4319170415401459,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5358626246452332,
+        "change_accuracy": 0.3181159496307373,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.753609299659729,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.5961859226226807,
+          "step": 1
+        },
+        {
+          "loss": 0.42601293325424194,
+          "step": 200
+        },
+        {
+          "loss": 0.4204501509666443,
+          "step": 400
+        },
+        {
+          "loss": 0.4187878966331482,
+          "step": 600
+        },
+        {
+          "loss": 0.39990299940109253,
+          "step": 800
+        },
+        {
+          "loss": 0.4139748811721802,
+          "step": 1000
+        },
+        {
+          "loss": 0.38667717576026917,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5415886342525482,
+        "change_accuracy": 0.40977442264556885,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.6734028458595276,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.5958014726638794,
+          "step": 1
+        },
+        {
+          "loss": 0.4954111576080322,
+          "step": 200
+        },
+        {
+          "loss": 0.45418065786361694,
+          "step": 400
+        },
+        {
+          "loss": 0.4497850239276886,
+          "step": 600
+        },
+        {
+          "loss": 0.4506930708885193,
+          "step": 800
+        },
+        {
+          "loss": 0.3695330321788788,
+          "step": 1000
+        },
+        {
+          "loss": 0.4246296286582947,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5271708220243454,
+        "change_accuracy": 0.4795539081096649,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.5747877359390259,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.5921250581741333,
+          "step": 1
+        },
+        {
+          "loss": 0.4830077886581421,
+          "step": 200
+        },
+        {
+          "loss": 0.4314887225627899,
+          "step": 400
+        },
+        {
+          "loss": 0.44968199729919434,
+          "step": 600
+        },
+        {
+          "loss": 0.39925289154052734,
+          "step": 800
+        },
+        {
+          "loss": 0.36769163608551025,
+          "step": 1000
+        },
+        {
+          "loss": 0.39701956510543823,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5149220079183578,
+        "change_accuracy": 0.5305084586143494,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.49933555722236633,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.6141273975372314,
+          "step": 1
+        },
+        {
+          "loss": 0.4231370687484741,
+          "step": 200
+        },
+        {
+          "loss": 0.41210731863975525,
+          "step": 400
+        },
+        {
+          "loss": 0.34715837240219116,
+          "step": 600
+        },
+        {
+          "loss": 0.41093799471855164,
+          "step": 800
+        },
+        {
+          "loss": 0.4236038625240326,
+          "step": 1000
+        },
+        {
+          "loss": 0.3675961494445801,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5356507301330566,
+        "change_accuracy": 0.4825511574745178,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.5887503027915955,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.5556297302246094,
+          "step": 1
+        },
+        {
+          "loss": 0.42850035429000854,
+          "step": 200
+        },
+        {
+          "loss": 0.4428047239780426,
+          "step": 400
+        },
+        {
+          "loss": 0.42918309569358826,
+          "step": 600
+        },
+        {
+          "loss": 0.42052367329597473,
+          "step": 800
+        },
+        {
+          "loss": 0.38124480843544006,
+          "step": 1000
+        },
+        {
+          "loss": 0.4349428713321686,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5306935608386993,
+        "change_accuracy": 0.5402494668960571,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.5211376547813416,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.5747627019882202,
+          "step": 1
+        },
+        {
+          "loss": 0.48854097723960876,
+          "step": 200
+        },
+        {
+          "loss": 0.4777342975139618,
+          "step": 400
+        },
+        {
+          "loss": 0.4893120229244232,
+          "step": 600
+        },
+        {
+          "loss": 0.40951985120773315,
+          "step": 800
+        },
+        {
+          "loss": 0.4370412230491638,
+          "step": 1000
+        },
+        {
+          "loss": 0.4779548645019531,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5213573127985001,
+        "change_accuracy": 0.43065693974494934,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.6120576858520508,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.5797416567802429,
+          "step": 1
+        },
+        {
+          "loss": 0.43234682083129883,
+          "step": 200
+        },
+        {
+          "loss": 0.5165377855300903,
+          "step": 400
+        },
+        {
+          "loss": 0.43205663561820984,
+          "step": 600
+        },
+        {
+          "loss": 0.4412301480770111,
+          "step": 800
+        },
+        {
+          "loss": 0.40554487705230713,
+          "step": 1000
+        },
+        {
+          "loss": 0.42055946588516235,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5100894868373871,
+        "change_accuracy": 0.5006536245346069,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5195253491401672,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.5591119527816772,
+          "step": 1
+        },
+        {
+          "loss": 0.47483742237091064,
+          "step": 200
+        },
+        {
+          "loss": 0.45830461382865906,
+          "step": 400
+        },
+        {
+          "loss": 0.4078289270401001,
+          "step": 600
+        },
+        {
+          "loss": 0.42948493361473083,
+          "step": 800
+        },
+        {
+          "loss": 0.4363774061203003,
+          "step": 1000
+        },
+        {
+          "loss": 0.3793397545814514,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5108331739902496,
+        "change_accuracy": 0.374176561832428,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.6474897861480713,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.5809915065765381,
+          "step": 1
+        },
+        {
+          "loss": 0.4706401824951172,
+          "step": 200
+        },
+        {
+          "loss": 0.42124685645103455,
+          "step": 400
+        },
+        {
+          "loss": 0.4340250492095947,
+          "step": 600
+        },
+        {
+          "loss": 0.4192940592765808,
+          "step": 800
+        },
+        {
+          "loss": 0.39544981718063354,
+          "step": 1000
+        },
+        {
+          "loss": 0.389892041683197,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5286855697631836,
+        "change_accuracy": 0.3820987939834595,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.6752723455429077,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.6044958829879761,
+          "step": 1
+        },
+        {
+          "loss": 0.4656961262226105,
+          "step": 200
+        },
+        {
+          "loss": 0.4390212297439575,
+          "step": 400
+        },
+        {
+          "loss": 0.41593611240386963,
+          "step": 600
+        },
+        {
+          "loss": 0.43463316559791565,
+          "step": 800
+        },
+        {
+          "loss": 0.3925670385360718,
+          "step": 1000
+        },
+        {
+          "loss": 0.43822965025901794,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5306204408407211,
+        "change_accuracy": 0.47390273213386536,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.5873381495475769,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.6269633173942566,
+          "step": 1
+        },
+        {
+          "loss": 0.4686102271080017,
+          "step": 200
+        },
+        {
+          "loss": 0.42353373765945435,
+          "step": 400
+        },
+        {
+          "loss": 0.41428110003471375,
+          "step": 600
+        },
+        {
+          "loss": 0.3834873139858246,
+          "step": 800
+        },
+        {
+          "loss": 0.3867277503013611,
+          "step": 1000
+        },
+        {
+          "loss": 0.43941742181777954,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5253326892852783,
+        "change_accuracy": 0.508465588092804,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.5421997904777527,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.5642606019973755,
+          "step": 1
+        },
+        {
+          "loss": 0.4910441040992737,
+          "step": 200
+        },
+        {
+          "loss": 0.48241209983825684,
+          "step": 400
+        },
+        {
+          "loss": 0.49555033445358276,
+          "step": 600
+        },
+        {
+          "loss": 0.4779818058013916,
+          "step": 800
+        },
+        {
+          "loss": 0.4039875864982605,
+          "step": 1000
+        },
+        {
+          "loss": 0.43343713879585266,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5327357947826385,
+        "change_accuracy": 0.4967948794364929,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.5686767101287842,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "qwen32-a1:xor:t0_no_instruction:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.5498657822608948,
+          "step": 1
+        },
+        {
+          "loss": 0.4693891108036041,
+          "step": 200
+        },
+        {
+          "loss": 0.48088088631629944,
+          "step": 400
+        },
+        {
+          "loss": 0.4612244963645935,
+          "step": 600
+        },
+        {
+          "loss": 0.5042245388031006,
+          "step": 800
+        },
+        {
+          "loss": 0.4262712001800537,
+          "step": 1000
+        },
+        {
+          "loss": 0.44393688440322876,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 317500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.4937562495470047,
+        "change_accuracy": 0.44487181305885315,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.5426406860351562,
+        "preservation_decisions": 9240
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.5794922113418579,
+          "step": 1
+        },
+        {
+          "loss": 0.3914181590080261,
+          "step": 200
+        },
+        {
+          "loss": 0.4231009781360626,
+          "step": 400
+        },
+        {
+          "loss": 0.37563925981521606,
+          "step": 600
+        },
+        {
+          "loss": 0.35067909955978394,
+          "step": 800
+        },
+        {
+          "loss": 0.3687032461166382,
+          "step": 1000
+        },
+        {
+          "loss": 0.33979490399360657,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5420917123556137,
+        "change_accuracy": 0.4973958432674408,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.5867875814437866,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.5577145218849182,
+          "step": 1
+        },
+        {
+          "loss": 0.41215306520462036,
+          "step": 200
+        },
+        {
+          "loss": 0.37961137294769287,
+          "step": 400
+        },
+        {
+          "loss": 0.39807194471359253,
+          "step": 600
+        },
+        {
+          "loss": 0.3714517056941986,
+          "step": 800
+        },
+        {
+          "loss": 0.32273805141448975,
+          "step": 1000
+        },
+        {
+          "loss": 0.34189075231552124,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.48591573536396027,
+        "change_accuracy": 0.4994252920150757,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.47240617871284485,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.5869415998458862,
+          "step": 1
+        },
+        {
+          "loss": 0.4023888111114502,
+          "step": 200
+        },
+        {
+          "loss": 0.36059075593948364,
+          "step": 400
+        },
+        {
+          "loss": 0.4022667407989502,
+          "step": 600
+        },
+        {
+          "loss": 0.3203951418399811,
+          "step": 800
+        },
+        {
+          "loss": 0.34185144305229187,
+          "step": 1000
+        },
+        {
+          "loss": 0.3321753740310669,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.588978499174118,
+        "change_accuracy": 0.5766666531562805,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.6012903451919556,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.5206747055053711,
+          "step": 1
+        },
+        {
+          "loss": 0.46101680397987366,
+          "step": 200
+        },
+        {
+          "loss": 0.4707217216491699,
+          "step": 400
+        },
+        {
+          "loss": 0.43227770924568176,
+          "step": 600
+        },
+        {
+          "loss": 0.45694541931152344,
+          "step": 800
+        },
+        {
+          "loss": 0.4155570864677429,
+          "step": 1000
+        },
+        {
+          "loss": 0.40129950642585754,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5193668603897095,
+        "change_accuracy": 0.5125448107719421,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5261889100074768,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.5768429040908813,
+          "step": 1
+        },
+        {
+          "loss": 0.3582155108451843,
+          "step": 200
+        },
+        {
+          "loss": 0.3584604859352112,
+          "step": 400
+        },
+        {
+          "loss": 0.32538968324661255,
+          "step": 600
+        },
+        {
+          "loss": 0.33521854877471924,
+          "step": 800
+        },
+        {
+          "loss": 0.3260608911514282,
+          "step": 1000
+        },
+        {
+          "loss": 0.30347365140914917,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6044127643108368,
+        "change_accuracy": 0.5350528955459595,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.6737726330757141,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.5595051050186157,
+          "step": 1
+        },
+        {
+          "loss": 0.41611388325691223,
+          "step": 200
+        },
+        {
+          "loss": 0.4244137108325958,
+          "step": 400
+        },
+        {
+          "loss": 0.35271501541137695,
+          "step": 600
+        },
+        {
+          "loss": 0.36213043332099915,
+          "step": 800
+        },
+        {
+          "loss": 0.34642210602760315,
+          "step": 1000
+        },
+        {
+          "loss": 0.3311939239501953,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5418234169483185,
+        "change_accuracy": 0.48091602325439453,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.6027308106422424,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.5542197227478027,
+          "step": 1
+        },
+        {
+          "loss": 0.37658917903900146,
+          "step": 200
+        },
+        {
+          "loss": 0.3733982443809509,
+          "step": 400
+        },
+        {
+          "loss": 0.3142252266407013,
+          "step": 600
+        },
+        {
+          "loss": 0.3233151137828827,
+          "step": 800
+        },
+        {
+          "loss": 0.28182005882263184,
+          "step": 1000
+        },
+        {
+          "loss": 0.30940234661102295,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6370719075202942,
+        "change_accuracy": 0.5231884121894836,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.7509554028511047,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.5907930135726929,
+          "step": 1
+        },
+        {
+          "loss": 0.36079084873199463,
+          "step": 200
+        },
+        {
+          "loss": 0.3714193105697632,
+          "step": 400
+        },
+        {
+          "loss": 0.33175045251846313,
+          "step": 600
+        },
+        {
+          "loss": 0.32259851694107056,
+          "step": 800
+        },
+        {
+          "loss": 0.33794623613357544,
+          "step": 1000
+        },
+        {
+          "loss": 0.3044165074825287,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5764051675796509,
+        "change_accuracy": 0.4987468719482422,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.6540634632110596,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.5982075929641724,
+          "step": 1
+        },
+        {
+          "loss": 0.44983887672424316,
+          "step": 200
+        },
+        {
+          "loss": 0.4084971845149994,
+          "step": 400
+        },
+        {
+          "loss": 0.41014641523361206,
+          "step": 600
+        },
+        {
+          "loss": 0.4045501947402954,
+          "step": 800
+        },
+        {
+          "loss": 0.322420597076416,
+          "step": 1000
+        },
+        {
+          "loss": 0.37875300645828247,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5498526096343994,
+        "change_accuracy": 0.5223048329353333,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.5774003863334656,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.5929070711135864,
+          "step": 1
+        },
+        {
+          "loss": 0.43889981508255005,
+          "step": 200
+        },
+        {
+          "loss": 0.3842376172542572,
+          "step": 400
+        },
+        {
+          "loss": 0.39266306161880493,
+          "step": 600
+        },
+        {
+          "loss": 0.3477024734020233,
+          "step": 800
+        },
+        {
+          "loss": 0.3266139626502991,
+          "step": 1000
+        },
+        {
+          "loss": 0.34004223346710205,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.524736762046814,
+        "change_accuracy": 0.5485875606536865,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.5008859634399414,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.6148918271064758,
+          "step": 1
+        },
+        {
+          "loss": 0.3578075170516968,
+          "step": 200
+        },
+        {
+          "loss": 0.3688664138317108,
+          "step": 400
+        },
+        {
+          "loss": 0.2884226441383362,
+          "step": 600
+        },
+        {
+          "loss": 0.3239099383354187,
+          "step": 800
+        },
+        {
+          "loss": 0.33133113384246826,
+          "step": 1000
+        },
+        {
+          "loss": 0.2919393479824066,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5684411525726318,
+        "change_accuracy": 0.55655837059021,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.5803239345550537,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.5539902448654175,
+          "step": 1
+        },
+        {
+          "loss": 0.4094657897949219,
+          "step": 200
+        },
+        {
+          "loss": 0.4010932743549347,
+          "step": 400
+        },
+        {
+          "loss": 0.4010840058326721,
+          "step": 600
+        },
+        {
+          "loss": 0.37732234597206116,
+          "step": 800
+        },
+        {
+          "loss": 0.34765371680259705,
+          "step": 1000
+        },
+        {
+          "loss": 0.3834843635559082,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5019988119602203,
+        "change_accuracy": 0.5005668997764587,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.5034307241439819,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.5766213536262512,
+          "step": 1
+        },
+        {
+          "loss": 0.43486303091049194,
+          "step": 200
+        },
+        {
+          "loss": 0.4303845465183258,
+          "step": 400
+        },
+        {
+          "loss": 0.4380704164505005,
+          "step": 600
+        },
+        {
+          "loss": 0.38254958391189575,
+          "step": 800
+        },
+        {
+          "loss": 0.391549289226532,
+          "step": 1000
+        },
+        {
+          "loss": 0.4097438454627991,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5354875028133392,
+        "change_accuracy": 0.5030413866043091,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.5679336190223694,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.5789141654968262,
+          "step": 1
+        },
+        {
+          "loss": 0.3884199559688568,
+          "step": 200
+        },
+        {
+          "loss": 0.43661239743232727,
+          "step": 400
+        },
+        {
+          "loss": 0.3682056665420532,
+          "step": 600
+        },
+        {
+          "loss": 0.39202457666397095,
+          "step": 800
+        },
+        {
+          "loss": 0.3440568745136261,
+          "step": 1000
+        },
+        {
+          "loss": 0.3494088053703308,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5294910967350006,
+        "change_accuracy": 0.530718982219696,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5282632112503052,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.5579640865325928,
+          "step": 1
+        },
+        {
+          "loss": 0.43380028009414673,
+          "step": 200
+        },
+        {
+          "loss": 0.40378183126449585,
+          "step": 400
+        },
+        {
+          "loss": 0.35851508378982544,
+          "step": 600
+        },
+        {
+          "loss": 0.3875265419483185,
+          "step": 800
+        },
+        {
+          "loss": 0.36901769042015076,
+          "step": 1000
+        },
+        {
+          "loss": 0.31087547540664673,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5471408367156982,
+        "change_accuracy": 0.46047431230545044,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.633807361125946,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.5811867713928223,
+          "step": 1
+        },
+        {
+          "loss": 0.39490318298339844,
+          "step": 200
+        },
+        {
+          "loss": 0.36621466279029846,
+          "step": 400
+        },
+        {
+          "loss": 0.3556016981601715,
+          "step": 600
+        },
+        {
+          "loss": 0.360092431306839,
+          "step": 800
+        },
+        {
+          "loss": 0.32657140493392944,
+          "step": 1000
+        },
+        {
+          "loss": 0.32906174659729004,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.57447350025177,
+        "change_accuracy": 0.5364197492599487,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.6125272512435913,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.596495509147644,
+          "step": 1
+        },
+        {
+          "loss": 0.4374719262123108,
+          "step": 200
+        },
+        {
+          "loss": 0.4117605686187744,
+          "step": 400
+        },
+        {
+          "loss": 0.3894464373588562,
+          "step": 600
+        },
+        {
+          "loss": 0.3872181177139282,
+          "step": 800
+        },
+        {
+          "loss": 0.36971208453178406,
+          "step": 1000
+        },
+        {
+          "loss": 0.40349310636520386,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5175196826457977,
+        "change_accuracy": 0.49466192722320557,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.5403774380683899,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.6253805160522461,
+          "step": 1
+        },
+        {
+          "loss": 0.4166276454925537,
+          "step": 200
+        },
+        {
+          "loss": 0.3969424366950989,
+          "step": 400
+        },
+        {
+          "loss": 0.39457809925079346,
+          "step": 600
+        },
+        {
+          "loss": 0.362084299325943,
+          "step": 800
+        },
+        {
+          "loss": 0.3629329204559326,
+          "step": 1000
+        },
+        {
+          "loss": 0.4050722122192383,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5037037134170532,
+        "change_accuracy": 0.5,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.5074074268341064,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.5604943037033081,
+          "step": 1
+        },
+        {
+          "loss": 0.4226101338863373,
+          "step": 200
+        },
+        {
+          "loss": 0.405459463596344,
+          "step": 400
+        },
+        {
+          "loss": 0.4042333662509918,
+          "step": 600
+        },
+        {
+          "loss": 0.3828504681587219,
+          "step": 800
+        },
+        {
+          "loss": 0.3362467885017395,
+          "step": 1000
+        },
+        {
+          "loss": 0.34098494052886963,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5683183670043945,
+        "change_accuracy": 0.5528846383094788,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.5837520956993103,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "qwen32-a1:xor:t1_text:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.5504510402679443,
+          "step": 1
+        },
+        {
+          "loss": 0.43258965015411377,
+          "step": 200
+        },
+        {
+          "loss": 0.4328785836696625,
+          "step": 400
+        },
+        {
+          "loss": 0.41595375537872314,
+          "step": 600
+        },
+        {
+          "loss": 0.4530169367790222,
+          "step": 800
+        },
+        {
+          "loss": 0.3729862570762634,
+          "step": 1000
+        },
+        {
+          "loss": 0.38704898953437805,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 624700,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5140068531036377,
+        "change_accuracy": 0.509615421295166,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.5183982849121094,
+        "preservation_decisions": 9240
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.5814714431762695,
+          "step": 1
+        },
+        {
+          "loss": 0.46033143997192383,
+          "step": 200
+        },
+        {
+          "loss": 0.4756832718849182,
+          "step": 400
+        },
+        {
+          "loss": 0.4594803750514984,
+          "step": 600
+        },
+        {
+          "loss": 0.41464537382125854,
+          "step": 800
+        },
+        {
+          "loss": 0.4678725004196167,
+          "step": 1000
+        },
+        {
+          "loss": 0.40384477376937866,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5389866083860397,
+        "change_accuracy": 0.4446614682674408,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.6333117485046387,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.5536661148071289,
+          "step": 1
+        },
+        {
+          "loss": 0.4366377294063568,
+          "step": 200
+        },
+        {
+          "loss": 0.4219714403152466,
+          "step": 400
+        },
+        {
+          "loss": 0.45711687207221985,
+          "step": 600
+        },
+        {
+          "loss": 0.4236982464790344,
+          "step": 800
+        },
+        {
+          "loss": 0.38489264249801636,
+          "step": 1000
+        },
+        {
+          "loss": 0.39345473051071167,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5135875642299652,
+        "change_accuracy": 0.5005747079849243,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.5266004204750061,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.5822434425354004,
+          "step": 1
+        },
+        {
+          "loss": 0.484919935464859,
+          "step": 200
+        },
+        {
+          "loss": 0.4105289578437805,
+          "step": 400
+        },
+        {
+          "loss": 0.47368696331977844,
+          "step": 600
+        },
+        {
+          "loss": 0.3875572085380554,
+          "step": 800
+        },
+        {
+          "loss": 0.4249917268753052,
+          "step": 1000
+        },
+        {
+          "loss": 0.44002506136894226,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.533935472369194,
+        "change_accuracy": 0.43066665530204773,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.6372042894363403,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.5177875757217407,
+          "step": 1
+        },
+        {
+          "loss": 0.5036705732345581,
+          "step": 200
+        },
+        {
+          "loss": 0.5083956122398376,
+          "step": 400
+        },
+        {
+          "loss": 0.43764132261276245,
+          "step": 600
+        },
+        {
+          "loss": 0.48323020339012146,
+          "step": 800
+        },
+        {
+          "loss": 0.44692134857177734,
+          "step": 1000
+        },
+        {
+          "loss": 0.4106404781341553,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5186281055212021,
+        "change_accuracy": 0.4814814627170563,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5557747483253479,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.580388605594635,
+          "step": 1
+        },
+        {
+          "loss": 0.4412311911582947,
+          "step": 200
+        },
+        {
+          "loss": 0.4616764187812805,
+          "step": 400
+        },
+        {
+          "loss": 0.40942418575286865,
+          "step": 600
+        },
+        {
+          "loss": 0.4399528205394745,
+          "step": 800
+        },
+        {
+          "loss": 0.41794145107269287,
+          "step": 1000
+        },
+        {
+          "loss": 0.40487825870513916,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5450658202171326,
+        "change_accuracy": 0.3941798806190491,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.6959517598152161,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.5658698081970215,
+          "step": 1
+        },
+        {
+          "loss": 0.4571570158004761,
+          "step": 200
+        },
+        {
+          "loss": 0.48374783992767334,
+          "step": 400
+        },
+        {
+          "loss": 0.3658680319786072,
+          "step": 600
+        },
+        {
+          "loss": 0.4121255576610565,
+          "step": 800
+        },
+        {
+          "loss": 0.38698017597198486,
+          "step": 1000
+        },
+        {
+          "loss": 0.3838168680667877,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5048888772726059,
+        "change_accuracy": 0.3861323297023773,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.6236454248428345,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.5555303692817688,
+          "step": 1
+        },
+        {
+          "loss": 0.46648651361465454,
+          "step": 200
+        },
+        {
+          "loss": 0.4914606511592865,
+          "step": 400
+        },
+        {
+          "loss": 0.3996189832687378,
+          "step": 600
+        },
+        {
+          "loss": 0.427714467048645,
+          "step": 800
+        },
+        {
+          "loss": 0.3655598759651184,
+          "step": 1000
+        },
+        {
+          "loss": 0.4332255721092224,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5354472398757935,
+        "change_accuracy": 0.28405797481536865,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.7868365049362183,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.5961859226226807,
+          "step": 1
+        },
+        {
+          "loss": 0.42360976338386536,
+          "step": 200
+        },
+        {
+          "loss": 0.41720330715179443,
+          "step": 400
+        },
+        {
+          "loss": 0.4159359335899353,
+          "step": 600
+        },
+        {
+          "loss": 0.3953302502632141,
+          "step": 800
+        },
+        {
+          "loss": 0.4083744287490845,
+          "step": 1000
+        },
+        {
+          "loss": 0.38604599237442017,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5431816130876541,
+        "change_accuracy": 0.38471177220344543,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.7016514539718628,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.5958014726638794,
+          "step": 1
+        },
+        {
+          "loss": 0.493884801864624,
+          "step": 200
+        },
+        {
+          "loss": 0.4509621262550354,
+          "step": 400
+        },
+        {
+          "loss": 0.4477541446685791,
+          "step": 600
+        },
+        {
+          "loss": 0.4500482380390167,
+          "step": 800
+        },
+        {
+          "loss": 0.3653143644332886,
+          "step": 1000
+        },
+        {
+          "loss": 0.4229179918766022,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5275107622146606,
+        "change_accuracy": 0.4690210819244385,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.5860004425048828,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.5921250581741333,
+          "step": 1
+        },
+        {
+          "loss": 0.4814703166484833,
+          "step": 200
+        },
+        {
+          "loss": 0.42992088198661804,
+          "step": 400
+        },
+        {
+          "loss": 0.4456205368041992,
+          "step": 600
+        },
+        {
+          "loss": 0.3947240114212036,
+          "step": 800
+        },
+        {
+          "loss": 0.36383429169654846,
+          "step": 1000
+        },
+        {
+          "loss": 0.39880985021591187,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5194821506738663,
+        "change_accuracy": 0.5491525530815125,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.4898117482662201,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.6141273975372314,
+          "step": 1
+        },
+        {
+          "loss": 0.42159441113471985,
+          "step": 200
+        },
+        {
+          "loss": 0.4103231430053711,
+          "step": 400
+        },
+        {
+          "loss": 0.3489059507846832,
+          "step": 600
+        },
+        {
+          "loss": 0.41828107833862305,
+          "step": 800
+        },
+        {
+          "loss": 0.42210653424263,
+          "step": 1000
+        },
+        {
+          "loss": 0.3658844828605652,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5417189300060272,
+        "change_accuracy": 0.5150421261787415,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.568395733833313,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.5556297302246094,
+          "step": 1
+        },
+        {
+          "loss": 0.42666709423065186,
+          "step": 200
+        },
+        {
+          "loss": 0.4389911890029907,
+          "step": 400
+        },
+        {
+          "loss": 0.426191508769989,
+          "step": 600
+        },
+        {
+          "loss": 0.41456782817840576,
+          "step": 800
+        },
+        {
+          "loss": 0.3815717101097107,
+          "step": 1000
+        },
+        {
+          "loss": 0.4376976788043976,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5306257903575897,
+        "change_accuracy": 0.5623582601547241,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.4988933205604553,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.5747627019882202,
+          "step": 1
+        },
+        {
+          "loss": 0.48676690459251404,
+          "step": 200
+        },
+        {
+          "loss": 0.47577303647994995,
+          "step": 400
+        },
+        {
+          "loss": 0.4839276075363159,
+          "step": 600
+        },
+        {
+          "loss": 0.401705265045166,
+          "step": 800
+        },
+        {
+          "loss": 0.423628568649292,
+          "step": 1000
+        },
+        {
+          "loss": 0.4708542823791504,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5215247273445129,
+        "change_accuracy": 0.4531630277633667,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.5898864269256592,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.5797416567802429,
+          "step": 1
+        },
+        {
+          "loss": 0.4301072657108307,
+          "step": 200
+        },
+        {
+          "loss": 0.5094782114028931,
+          "step": 400
+        },
+        {
+          "loss": 0.4238177537918091,
+          "step": 600
+        },
+        {
+          "loss": 0.43446260690689087,
+          "step": 800
+        },
+        {
+          "loss": 0.3996769189834595,
+          "step": 1000
+        },
+        {
+          "loss": 0.41135889291763306,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5079954266548157,
+        "change_accuracy": 0.5026143789291382,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5133764743804932,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.5591119527816772,
+          "step": 1
+        },
+        {
+          "loss": 0.4731253683567047,
+          "step": 200
+        },
+        {
+          "loss": 0.4545835852622986,
+          "step": 400
+        },
+        {
+          "loss": 0.40068933367729187,
+          "step": 600
+        },
+        {
+          "loss": 0.42749470472335815,
+          "step": 800
+        },
+        {
+          "loss": 0.4286678731441498,
+          "step": 1000
+        },
+        {
+          "loss": 0.3657216429710388,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5261665135622025,
+        "change_accuracy": 0.4123847186565399,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.639948308467865,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.5809915065765381,
+          "step": 1
+        },
+        {
+          "loss": 0.4651741087436676,
+          "step": 200
+        },
+        {
+          "loss": 0.41384023427963257,
+          "step": 400
+        },
+        {
+          "loss": 0.41897109150886536,
+          "step": 600
+        },
+        {
+          "loss": 0.40968430042266846,
+          "step": 800
+        },
+        {
+          "loss": 0.3782287538051605,
+          "step": 1000
+        },
+        {
+          "loss": 0.37747278809547424,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5363108366727829,
+        "change_accuracy": 0.43395063281059265,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.6386710405349731,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.6044958829879761,
+          "step": 1
+        },
+        {
+          "loss": 0.46373361349105835,
+          "step": 200
+        },
+        {
+          "loss": 0.4370344579219818,
+          "step": 400
+        },
+        {
+          "loss": 0.40929722785949707,
+          "step": 600
+        },
+        {
+          "loss": 0.42733320593833923,
+          "step": 800
+        },
+        {
+          "loss": 0.3883059620857239,
+          "step": 1000
+        },
+        {
+          "loss": 0.4328242540359497,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5264982879161835,
+        "change_accuracy": 0.5219454169273376,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.5310511589050293,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.6269633173942566,
+          "step": 1
+        },
+        {
+          "loss": 0.4662458896636963,
+          "step": 200
+        },
+        {
+          "loss": 0.41998201608657837,
+          "step": 400
+        },
+        {
+          "loss": 0.4108654856681824,
+          "step": 600
+        },
+        {
+          "loss": 0.3777860999107361,
+          "step": 800
+        },
+        {
+          "loss": 0.38272619247436523,
+          "step": 1000
+        },
+        {
+          "loss": 0.437518447637558,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5101009905338287,
+        "change_accuracy": 0.47777777910232544,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.542424201965332,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.5642606019973755,
+          "step": 1
+        },
+        {
+          "loss": 0.49007850885391235,
+          "step": 200
+        },
+        {
+          "loss": 0.4790731370449066,
+          "step": 400
+        },
+        {
+          "loss": 0.49072587490081787,
+          "step": 600
+        },
+        {
+          "loss": 0.47087526321411133,
+          "step": 800
+        },
+        {
+          "loss": 0.3926529586315155,
+          "step": 1000
+        },
+        {
+          "loss": 0.4264795184135437,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5344873368740082,
+        "change_accuracy": 0.48878204822540283,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.5801926255226135,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "qwen32-a1:xor:t2a_naive:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.5498657822608948,
+          "step": 1
+        },
+        {
+          "loss": 0.4636286199092865,
+          "step": 200
+        },
+        {
+          "loss": 0.47292548418045044,
+          "step": 400
+        },
+        {
+          "loss": 0.45540839433670044,
+          "step": 600
+        },
+        {
+          "loss": 0.4899490177631378,
+          "step": 800
+        },
+        {
+          "loss": 0.4221816062927246,
+          "step": 1000
+        },
+        {
+          "loss": 0.43338924646377563,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 870460,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.509428083896637,
+        "change_accuracy": 0.48974359035491943,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.5291125774383545,
+        "preservation_decisions": 9240
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.5814714431762695,
+          "step": 1
+        },
+        {
+          "loss": 0.4079638123512268,
+          "step": 200
+        },
+        {
+          "loss": 0.42750611901283264,
+          "step": 400
+        },
+        {
+          "loss": 0.38503554463386536,
+          "step": 600
+        },
+        {
+          "loss": 0.34558480978012085,
+          "step": 800
+        },
+        {
+          "loss": 0.3740793764591217,
+          "step": 1000
+        },
+        {
+          "loss": 0.35879650712013245,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5536383986473083,
+        "change_accuracy": 0.49609375,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.6111830472946167,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.5536661148071289,
+          "step": 1
+        },
+        {
+          "loss": 0.40696296095848083,
+          "step": 200
+        },
+        {
+          "loss": 0.3889886736869812,
+          "step": 400
+        },
+        {
+          "loss": 0.40678495168685913,
+          "step": 600
+        },
+        {
+          "loss": 0.3794861435890198,
+          "step": 800
+        },
+        {
+          "loss": 0.3338654935359955,
+          "step": 1000
+        },
+        {
+          "loss": 0.3554164469242096,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.523730680346489,
+        "change_accuracy": 0.550000011920929,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.49746134877204895,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.5822434425354004,
+          "step": 1
+        },
+        {
+          "loss": 0.4183349609375,
+          "step": 200
+        },
+        {
+          "loss": 0.3567191958427429,
+          "step": 400
+        },
+        {
+          "loss": 0.39604640007019043,
+          "step": 600
+        },
+        {
+          "loss": 0.3172004520893097,
+          "step": 800
+        },
+        {
+          "loss": 0.3359341621398926,
+          "step": 1000
+        },
+        {
+          "loss": 0.3335493206977844,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5972258150577545,
+        "change_accuracy": 0.5846666693687439,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.6097849607467651,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.5177875757217407,
+          "step": 1
+        },
+        {
+          "loss": 0.4621582329273224,
+          "step": 200
+        },
+        {
+          "loss": 0.46938589215278625,
+          "step": 400
+        },
+        {
+          "loss": 0.40873080492019653,
+          "step": 600
+        },
+        {
+          "loss": 0.4567268192768097,
+          "step": 800
+        },
+        {
+          "loss": 0.4040082097053528,
+          "step": 1000
+        },
+        {
+          "loss": 0.38002198934555054,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.53013014793396,
+        "change_accuracy": 0.5131421685218811,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5471181273460388,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.580388605594635,
+          "step": 1
+        },
+        {
+          "loss": 0.372200608253479,
+          "step": 200
+        },
+        {
+          "loss": 0.37212058901786804,
+          "step": 400
+        },
+        {
+          "loss": 0.3320466876029968,
+          "step": 600
+        },
+        {
+          "loss": 0.35471442341804504,
+          "step": 800
+        },
+        {
+          "loss": 0.3326215445995331,
+          "step": 1000
+        },
+        {
+          "loss": 0.3076321482658386,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6146948337554932,
+        "change_accuracy": 0.5350528955459595,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.6943367719650269,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.5658698081970215,
+          "step": 1
+        },
+        {
+          "loss": 0.4166643023490906,
+          "step": 200
+        },
+        {
+          "loss": 0.42079275846481323,
+          "step": 400
+        },
+        {
+          "loss": 0.3410823345184326,
+          "step": 600
+        },
+        {
+          "loss": 0.3506607413291931,
+          "step": 800
+        },
+        {
+          "loss": 0.33764222264289856,
+          "step": 1000
+        },
+        {
+          "loss": 0.33005577325820923,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5430716872215271,
+        "change_accuracy": 0.4758269786834717,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.6103163957595825,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.5555303692817688,
+          "step": 1
+        },
+        {
+          "loss": 0.4049677848815918,
+          "step": 200
+        },
+        {
+          "loss": 0.38740605115890503,
+          "step": 400
+        },
+        {
+          "loss": 0.32143718004226685,
+          "step": 600
+        },
+        {
+          "loss": 0.33861249685287476,
+          "step": 800
+        },
+        {
+          "loss": 0.2834804058074951,
+          "step": 1000
+        },
+        {
+          "loss": 0.32118141651153564,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6421905159950256,
+        "change_accuracy": 0.5463768243789673,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.738004207611084,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.5961859226226807,
+          "step": 1
+        },
+        {
+          "loss": 0.3690159320831299,
+          "step": 200
+        },
+        {
+          "loss": 0.3745139241218567,
+          "step": 400
+        },
+        {
+          "loss": 0.34162306785583496,
+          "step": 600
+        },
+        {
+          "loss": 0.3231816589832306,
+          "step": 800
+        },
+        {
+          "loss": 0.34250712394714355,
+          "step": 1000
+        },
+        {
+          "loss": 0.30744147300720215,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5874292701482773,
+        "change_accuracy": 0.4962405860424042,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.6786179542541504,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.5958014726638794,
+          "step": 1
+        },
+        {
+          "loss": 0.45735734701156616,
+          "step": 200
+        },
+        {
+          "loss": 0.40817195177078247,
+          "step": 400
+        },
+        {
+          "loss": 0.40387171506881714,
+          "step": 600
+        },
+        {
+          "loss": 0.4056099057197571,
+          "step": 800
+        },
+        {
+          "loss": 0.31514209508895874,
+          "step": 1000
+        },
+        {
+          "loss": 0.37543755769729614,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5645968616008759,
+        "change_accuracy": 0.5526642203330994,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.5765295028686523,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.5921250581741333,
+          "step": 1
+        },
+        {
+          "loss": 0.4369286596775055,
+          "step": 200
+        },
+        {
+          "loss": 0.38554027676582336,
+          "step": 400
+        },
+        {
+          "loss": 0.39001351594924927,
+          "step": 600
+        },
+        {
+          "loss": 0.34719136357307434,
+          "step": 800
+        },
+        {
+          "loss": 0.3189147710800171,
+          "step": 1000
+        },
+        {
+          "loss": 0.3484329581260681,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5398427248001099,
+        "change_accuracy": 0.5531073808670044,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.5265780687332153,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.6141273975372314,
+          "step": 1
+        },
+        {
+          "loss": 0.38005194067955017,
+          "step": 200
+        },
+        {
+          "loss": 0.37319764494895935,
+          "step": 400
+        },
+        {
+          "loss": 0.3103160858154297,
+          "step": 600
+        },
+        {
+          "loss": 0.3454332947731018,
+          "step": 800
+        },
+        {
+          "loss": 0.3543500304222107,
+          "step": 1000
+        },
+        {
+          "loss": 0.3075564503669739,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5736931562423706,
+        "change_accuracy": 0.5613718628883362,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.586014449596405,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.5556297302246094,
+          "step": 1
+        },
+        {
+          "loss": 0.40439459681510925,
+          "step": 200
+        },
+        {
+          "loss": 0.4069429039955139,
+          "step": 400
+        },
+        {
+          "loss": 0.39001402258872986,
+          "step": 600
+        },
+        {
+          "loss": 0.37625592947006226,
+          "step": 800
+        },
+        {
+          "loss": 0.33495885133743286,
+          "step": 1000
+        },
+        {
+          "loss": 0.38407906889915466,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5262769758701324,
+        "change_accuracy": 0.5272108912467957,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.5253430604934692,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.5747627019882202,
+          "step": 1
+        },
+        {
+          "loss": 0.4427282214164734,
+          "step": 200
+        },
+        {
+          "loss": 0.42930150032043457,
+          "step": 400
+        },
+        {
+          "loss": 0.43193578720092773,
+          "step": 600
+        },
+        {
+          "loss": 0.3727831542491913,
+          "step": 800
+        },
+        {
+          "loss": 0.3810834586620331,
+          "step": 1000
+        },
+        {
+          "loss": 0.40551215410232544,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5522424876689911,
+        "change_accuracy": 0.514598548412323,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.5898864269256592,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.5797416567802429,
+          "step": 1
+        },
+        {
+          "loss": 0.39331158995628357,
+          "step": 200
+        },
+        {
+          "loss": 0.4427878260612488,
+          "step": 400
+        },
+        {
+          "loss": 0.3576472997665405,
+          "step": 600
+        },
+        {
+          "loss": 0.39266109466552734,
+          "step": 800
+        },
+        {
+          "loss": 0.3389089107513428,
+          "step": 1000
+        },
+        {
+          "loss": 0.35915258526802063,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5346595644950867,
+        "change_accuracy": 0.52875816822052,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5405609607696533,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.5591119527816772,
+          "step": 1
+        },
+        {
+          "loss": 0.4265711009502411,
+          "step": 200
+        },
+        {
+          "loss": 0.4028915464878082,
+          "step": 400
+        },
+        {
+          "loss": 0.3652651011943817,
+          "step": 600
+        },
+        {
+          "loss": 0.4028947353363037,
+          "step": 800
+        },
+        {
+          "loss": 0.37800633907318115,
+          "step": 1000
+        },
+        {
+          "loss": 0.32624614238739014,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5420632362365723,
+        "change_accuracy": 0.4532279372215271,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.6308985352516174,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.5809915065765381,
+          "step": 1
+        },
+        {
+          "loss": 0.40570056438446045,
+          "step": 200
+        },
+        {
+          "loss": 0.3632172644138336,
+          "step": 400
+        },
+        {
+          "loss": 0.36298152804374695,
+          "step": 600
+        },
+        {
+          "loss": 0.35055801272392273,
+          "step": 800
+        },
+        {
+          "loss": 0.3381109833717346,
+          "step": 1000
+        },
+        {
+          "loss": 0.3306443691253662,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5751089453697205,
+        "change_accuracy": 0.529629647731781,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.6205882430076599,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.6044958829879761,
+          "step": 1
+        },
+        {
+          "loss": 0.4292081296443939,
+          "step": 200
+        },
+        {
+          "loss": 0.41097819805145264,
+          "step": 400
+        },
+        {
+          "loss": 0.3744930624961853,
+          "step": 600
+        },
+        {
+          "loss": 0.38542717695236206,
+          "step": 800
+        },
+        {
+          "loss": 0.3620557188987732,
+          "step": 1000
+        },
+        {
+          "loss": 0.40577396750450134,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5344023406505585,
+        "change_accuracy": 0.5088968276977539,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.559907853603363,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.6269633173942566,
+          "step": 1
+        },
+        {
+          "loss": 0.43451327085494995,
+          "step": 200
+        },
+        {
+          "loss": 0.3880888521671295,
+          "step": 400
+        },
+        {
+          "loss": 0.3830297887325287,
+          "step": 600
+        },
+        {
+          "loss": 0.3484712243080139,
+          "step": 800
+        },
+        {
+          "loss": 0.3648086190223694,
+          "step": 1000
+        },
+        {
+          "loss": 0.40809357166290283,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5211319327354431,
+        "change_accuracy": 0.5026454925537109,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.5396183729171753,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.5642606019973755,
+          "step": 1
+        },
+        {
+          "loss": 0.43853506445884705,
+          "step": 200
+        },
+        {
+          "loss": 0.4211682975292206,
+          "step": 400
+        },
+        {
+          "loss": 0.41037219762802124,
+          "step": 600
+        },
+        {
+          "loss": 0.3908997178077698,
+          "step": 800
+        },
+        {
+          "loss": 0.3322269320487976,
+          "step": 1000
+        },
+        {
+          "loss": 0.3423141837120056,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5848915874958038,
+        "change_accuracy": 0.5769230723381042,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.5928601026535034,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "qwen32-a1:xor:t2b_encode_only:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.5498657822608948,
+          "step": 1
+        },
+        {
+          "loss": 0.43492549657821655,
+          "step": 200
+        },
+        {
+          "loss": 0.427416056394577,
+          "step": 400
+        },
+        {
+          "loss": 0.41156721115112305,
+          "step": 600
+        },
+        {
+          "loss": 0.453744500875473,
+          "step": 800
+        },
+        {
+          "loss": 0.36642009019851685,
+          "step": 1000
+        },
+        {
+          "loss": 0.38325223326683044,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 793660,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.53762486577034,
+        "change_accuracy": 0.5391025543212891,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.5361471772193909,
+        "preservation_decisions": 9240
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.5814714431762695,
+          "step": 1
+        },
+        {
+          "loss": 0.3903277814388275,
+          "step": 200
+        },
+        {
+          "loss": 0.39149102568626404,
+          "step": 400
+        },
+        {
+          "loss": 0.33898383378982544,
+          "step": 600
+        },
+        {
+          "loss": 0.2844753861427307,
+          "step": 800
+        },
+        {
+          "loss": 0.2836430072784424,
+          "step": 1000
+        },
+        {
+          "loss": 0.2408844530582428,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5722487568855286,
+        "change_accuracy": 0.5546875,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.5898100137710571,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.5536661148071289,
+          "step": 1
+        },
+        {
+          "loss": 0.3876851499080658,
+          "step": 200
+        },
+        {
+          "loss": 0.3201793432235718,
+          "step": 400
+        },
+        {
+          "loss": 0.2693139314651489,
+          "step": 600
+        },
+        {
+          "loss": 0.2117787003517151,
+          "step": 800
+        },
+        {
+          "loss": 0.1308784782886505,
+          "step": 1000
+        },
+        {
+          "loss": 0.0953555703163147,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5221036076545715,
+        "change_accuracy": 0.5264368057250977,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.5177704095840454,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.5822434425354004,
+          "step": 1
+        },
+        {
+          "loss": 0.4025474190711975,
+          "step": 200
+        },
+        {
+          "loss": 0.3213822841644287,
+          "step": 400
+        },
+        {
+          "loss": 0.33741384744644165,
+          "step": 600
+        },
+        {
+          "loss": 0.24601268768310547,
+          "step": 800
+        },
+        {
+          "loss": 0.24706387519836426,
+          "step": 1000
+        },
+        {
+          "loss": 0.22811836004257202,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6024085879325867,
+        "change_accuracy": 0.5826666355133057,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.6221505403518677,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.5177875757217407,
+          "step": 1
+        },
+        {
+          "loss": 0.4615252614021301,
+          "step": 200
+        },
+        {
+          "loss": 0.4473590850830078,
+          "step": 400
+        },
+        {
+          "loss": 0.38875800371170044,
+          "step": 600
+        },
+        {
+          "loss": 0.4378020763397217,
+          "step": 800
+        },
+        {
+          "loss": 0.3786749243736267,
+          "step": 1000
+        },
+        {
+          "loss": 0.3532257676124573,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5137289464473724,
+        "change_accuracy": 0.4928315281867981,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5346263647079468,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.580388605594635,
+          "step": 1
+        },
+        {
+          "loss": 0.3381890654563904,
+          "step": 200
+        },
+        {
+          "loss": 0.2864702343940735,
+          "step": 400
+        },
+        {
+          "loss": 0.2088872343301773,
+          "step": 600
+        },
+        {
+          "loss": 0.1609317660331726,
+          "step": 800
+        },
+        {
+          "loss": 0.11405260860919952,
+          "step": 1000
+        },
+        {
+          "loss": 0.08298642188310623,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.7224298715591431,
+        "change_accuracy": 0.7076719403266907,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.7371878027915955,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.5658698081970215,
+          "step": 1
+        },
+        {
+          "loss": 0.4053133726119995,
+          "step": 200
+        },
+        {
+          "loss": 0.39339181780815125,
+          "step": 400
+        },
+        {
+          "loss": 0.2921542525291443,
+          "step": 600
+        },
+        {
+          "loss": 0.2972337603569031,
+          "step": 800
+        },
+        {
+          "loss": 0.2666071653366089,
+          "step": 1000
+        },
+        {
+          "loss": 0.2464504837989807,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5563010275363922,
+        "change_accuracy": 0.5044529438018799,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.6081491112709045,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.5555303692817688,
+          "step": 1
+        },
+        {
+          "loss": 0.363239586353302,
+          "step": 200
+        },
+        {
+          "loss": 0.32036590576171875,
+          "step": 400
+        },
+        {
+          "loss": 0.2115039974451065,
+          "step": 600
+        },
+        {
+          "loss": 0.16991224884986877,
+          "step": 800
+        },
+        {
+          "loss": 0.09682518243789673,
+          "step": 1000
+        },
+        {
+          "loss": 0.06687767803668976,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.7963075637817383,
+        "change_accuracy": 0.7731884121894836,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.8194267153739929,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.5961859226226807,
+          "step": 1
+        },
+        {
+          "loss": 0.3519505262374878,
+          "step": 200
+        },
+        {
+          "loss": 0.3282373547554016,
+          "step": 400
+        },
+        {
+          "loss": 0.2723798155784607,
+          "step": 600
+        },
+        {
+          "loss": 0.23210889101028442,
+          "step": 800
+        },
+        {
+          "loss": 0.2100408673286438,
+          "step": 1000
+        },
+        {
+          "loss": 0.15648822486400604,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6273514628410339,
+        "change_accuracy": 0.5476190447807312,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.7070838809013367,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.5958014726638794,
+          "step": 1
+        },
+        {
+          "loss": 0.4546356201171875,
+          "step": 200
+        },
+        {
+          "loss": 0.37636032700538635,
+          "step": 400
+        },
+        {
+          "loss": 0.35717150568962097,
+          "step": 600
+        },
+        {
+          "loss": 0.35642704367637634,
+          "step": 800
+        },
+        {
+          "loss": 0.25909513235092163,
+          "step": 1000
+        },
+        {
+          "loss": 0.3130268454551697,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5520836710929871,
+        "change_accuracy": 0.5303593873977661,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.573807954788208,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.5921250581741333,
+          "step": 1
+        },
+        {
+          "loss": 0.4279788136482239,
+          "step": 200
+        },
+        {
+          "loss": 0.3446352481842041,
+          "step": 400
+        },
+        {
+          "loss": 0.3505593538284302,
+          "step": 600
+        },
+        {
+          "loss": 0.29734450578689575,
+          "step": 800
+        },
+        {
+          "loss": 0.27078723907470703,
+          "step": 1000
+        },
+        {
+          "loss": 0.27157700061798096,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5484618246555328,
+        "change_accuracy": 0.5734463334083557,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.52347731590271,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.6141273975372314,
+          "step": 1
+        },
+        {
+          "loss": 0.34092479944229126,
+          "step": 200
+        },
+        {
+          "loss": 0.2839609980583191,
+          "step": 400
+        },
+        {
+          "loss": 0.14992864429950714,
+          "step": 600
+        },
+        {
+          "loss": 0.12764249742031097,
+          "step": 800
+        },
+        {
+          "loss": 0.09280186891555786,
+          "step": 1000
+        },
+        {
+          "loss": 0.04722379520535469,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6301223337650299,
+        "change_accuracy": 0.6281588673591614,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.6320858001708984,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.5556297302246094,
+          "step": 1
+        },
+        {
+          "loss": 0.39111244678497314,
+          "step": 200
+        },
+        {
+          "loss": 0.37972593307495117,
+          "step": 400
+        },
+        {
+          "loss": 0.36135613918304443,
+          "step": 600
+        },
+        {
+          "loss": 0.33458855748176575,
+          "step": 800
+        },
+        {
+          "loss": 0.29536038637161255,
+          "step": 1000
+        },
+        {
+          "loss": 0.3289506137371063,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5044753104448318,
+        "change_accuracy": 0.47165533900260925,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.5372952818870544,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.5747627019882202,
+          "step": 1
+        },
+        {
+          "loss": 0.4421880841255188,
+          "step": 200
+        },
+        {
+          "loss": 0.41135692596435547,
+          "step": 400
+        },
+        {
+          "loss": 0.40395885705947876,
+          "step": 600
+        },
+        {
+          "loss": 0.34665071964263916,
+          "step": 800
+        },
+        {
+          "loss": 0.35419511795043945,
+          "step": 1000
+        },
+        {
+          "loss": 0.3723362684249878,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5599734485149384,
+        "change_accuracy": 0.5152068138122559,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.6047400832176208,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.5797416567802429,
+          "step": 1
+        },
+        {
+          "loss": 0.3911527097225189,
+          "step": 200
+        },
+        {
+          "loss": 0.4182090163230896,
+          "step": 400
+        },
+        {
+          "loss": 0.3203335404396057,
+          "step": 600
+        },
+        {
+          "loss": 0.3461843729019165,
+          "step": 800
+        },
+        {
+          "loss": 0.2855953276157379,
+          "step": 1000
+        },
+        {
+          "loss": 0.30221936106681824,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5441874563694,
+        "change_accuracy": 0.5137255191802979,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5746493935585022,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.5591119527816772,
+          "step": 1
+        },
+        {
+          "loss": 0.40252482891082764,
+          "step": 200
+        },
+        {
+          "loss": 0.35253041982650757,
+          "step": 400
+        },
+        {
+          "loss": 0.28022077679634094,
+          "step": 600
+        },
+        {
+          "loss": 0.27697211503982544,
+          "step": 800
+        },
+        {
+          "loss": 0.205374076962471,
+          "step": 1000
+        },
+        {
+          "loss": 0.14063303172588348,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5823503136634827,
+        "change_accuracy": 0.5158103108406067,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.6488903164863586,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.5809915065765381,
+          "step": 1
+        },
+        {
+          "loss": 0.3922465443611145,
+          "step": 200
+        },
+        {
+          "loss": 0.33355996012687683,
+          "step": 400
+        },
+        {
+          "loss": 0.32367178797721863,
+          "step": 600
+        },
+        {
+          "loss": 0.2873152494430542,
+          "step": 800
+        },
+        {
+          "loss": 0.2562715411186218,
+          "step": 1000
+        },
+        {
+          "loss": 0.22837206721305847,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5789034366607666,
+        "change_accuracy": 0.5506173372268677,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.6071895360946655,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.6044958829879761,
+          "step": 1
+        },
+        {
+          "loss": 0.4126584827899933,
+          "step": 200
+        },
+        {
+          "loss": 0.3804810643196106,
+          "step": 400
+        },
+        {
+          "loss": 0.33095186948776245,
+          "step": 600
+        },
+        {
+          "loss": 0.30732715129852295,
+          "step": 800
+        },
+        {
+          "loss": 0.26425880193710327,
+          "step": 1000
+        },
+        {
+          "loss": 0.27116721868515015,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5560402572154999,
+        "change_accuracy": 0.5314353704452515,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.5806451439857483,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.6269633173942566,
+          "step": 1
+        },
+        {
+          "loss": 0.4222877621650696,
+          "step": 200
+        },
+        {
+          "loss": 0.35905298590660095,
+          "step": 400
+        },
+        {
+          "loss": 0.3504266142845154,
+          "step": 600
+        },
+        {
+          "loss": 0.3119557499885559,
+          "step": 800
+        },
+        {
+          "loss": 0.30990535020828247,
+          "step": 1000
+        },
+        {
+          "loss": 0.32430294156074524,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5135722309350967,
+        "change_accuracy": 0.535449743270874,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.49169471859931946,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.5642606019973755,
+          "step": 1
+        },
+        {
+          "loss": 0.42189309000968933,
+          "step": 200
+        },
+        {
+          "loss": 0.3900749981403351,
+          "step": 400
+        },
+        {
+          "loss": 0.37649238109588623,
+          "step": 600
+        },
+        {
+          "loss": 0.3565687835216522,
+          "step": 800
+        },
+        {
+          "loss": 0.2972635328769684,
+          "step": 1000
+        },
+        {
+          "loss": 0.30187076330184937,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5809919238090515,
+        "change_accuracy": 0.5665064454078674,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.5954774022102356,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "qwen32-a1:xor:t3a_conditioning:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.5498657822608948,
+          "step": 1
+        },
+        {
+          "loss": 0.4246925115585327,
+          "step": 200
+        },
+        {
+          "loss": 0.3912349343299866,
+          "step": 400
+        },
+        {
+          "loss": 0.3698517382144928,
+          "step": 600
+        },
+        {
+          "loss": 0.38516658544540405,
+          "step": 800
+        },
+        {
+          "loss": 0.2955273389816284,
+          "step": 1000
+        },
+        {
+          "loss": 0.2970653176307678,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 53309500,
+      "pointer_top1": null,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5019605606794357,
+        "change_accuracy": 0.4980769455432892,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.5058441758155823,
+        "preservation_decisions": 9240
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.9474800825119019,
+          "step": 1
+        },
+        {
+          "loss": 0.4604020416736603,
+          "step": 200
+        },
+        {
+          "loss": 0.47569096088409424,
+          "step": 400
+        },
+        {
+          "loss": 0.4594947099685669,
+          "step": 600
+        },
+        {
+          "loss": 0.41464701294898987,
+          "step": 800
+        },
+        {
+          "loss": 0.467886745929718,
+          "step": 1000
+        },
+        {
+          "loss": 0.4038546085357666,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5389866083860397,
+        "change_accuracy": 0.4446614682674408,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.6333117485046387,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.9308995008468628,
+          "step": 1
+        },
+        {
+          "loss": 0.4348454773426056,
+          "step": 200
+        },
+        {
+          "loss": 0.4189346730709076,
+          "step": 400
+        },
+        {
+          "loss": 0.45185521245002747,
+          "step": 600
+        },
+        {
+          "loss": 0.41870182752609253,
+          "step": 800
+        },
+        {
+          "loss": 0.37465277314186096,
+          "step": 1000
+        },
+        {
+          "loss": 0.38414689898490906,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5121660232543945,
+        "change_accuracy": 0.5206896662712097,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.5036423802375793,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.9364267587661743,
+          "step": 1
+        },
+        {
+          "loss": 0.4848921298980713,
+          "step": 200
+        },
+        {
+          "loss": 0.4104507267475128,
+          "step": 400
+        },
+        {
+          "loss": 0.47367098927497864,
+          "step": 600
+        },
+        {
+          "loss": 0.38756290078163147,
+          "step": 800
+        },
+        {
+          "loss": 0.42500248551368713,
+          "step": 1000
+        },
+        {
+          "loss": 0.44002100825309753,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.533935472369194,
+        "change_accuracy": 0.43066665530204773,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.6372042894363403,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.861364483833313,
+          "step": 1
+        },
+        {
+          "loss": 0.5035233497619629,
+          "step": 200
+        },
+        {
+          "loss": 0.5084392428398132,
+          "step": 400
+        },
+        {
+          "loss": 0.4376978874206543,
+          "step": 600
+        },
+        {
+          "loss": 0.48328936100006104,
+          "step": 800
+        },
+        {
+          "loss": 0.4470338523387909,
+          "step": 1000
+        },
+        {
+          "loss": 0.4107634127140045,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5186281055212021,
+        "change_accuracy": 0.4814814627170563,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5557747483253479,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.9314388036727905,
+          "step": 1
+        },
+        {
+          "loss": 0.44078752398490906,
+          "step": 200
+        },
+        {
+          "loss": 0.4611264169216156,
+          "step": 400
+        },
+        {
+          "loss": 0.40558922290802,
+          "step": 600
+        },
+        {
+          "loss": 0.4368498921394348,
+          "step": 800
+        },
+        {
+          "loss": 0.4014991521835327,
+          "step": 1000
+        },
+        {
+          "loss": 0.39460885524749756,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5500953644514084,
+        "change_accuracy": 0.4007936418056488,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.699397087097168,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.9038246870040894,
+          "step": 1
+        },
+        {
+          "loss": 0.4572571814060211,
+          "step": 200
+        },
+        {
+          "loss": 0.48365524411201477,
+          "step": 400
+        },
+        {
+          "loss": 0.36572733521461487,
+          "step": 600
+        },
+        {
+          "loss": 0.4121108949184418,
+          "step": 800
+        },
+        {
+          "loss": 0.3868739902973175,
+          "step": 1000
+        },
+        {
+          "loss": 0.3838050663471222,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5048888772726059,
+        "change_accuracy": 0.3861323297023773,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.6236454248428345,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.9026923179626465,
+          "step": 1
+        },
+        {
+          "loss": 0.4657755196094513,
+          "step": 200
+        },
+        {
+          "loss": 0.49130985140800476,
+          "step": 400
+        },
+        {
+          "loss": 0.39949560165405273,
+          "step": 600
+        },
+        {
+          "loss": 0.42770832777023315,
+          "step": 800
+        },
+        {
+          "loss": 0.36553454399108887,
+          "step": 1000
+        },
+        {
+          "loss": 0.43321746587753296,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5354472398757935,
+        "change_accuracy": 0.28405797481536865,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.7868365049362183,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.9479013681411743,
+          "step": 1
+        },
+        {
+          "loss": 0.42339393496513367,
+          "step": 200
+        },
+        {
+          "loss": 0.417050838470459,
+          "step": 400
+        },
+        {
+          "loss": 0.41590580344200134,
+          "step": 600
+        },
+        {
+          "loss": 0.39528888463974,
+          "step": 800
+        },
+        {
+          "loss": 0.40834808349609375,
+          "step": 1000
+        },
+        {
+          "loss": 0.386038601398468,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5431816130876541,
+        "change_accuracy": 0.38471177220344543,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.7016514539718628,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.9506452083587646,
+          "step": 1
+        },
+        {
+          "loss": 0.4937155544757843,
+          "step": 200
+        },
+        {
+          "loss": 0.4506629705429077,
+          "step": 400
+        },
+        {
+          "loss": 0.44764620065689087,
+          "step": 600
+        },
+        {
+          "loss": 0.450017511844635,
+          "step": 800
+        },
+        {
+          "loss": 0.3652895390987396,
+          "step": 1000
+        },
+        {
+          "loss": 0.4229179322719574,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5275107622146606,
+        "change_accuracy": 0.4690210819244385,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.5860004425048828,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.9432296752929688,
+          "step": 1
+        },
+        {
+          "loss": 0.4812423586845398,
+          "step": 200
+        },
+        {
+          "loss": 0.429860383272171,
+          "step": 400
+        },
+        {
+          "loss": 0.44557541608810425,
+          "step": 600
+        },
+        {
+          "loss": 0.3956409692764282,
+          "step": 800
+        },
+        {
+          "loss": 0.36398622393608093,
+          "step": 1000
+        },
+        {
+          "loss": 0.3994375169277191,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5194267779588699,
+        "change_accuracy": 0.5491525530815125,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.4897010028362274,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.9578583836555481,
+          "step": 1
+        },
+        {
+          "loss": 0.42155712842941284,
+          "step": 200
+        },
+        {
+          "loss": 0.4103643298149109,
+          "step": 400
+        },
+        {
+          "loss": 0.3488503694534302,
+          "step": 600
+        },
+        {
+          "loss": 0.41821762919425964,
+          "step": 800
+        },
+        {
+          "loss": 0.4221087396144867,
+          "step": 1000
+        },
+        {
+          "loss": 0.36588966846466064,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5417189300060272,
+        "change_accuracy": 0.5150421261787415,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.568395733833313,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.9092675447463989,
+          "step": 1
+        },
+        {
+          "loss": 0.42607659101486206,
+          "step": 200
+        },
+        {
+          "loss": 0.43861690163612366,
+          "step": 400
+        },
+        {
+          "loss": 0.4259675145149231,
+          "step": 600
+        },
+        {
+          "loss": 0.4144766330718994,
+          "step": 800
+        },
+        {
+          "loss": 0.3815073072910309,
+          "step": 1000
+        },
+        {
+          "loss": 0.4377017915248871,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5306257903575897,
+        "change_accuracy": 0.5623582601547241,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.4988933205604553,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.9437879323959351,
+          "step": 1
+        },
+        {
+          "loss": 0.4864817261695862,
+          "step": 200
+        },
+        {
+          "loss": 0.4754727780818939,
+          "step": 400
+        },
+        {
+          "loss": 0.4835996627807617,
+          "step": 600
+        },
+        {
+          "loss": 0.4013936519622803,
+          "step": 800
+        },
+        {
+          "loss": 0.4232643246650696,
+          "step": 1000
+        },
+        {
+          "loss": 0.4706879258155823,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5215247273445129,
+        "change_accuracy": 0.4531630277633667,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.5898864269256592,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.9386328458786011,
+          "step": 1
+        },
+        {
+          "loss": 0.4299359619617462,
+          "step": 200
+        },
+        {
+          "loss": 0.5093660354614258,
+          "step": 400
+        },
+        {
+          "loss": 0.4237558841705322,
+          "step": 600
+        },
+        {
+          "loss": 0.43443650007247925,
+          "step": 800
+        },
+        {
+          "loss": 0.3996613919734955,
+          "step": 1000
+        },
+        {
+          "loss": 0.41135406494140625,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5079954266548157,
+        "change_accuracy": 0.5026143789291382,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5133764743804932,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.9103411436080933,
+          "step": 1
+        },
+        {
+          "loss": 0.47298961877822876,
+          "step": 200
+        },
+        {
+          "loss": 0.45803678035736084,
+          "step": 400
+        },
+        {
+          "loss": 0.4104554355144501,
+          "step": 600
+        },
+        {
+          "loss": 0.4262568950653076,
+          "step": 800
+        },
+        {
+          "loss": 0.43133437633514404,
+          "step": 1000
+        },
+        {
+          "loss": 0.3718767762184143,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5208998322486877,
+        "change_accuracy": 0.41370224952697754,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.628097414970398,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.929980993270874,
+          "step": 1
+        },
+        {
+          "loss": 0.4683922529220581,
+          "step": 200
+        },
+        {
+          "loss": 0.4182699918746948,
+          "step": 400
+        },
+        {
+          "loss": 0.42979559302330017,
+          "step": 600
+        },
+        {
+          "loss": 0.41648170351982117,
+          "step": 800
+        },
+        {
+          "loss": 0.39153096079826355,
+          "step": 1000
+        },
+        {
+          "loss": 0.38447055220603943,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5399419069290161,
+        "change_accuracy": 0.42901235818862915,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.6508714556694031,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.9603538513183594,
+          "step": 1
+        },
+        {
+          "loss": 0.4575580954551697,
+          "step": 200
+        },
+        {
+          "loss": 0.43596622347831726,
+          "step": 400
+        },
+        {
+          "loss": 0.40233564376831055,
+          "step": 600
+        },
+        {
+          "loss": 0.430807501077652,
+          "step": 800
+        },
+        {
+          "loss": 0.3823116719722748,
+          "step": 1000
+        },
+        {
+          "loss": 0.4274024963378906,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5247819870710373,
+        "change_accuracy": 0.4922894537448883,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.5572745203971863,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.9973818063735962,
+          "step": 1
+        },
+        {
+          "loss": 0.46594205498695374,
+          "step": 200
+        },
+        {
+          "loss": 0.4195826053619385,
+          "step": 400
+        },
+        {
+          "loss": 0.4106629192829132,
+          "step": 600
+        },
+        {
+          "loss": 0.37760496139526367,
+          "step": 800
+        },
+        {
+          "loss": 0.3826727271080017,
+          "step": 1000
+        },
+        {
+          "loss": 0.43747249245643616,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5101009905338287,
+        "change_accuracy": 0.47777777910232544,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.542424201965332,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.9031481742858887,
+          "step": 1
+        },
+        {
+          "loss": 0.4898756742477417,
+          "step": 200
+        },
+        {
+          "loss": 0.47905200719833374,
+          "step": 400
+        },
+        {
+          "loss": 0.4906567633152008,
+          "step": 600
+        },
+        {
+          "loss": 0.47082510590553284,
+          "step": 800
+        },
+        {
+          "loss": 0.39262568950653076,
+          "step": 1000
+        },
+        {
+          "loss": 0.42646223306655884,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5344873368740082,
+        "change_accuracy": 0.48878204822540283,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.5801926255226135,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "qwen32-a1:xor:t3b_pointer:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.9110499620437622,
+          "step": 1
+        },
+        {
+          "loss": 0.46779665350914,
+          "step": 200
+        },
+        {
+          "loss": 0.47977644205093384,
+          "step": 400
+        },
+        {
+          "loss": 0.46053406596183777,
+          "step": 600
+        },
+        {
+          "loss": 0.4988805949687958,
+          "step": 800
+        },
+        {
+          "loss": 0.42403045296669006,
+          "step": 1000
+        },
+        {
+          "loss": 0.4385788142681122,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1177690,
+      "pointer_top1": 1.0,
+      "protocol": "qwen2_5_32b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.4943806231021881,
+        "change_accuracy": 0.4403846263885498,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.5483766198158264,
+        "preservation_decisions": 9240
+      }
+    }
+  ],
+  "test_evaluated": false
+}

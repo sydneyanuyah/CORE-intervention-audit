@@ -1,0 +1,833 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "cells": [
+    {
+      "cell_id": "qwen7b-f1:xor:o2:501",
+      "gpu_count": 1,
+      "graph_seed": 3041,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-501",
+      "seed": 501
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:501",
+      "gpu_count": 1,
+      "graph_seed": 3041,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-501",
+      "seed": 501
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:502",
+      "gpu_count": 1,
+      "graph_seed": 3042,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-502",
+      "seed": 502
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:502",
+      "gpu_count": 1,
+      "graph_seed": 3042,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-502",
+      "seed": 502
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:503",
+      "gpu_count": 1,
+      "graph_seed": 3043,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-503",
+      "seed": 503
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:503",
+      "gpu_count": 1,
+      "graph_seed": 3043,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-503",
+      "seed": 503
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:504",
+      "gpu_count": 1,
+      "graph_seed": 3044,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-504",
+      "seed": 504
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:504",
+      "gpu_count": 1,
+      "graph_seed": 3044,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-504",
+      "seed": 504
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:505",
+      "gpu_count": 1,
+      "graph_seed": 3045,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-505",
+      "seed": 505
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:505",
+      "gpu_count": 1,
+      "graph_seed": 3045,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-505",
+      "seed": 505
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:506",
+      "gpu_count": 1,
+      "graph_seed": 3046,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-506",
+      "seed": 506
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:506",
+      "gpu_count": 1,
+      "graph_seed": 3046,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-506",
+      "seed": 506
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:507",
+      "gpu_count": 1,
+      "graph_seed": 3047,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-507",
+      "seed": 507
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:507",
+      "gpu_count": 1,
+      "graph_seed": 3047,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-507",
+      "seed": 507
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:508",
+      "gpu_count": 1,
+      "graph_seed": 3048,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-508",
+      "seed": 508
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:508",
+      "gpu_count": 1,
+      "graph_seed": 3048,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-508",
+      "seed": 508
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:509",
+      "gpu_count": 1,
+      "graph_seed": 3049,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-509",
+      "seed": 509
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:509",
+      "gpu_count": 1,
+      "graph_seed": 3049,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-509",
+      "seed": 509
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:510",
+      "gpu_count": 1,
+      "graph_seed": 3050,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-510",
+      "seed": 510
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:510",
+      "gpu_count": 1,
+      "graph_seed": 3050,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-510",
+      "seed": 510
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:511",
+      "gpu_count": 1,
+      "graph_seed": 3051,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-511",
+      "seed": 511
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:511",
+      "gpu_count": 1,
+      "graph_seed": 3051,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-511",
+      "seed": 511
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:512",
+      "gpu_count": 1,
+      "graph_seed": 3052,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-512",
+      "seed": 512
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:512",
+      "gpu_count": 1,
+      "graph_seed": 3052,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-512",
+      "seed": 512
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:513",
+      "gpu_count": 1,
+      "graph_seed": 3053,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-513",
+      "seed": 513
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:513",
+      "gpu_count": 1,
+      "graph_seed": 3053,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-513",
+      "seed": 513
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:514",
+      "gpu_count": 1,
+      "graph_seed": 3054,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-514",
+      "seed": 514
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:514",
+      "gpu_count": 1,
+      "graph_seed": 3054,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-514",
+      "seed": 514
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:515",
+      "gpu_count": 1,
+      "graph_seed": 3055,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-515",
+      "seed": 515
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:515",
+      "gpu_count": 1,
+      "graph_seed": 3055,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-515",
+      "seed": 515
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:516",
+      "gpu_count": 1,
+      "graph_seed": 3056,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-516",
+      "seed": 516
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:516",
+      "gpu_count": 1,
+      "graph_seed": 3056,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-516",
+      "seed": 516
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:517",
+      "gpu_count": 1,
+      "graph_seed": 3057,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-517",
+      "seed": 517
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:517",
+      "gpu_count": 1,
+      "graph_seed": 3057,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-517",
+      "seed": 517
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:518",
+      "gpu_count": 1,
+      "graph_seed": 3058,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-518",
+      "seed": 518
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:518",
+      "gpu_count": 1,
+      "graph_seed": 3058,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-518",
+      "seed": 518
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:519",
+      "gpu_count": 1,
+      "graph_seed": 3059,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-519",
+      "seed": 519
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:519",
+      "gpu_count": 1,
+      "graph_seed": 3059,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-519",
+      "seed": 519
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o2:520",
+      "gpu_count": 1,
+      "graph_seed": 3060,
+      "method": "o2",
+      "output": "outputs/qwen7b-f1/xor/o2/seed-520",
+      "seed": 520
+    },
+    {
+      "cell_id": "qwen7b-f1:xor:o3:520",
+      "gpu_count": 1,
+      "graph_seed": 3060,
+      "method": "o3",
+      "output": "outputs/qwen7b-f1/xor/o3/seed-520",
+      "seed": 520
+    }
+  ],
+  "evaluation_split": "validation",
+  "feature_cache": "outputs/qwen7b-f1/cache/xor_features.pt",
+  "feature_cache_summary": "outputs/qwen7b-f1/cache/cache_summary.json",
+  "feature_contract": {
+    "backbone_frozen": true,
+    "max_length": 512,
+    "pooling": "last non-padding final-layer hidden state",
+    "quantization": "NF4 feature extraction only"
+  },
+  "graphs": [
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3041/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3041.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3041/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3041/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3041
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3042/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3042.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3042/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3042/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3042
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3043/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3043.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3043/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3043/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3043
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3044/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3044.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3044/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3044/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3044
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3045/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3045.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3045/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3045/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3045
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3046/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3046.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3046/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3046/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3046
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3047/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3047.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3047/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3047/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3047
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3048/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3048.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3048/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3048/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3048
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3049/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3049.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3049/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3049/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3049
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3050/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3050.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3050/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3050/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3050
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3051/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3051.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3051/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3051/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3051
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3052/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3052.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3052/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3052/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3052
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3053/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3053.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3053/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3053/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3053
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3054/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3054.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3054/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3054/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3054
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3055/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3055.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3055/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3055/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3055
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3056/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3056.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3056/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3056/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3056
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3057/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3057.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3057/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3057/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3057
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3058/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3058.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3058/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3058/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3058
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3059/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3059.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3059/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3059/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3059
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3060/graph.json",
+          "sha256": "not-published"
+        },
+        "pairs": {
+          "path": "${CORE_PROJECT_ROOT}/data/two_edit/f1/xor_graph_3060.jsonl",
+          "sha256": "not-published"
+        },
+        "records_real.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3060/records_real.json",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_3060/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3060
+    }
+  ],
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_config_sha256": "not-published",
+  "model_revision": "not-published",
+  "model_snapshot": "${PRIVATE_STORAGE_ROOT}/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/not-published",
+  "operator_contract": {
+    "methods": [
+      "o2",
+      "o3"
+    ],
+    "nodes": [
+      "X00",
+      "X01",
+      "X02",
+      "X03",
+      "X04",
+      "X05",
+      "X06",
+      "X07",
+      "X08",
+      "X09",
+      "X10",
+      "X11",
+      "X12",
+      "X13",
+      "X14",
+      "X15",
+      "X16",
+      "X17",
+      "X18",
+      "X19",
+      "X20",
+      "X21",
+      "X22",
+      "X23",
+      "X24",
+      "X25",
+      "X26",
+      "X27",
+      "X28",
+      "X29"
+    ],
+    "rank": 16
+  },
+  "protocol": "qwen2p5_7b_f1_xor_o2_o3_v1",
+  "seeds": [
+    501,
+    502,
+    503,
+    504,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520
+  ],
+  "status": "preregistered_prelaunch",
+  "test_evaluated": false,
+  "training_contract": {
+    "batch_size": 64,
+    "learning_rate": 0.0003,
+    "selection": "final preregistered step",
+    "steps": 1200
+  }
+}

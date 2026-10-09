@@ -1,0 +1,391 @@
+{
+  "cells": [
+    {
+      "condition": "real",
+      "score": 0.4969818741083145,
+      "seed": 601,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.4693349450826645,
+      "seed": 601,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.445123627781868,
+      "seed": 601,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.5380965769290924,
+      "seed": 602,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.518958568572998,
+      "seed": 602,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.4922010898590088,
+      "seed": 602,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.6652868688106537,
+      "seed": 603,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.6353667676448822,
+      "seed": 603,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.4986265301704407,
+      "seed": 603,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.6942263245582581,
+      "seed": 604,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.6269451379776001,
+      "seed": 604,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.475541815161705,
+      "seed": 604,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.8103201389312744,
+      "seed": 605,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.7030602395534515,
+      "seed": 605,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.5657060146331787,
+      "seed": 605,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.5442992895841599,
+      "seed": 606,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.5288689732551575,
+      "seed": 606,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.5294566452503204,
+      "seed": 606,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.5506653785705566,
+      "seed": 607,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.5262866765260696,
+      "seed": 607,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.4911263436079025,
+      "seed": 607,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.5646458268165588,
+      "seed": 608,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.5317380875349045,
+      "seed": 608,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.4692840129137039,
+      "seed": 608,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.6162399053573608,
+      "seed": 609,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.575890988111496,
+      "seed": 609,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.49566778540611267,
+      "seed": 609,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.5286829471588135,
+      "seed": 610,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.46942147612571716,
+      "seed": 610,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.46555593609809875,
+      "seed": 610,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.5831871628761292,
+      "seed": 611,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.5251118540763855,
+      "seed": 611,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.5064286887645721,
+      "seed": 611,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.5373285710811615,
+      "seed": 612,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.5163185894489288,
+      "seed": 612,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.4860161244869232,
+      "seed": 612,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.52947136759758,
+      "seed": 613,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.5066006481647491,
+      "seed": 613,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.45597711205482483,
+      "seed": 613,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.6871912777423859,
+      "seed": 614,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.6008408665657043,
+      "seed": 614,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.5201388150453568,
+      "seed": 614,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.593322217464447,
+      "seed": 615,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.5531459450721741,
+      "seed": 615,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.4984680414199829,
+      "seed": 615,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.660048633813858,
+      "seed": 616,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.6157808005809784,
+      "seed": 616,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.4846908897161484,
+      "seed": 616,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.5577546954154968,
+      "seed": 617,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.5215549767017365,
+      "seed": 617,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.4977898448705673,
+      "seed": 617,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.6858084201812744,
+      "seed": 618,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.6183857023715973,
+      "seed": 618,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.5209749490022659,
+      "seed": 618,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.5325259566307068,
+      "seed": 619,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.5177137553691864,
+      "seed": 619,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.48484665155410767,
+      "seed": 619,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "real",
+      "score": 0.5545013397932053,
+      "seed": 620,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "noncausal_placebo",
+      "score": 0.5470314621925354,
+      "seed": 620,
+      "source_checkpoint_sha256": "not-published"
+    },
+    {
+      "condition": "shuffled",
+      "score": 0.5248216390609741,
+      "seed": 620,
+      "source_checkpoint_sha256": "not-published"
+    }
+  ],
+  "conditions": {
+    "noncausal_placebo": {
+      "mean": 0.5554178230464458,
+      "student_t_95": [
+        0.527189768614573,
+        0.5836458774783186
+      ]
+    },
+    "real": {
+      "mean": 0.5965292386710643,
+      "student_t_95": [
+        0.5593474833564529,
+        0.6337109939856758
+      ]
+    },
+    "shuffled": {
+      "mean": 0.4954221278429031,
+      "student_t_95": [
+        0.48237196173598074,
+        0.5084722939498255
+      ]
+    }
+  },
+  "evaluation_split": "validation",
+  "model": "Qwen/Qwen2.5-32B-Instruct",
+  "protocol": "qwen2_5_32b_c1_aggregate_v1",
+  "test_evaluated": false
+}

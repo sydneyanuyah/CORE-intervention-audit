@@ -1,0 +1,47 @@
+{
+  "protocol": "f2_com2_open_text_execution_amendment_v1",
+  "status": "preregistered_prelaunch",
+  "base_manifest_sha256": "not-published",
+  "base_cells_sha256": "not-published",
+  "source_catalog_sha256": "not-published",
+  "scope": ["com2"],
+  "reason": "Com2 interventions replace arbitrary event text. The 32-way binary intervention-ID operator used by the closed-value families cannot receive replacement text and is therefore not an executable Com2 operator.",
+  "source_seed_rule": "2026090300 + f2_seed",
+  "source_checkpoint_policy": "freeze the exactly paired validation-selected A1 T2-b BERT-base reader and trained open-text head; ignore its addressed editor",
+  "operator_input": {
+    "representation": "the frozen T2-b reader's pooled [address; replacement] instruction",
+    "shape": "[batch, 2 * hidden_size]",
+    "o2": "ungated rank-16 additive residual from [slot; instruction]",
+    "o3": "rank-16 state-gated residual from [slot; instruction]",
+    "world_slots": 30
+  },
+  "training": {
+    "split": "train",
+    "records": "accepted com2_intervention and com2_counterfactual records plus deterministic factual-restoration exposure at every chain position",
+    "steps": 500,
+    "batch_size_per_rank": 8,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "objective": "equal-weight changed-event and preserved-event teacher-forced open-text cross entropy",
+    "reader_updates": false,
+    "open_text_head_updates": false
+  },
+  "baselines": {
+    "prompting": "frozen reader and open-text head, full attention over the ordered combined command, addressed editor bypassed",
+    "lora_matched": "query/value LoRA only; deterministic rank minimizing distance to the instantiated textual O3 parameter count; same open-text objective"
+  },
+  "selection": "fixed step 500; no validation-driven hyperparameter or checkpoint selection",
+  "evaluation": {
+    "split": "validation",
+    "truth": "70 independently double-annotated and adjudicated ordered Com2 pairs",
+    "metric": "normalized open-text exact-match two_edit_balanced",
+    "experimental_unit": "graph"
+  },
+  "model": "google-bert/bert-base-uncased",
+  "split_layer": 4,
+  "world_size": 4,
+  "allowed_splits": ["train", "validation"],
+  "held_out_test": "forbidden",
+  "test_evaluated": false
+}

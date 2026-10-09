@@ -1,0 +1,449 @@
+{
+  "amendment_path": "registry/phi14b_cladder_cache_amendment.json",
+  "amendment_sha256": "not-published",
+  "backbone": "microsoft/phi-4",
+  "equal_graph_mean_o2_minus_o3": -8.364068869319213e-05,
+  "evaluation_split": "validation",
+  "graph_count": 20,
+  "manifest_path": "registry/phi14b_cladder_extension_manifest.json",
+  "manifest_sha256": "not-published",
+  "mean_o2_minus_o3": 0.004511090761090792,
+  "model_revision": "not-published",
+  "paired_graph_bootstrap_95": [
+    -0.01883320131764624,
+    0.018811845821515134
+  ],
+  "paired_seed_count": 20,
+  "paired_seed_student_t_95": [
+    -7.379984320615186e-05,
+    0.009095981365387735
+  ],
+  "per_graph_mean_delta": {
+    "cladder:model:3241": 0.0032575757575757703,
+    "cladder:model:3249": -0.0038807403527152005,
+    "cladder:model:3265": -0.06204347826086966,
+    "cladder:model:3282": -0.055964180142583864,
+    "cladder:model:3359": 0.010170857511283094,
+    "cladder:model:3419": 0.014713541666666686,
+    "cladder:model:3435": 0.03209876543209878,
+    "cladder:model:3522": 0.08604347826086958,
+    "cladder:model:3527": -0.015147783251231589,
+    "cladder:model:3533": -0.09482142857142857,
+    "cladder:model:3534": -0.024618055555555563,
+    "cladder:model:3569": 0.005603448275862083,
+    "cladder:model:3607": 0.035751128304319806,
+    "cladder:model:3613": 0.044416009397549916,
+    "cladder:model:3627": -0.05354064039408866,
+    "cladder:model:3732": 0.011493055555555525,
+    "cladder:model:3752": 0.06091153663554362,
+    "cladder:model:3766": -0.00856939389143852,
+    "cladder:model:3781": 0.03159090909090907,
+    "cladder:model:3836": -0.019137419242186156
+  },
+  "per_seed": [
+    {
+      "o2": 0.7950888617555285,
+      "o2_minus_o3": 0.012372812372812403,
+      "o3": 0.7827160493827161,
+      "seed": 401
+    },
+    {
+      "o2": 0.7880884547551215,
+      "o2_minus_o3": -0.008842083842083737,
+      "o3": 0.7969305385972052,
+      "seed": 402
+    },
+    {
+      "o2": 0.7950820784154118,
+      "o2_minus_o3": 0.0082349749016416,
+      "o3": 0.7868471035137702,
+      "seed": 403
+    },
+    {
+      "o2": 0.7975478225478225,
+      "o2_minus_o3": 0.0061864061864062014,
+      "o3": 0.7913614163614163,
+      "seed": 404
+    },
+    {
+      "o2": 0.7919854836521503,
+      "o2_minus_o3": 0.027028218694885364,
+      "o3": 0.7649572649572649,
+      "seed": 405
+    },
+    {
+      "o2": 0.7940611857278523,
+      "o2_minus_o3": 0.004989146655813181,
+      "o3": 0.7890720390720392,
+      "seed": 406
+    },
+    {
+      "o2": 0.796102971102971,
+      "o2_minus_o3": -0.0015296431963098822,
+      "o3": 0.7976326142992809,
+      "seed": 407
+    },
+    {
+      "o2": 0.7981718898385566,
+      "o2_minus_o3": 0.0010921177587844833,
+      "o3": 0.7970797720797721,
+      "seed": 408
+    },
+    {
+      "o2": 0.7765228598561933,
+      "o2_minus_o3": -0.0015025098358431022,
+      "o3": 0.7780253696920364,
+      "seed": 409
+    },
+    {
+      "o2": 0.798568715235382,
+      "o2_minus_o3": 0.016575091575091627,
+      "o3": 0.7819936236602903,
+      "seed": 410
+    },
+    {
+      "o2": 0.7991486908153576,
+      "o2_minus_o3": -0.009021842355175558,
+      "o3": 0.8081705331705331,
+      "seed": 411
+    },
+    {
+      "o2": 0.7975478225478225,
+      "o2_minus_o3": 0.01429928096594757,
+      "o3": 0.783248541581875,
+      "seed": 412
+    },
+    {
+      "o2": 0.8094390177723512,
+      "o2_minus_o3": 0.012996879663546457,
+      "o3": 0.7964421381088047,
+      "seed": 413
+    },
+    {
+      "o2": 0.7922534255867589,
+      "o2_minus_o3": -0.005209605209605228,
+      "o3": 0.7974630307963642,
+      "seed": 414
+    },
+    {
+      "o2": 0.7938203771537105,
+      "o2_minus_o3": -0.010778727445394098,
+      "o3": 0.8045991045991046,
+      "seed": 415
+    },
+    {
+      "o2": 0.7940544023877357,
+      "o2_minus_o3": 0.012996879663546346,
+      "o3": 0.7810575227241894,
+      "seed": 416
+    },
+    {
+      "o2": 0.7962793379460047,
+      "o2_minus_o3": 0.008469000135666871,
+      "o3": 0.7878103378103378,
+      "seed": 417
+    },
+    {
+      "o2": 0.8033306199972867,
+      "o2_minus_o3": 0.003232261565594974,
+      "o3": 0.8000983584316917,
+      "seed": 418
+    },
+    {
+      "o2": 0.7935727852394519,
+      "o2_minus_o3": -0.0025573192239859432,
+      "o3": 0.7961301044634378,
+      "seed": 419
+    },
+    {
+      "o2": 0.7893840727174061,
+      "o2_minus_o3": 0.0011904761904762973,
+      "o3": 0.7881935965269298,
+      "seed": 420
+    }
+  ],
+  "protocol": "reviewer1_f2_frozen_checkpoint_reanalysis_v1",
+  "provenance": [
+    {
+      "cell_id": "phi14b-f2:cladder:o2:401",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-401/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-401/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:402",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-402/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-402/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:403",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-403/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-403/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:404",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-404/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-404/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:405",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-405/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-405/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:406",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-406/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-406/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:407",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-407/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-407/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:408",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-408/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-408/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:409",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-409/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-409/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:410",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-410/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-410/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:411",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-411/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-411/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:412",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-412/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-412/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:413",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-413/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-413/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:414",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-414/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-414/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:415",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-415/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-415/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:416",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-416/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-416/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:417",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-417/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-417/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:418",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-418/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-418/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:419",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-419/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-419/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o2:420",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o2/seed-420/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o2/seed-420/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:401",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-401/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-401/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:402",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-402/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-402/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:403",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-403/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-403/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:404",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-404/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-404/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:405",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-405/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-405/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:406",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-406/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-406/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:407",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-407/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-407/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:408",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-408/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-408/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:409",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-409/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-409/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:410",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-410/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-410/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:411",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-411/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-411/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:412",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-412/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-412/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:413",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-413/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-413/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:414",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-414/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-414/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:415",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-415/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-415/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:416",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-416/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-416/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:417",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-417/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-417/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:418",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-418/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-418/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:419",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-419/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-419/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "cell_id": "phi14b-f2:cladder:o3:420",
+      "checkpoint_path": "outputs/phi14b-f2/cladder/o3/seed-420/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-f2/cladder/o3/seed-420/run_summary.json",
+      "metric_source_sha256": "not-published"
+    }
+  ],
+  "test_evaluated": false
+}

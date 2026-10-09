@@ -1,0 +1,29 @@
+{
+  "scheduler": "Slurm",
+  "host": "large_model_cluster",
+  "formal_jobs": [
+    {
+      "job_id": 6207,
+      "job_name": "core-r2-qwen32-a3",
+      "partition": "LocalQ",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed_seconds": 4,
+      "gres": "gpu:h100:1",
+      "result_path": "raw/qwen32_a3_address_inversion.json",
+      "result_sha256": "not-published"
+    },
+    {
+      "job_id": 6208,
+      "job_name": "core-r2-llama70-a3",
+      "partition": "LocalQ",
+      "state": "COMPLETED",
+      "exit_code": "0:0",
+      "elapsed_seconds": 3,
+      "gres": "gpu:h100:1",
+      "result_path": "raw/llama70b_a3_address_inversion.json",
+      "result_sha256": "not-published"
+    }
+  ],
+  "direct_gpu_outputs_formal_evidence": false
+}

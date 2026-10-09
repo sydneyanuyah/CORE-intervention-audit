@@ -1,0 +1,20 @@
+{
+  "dtype": "torch.bfloat16",
+  "gpus": [
+    "NVIDIA H100 80GB HBM3",
+    "NVIDIA H100 80GB HBM3"
+  ],
+  "hidden_shape": [
+    1,
+    11,
+    8192
+  ],
+  "model": "meta-llama/Llama-3.3-70B-Instruct",
+  "peak_memory_bytes": [
+    68880338432,
+    70201536000
+  ],
+  "revision": "not-published",
+  "status": "passed",
+  "test_evaluated": false
+}

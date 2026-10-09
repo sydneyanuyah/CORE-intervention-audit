@@ -1,0 +1,61 @@
+{
+  "protocol": "l1_law_retention_v1",
+  "status": "preregistered_prelaunch",
+  "model": "google-bert/bert-base-uncased",
+  "world_size": 4,
+  "split_layer": 4,
+  "optimization_seeds": [201,202,203,204,205,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220],
+  "training_family": {
+    "name": "xor",
+    "graph_seeds": [3041,3042,3043,3044,3045,3046,3047,3048,3049,3050,3051,3052,3053,3054,3055,3056,3057,3058,3059,3060],
+    "artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_{graph_seed}",
+    "allowed_splits": ["train", "validation"]
+  },
+  "held_out_family": {
+    "name": "cladder",
+    "selection_reason": "authoritative executable SCM family already frozen before any L1 result",
+    "artifact": "data/two_edit/cladder/artifact.json",
+    "artifact_sha256": "not-published",
+    "manifest": "data/two_edit/cladder/manifest.jsonl",
+    "manifest_sha256": "not-published",
+    "allowed_splits": ["train", "validation"]
+  },
+  "methods": {
+    "core_base_1law": ["identity"],
+    "core_i_3law": ["identity", "idempotence", "commutation"],
+    "core_full_4law": ["identity", "idempotence", "commutation", "last_write_wins"],
+    "floors": ["do_nothing", "do_everything", "random_init"]
+  },
+  "floor_semantics": {
+    "version": "deterministic_symbolic_validation_floor_v1",
+    "do_nothing": "return the factual state unchanged",
+    "do_everything": "for an intervention, set every graph variable to the intervention value; for identity, return the factual state unchanged",
+    "random_init": "derive every predicted binary variable deterministically from SHA-256(seed, factual state, target, intervention value)",
+    "evaluation": "validation states only; no training, checkpoint, or test access"
+  },
+  "law_weights": "unit",
+  "optimization": {
+    "epochs": 3,
+    "learning_rate": 2e-5,
+    "weight_decay": 0.01,
+    "per_rank_batch_size": 16,
+    "gradient_clip_norm": 1.0,
+    "checkpoint_selection": "maximum validation macro_f1"
+  },
+  "commutation_instruction": {
+    "version": "first_other_slot_same_value_v1",
+    "rule": "use the first observed same-graph different-target command; when the held-out family exposes only one observed intervention target per graph, synthesize a law-only command for the first other graph slot at the same value",
+    "task_supervision_from_synthetic_rows": false
+  },
+  "last_write_instruction": {
+    "version": "same_target_opposite_value_v1",
+    "rule": "use the first observed same-graph opposite-value command; when absent, synthesize a law-only command for the same target at the opposite binary value",
+    "task_supervision_from_synthetic_rows": false
+  },
+  "law_partner_wording": "fixed raw command text without task paraphrase augmentation; paraphrase augmentation remains enabled for supervised base rows",
+  "profile_search": false,
+  "primary": "held_out_retention_across_1_3_4_laws",
+  "experimental_unit": "graph",
+  "intervals": ["paired_graph_bootstrap_95", "paired_seed_student_t_95"],
+  "test_evaluated": false
+}

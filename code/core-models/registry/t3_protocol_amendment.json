@@ -1,0 +1,18 @@
+{
+  "amendment_id": "t3-boundless-das-axis-v1",
+  "base_registry": "registry/bert_scope.json",
+  "base_registry_sha256": "not-published",
+  "datasets": [
+    "corr2cause",
+    "variable_rename",
+    "cladder_variants"
+  ],
+  "methods": [
+    "selected_methods",
+    "boundless_das"
+  ],
+  "reason": "Boundless DAS is a representation-alignment method, not a clean/perturbed dataset.",
+  "scope": "T3 only; historical shared registry and completed experiment manifests remain byte-identical.",
+  "status": "prepared_not_preregistered",
+  "test_evaluated": false
+}

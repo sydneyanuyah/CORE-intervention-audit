@@ -1,0 +1,27 @@
+{
+  "balanced_questions": 10112,
+  "explicit_deterministic_single_action_questions": 1422,
+  "graph_lookup": "question.meta.model_id -> meta-model.model_id -> structure",
+  "meta_models": 7064,
+  "model_equation_type_counts": {
+    "bernoulli": 6440,
+    "deterministic": 624
+  },
+  "not_directly_representable_by_single_intervention_contract": 8690,
+  "query_type_counts": {
+    "ate": 1422,
+    "backadj": 1580,
+    "collider_bias": 158,
+    "correlation": 1422,
+    "det-counterfactual": 1422,
+    "ett": 1264,
+    "exp_away": 158,
+    "marginal": 1580,
+    "nde": 316,
+    "nie": 790
+  },
+  "question_model_links_missing": 0,
+  "raw_sha256": "not-published",
+  "source": "cladder",
+  "split_metadata_present": false
+}

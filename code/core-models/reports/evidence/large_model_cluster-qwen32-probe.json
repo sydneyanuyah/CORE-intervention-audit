@@ -1,0 +1,14 @@
+{
+  "dtype": "torch.bfloat16",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "hidden_shape": [
+    1,
+    10,
+    5120
+  ],
+  "model": "Qwen/Qwen2.5-32B-Instruct",
+  "peak_memory_bytes": 64009926144,
+  "revision": "not-published",
+  "status": "passed",
+  "test_evaluated": false
+}

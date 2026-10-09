@@ -1,0 +1,323 @@
+{
+  "backbone_frozen": true,
+  "cells": [
+    {
+      "cell_id": "phi14b-g4:baseline:821",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-821",
+      "seed": 821
+    },
+    {
+      "cell_id": "phi14b-g4:o3:821",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-821",
+      "seed": 821
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:822",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-822",
+      "seed": 822
+    },
+    {
+      "cell_id": "phi14b-g4:o3:822",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-822",
+      "seed": 822
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:823",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-823",
+      "seed": 823
+    },
+    {
+      "cell_id": "phi14b-g4:o3:823",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-823",
+      "seed": 823
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:824",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-824",
+      "seed": 824
+    },
+    {
+      "cell_id": "phi14b-g4:o3:824",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-824",
+      "seed": 824
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:825",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-825",
+      "seed": 825
+    },
+    {
+      "cell_id": "phi14b-g4:o3:825",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-825",
+      "seed": 825
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:826",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-826",
+      "seed": 826
+    },
+    {
+      "cell_id": "phi14b-g4:o3:826",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-826",
+      "seed": 826
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:827",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-827",
+      "seed": 827
+    },
+    {
+      "cell_id": "phi14b-g4:o3:827",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-827",
+      "seed": 827
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:828",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-828",
+      "seed": 828
+    },
+    {
+      "cell_id": "phi14b-g4:o3:828",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-828",
+      "seed": 828
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:829",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-829",
+      "seed": 829
+    },
+    {
+      "cell_id": "phi14b-g4:o3:829",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-829",
+      "seed": 829
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:830",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-830",
+      "seed": 830
+    },
+    {
+      "cell_id": "phi14b-g4:o3:830",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-830",
+      "seed": 830
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:831",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-831",
+      "seed": 831
+    },
+    {
+      "cell_id": "phi14b-g4:o3:831",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-831",
+      "seed": 831
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:832",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-832",
+      "seed": 832
+    },
+    {
+      "cell_id": "phi14b-g4:o3:832",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-832",
+      "seed": 832
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:833",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-833",
+      "seed": 833
+    },
+    {
+      "cell_id": "phi14b-g4:o3:833",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-833",
+      "seed": 833
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:834",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-834",
+      "seed": 834
+    },
+    {
+      "cell_id": "phi14b-g4:o3:834",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-834",
+      "seed": 834
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:835",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-835",
+      "seed": 835
+    },
+    {
+      "cell_id": "phi14b-g4:o3:835",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-835",
+      "seed": 835
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:836",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-836",
+      "seed": 836
+    },
+    {
+      "cell_id": "phi14b-g4:o3:836",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-836",
+      "seed": 836
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:837",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-837",
+      "seed": 837
+    },
+    {
+      "cell_id": "phi14b-g4:o3:837",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-837",
+      "seed": 837
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:838",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-838",
+      "seed": 838
+    },
+    {
+      "cell_id": "phi14b-g4:o3:838",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-838",
+      "seed": 838
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:839",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-839",
+      "seed": 839
+    },
+    {
+      "cell_id": "phi14b-g4:o3:839",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-839",
+      "seed": 839
+    },
+    {
+      "cell_id": "phi14b-g4:baseline:840",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/phi14b-g4/baseline/seed-840",
+      "seed": 840
+    },
+    {
+      "cell_id": "phi14b-g4:o3:840",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/phi14b-g4/o3/seed-840",
+      "seed": 840
+    }
+  ],
+  "data": "${CORE_PROJECT_ROOT}/data/phi14b/g4.jsonl",
+  "data_sha256": "not-published",
+  "evaluation_split": "validation",
+  "feature_shards": 32,
+  "methods": [
+    "baseline",
+    "o3"
+  ],
+  "model": "microsoft/phi-4",
+  "model_revision": "not-published",
+  "model_snapshot": "${PRIVATE_STORAGE_ROOT}/.cache/huggingface/hub/models--microsoft--phi-4/snapshots/not-published",
+  "protocol": "phi4_14b_g4_frozen_feature_v1",
+  "seeds": [
+    821,
+    822,
+    823,
+    824,
+    825,
+    826,
+    827,
+    828,
+    829,
+    830,
+    831,
+    832,
+    833,
+    834,
+    835,
+    836,
+    837,
+    838,
+    839,
+    840
+  ],
+  "task": "g4",
+  "test_evaluated": false,
+  "train_rows": 1911,
+  "validation_rows": 230
+}

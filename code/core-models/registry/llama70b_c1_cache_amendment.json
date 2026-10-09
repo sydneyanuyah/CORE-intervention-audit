@@ -1,0 +1,9 @@
+{
+  "base_manifest": "${CORE_PROJECT_ROOT}/registry/llama70b_c1_manifest.json",
+  "base_manifest_sha256": "not-published",
+  "feature_cache": "outputs/llama70b-f3/cache/xor_features.pt",
+  "feature_cache_sha256": "not-published",
+  "protocol": "llama3_3_70b_c1_cache_binding_v1",
+  "source_amendment_sha256": "not-published",
+  "test_evaluated": false
+}

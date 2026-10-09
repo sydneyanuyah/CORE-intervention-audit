@@ -1,0 +1,16 @@
+{
+  "protocol": "c2_law_floor_calibration_v1",
+  "status": "preregistered_waiting_for_c1",
+  "source_protocol": "c1_fixed_o3_closing_controls_v1",
+  "source_condition": "real",
+  "graph_seeds": [3081, 3082, 3083, 3084, 3085, 3086, 3087, 3088, 3089, 3090, 3091, 3092, 3093, 3094, 3095, 3096, 3097, 3098, 3099, 3100],
+  "methods": ["do_nothing", "do_everything", "random_init", "trained_o3"],
+  "floor_suite": "data/experiments/c2/floor_suite.jsonl",
+  "floor_suite_sha256": "not-published",
+  "floor_summary": "data/experiments/manifests/c2_floor_suite_summary.json",
+  "measurement": "validation variable-level accuracy, aggregated first within graph and then across 20 graph units",
+  "primary": "trained_o3 minus each executable floor",
+  "intervals": ["paired_graph_bootstrap_95", "paired_graph_student_t_95"],
+  "allowed_splits": ["validation"],
+  "test_evaluated": false
+}

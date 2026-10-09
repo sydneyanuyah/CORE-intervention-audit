@@ -1,0 +1,43 @@
+{
+  "causica_revision": "not-published",
+  "paired_noise": true,
+  "released_test_members_opened": false,
+  "samples_per_seed": 200,
+  "sem_families": [
+    "cat_chain",
+    "cat_collider",
+    "cat_to_cts",
+    "cts_to_cat",
+    "large_backdoor",
+    "large_backdoor_binary_t",
+    "linexp",
+    "lingauss",
+    "mixed_confounding",
+    "mixed_simpson",
+    "nonlin_simpson",
+    "nonlingauss",
+    "symprod_simpson",
+    "weak_arrows",
+    "weak_arrows_binary_t"
+  ],
+  "sem_family_count": 15,
+  "t2_rows": 15000,
+  "t2_seeds": [
+    501,
+    502,
+    503,
+    504,
+    505
+  ],
+  "t2_sha256": "not-published",
+  "t4_rows": 45000,
+  "t4_seeds": [
+    511,
+    512,
+    513,
+    514,
+    515
+  ],
+  "t4_sha256": "not-published",
+  "test_evaluated": false
+}

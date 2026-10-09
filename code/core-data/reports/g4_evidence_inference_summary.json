@@ -1,0 +1,22 @@
+{
+  "adjudicated_prompts": 2141,
+  "adjudicated_prompts_sha256": "not-published",
+  "article_manifest_sha256": "not-published",
+  "articles": 817,
+  "articles_by_split": {
+    "train": 727,
+    "validation": 90
+  },
+  "doctor_annotations_sha256": "not-published",
+  "labels": {
+    "decreased": 526,
+    "increased": 587,
+    "no_change": 1028
+  },
+  "pinned_revision": "not-published",
+  "protocol": "g4_evidence_inference_article_grouped_v1",
+  "raw_sha256": "not-published",
+  "test_evaluated": false,
+  "tied_prompts_quarantined": 14,
+  "valid_doctor_annotations": 4077
+}

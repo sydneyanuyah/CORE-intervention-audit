@@ -1,0 +1,234 @@
+{
+  "execution_order": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "A1",
+    "A2",
+    "A3",
+    "L1",
+    "L2",
+    "L3",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "T1",
+    "T2",
+    "T3",
+    "T4",
+    "T5",
+    "G1",
+    "G2",
+    "G3",
+    "G4"
+  ],
+  "experiments": [
+    {
+      "depends_on": [],
+      "expected_cells": 40,
+      "id": "F1",
+      "number": 1,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F1"
+      ],
+      "expected_cells": 40,
+      "id": "F2",
+      "number": 2,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F1"
+      ],
+      "expected_cells": 80,
+      "id": "F3",
+      "number": 3,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F1"
+      ],
+      "expected_cells": 50,
+      "id": "F4",
+      "number": 4,
+      "state": "queued"
+    },
+    {
+      "depends_on": [],
+      "expected_cells": 120,
+      "id": "A1",
+      "number": 5,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "A1"
+      ],
+      "expected_cells": 20,
+      "id": "A2",
+      "number": 6,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "A1"
+      ],
+      "expected_cells": 20,
+      "id": "A3",
+      "number": 7,
+      "state": "queued"
+    },
+    {
+      "depends_on": [],
+      "expected_cells": 120,
+      "id": "L1",
+      "number": 8,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "L1"
+      ],
+      "expected_cells": 100,
+      "id": "L2",
+      "number": 9,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F1"
+      ],
+      "expected_cells": 40,
+      "id": "L3",
+      "number": 10,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F1"
+      ],
+      "expected_cells": 60,
+      "id": "C1",
+      "number": 11,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F1"
+      ],
+      "expected_cells": null,
+      "id": "C2",
+      "number": 12,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F2"
+      ],
+      "expected_cells": null,
+      "id": "C3",
+      "number": 13,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F2"
+      ],
+      "expected_cells": null,
+      "id": "C4",
+      "number": 14,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F2"
+      ],
+      "expected_cells": null,
+      "id": "T1",
+      "number": 15,
+      "state": "queued"
+    },
+    {
+      "depends_on": [],
+      "expected_cells": 40,
+      "id": "T2",
+      "number": 16,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "A1"
+      ],
+      "expected_cells": 40,
+      "id": "T3",
+      "number": 17,
+      "state": "queued"
+    },
+    {
+      "depends_on": [],
+      "expected_cells": 40,
+      "id": "T4",
+      "number": 18,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F1"
+      ],
+      "expected_cells": 40,
+      "id": "T5",
+      "number": 19,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F1"
+      ],
+      "expected_cells": 40,
+      "id": "G1",
+      "number": 20,
+      "state": "queued"
+    },
+    {
+      "depends_on": [
+        "F1"
+      ],
+      "expected_cells": 40,
+      "id": "G2",
+      "number": 21,
+      "state": "queued"
+    },
+    {
+      "depends_on": [],
+      "expected_cells": 8,
+      "id": "G3",
+      "number": 22,
+      "state": "queued"
+    },
+    {
+      "depends_on": [],
+      "expected_cells": 40,
+      "id": "G4",
+      "number": 23,
+      "state": "queued"
+    }
+  ],
+  "model": "microsoft/phi-4",
+  "model_revision": "not-published",
+  "policy": {
+    "fill_all_genuinely_free_gpus": true,
+    "held_out_test": "forbidden",
+    "launch_only_registered_provenance_valid_cells": true,
+    "never_rerun_complete_cells": true,
+    "orchestration": "persistent server-side pipeline; no Codex scheduled task"
+  },
+  "protocol": "core_phi4_14b_23_experiment_queue_v1",
+  "queue_owner": "scripts/run_phi14b_all.py",
+  "test_evaluated": false
+}

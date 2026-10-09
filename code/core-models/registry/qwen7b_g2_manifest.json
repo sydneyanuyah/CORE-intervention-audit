@@ -1,0 +1,323 @@
+{
+  "backbone_frozen": true,
+  "cells": [
+    {
+      "cell_id": "qwen7b-g2:baseline:801",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-801",
+      "seed": 801
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:801",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-801",
+      "seed": 801
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:802",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-802",
+      "seed": 802
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:802",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-802",
+      "seed": 802
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:803",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-803",
+      "seed": 803
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:803",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-803",
+      "seed": 803
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:804",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-804",
+      "seed": 804
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:804",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-804",
+      "seed": 804
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:805",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-805",
+      "seed": 805
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:805",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-805",
+      "seed": 805
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:806",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-806",
+      "seed": 806
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:806",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-806",
+      "seed": 806
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:807",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-807",
+      "seed": 807
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:807",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-807",
+      "seed": 807
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:808",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-808",
+      "seed": 808
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:808",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-808",
+      "seed": 808
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:809",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-809",
+      "seed": 809
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:809",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-809",
+      "seed": 809
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:810",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-810",
+      "seed": 810
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:810",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-810",
+      "seed": 810
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:811",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-811",
+      "seed": 811
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:811",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-811",
+      "seed": 811
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:812",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-812",
+      "seed": 812
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:812",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-812",
+      "seed": 812
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:813",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-813",
+      "seed": 813
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:813",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-813",
+      "seed": 813
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:814",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-814",
+      "seed": 814
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:814",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-814",
+      "seed": 814
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:815",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-815",
+      "seed": 815
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:815",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-815",
+      "seed": 815
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:816",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-816",
+      "seed": 816
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:816",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-816",
+      "seed": 816
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:817",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-817",
+      "seed": 817
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:817",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-817",
+      "seed": 817
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:818",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-818",
+      "seed": 818
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:818",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-818",
+      "seed": 818
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:819",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-819",
+      "seed": 819
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:819",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-819",
+      "seed": 819
+    },
+    {
+      "cell_id": "qwen7b-g2:baseline:820",
+      "gpu_count": 1,
+      "method": "baseline",
+      "output": "outputs/qwen7b-g2/baseline/seed-820",
+      "seed": 820
+    },
+    {
+      "cell_id": "qwen7b-g2:o3:820",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-g2/o3/seed-820",
+      "seed": 820
+    }
+  ],
+  "data": "${CORE_PROJECT_ROOT}/data/qwen7b/g2.jsonl",
+  "data_sha256": "not-published",
+  "evaluation_split": "validation",
+  "feature_shards": 32,
+  "methods": [
+    "baseline",
+    "o3"
+  ],
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "not-published",
+  "model_snapshot": "${PRIVATE_STORAGE_ROOT}/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/not-published",
+  "protocol": "qwen2p5_7b_g2_frozen_feature_v1",
+  "seeds": [
+    801,
+    802,
+    803,
+    804,
+    805,
+    806,
+    807,
+    808,
+    809,
+    810,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817,
+    818,
+    819,
+    820
+  ],
+  "task": "g2",
+  "test_evaluated": false,
+  "train_rows": 10440,
+  "validation_rows": 1560
+}

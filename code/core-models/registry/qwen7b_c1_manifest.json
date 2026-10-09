@@ -1,0 +1,611 @@
+{
+  "cells": [
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:601",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3081,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-601",
+      "seed": 601
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:602",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3082,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-602",
+      "seed": 602
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:603",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3083,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-603",
+      "seed": 603
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:604",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3084,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-604",
+      "seed": 604
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:605",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3085,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-605",
+      "seed": 605
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:606",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3086,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-606",
+      "seed": 606
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:607",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3087,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-607",
+      "seed": 607
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:608",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3088,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-608",
+      "seed": 608
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:609",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3089,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-609",
+      "seed": 609
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:610",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3090,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-610",
+      "seed": 610
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:611",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3091,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-611",
+      "seed": 611
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:612",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3092,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-612",
+      "seed": 612
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:613",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3093,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-613",
+      "seed": 613
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:614",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3094,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-614",
+      "seed": 614
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:615",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3095,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-615",
+      "seed": 615
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:616",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3096,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-616",
+      "seed": 616
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:617",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3097,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-617",
+      "seed": 617
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:618",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3098,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-618",
+      "seed": 618
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:619",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3099,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-619",
+      "seed": 619
+    },
+    {
+      "cell_id": "qwen7b-c1:shuffled:o3:620",
+      "condition": "shuffled",
+      "gpu_count": 1,
+      "graph_seed": 3100,
+      "method": "o3",
+      "output": "outputs/qwen7b-c1/shuffled/o3/seed-620",
+      "seed": 620
+    }
+  ],
+  "conditions": [
+    "real",
+    "noncausal_placebo",
+    "shuffled"
+  ],
+  "evaluation_split": "validation",
+  "feature_contract": {
+    "source_amendment": "${CORE_PROJECT_ROOT}/registry/qwen7b_f3_cache_amendment.json",
+    "source_amendment_sha256": "not-published"
+  },
+  "graphs": [
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3081/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3081.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3081/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3081
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3082/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3082.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3082/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3082
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3083/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3083.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3083/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3083
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3084/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3084.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3084/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3084
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3085/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3085.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3085/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3085
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3086/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3086.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3086/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3086
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3087/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3087.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3087/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3087
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3088/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3088.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3088/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3088
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3089/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3089.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3089/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3089
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3090/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3090.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3090/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3090
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3091/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3091.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3091/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3091
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3092/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3092.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3092/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3092
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3093/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3093.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3093/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3093
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3094/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3094.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3094/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3094
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3095/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3095.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3095/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3095
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3096/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3096.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3096/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3096
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3097/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3097.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3097/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3097
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3098/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3098.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3098/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3098
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3099/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3099.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3099/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3099
+    },
+    {
+      "files": {
+        "graph.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3100/graph.json",
+          "sha256": "not-published"
+        },
+        "records_shuffled.json": {
+          "path": "${CORE_PROJECT_ROOT}/data/experiments/c1/shuffled/graph_3100.jsonl",
+          "sha256": "not-published"
+        },
+        "worlds.json": {
+          "path": "${PRIVATE_STORAGE_ROOT}/CORE_f3/runs/graph_3100/worlds.json",
+          "sha256": "not-published"
+        }
+      },
+      "graph_seed": 3100
+    }
+  ],
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "operator_contract": {
+    "methods": [
+      "o3"
+    ],
+    "nodes": [
+      "X00",
+      "X01",
+      "X02",
+      "X03",
+      "X04",
+      "X05",
+      "X06",
+      "X07",
+      "X08",
+      "X09",
+      "X10",
+      "X11",
+      "X12",
+      "X13",
+      "X14",
+      "X15",
+      "X16",
+      "X17",
+      "X18",
+      "X19",
+      "X20",
+      "X21",
+      "X22",
+      "X23",
+      "X24",
+      "X25",
+      "X26",
+      "X27",
+      "X28",
+      "X29"
+    ],
+    "rank": 16
+  },
+  "protocol": "qwen2p5_7b_c1_closing_controls_v1",
+  "reuse": {
+    "noncausal_placebo_o3": "outputs/qwen7b-f3/placebo/o3",
+    "real_o3": "outputs/qwen7b-f3/real/o3",
+    "source_manifest_sha256": "not-published"
+  },
+  "seeds": [
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619,
+    620
+  ],
+  "status": "preregistered_prelaunch",
+  "test_evaluated": false,
+  "training_contract": {
+    "batch_size": 64,
+    "learning_rate": 0.0003,
+    "selection": "final preregistered step",
+    "steps": 1200
+  }
+}

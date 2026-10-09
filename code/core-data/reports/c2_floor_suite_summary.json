@@ -1,0 +1,24 @@
+{
+  "cases": 7200,
+  "floor_variable_accuracy": {
+    "do_everything": 0.5169814814814815,
+    "do_nothing": 0.8506666666666667,
+    "random_init": 0.4994537037037037
+  },
+  "graphs": 20,
+  "materialized_methods": [
+    "do_nothing",
+    "do_everything",
+    "random_init"
+  ],
+  "methods": [
+    "do_nothing",
+    "do_everything",
+    "random_init",
+    "trained_o3"
+  ],
+  "output_sha256": "not-published",
+  "protocol": "c2_law_floor_calibration_v1",
+  "test_evaluated": false,
+  "trained_o3_status": "requires checkpoint-bound measurement; not a data-generation operation"
+}

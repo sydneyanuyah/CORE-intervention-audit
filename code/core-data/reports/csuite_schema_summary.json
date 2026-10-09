@@ -1,0 +1,284 @@
+{
+  "dataset_count": 15,
+  "datasets": [
+    {
+      "archive": "data/raw/csuite/csuite_cat_chain_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "cat_chain",
+      "development_members": {
+        "adj_matrix.csv": 18,
+        "train.csv": 300000,
+        "val.csv": 150000,
+        "variables.json": 820
+      },
+      "edge_count": 2,
+      "node_count": 3,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 3
+    },
+    {
+      "archive": "data/raw/csuite/csuite_cat_collider_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "cat_collider",
+      "development_members": {
+        "adj_matrix.csv": 18,
+        "train.csv": 300000,
+        "val.csv": 150000,
+        "variables.json": 820
+      },
+      "edge_count": 2,
+      "node_count": 3,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 3
+    },
+    {
+      "archive": "data/raw/csuite/csuite_cat_to_cts_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "cat_to_cts",
+      "development_members": {
+        "adj_matrix.csv": 8,
+        "train.csv": 202115,
+        "val.csv": 101090,
+        "variables.json": 601
+      },
+      "edge_count": 1,
+      "node_count": 2,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 2
+    },
+    {
+      "archive": "data/raw/csuite/csuite_cts_to_cat_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "cts_to_cat",
+      "development_members": {
+        "adj_matrix.csv": 8,
+        "train.csv": 201980,
+        "val.csv": 101033,
+        "variables.json": 601
+      },
+      "edge_count": 1,
+      "node_count": 2,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 2
+    },
+    {
+      "archive": "data/raw/csuite/csuite_large_backdoor_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "large_backdoor",
+      "development_members": {
+        "adj_matrix.csv": 162,
+        "train.csv": 463249,
+        "val.csv": 463347,
+        "variables.json": 2657
+      },
+      "edge_count": 9,
+      "node_count": 9,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 9
+    },
+    {
+      "archive": "data/raw/csuite/csuite_large_backdoor_binary_t_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "large_backdoor_binary_t",
+      "development_members": {
+        "adj_matrix.csv": 162,
+        "train.csv": 462219,
+        "val.csv": 462354,
+        "variables.json": 2623
+      },
+      "edge_count": 9,
+      "node_count": 9,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 9
+    },
+    {
+      "archive": "data/raw/csuite/csuite_linexp_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "linexp",
+      "development_members": {
+        "adj_matrix.csv": 8,
+        "train.csv": 204887,
+        "val.csv": 102527,
+        "variables.json": 635
+      },
+      "edge_count": 1,
+      "node_count": 2,
+      "sealed_members_present": [
+        "counterfactuals.json",
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 2
+    },
+    {
+      "archive": "data/raw/csuite/csuite_lingauss_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "lingauss",
+      "development_members": {
+        "adj_matrix.csv": 8,
+        "train.csv": 203963,
+        "val.csv": 102055,
+        "variables.json": 636
+      },
+      "edge_count": 1,
+      "node_count": 2,
+      "sealed_members_present": [
+        "counterfactuals.json",
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 2
+    },
+    {
+      "archive": "data/raw/csuite/csuite_mixed_confounding_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "mixed_confounding",
+      "development_members": {
+        "adj_matrix.csv": 288,
+        "train.csv": 1215580,
+        "val.csv": 607788,
+        "variables.json": 3352
+      },
+      "edge_count": 15,
+      "node_count": 12,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 12
+    },
+    {
+      "archive": "data/raw/csuite/csuite_mixed_simpson_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "mixed_simpson",
+      "development_members": {
+        "adj_matrix.csv": 32,
+        "train.csv": 403950,
+        "val.csv": 202066,
+        "variables.json": 1143
+      },
+      "edge_count": 4,
+      "node_count": 4,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 4
+    },
+    {
+      "archive": "data/raw/csuite/csuite_nonlin_simpson_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "nonlin_simpson",
+      "development_members": {
+        "adj_matrix.csv": 32,
+        "train.csv": 205805,
+        "val.csv": 205849,
+        "variables.json": 1214
+      },
+      "edge_count": 4,
+      "node_count": 4,
+      "sealed_members_present": [
+        "counterfactuals.json",
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 4
+    },
+    {
+      "archive": "data/raw/csuite/csuite_nonlingauss_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "nonlingauss",
+      "development_members": {
+        "adj_matrix.csv": 8,
+        "train.csv": 202345,
+        "val.csv": 101216,
+        "variables.json": 636
+      },
+      "edge_count": 1,
+      "node_count": 2,
+      "sealed_members_present": [
+        "counterfactuals.json",
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 2
+    },
+    {
+      "archive": "data/raw/csuite/csuite_symprod_simpson_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "symprod_simpson",
+      "development_members": {
+        "adj_matrix.csv": 32,
+        "train.csv": 203423,
+        "val.csv": 203510,
+        "variables.json": 1214
+      },
+      "edge_count": 4,
+      "node_count": 4,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 4
+    },
+    {
+      "archive": "data/raw/csuite/csuite_weak_arrows_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "weak_arrows",
+      "development_members": {
+        "adj_matrix.csv": 162,
+        "train.csv": 461298,
+        "val.csv": 461173,
+        "variables.json": 2658
+      },
+      "edge_count": 15,
+      "node_count": 9,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 9
+    },
+    {
+      "archive": "data/raw/csuite/csuite_weak_arrows_binary_t_v0.1.zip",
+      "archive_sha256": "not-published",
+      "dataset": "weak_arrows_binary_t",
+      "development_members": {
+        "adj_matrix.csv": 162,
+        "train.csv": 460910,
+        "val.csv": 460834,
+        "variables.json": 2624
+      },
+      "edge_count": 15,
+      "node_count": 9,
+      "sealed_members_present": [
+        "interventions.json",
+        "test.csv"
+      ],
+      "variable_count": 9
+    }
+  ],
+  "development_policy": "use released train/val metadata only; generate fresh development interventions from the pinned official simulator; never read released test/intervention arrays",
+  "release": "v0.1",
+  "repository_revision": "not-published",
+  "source": "csuite",
+  "test_evaluated": false
+}

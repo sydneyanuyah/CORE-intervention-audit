@@ -1,0 +1,24 @@
+{
+  "groups_by_source": {
+    "com2": 1888,
+    "corr2cause": 29,
+    "counterbench": 1200,
+    "crass": 274
+  },
+  "output_sha256": "not-published",
+  "protocol": "t5_native_transfer_suite_v1",
+  "rows": 5050,
+  "rows_by_source": {
+    "com2": 2500,
+    "corr2cause": 1076,
+    "counterbench": 1200,
+    "crass": 274
+  },
+  "rows_by_split": {
+    "test": 590,
+    "train": 2984,
+    "validation": 1476
+  },
+  "scope": "source-native tasks; no coercion into the CORE paired-state schema",
+  "test_evaluated": false
+}

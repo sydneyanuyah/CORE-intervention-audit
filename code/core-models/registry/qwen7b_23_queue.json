@@ -1,0 +1,39 @@
+{
+  "protocol": "core_qwen2p5_7b_23_experiment_queue_v1",
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "policy": {
+    "fill_all_genuinely_free_gpus": true,
+    "launch_only_registered_provenance_valid_cells": true,
+    "never_rerun_complete_cells": true,
+    "held_out_test": "forbidden_until_separately_registered_one_shot",
+    "orchestration": "persistent server-side pipelines; no Codex scheduled task"
+  },
+  "experiments": [
+    {"number":1,"id":"F1","depends_on":[],"state":"complete","manifest":"registry/qwen7b_f1_manifest.json","manifest_sha256":"not-published","registered_cells":40,"completed_cells":40,"pipeline":"scripts/run_qwen7b_f1_pipeline.py"},
+    {"number":2,"id":"F2","depends_on":["F1"],"state":"complete","completed_cells":40,"expected_cells":40,"report":"reports/QWEN7B_EXTENSION.json","note":"approved out-of-order scale anchor; do not rerun"},
+    {"number":3,"id":"F3","depends_on":["F1"],"state":"complete","manifest":"registry/qwen7b_f3_manifest.json","manifest_sha256":"not-published","registered_cells":80,"completed_cells":80,"pipeline":"scripts/run_qwen7b_f3_pipeline.py"},
+    {"number":4,"id":"F4","depends_on":["F1"],"state":"complete","manifest":"registry/qwen7b_f4_manifest.json","manifest_sha256":"not-published","registered_cells":50,"completed_cells":50,"pipeline":"scripts/run_qwen7b_f4_pipeline.py"},
+    {"number":5,"id":"A1","depends_on":[],"state":"complete","manifest":"registry/qwen7b_a1_manifest.json","manifest_sha256":"not-published","registered_cells":120,"completed_cells":120,"pipeline":"scripts/run_qwen7b_a1_pipeline.py"},
+    {"number":6,"id":"A2","depends_on":["A1"],"state":"complete","registered_cells":20,"completed_cells":20,"pipeline":"scripts/run_qwen7b_a2_a3.py","report":"reports/QWEN7B_A2.json"},
+    {"number":7,"id":"A3","depends_on":["A1"],"state":"complete","registered_cells":20,"completed_cells":20,"pipeline":"scripts/run_qwen7b_a2_a3.py","report":"reports/QWEN7B_A3.json"},
+    {"number":8,"id":"L1","depends_on":[],"state":"queued","expected_cells":120,"pipeline":"scripts/run_qwen7b_laws_pipeline.py"},
+    {"number":9,"id":"L2","depends_on":["L1"],"state":"queued_after_l1","expected_cells":100,"pipeline":"scripts/run_qwen7b_laws_pipeline.py"},
+    {"number":10,"id":"L3","depends_on":["F1"],"state":"queued_after_l2","expected_cells":40,"pipeline":"scripts/run_qwen7b_laws_pipeline.py"},
+    {"number":11,"id":"C1","depends_on":["F1"],"state":"complete","manifest":"registry/qwen7b_c1_manifest.json","manifest_sha256":"not-published","registered_cells":60,"reused_cells":40,"new_cells":20,"completed_cells":60,"pipeline":"scripts/run_qwen7b_c1.py","report":"reports/QWEN7B_C1.json"},
+    {"number":12,"id":"C2","depends_on":["F1"],"state":"complete_derived","cases":7200,"report":"reports/QWEN7B_C2.json"},
+    {"number":13,"id":"C3","depends_on":["F2"],"state":"complete_derived","report":"reports/QWEN7B_DERIVED_C3_C4_T1.md"},
+    {"number":14,"id":"C4","depends_on":["F2"],"state":"complete_derived","report":"reports/QWEN7B_DERIVED_C3_C4_T1.md"},
+    {"number":15,"id":"T1","depends_on":["F2"],"state":"complete_derived","report":"reports/QWEN7B_DERIVED_C3_C4_T1.md"},
+    {"number":16,"id":"T2","depends_on":[],"state":"queued_after_laws","expected_cells":40,"pipeline":"scripts/run_qwen7b_remaining_pipeline.py"},
+    {"number":17,"id":"T3","depends_on":["A1"],"state":"queued_after_t2","expected_cells":40,"pipeline":"scripts/run_qwen7b_remaining_pipeline.py"},
+    {"number":18,"id":"T4","depends_on":[],"state":"queued_after_t3","expected_cells":40,"pipeline":"scripts/run_qwen7b_remaining_pipeline.py"},
+    {"number":19,"id":"T5","depends_on":["F1"],"state":"queued_after_t4","expected_cells":40,"pipeline":"scripts/run_qwen7b_remaining_pipeline.py"},
+    {"number":20,"id":"G1","depends_on":["F1"],"state":"queued_after_t5","expected_cells":40,"pipeline":"scripts/run_qwen7b_remaining_pipeline.py"},
+    {"number":21,"id":"G2","depends_on":["F1"],"state":"queued_after_g1","expected_cells":40,"pipeline":"scripts/run_qwen7b_remaining_pipeline.py"},
+    {"number":22,"id":"G3","depends_on":[],"state":"queued_after_g4","expected_cells":7,"pipeline":"scripts/run_qwen7b_g3_pipeline.py"},
+    {"number":23,"id":"G4","depends_on":[],"state":"queued_after_g2","expected_cells":40,"pipeline":"scripts/run_qwen7b_remaining_pipeline.py"}
+  ],
+  "current_engineering_order": ["L1","L2","L3","T2","T3","T4","T5","G1","G2","G4","G3"],
+  "queue_owner": "scripts/run_qwen7b_all_remaining.py",
+  "test_evaluated": false
+}

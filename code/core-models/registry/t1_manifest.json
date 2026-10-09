@@ -1,0 +1,28 @@
+{
+  "protocol": "t1_f2_composed_measurement_v1",
+  "kind": "measurement_only",
+  "source_experiment": "F2",
+  "split": "validation",
+  "test_evaluated": false,
+  "data": "experiments/Experiment-15-T1/data/validation/f2_composed_pairs.jsonl",
+  "data_sha256": "not-published",
+  "methods": ["prompting", "o2", "o3"],
+  "seeds": [301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320],
+  "family_pair_counts": {
+    "xor": 1200,
+    "ccrgb": 2974,
+    "cladder": 615,
+    "wiqa": 70,
+    "com2": 70
+  },
+  "expected_summary_examples_per_seed": {
+    "xor": 60,
+    "ccrgb": 2974,
+    "cladder": 615,
+    "wiqa": 70,
+    "com2": 70
+  },
+  "primary": "paired_seed_mean_two_edit_balanced:o3-prompting",
+  "secondary": "paired_seed_mean_two_edit_balanced:o2-prompting",
+  "mismatch_policy": "quarantine_family_without_blocking_valid_families"
+}

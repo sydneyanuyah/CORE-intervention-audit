@@ -1,0 +1,6369 @@
+{
+  "completed_cells": 120,
+  "evaluation_split": "validation",
+  "expected_cells": 120,
+  "protocol": "llama3_3_70b_a1_aggregate_v1",
+  "results": [
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.5487459897994995,
+          "step": 1
+        },
+        {
+          "loss": 0.4894508123397827,
+          "step": 200
+        },
+        {
+          "loss": 0.49846118688583374,
+          "step": 400
+        },
+        {
+          "loss": 0.5025748014450073,
+          "step": 600
+        },
+        {
+          "loss": 0.4444577991962433,
+          "step": 800
+        },
+        {
+          "loss": 0.47067275643348694,
+          "step": 1000
+        },
+        {
+          "loss": 0.42848077416419983,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5420225560665131,
+        "change_accuracy": 0.4498698115348816,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.6341753005981445,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.5967687964439392,
+          "step": 1
+        },
+        {
+          "loss": 0.5099713206291199,
+          "step": 200
+        },
+        {
+          "loss": 0.4921451210975647,
+          "step": 400
+        },
+        {
+          "loss": 0.4790700078010559,
+          "step": 600
+        },
+        {
+          "loss": 0.4454084634780884,
+          "step": 800
+        },
+        {
+          "loss": 0.4306311011314392,
+          "step": 1000
+        },
+        {
+          "loss": 0.4113139510154724,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.510390505194664,
+        "change_accuracy": 0.4729885160923004,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.5477924942970276,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.5958975553512573,
+          "step": 1
+        },
+        {
+          "loss": 0.49313369393348694,
+          "step": 200
+        },
+        {
+          "loss": 0.4378228783607483,
+          "step": 400
+        },
+        {
+          "loss": 0.4878169000148773,
+          "step": 600
+        },
+        {
+          "loss": 0.40562641620635986,
+          "step": 800
+        },
+        {
+          "loss": 0.4351750612258911,
+          "step": 1000
+        },
+        {
+          "loss": 0.44152703881263733,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5539354979991913,
+        "change_accuracy": 0.5040000081062317,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.6038709878921509,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.518825113773346,
+          "step": 1
+        },
+        {
+          "loss": 0.4863695502281189,
+          "step": 200
+        },
+        {
+          "loss": 0.47865137457847595,
+          "step": 400
+        },
+        {
+          "loss": 0.4265427589416504,
+          "step": 600
+        },
+        {
+          "loss": 0.5131872296333313,
+          "step": 800
+        },
+        {
+          "loss": 0.44063812494277954,
+          "step": 1000
+        },
+        {
+          "loss": 0.41530513763427734,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.4956876039505005,
+        "change_accuracy": 0.459378719329834,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.531996488571167,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.5706690549850464,
+          "step": 1
+        },
+        {
+          "loss": 0.4876447319984436,
+          "step": 200
+        },
+        {
+          "loss": 0.511414110660553,
+          "step": 400
+        },
+        {
+          "loss": 0.4367372989654541,
+          "step": 600
+        },
+        {
+          "loss": 0.4463348388671875,
+          "step": 800
+        },
+        {
+          "loss": 0.45143502950668335,
+          "step": 1000
+        },
+        {
+          "loss": 0.4132865369319916,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5504491180181503,
+        "change_accuracy": 0.40343913435935974,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.6974591016769409,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.5786557793617249,
+          "step": 1
+        },
+        {
+          "loss": 0.4726944863796234,
+          "step": 200
+        },
+        {
+          "loss": 0.5011585354804993,
+          "step": 400
+        },
+        {
+          "loss": 0.3968108594417572,
+          "step": 600
+        },
+        {
+          "loss": 0.4261082410812378,
+          "step": 800
+        },
+        {
+          "loss": 0.4343256950378418,
+          "step": 1000
+        },
+        {
+          "loss": 0.39818230271339417,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5354381203651428,
+        "change_accuracy": 0.5438931584358215,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.5269830822944641,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.5296043753623962,
+          "step": 1
+        },
+        {
+          "loss": 0.5028996467590332,
+          "step": 200
+        },
+        {
+          "loss": 0.5617343187332153,
+          "step": 400
+        },
+        {
+          "loss": 0.43996739387512207,
+          "step": 600
+        },
+        {
+          "loss": 0.4353943467140198,
+          "step": 800
+        },
+        {
+          "loss": 0.38796359300613403,
+          "step": 1000
+        },
+        {
+          "loss": 0.44539791345596313,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5258931070566177,
+        "change_accuracy": 0.36739131808280945,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.684394896030426,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.5965288877487183,
+          "step": 1
+        },
+        {
+          "loss": 0.4534381926059723,
+          "step": 200
+        },
+        {
+          "loss": 0.44748029112815857,
+          "step": 400
+        },
+        {
+          "loss": 0.4552859663963318,
+          "step": 600
+        },
+        {
+          "loss": 0.42917096614837646,
+          "step": 800
+        },
+        {
+          "loss": 0.42166006565093994,
+          "step": 1000
+        },
+        {
+          "loss": 0.40712666511535645,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5328395813703537,
+        "change_accuracy": 0.44486215710639954,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.6208170056343079,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.6067233085632324,
+          "step": 1
+        },
+        {
+          "loss": 0.5156772136688232,
+          "step": 200
+        },
+        {
+          "loss": 0.48329880833625793,
+          "step": 400
+        },
+        {
+          "loss": 0.44724488258361816,
+          "step": 600
+        },
+        {
+          "loss": 0.4664444923400879,
+          "step": 800
+        },
+        {
+          "loss": 0.3983871042728424,
+          "step": 1000
+        },
+        {
+          "loss": 0.42743176221847534,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.51541867852211,
+        "change_accuracy": 0.4151177406311035,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.6157196164131165,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.6243672370910645,
+          "step": 1
+        },
+        {
+          "loss": 0.5069618225097656,
+          "step": 200
+        },
+        {
+          "loss": 0.45891574025154114,
+          "step": 400
+        },
+        {
+          "loss": 0.4866410493850708,
+          "step": 600
+        },
+        {
+          "loss": 0.44888970255851746,
+          "step": 800
+        },
+        {
+          "loss": 0.403084397315979,
+          "step": 1000
+        },
+        {
+          "loss": 0.40789148211479187,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.517287015914917,
+        "change_accuracy": 0.601129949092865,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.433444082736969,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.6150377988815308,
+          "step": 1
+        },
+        {
+          "loss": 0.48612281680107117,
+          "step": 200
+        },
+        {
+          "loss": 0.5028367638587952,
+          "step": 400
+        },
+        {
+          "loss": 0.3942997455596924,
+          "step": 600
+        },
+        {
+          "loss": 0.42902672290802,
+          "step": 800
+        },
+        {
+          "loss": 0.4523826241493225,
+          "step": 1000
+        },
+        {
+          "loss": 0.39950665831565857,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5196979641914368,
+        "change_accuracy": 0.5,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.5393959283828735,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.5716338157653809,
+          "step": 1
+        },
+        {
+          "loss": 0.45105665922164917,
+          "step": 200
+        },
+        {
+          "loss": 0.4740571975708008,
+          "step": 400
+        },
+        {
+          "loss": 0.4541472792625427,
+          "step": 600
+        },
+        {
+          "loss": 0.42066729068756104,
+          "step": 800
+        },
+        {
+          "loss": 0.39707374572753906,
+          "step": 1000
+        },
+        {
+          "loss": 0.4512471854686737,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5130769461393356,
+        "change_accuracy": 0.4829932153224945,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.5431606769561768,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.5492167472839355,
+          "step": 1
+        },
+        {
+          "loss": 0.47716379165649414,
+          "step": 200
+        },
+        {
+          "loss": 0.47490769624710083,
+          "step": 400
+        },
+        {
+          "loss": 0.46770980954170227,
+          "step": 600
+        },
+        {
+          "loss": 0.3960142433643341,
+          "step": 800
+        },
+        {
+          "loss": 0.42664986848831177,
+          "step": 1000
+        },
+        {
+          "loss": 0.4487534165382385,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.49734529852867126,
+        "change_accuracy": 0.42883211374282837,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.5658584833145142,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.5569882392883301,
+          "step": 1
+        },
+        {
+          "loss": 0.45838838815689087,
+          "step": 200
+        },
+        {
+          "loss": 0.5361303687095642,
+          "step": 400
+        },
+        {
+          "loss": 0.4747002124786377,
+          "step": 600
+        },
+        {
+          "loss": 0.45948824286460876,
+          "step": 800
+        },
+        {
+          "loss": 0.42262351512908936,
+          "step": 1000
+        },
+        {
+          "loss": 0.46177202463150024,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5024747997522354,
+        "change_accuracy": 0.42091503739356995,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5840345621109009,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.5945477485656738,
+          "step": 1
+        },
+        {
+          "loss": 0.520229160785675,
+          "step": 200
+        },
+        {
+          "loss": 0.494567334651947,
+          "step": 400
+        },
+        {
+          "loss": 0.44470059871673584,
+          "step": 600
+        },
+        {
+          "loss": 0.4639829099178314,
+          "step": 800
+        },
+        {
+          "loss": 0.45488378405570984,
+          "step": 1000
+        },
+        {
+          "loss": 0.4138146638870239,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5472034513950348,
+        "change_accuracy": 0.5533596873283386,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.541047215461731,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.6126885414123535,
+          "step": 1
+        },
+        {
+          "loss": 0.49545443058013916,
+          "step": 200
+        },
+        {
+          "loss": 0.4589608311653137,
+          "step": 400
+        },
+        {
+          "loss": 0.4638515114784241,
+          "step": 600
+        },
+        {
+          "loss": 0.4492464065551758,
+          "step": 800
+        },
+        {
+          "loss": 0.4132423996925354,
+          "step": 1000
+        },
+        {
+          "loss": 0.4248661994934082,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5461147427558899,
+        "change_accuracy": 0.5283950567245483,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.5638344287872314,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.618063747882843,
+          "step": 1
+        },
+        {
+          "loss": 0.49947479367256165,
+          "step": 200
+        },
+        {
+          "loss": 0.47635579109191895,
+          "step": 400
+        },
+        {
+          "loss": 0.46493619680404663,
+          "step": 600
+        },
+        {
+          "loss": 0.45574361085891724,
+          "step": 800
+        },
+        {
+          "loss": 0.4071776866912842,
+          "step": 1000
+        },
+        {
+          "loss": 0.44661596417427063,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5072861313819885,
+        "change_accuracy": 0.5011862516403198,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.5133860111236572,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.599207878112793,
+          "step": 1
+        },
+        {
+          "loss": 0.5006352066993713,
+          "step": 200
+        },
+        {
+          "loss": 0.42675235867500305,
+          "step": 400
+        },
+        {
+          "loss": 0.442987859249115,
+          "step": 600
+        },
+        {
+          "loss": 0.4055907130241394,
+          "step": 800
+        },
+        {
+          "loss": 0.42478466033935547,
+          "step": 1000
+        },
+        {
+          "loss": 0.45381641387939453,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.4983966797590256,
+        "change_accuracy": 0.4862433969974518,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.5105499625205994,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.5455259084701538,
+          "step": 1
+        },
+        {
+          "loss": 0.49821415543556213,
+          "step": 200
+        },
+        {
+          "loss": 0.4983091354370117,
+          "step": 400
+        },
+        {
+          "loss": 0.4993053078651428,
+          "step": 600
+        },
+        {
+          "loss": 0.47129401564598083,
+          "step": 800
+        },
+        {
+          "loss": 0.39328575134277344,
+          "step": 1000
+        },
+        {
+          "loss": 0.46147873997688293,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5244914591312408,
+        "change_accuracy": 0.4655448794364929,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.5834380388259888,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t0_no_instruction",
+      "cell_id": "llama70b-a1:xor:t0_no_instruction:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.5361881256103516,
+          "step": 1
+        },
+        {
+          "loss": 0.4869135022163391,
+          "step": 200
+        },
+        {
+          "loss": 0.4946872889995575,
+          "step": 400
+        },
+        {
+          "loss": 0.4686432480812073,
+          "step": 600
+        },
+        {
+          "loss": 0.5192192196846008,
+          "step": 800
+        },
+        {
+          "loss": 0.43251657485961914,
+          "step": 1000
+        },
+        {
+          "loss": 0.4725838601589203,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 507964,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.526348665356636,
+        "change_accuracy": 0.4839743673801422,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.5687229633331299,
+        "preservation_decisions": 9240
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.5547453761100769,
+          "step": 1
+        },
+        {
+          "loss": 0.42455995082855225,
+          "step": 200
+        },
+        {
+          "loss": 0.4504483938217163,
+          "step": 400
+        },
+        {
+          "loss": 0.4225895404815674,
+          "step": 600
+        },
+        {
+          "loss": 0.37806791067123413,
+          "step": 800
+        },
+        {
+          "loss": 0.4070809781551361,
+          "step": 1000
+        },
+        {
+          "loss": 0.37195807695388794,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.564945638179779,
+        "change_accuracy": 0.5690104365348816,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.5608808398246765,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.5987496376037598,
+          "step": 1
+        },
+        {
+          "loss": 0.5029212832450867,
+          "step": 200
+        },
+        {
+          "loss": 0.46090251207351685,
+          "step": 400
+        },
+        {
+          "loss": 0.45607176423072815,
+          "step": 600
+        },
+        {
+          "loss": 0.45862120389938354,
+          "step": 800
+        },
+        {
+          "loss": 0.4122565686702728,
+          "step": 1000
+        },
+        {
+          "loss": 0.3965299129486084,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.521816223859787,
+        "change_accuracy": 0.5091953873634338,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.5344370603561401,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.5967791080474854,
+          "step": 1
+        },
+        {
+          "loss": 0.4546753168106079,
+          "step": 200
+        },
+        {
+          "loss": 0.39130622148513794,
+          "step": 400
+        },
+        {
+          "loss": 0.4289417266845703,
+          "step": 600
+        },
+        {
+          "loss": 0.3561253547668457,
+          "step": 800
+        },
+        {
+          "loss": 0.3776388168334961,
+          "step": 1000
+        },
+        {
+          "loss": 0.3589714765548706,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5876451432704926,
+        "change_accuracy": 0.6106666326522827,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.5646236538887024,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.5245697498321533,
+          "step": 1
+        },
+        {
+          "loss": 0.47274863719940186,
+          "step": 200
+        },
+        {
+          "loss": 0.4569644331932068,
+          "step": 400
+        },
+        {
+          "loss": 0.42917245626449585,
+          "step": 600
+        },
+        {
+          "loss": 0.4515666365623474,
+          "step": 800
+        },
+        {
+          "loss": 0.4112260639667511,
+          "step": 1000
+        },
+        {
+          "loss": 0.38883185386657715,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5291934311389923,
+        "change_accuracy": 0.5328553915023804,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5255314707756042,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.5718485713005066,
+          "step": 1
+        },
+        {
+          "loss": 0.4066346287727356,
+          "step": 200
+        },
+        {
+          "loss": 0.41808590292930603,
+          "step": 400
+        },
+        {
+          "loss": 0.3828292489051819,
+          "step": 600
+        },
+        {
+          "loss": 0.3731629252433777,
+          "step": 800
+        },
+        {
+          "loss": 0.3722316324710846,
+          "step": 1000
+        },
+        {
+          "loss": 0.3250301778316498,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6282145977020264,
+        "change_accuracy": 0.5866401791572571,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.6697890162467957,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.5719720125198364,
+          "step": 1
+        },
+        {
+          "loss": 0.42281901836395264,
+          "step": 200
+        },
+        {
+          "loss": 0.45989832282066345,
+          "step": 400
+        },
+        {
+          "loss": 0.38571977615356445,
+          "step": 600
+        },
+        {
+          "loss": 0.3996361494064331,
+          "step": 800
+        },
+        {
+          "loss": 0.39684414863586426,
+          "step": 1000
+        },
+        {
+          "loss": 0.36527860164642334,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5468053817749023,
+        "change_accuracy": 0.554707407951355,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.5389033555984497,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.5362253785133362,
+          "step": 1
+        },
+        {
+          "loss": 0.42591285705566406,
+          "step": 200
+        },
+        {
+          "loss": 0.4343835115432739,
+          "step": 400
+        },
+        {
+          "loss": 0.3796839416027069,
+          "step": 600
+        },
+        {
+          "loss": 0.35844168066978455,
+          "step": 800
+        },
+        {
+          "loss": 0.32667332887649536,
+          "step": 1000
+        },
+        {
+          "loss": 0.35109296441078186,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6173289716243744,
+        "change_accuracy": 0.552173912525177,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.6824840307235718,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.5875033140182495,
+          "step": 1
+        },
+        {
+          "loss": 0.4058392643928528,
+          "step": 200
+        },
+        {
+          "loss": 0.411512553691864,
+          "step": 400
+        },
+        {
+          "loss": 0.3729363679885864,
+          "step": 600
+        },
+        {
+          "loss": 0.3788328766822815,
+          "step": 800
+        },
+        {
+          "loss": 0.3814416825771332,
+          "step": 1000
+        },
+        {
+          "loss": 0.34251537919044495,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5543858706951141,
+        "change_accuracy": 0.5050125122070312,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.603759229183197,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.6038450002670288,
+          "step": 1
+        },
+        {
+          "loss": 0.4683951437473297,
+          "step": 200
+        },
+        {
+          "loss": 0.4425785541534424,
+          "step": 400
+        },
+        {
+          "loss": 0.4303344488143921,
+          "step": 600
+        },
+        {
+          "loss": 0.44405123591423035,
+          "step": 800
+        },
+        {
+          "loss": 0.3554058074951172,
+          "step": 1000
+        },
+        {
+          "loss": 0.4149077534675598,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5456515550613403,
+        "change_accuracy": 0.5427509546279907,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.5485521554946899,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.6113475561141968,
+          "step": 1
+        },
+        {
+          "loss": 0.47614166140556335,
+          "step": 200
+        },
+        {
+          "loss": 0.4233059287071228,
+          "step": 400
+        },
+        {
+          "loss": 0.42622023820877075,
+          "step": 600
+        },
+        {
+          "loss": 0.39636898040771484,
+          "step": 800
+        },
+        {
+          "loss": 0.37505078315734863,
+          "step": 1000
+        },
+        {
+          "loss": 0.37033894658088684,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5245687663555145,
+        "change_accuracy": 0.5372881293296814,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.5118494033813477,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.6231523752212524,
+          "step": 1
+        },
+        {
+          "loss": 0.44353532791137695,
+          "step": 200
+        },
+        {
+          "loss": 0.4832678437232971,
+          "step": 400
+        },
+        {
+          "loss": 0.3755408525466919,
+          "step": 600
+        },
+        {
+          "loss": 0.41492947936058044,
+          "step": 800
+        },
+        {
+          "loss": 0.41680681705474854,
+          "step": 1000
+        },
+        {
+          "loss": 0.36964860558509827,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5580175518989563,
+        "change_accuracy": 0.5571600794792175,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.5588750243186951,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.565599262714386,
+          "step": 1
+        },
+        {
+          "loss": 0.449684739112854,
+          "step": 200
+        },
+        {
+          "loss": 0.44616544246673584,
+          "step": 400
+        },
+        {
+          "loss": 0.4574933350086212,
+          "step": 600
+        },
+        {
+          "loss": 0.408163458108902,
+          "step": 800
+        },
+        {
+          "loss": 0.3796693682670593,
+          "step": 1000
+        },
+        {
+          "loss": 0.4246789216995239,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.500339925289154,
+        "change_accuracy": 0.523809552192688,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.4768702983856201,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.5508444309234619,
+          "step": 1
+        },
+        {
+          "loss": 0.4329584240913391,
+          "step": 200
+        },
+        {
+          "loss": 0.43961358070373535,
+          "step": 400
+        },
+        {
+          "loss": 0.4339836537837982,
+          "step": 600
+        },
+        {
+          "loss": 0.3829993009567261,
+          "step": 800
+        },
+        {
+          "loss": 0.38994574546813965,
+          "step": 1000
+        },
+        {
+          "loss": 0.40538573265075684,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5479630529880524,
+        "change_accuracy": 0.5377128720283508,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.5582132339477539,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.5531011819839478,
+          "step": 1
+        },
+        {
+          "loss": 0.43673765659332275,
+          "step": 200
+        },
+        {
+          "loss": 0.46168428659439087,
+          "step": 400
+        },
+        {
+          "loss": 0.4077184498310089,
+          "step": 600
+        },
+        {
+          "loss": 0.4312322735786438,
+          "step": 800
+        },
+        {
+          "loss": 0.3945423364639282,
+          "step": 1000
+        },
+        {
+          "loss": 0.4085325598716736,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5366647839546204,
+        "change_accuracy": 0.5196078419685364,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5537217259407043,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.5892778038978577,
+          "step": 1
+        },
+        {
+          "loss": 0.49297481775283813,
+          "step": 200
+        },
+        {
+          "loss": 0.48197096586227417,
+          "step": 400
+        },
+        {
+          "loss": 0.4390150308609009,
+          "step": 600
+        },
+        {
+          "loss": 0.4663679897785187,
+          "step": 800
+        },
+        {
+          "loss": 0.45301148295402527,
+          "step": 1000
+        },
+        {
+          "loss": 0.38021352887153625,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.53801229596138,
+        "change_accuracy": 0.5612648129463196,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.5147597789764404,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.6102031469345093,
+          "step": 1
+        },
+        {
+          "loss": 0.43964844942092896,
+          "step": 200
+        },
+        {
+          "loss": 0.4141384959220886,
+          "step": 400
+        },
+        {
+          "loss": 0.3930298089981079,
+          "step": 600
+        },
+        {
+          "loss": 0.4087386727333069,
+          "step": 800
+        },
+        {
+          "loss": 0.3815523386001587,
+          "step": 1000
+        },
+        {
+          "loss": 0.37412384152412415,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5349673330783844,
+        "change_accuracy": 0.550000011920929,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.5199346542358398,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.6196705102920532,
+          "step": 1
+        },
+        {
+          "loss": 0.4740602672100067,
+          "step": 200
+        },
+        {
+          "loss": 0.46334195137023926,
+          "step": 400
+        },
+        {
+          "loss": 0.4400838613510132,
+          "step": 600
+        },
+        {
+          "loss": 0.4381103217601776,
+          "step": 800
+        },
+        {
+          "loss": 0.40644627809524536,
+          "step": 1000
+        },
+        {
+          "loss": 0.4599580764770508,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5209620594978333,
+        "change_accuracy": 0.5308422446250916,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.511081874370575,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.6075514554977417,
+          "step": 1
+        },
+        {
+          "loss": 0.44633427262306213,
+          "step": 200
+        },
+        {
+          "loss": 0.4359705448150635,
+          "step": 400
+        },
+        {
+          "loss": 0.4564670920372009,
+          "step": 600
+        },
+        {
+          "loss": 0.4145928919315338,
+          "step": 800
+        },
+        {
+          "loss": 0.4085118770599365,
+          "step": 1000
+        },
+        {
+          "loss": 0.44937777519226074,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5135962963104248,
+        "change_accuracy": 0.5365079641342163,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.4906846284866333,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.5435830354690552,
+          "step": 1
+        },
+        {
+          "loss": 0.4361071288585663,
+          "step": 200
+        },
+        {
+          "loss": 0.4261169731616974,
+          "step": 400
+        },
+        {
+          "loss": 0.40851736068725586,
+          "step": 600
+        },
+        {
+          "loss": 0.397382527589798,
+          "step": 800
+        },
+        {
+          "loss": 0.328033447265625,
+          "step": 1000
+        },
+        {
+          "loss": 0.34162968397140503,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5836494266986847,
+        "change_accuracy": 0.6017628312110901,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.5655360221862793,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t1_text",
+      "cell_id": "llama70b-a1:xor:t1_text:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.5486477017402649,
+          "step": 1
+        },
+        {
+          "loss": 0.46860021352767944,
+          "step": 200
+        },
+        {
+          "loss": 0.45937663316726685,
+          "step": 400
+        },
+        {
+          "loss": 0.4535512328147888,
+          "step": 600
+        },
+        {
+          "loss": 0.49021223187446594,
+          "step": 800
+        },
+        {
+          "loss": 0.390936017036438,
+          "step": 1000
+        },
+        {
+          "loss": 0.42725643515586853,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 999484,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.522144541144371,
+        "change_accuracy": 0.4980769455432892,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.5462121367454529,
+        "preservation_decisions": 9240
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.5487459897994995,
+          "step": 1
+        },
+        {
+          "loss": 0.4854572117328644,
+          "step": 200
+        },
+        {
+          "loss": 0.49758148193359375,
+          "step": 400
+        },
+        {
+          "loss": 0.4980652928352356,
+          "step": 600
+        },
+        {
+          "loss": 0.4274386167526245,
+          "step": 800
+        },
+        {
+          "loss": 0.46172434091567993,
+          "step": 1000
+        },
+        {
+          "loss": 0.4200502634048462,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5344579815864563,
+        "change_accuracy": 0.42578125,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.6431347131729126,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.5967687964439392,
+          "step": 1
+        },
+        {
+          "loss": 0.5078299045562744,
+          "step": 200
+        },
+        {
+          "loss": 0.4871501922607422,
+          "step": 400
+        },
+        {
+          "loss": 0.47332921624183655,
+          "step": 600
+        },
+        {
+          "loss": 0.4392961859703064,
+          "step": 800
+        },
+        {
+          "loss": 0.41440197825431824,
+          "step": 1000
+        },
+        {
+          "loss": 0.4115745425224304,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.517127200961113,
+        "change_accuracy": 0.4454022943973541,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.5888521075248718,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.5958975553512573,
+          "step": 1
+        },
+        {
+          "loss": 0.4922933280467987,
+          "step": 200
+        },
+        {
+          "loss": 0.43172770738601685,
+          "step": 400
+        },
+        {
+          "loss": 0.47970637679100037,
+          "step": 600
+        },
+        {
+          "loss": 0.39533552527427673,
+          "step": 800
+        },
+        {
+          "loss": 0.43096593022346497,
+          "step": 1000
+        },
+        {
+          "loss": 0.44298914074897766,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5464516282081604,
+        "change_accuracy": 0.4300000071525574,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.6629032492637634,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.518825113773346,
+          "step": 1
+        },
+        {
+          "loss": 0.4855071008205414,
+          "step": 200
+        },
+        {
+          "loss": 0.4746635854244232,
+          "step": 400
+        },
+        {
+          "loss": 0.4198239743709564,
+          "step": 600
+        },
+        {
+          "loss": 0.5048229098320007,
+          "step": 800
+        },
+        {
+          "loss": 0.432187020778656,
+          "step": 1000
+        },
+        {
+          "loss": 0.3976425528526306,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5031812787055969,
+        "change_accuracy": 0.5053763389587402,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5009862184524536,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.5706690549850464,
+          "step": 1
+        },
+        {
+          "loss": 0.4850423336029053,
+          "step": 200
+        },
+        {
+          "loss": 0.5037704110145569,
+          "step": 400
+        },
+        {
+          "loss": 0.431011825799942,
+          "step": 600
+        },
+        {
+          "loss": 0.4426461160182953,
+          "step": 800
+        },
+        {
+          "loss": 0.442766010761261,
+          "step": 1000
+        },
+        {
+          "loss": 0.40643829107284546,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5612156987190247,
+        "change_accuracy": 0.42195767164230347,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.7004737257957458,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.5786557793617249,
+          "step": 1
+        },
+        {
+          "loss": 0.4696652293205261,
+          "step": 200
+        },
+        {
+          "loss": 0.49347296357154846,
+          "step": 400
+        },
+        {
+          "loss": 0.3869435787200928,
+          "step": 600
+        },
+        {
+          "loss": 0.4209384322166443,
+          "step": 800
+        },
+        {
+          "loss": 0.4203643798828125,
+          "step": 1000
+        },
+        {
+          "loss": 0.3870217502117157,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5281668603420258,
+        "change_accuracy": 0.5203562378883362,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.5359774827957153,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.5296043753623962,
+          "step": 1
+        },
+        {
+          "loss": 0.49834877252578735,
+          "step": 200
+        },
+        {
+          "loss": 0.5531460046768188,
+          "step": 400
+        },
+        {
+          "loss": 0.4315457046031952,
+          "step": 600
+        },
+        {
+          "loss": 0.4257934093475342,
+          "step": 800
+        },
+        {
+          "loss": 0.38311371207237244,
+          "step": 1000
+        },
+        {
+          "loss": 0.4445576071739197,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5317086577415466,
+        "change_accuracy": 0.4275362491607666,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.6358810663223267,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.5965288877487183,
+          "step": 1
+        },
+        {
+          "loss": 0.45046207308769226,
+          "step": 200
+        },
+        {
+          "loss": 0.4419707655906677,
+          "step": 400
+        },
+        {
+          "loss": 0.44463634490966797,
+          "step": 600
+        },
+        {
+          "loss": 0.41536086797714233,
+          "step": 800
+        },
+        {
+          "loss": 0.4135721027851105,
+          "step": 1000
+        },
+        {
+          "loss": 0.39081424474716187,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5235513597726822,
+        "change_accuracy": 0.417919784784317,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.6291829347610474,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.6067233085632324,
+          "step": 1
+        },
+        {
+          "loss": 0.5126059651374817,
+          "step": 200
+        },
+        {
+          "loss": 0.4749218821525574,
+          "step": 400
+        },
+        {
+          "loss": 0.4398110806941986,
+          "step": 600
+        },
+        {
+          "loss": 0.4700026512145996,
+          "step": 800
+        },
+        {
+          "loss": 0.383845716714859,
+          "step": 1000
+        },
+        {
+          "loss": 0.4295034110546112,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.49944154918193817,
+        "change_accuracy": 0.4101611077785492,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.5887219905853271,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.6243672370910645,
+          "step": 1
+        },
+        {
+          "loss": 0.5034972429275513,
+          "step": 200
+        },
+        {
+          "loss": 0.45455342531204224,
+          "step": 400
+        },
+        {
+          "loss": 0.4779356122016907,
+          "step": 600
+        },
+        {
+          "loss": 0.4381939768791199,
+          "step": 800
+        },
+        {
+          "loss": 0.394937127828598,
+          "step": 1000
+        },
+        {
+          "loss": 0.3960772752761841,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.512219175696373,
+        "change_accuracy": 0.5593220591545105,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.4651162922382355,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.6150377988815308,
+          "step": 1
+        },
+        {
+          "loss": 0.48422765731811523,
+          "step": 200
+        },
+        {
+          "loss": 0.4960470497608185,
+          "step": 400
+        },
+        {
+          "loss": 0.38451749086380005,
+          "step": 600
+        },
+        {
+          "loss": 0.4202237129211426,
+          "step": 800
+        },
+        {
+          "loss": 0.44183409214019775,
+          "step": 1000
+        },
+        {
+          "loss": 0.39017024636268616,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5464833974838257,
+        "change_accuracy": 0.48977136611938477,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.6031954288482666,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.5716338157653809,
+          "step": 1
+        },
+        {
+          "loss": 0.447936087846756,
+          "step": 200
+        },
+        {
+          "loss": 0.4659433960914612,
+          "step": 400
+        },
+        {
+          "loss": 0.4426329433917999,
+          "step": 600
+        },
+        {
+          "loss": 0.41565656661987305,
+          "step": 800
+        },
+        {
+          "loss": 0.38660526275634766,
+          "step": 1000
+        },
+        {
+          "loss": 0.4479331374168396,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5109087526798248,
+        "change_accuracy": 0.4682539701461792,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.5535635352134705,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.5492167472839355,
+          "step": 1
+        },
+        {
+          "loss": 0.47561246156692505,
+          "step": 200
+        },
+        {
+          "loss": 0.4733971953392029,
+          "step": 400
+        },
+        {
+          "loss": 0.45906051993370056,
+          "step": 600
+        },
+        {
+          "loss": 0.38612061738967896,
+          "step": 800
+        },
+        {
+          "loss": 0.41835105419158936,
+          "step": 1000
+        },
+        {
+          "loss": 0.4555102586746216,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5112645924091339,
+        "change_accuracy": 0.41909974813461304,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.6034294366836548,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.5569882392883301,
+          "step": 1
+        },
+        {
+          "loss": 0.45465749502182007,
+          "step": 200
+        },
+        {
+          "loss": 0.5321968793869019,
+          "step": 400
+        },
+        {
+          "loss": 0.4699849486351013,
+          "step": 600
+        },
+        {
+          "loss": 0.45231977105140686,
+          "step": 800
+        },
+        {
+          "loss": 0.41269320249557495,
+          "step": 1000
+        },
+        {
+          "loss": 0.4443421959877014,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5138968229293823,
+        "change_accuracy": 0.42941176891326904,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5983818769454956,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.5945477485656738,
+          "step": 1
+        },
+        {
+          "loss": 0.5191887617111206,
+          "step": 200
+        },
+        {
+          "loss": 0.48895901441574097,
+          "step": 400
+        },
+        {
+          "loss": 0.44074246287345886,
+          "step": 600
+        },
+        {
+          "loss": 0.452239990234375,
+          "step": 800
+        },
+        {
+          "loss": 0.44871824979782104,
+          "step": 1000
+        },
+        {
+          "loss": 0.40713632106781006,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5439075231552124,
+        "change_accuracy": 0.5810276865959167,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.5067873597145081,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.6126885414123535,
+          "step": 1
+        },
+        {
+          "loss": 0.49267494678497314,
+          "step": 200
+        },
+        {
+          "loss": 0.45166027545928955,
+          "step": 400
+        },
+        {
+          "loss": 0.45664334297180176,
+          "step": 600
+        },
+        {
+          "loss": 0.437555730342865,
+          "step": 800
+        },
+        {
+          "loss": 0.40512651205062866,
+          "step": 1000
+        },
+        {
+          "loss": 0.4119391441345215,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5374001562595367,
+        "change_accuracy": 0.4969136118888855,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.577886700630188,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.618063747882843,
+          "step": 1
+        },
+        {
+          "loss": 0.49636906385421753,
+          "step": 200
+        },
+        {
+          "loss": 0.47289130091667175,
+          "step": 400
+        },
+        {
+          "loss": 0.45583832263946533,
+          "step": 600
+        },
+        {
+          "loss": 0.4481050968170166,
+          "step": 800
+        },
+        {
+          "loss": 0.3932662010192871,
+          "step": 1000
+        },
+        {
+          "loss": 0.44968903064727783,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5289453566074371,
+        "change_accuracy": 0.5432977676391602,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.5145929455757141,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.599207878112793,
+          "step": 1
+        },
+        {
+          "loss": 0.4985116422176361,
+          "step": 200
+        },
+        {
+          "loss": 0.4207310378551483,
+          "step": 400
+        },
+        {
+          "loss": 0.4368307292461395,
+          "step": 600
+        },
+        {
+          "loss": 0.4013804793357849,
+          "step": 800
+        },
+        {
+          "loss": 0.41580653190612793,
+          "step": 1000
+        },
+        {
+          "loss": 0.4424595534801483,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5161936581134796,
+        "change_accuracy": 0.5211640000343323,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.511223316192627,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.5455259084701538,
+          "step": 1
+        },
+        {
+          "loss": 0.49440598487854004,
+          "step": 200
+        },
+        {
+          "loss": 0.49059242010116577,
+          "step": 400
+        },
+        {
+          "loss": 0.4983052611351013,
+          "step": 600
+        },
+        {
+          "loss": 0.4602268934249878,
+          "step": 800
+        },
+        {
+          "loss": 0.3862425684928894,
+          "step": 1000
+        },
+        {
+          "loss": 0.4546806216239929,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5379904359579086,
+        "change_accuracy": 0.47275641560554504,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.6032244563102722,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2a_naive",
+      "cell_id": "llama70b-a1:xor:t2a_naive:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.5361881256103516,
+          "step": 1
+        },
+        {
+          "loss": 0.4849408268928528,
+          "step": 200
+        },
+        {
+          "loss": 0.4885239005088806,
+          "step": 400
+        },
+        {
+          "loss": 0.4634275436401367,
+          "step": 600
+        },
+        {
+          "loss": 0.5091942548751831,
+          "step": 800
+        },
+        {
+          "loss": 0.4270626902580261,
+          "step": 1000
+        },
+        {
+          "loss": 0.45590677857398987,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1392700,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5054945200681686,
+        "change_accuracy": 0.4038461744785309,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.6071428656578064,
+        "preservation_decisions": 9240
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.5487459897994995,
+          "step": 1
+        },
+        {
+          "loss": 0.417501837015152,
+          "step": 200
+        },
+        {
+          "loss": 0.43638062477111816,
+          "step": 400
+        },
+        {
+          "loss": 0.4216591417789459,
+          "step": 600
+        },
+        {
+          "loss": 0.3682955801486969,
+          "step": 800
+        },
+        {
+          "loss": 0.3981507420539856,
+          "step": 1000
+        },
+        {
+          "loss": 0.3687300682067871,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.558769166469574,
+        "change_accuracy": 0.5182291865348816,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.5993091464042664,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.5967687964439392,
+          "step": 1
+        },
+        {
+          "loss": 0.48182129859924316,
+          "step": 200
+        },
+        {
+          "loss": 0.43745508790016174,
+          "step": 400
+        },
+        {
+          "loss": 0.43316197395324707,
+          "step": 600
+        },
+        {
+          "loss": 0.40770286321640015,
+          "step": 800
+        },
+        {
+          "loss": 0.3819853663444519,
+          "step": 1000
+        },
+        {
+          "loss": 0.36997008323669434,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5423460304737091,
+        "change_accuracy": 0.5258620381355286,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.5588300228118896,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.5958975553512573,
+          "step": 1
+        },
+        {
+          "loss": 0.4491300880908966,
+          "step": 200
+        },
+        {
+          "loss": 0.38574427366256714,
+          "step": 400
+        },
+        {
+          "loss": 0.41979265213012695,
+          "step": 600
+        },
+        {
+          "loss": 0.33210453391075134,
+          "step": 800
+        },
+        {
+          "loss": 0.3451554775238037,
+          "step": 1000
+        },
+        {
+          "loss": 0.34396353363990784,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6042365431785583,
+        "change_accuracy": 0.6159999966621399,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.5924730896949768,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.518825113773346,
+          "step": 1
+        },
+        {
+          "loss": 0.46723684668540955,
+          "step": 200
+        },
+        {
+          "loss": 0.44044941663742065,
+          "step": 400
+        },
+        {
+          "loss": 0.4060317277908325,
+          "step": 600
+        },
+        {
+          "loss": 0.4523637592792511,
+          "step": 800
+        },
+        {
+          "loss": 0.3984971344470978,
+          "step": 1000
+        },
+        {
+          "loss": 0.3650035262107849,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5235679149627686,
+        "change_accuracy": 0.5227001309394836,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5244356989860535,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.5706690549850464,
+          "step": 1
+        },
+        {
+          "loss": 0.4185355305671692,
+          "step": 200
+        },
+        {
+          "loss": 0.4129347801208496,
+          "step": 400
+        },
+        {
+          "loss": 0.3835242688655853,
+          "step": 600
+        },
+        {
+          "loss": 0.38570505380630493,
+          "step": 800
+        },
+        {
+          "loss": 0.3638243079185486,
+          "step": 1000
+        },
+        {
+          "loss": 0.3304901123046875,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6115956008434296,
+        "change_accuracy": 0.5370370149612427,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.6861541867256165,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.5786557793617249,
+          "step": 1
+        },
+        {
+          "loss": 0.4274991750717163,
+          "step": 200
+        },
+        {
+          "loss": 0.430569589138031,
+          "step": 400
+        },
+        {
+          "loss": 0.3571045696735382,
+          "step": 600
+        },
+        {
+          "loss": 0.3742891848087311,
+          "step": 800
+        },
+        {
+          "loss": 0.3735724091529846,
+          "step": 1000
+        },
+        {
+          "loss": 0.3333379030227661,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5683267414569855,
+        "change_accuracy": 0.5782442688941956,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.5584092140197754,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.5296043753623962,
+          "step": 1
+        },
+        {
+          "loss": 0.43158823251724243,
+          "step": 200
+        },
+        {
+          "loss": 0.4296754002571106,
+          "step": 400
+        },
+        {
+          "loss": 0.3819999694824219,
+          "step": 600
+        },
+        {
+          "loss": 0.3506757318973541,
+          "step": 800
+        },
+        {
+          "loss": 0.3133998513221741,
+          "step": 1000
+        },
+        {
+          "loss": 0.333651602268219,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6053378582000732,
+        "change_accuracy": 0.5268115997314453,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.6838641166687012,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.5965288877487183,
+          "step": 1
+        },
+        {
+          "loss": 0.4037244915962219,
+          "step": 200
+        },
+        {
+          "loss": 0.3880508244037628,
+          "step": 400
+        },
+        {
+          "loss": 0.35338932275772095,
+          "step": 600
+        },
+        {
+          "loss": 0.35671287775039673,
+          "step": 800
+        },
+        {
+          "loss": 0.3625965714454651,
+          "step": 1000
+        },
+        {
+          "loss": 0.33181285858154297,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5654357373714447,
+        "change_accuracy": 0.5200501084327698,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.6108213663101196,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.6067233085632324,
+          "step": 1
+        },
+        {
+          "loss": 0.4772380292415619,
+          "step": 200
+        },
+        {
+          "loss": 0.4238448143005371,
+          "step": 400
+        },
+        {
+          "loss": 0.390703022480011,
+          "step": 600
+        },
+        {
+          "loss": 0.42151758074760437,
+          "step": 800
+        },
+        {
+          "loss": 0.3416508436203003,
+          "step": 1000
+        },
+        {
+          "loss": 0.3871721625328064,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5450083017349243,
+        "change_accuracy": 0.5223048329353333,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.5677117705345154,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.6243672370910645,
+          "step": 1
+        },
+        {
+          "loss": 0.46179717779159546,
+          "step": 200
+        },
+        {
+          "loss": 0.40597230195999146,
+          "step": 400
+        },
+        {
+          "loss": 0.4265439212322235,
+          "step": 600
+        },
+        {
+          "loss": 0.38094985485076904,
+          "step": 800
+        },
+        {
+          "loss": 0.3559855818748474,
+          "step": 1000
+        },
+        {
+          "loss": 0.3771510124206543,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5462066382169724,
+        "change_accuracy": 0.5971751809120178,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.4952380955219269,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.6150377988815308,
+          "step": 1
+        },
+        {
+          "loss": 0.44968003034591675,
+          "step": 200
+        },
+        {
+          "loss": 0.4543358385562897,
+          "step": 400
+        },
+        {
+          "loss": 0.3569621741771698,
+          "step": 600
+        },
+        {
+          "loss": 0.3950285315513611,
+          "step": 800
+        },
+        {
+          "loss": 0.39546486735343933,
+          "step": 1000
+        },
+        {
+          "loss": 0.3412431478500366,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5686845183372498,
+        "change_accuracy": 0.5740072131156921,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.5633618235588074,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.5716338157653809,
+          "step": 1
+        },
+        {
+          "loss": 0.4439094066619873,
+          "step": 200
+        },
+        {
+          "loss": 0.44646358489990234,
+          "step": 400
+        },
+        {
+          "loss": 0.4159466028213501,
+          "step": 600
+        },
+        {
+          "loss": 0.3871872127056122,
+          "step": 800
+        },
+        {
+          "loss": 0.3628116250038147,
+          "step": 1000
+        },
+        {
+          "loss": 0.3914443850517273,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5133016705513,
+        "change_accuracy": 0.5249432921409607,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.5016600489616394,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.5492167472839355,
+          "step": 1
+        },
+        {
+          "loss": 0.43839919567108154,
+          "step": 200
+        },
+        {
+          "loss": 0.4246523380279541,
+          "step": 400
+        },
+        {
+          "loss": 0.41680261492729187,
+          "step": 600
+        },
+        {
+          "loss": 0.35363325476646423,
+          "step": 800
+        },
+        {
+          "loss": 0.3701830208301544,
+          "step": 1000
+        },
+        {
+          "loss": 0.38783830404281616,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.540449321269989,
+        "change_accuracy": 0.5018247961997986,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.5790738463401794,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.5569882392883301,
+          "step": 1
+        },
+        {
+          "loss": 0.4233532249927521,
+          "step": 200
+        },
+        {
+          "loss": 0.45205020904541016,
+          "step": 400
+        },
+        {
+          "loss": 0.38271790742874146,
+          "step": 600
+        },
+        {
+          "loss": 0.422565758228302,
+          "step": 800
+        },
+        {
+          "loss": 0.37080031633377075,
+          "step": 1000
+        },
+        {
+          "loss": 0.41488325595855713,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5499778091907501,
+        "change_accuracy": 0.5176470875740051,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5823085308074951,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.5945477485656738,
+          "step": 1
+        },
+        {
+          "loss": 0.487903356552124,
+          "step": 200
+        },
+        {
+          "loss": 0.45419788360595703,
+          "step": 400
+        },
+        {
+          "loss": 0.41204607486724854,
+          "step": 600
+        },
+        {
+          "loss": 0.4281080961227417,
+          "step": 800
+        },
+        {
+          "loss": 0.4023197889328003,
+          "step": 1000
+        },
+        {
+          "loss": 0.3730790913105011,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5437531471252441,
+        "change_accuracy": 0.5645586252212524,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.5229476690292358,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.6126885414123535,
+          "step": 1
+        },
+        {
+          "loss": 0.4352566599845886,
+          "step": 200
+        },
+        {
+          "loss": 0.4035415053367615,
+          "step": 400
+        },
+        {
+          "loss": 0.3990301489830017,
+          "step": 600
+        },
+        {
+          "loss": 0.37487924098968506,
+          "step": 800
+        },
+        {
+          "loss": 0.35676050186157227,
+          "step": 1000
+        },
+        {
+          "loss": 0.358154833316803,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5787037312984467,
+        "change_accuracy": 0.609259307384491,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.5481481552124023,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.618063747882843,
+          "step": 1
+        },
+        {
+          "loss": 0.47750237584114075,
+          "step": 200
+        },
+        {
+          "loss": 0.43906182050704956,
+          "step": 400
+        },
+        {
+          "loss": 0.4217830002307892,
+          "step": 600
+        },
+        {
+          "loss": 0.412198007106781,
+          "step": 800
+        },
+        {
+          "loss": 0.37383413314819336,
+          "step": 1000
+        },
+        {
+          "loss": 0.41783827543258667,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5195780396461487,
+        "change_accuracy": 0.5071174502372742,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.5320386290550232,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.599207878112793,
+          "step": 1
+        },
+        {
+          "loss": 0.4690362513065338,
+          "step": 200
+        },
+        {
+          "loss": 0.3926175534725189,
+          "step": 400
+        },
+        {
+          "loss": 0.4228106141090393,
+          "step": 600
+        },
+        {
+          "loss": 0.36553889513015747,
+          "step": 800
+        },
+        {
+          "loss": 0.38996535539627075,
+          "step": 1000
+        },
+        {
+          "loss": 0.4336153268814087,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5156164765357971,
+        "change_accuracy": 0.5068783164024353,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.5243546366691589,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.5455259084701538,
+          "step": 1
+        },
+        {
+          "loss": 0.42456039786338806,
+          "step": 200
+        },
+        {
+          "loss": 0.41421955823898315,
+          "step": 400
+        },
+        {
+          "loss": 0.4225148558616638,
+          "step": 600
+        },
+        {
+          "loss": 0.3853268325328827,
+          "step": 800
+        },
+        {
+          "loss": 0.31301379203796387,
+          "step": 1000
+        },
+        {
+          "loss": 0.3474956154823303,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5999891459941864,
+        "change_accuracy": 0.5921474695205688,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.607830822467804,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t2b_encode_only",
+      "cell_id": "llama70b-a1:xor:t2b_encode_only:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.5361881256103516,
+          "step": 1
+        },
+        {
+          "loss": 0.4543605446815491,
+          "step": 200
+        },
+        {
+          "loss": 0.4467576742172241,
+          "step": 400
+        },
+        {
+          "loss": 0.4406627416610718,
+          "step": 600
+        },
+        {
+          "loss": 0.4696095585823059,
+          "step": 800
+        },
+        {
+          "loss": 0.3786407709121704,
+          "step": 1000
+        },
+        {
+          "loss": 0.4133378267288208,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1269820,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5259698927402496,
+        "change_accuracy": 0.49230772256851196,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.5596320629119873,
+        "preservation_decisions": 9240
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.5487459897994995,
+          "step": 1
+        },
+        {
+          "loss": 0.4329233765602112,
+          "step": 200
+        },
+        {
+          "loss": 0.4146169424057007,
+          "step": 400
+        },
+        {
+          "loss": 0.39447543025016785,
+          "step": 600
+        },
+        {
+          "loss": 0.34935349225997925,
+          "step": 800
+        },
+        {
+          "loss": 0.37230074405670166,
+          "step": 1000
+        },
+        {
+          "loss": 0.3476402163505554,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5603343546390533,
+        "change_accuracy": 0.5182291865348816,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.6024395227432251,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.5967687964439392,
+          "step": 1
+        },
+        {
+          "loss": 0.4949725270271301,
+          "step": 200
+        },
+        {
+          "loss": 0.43218085169792175,
+          "step": 400
+        },
+        {
+          "loss": 0.41289234161376953,
+          "step": 600
+        },
+        {
+          "loss": 0.3836241364479065,
+          "step": 800
+        },
+        {
+          "loss": 0.36163967847824097,
+          "step": 1000
+        },
+        {
+          "loss": 0.35357367992401123,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5261227935552597,
+        "change_accuracy": 0.4954023063182831,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.5568432807922363,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.5958975553512573,
+          "step": 1
+        },
+        {
+          "loss": 0.4315909147262573,
+          "step": 200
+        },
+        {
+          "loss": 0.366158127784729,
+          "step": 400
+        },
+        {
+          "loss": 0.38636189699172974,
+          "step": 600
+        },
+        {
+          "loss": 0.30830276012420654,
+          "step": 800
+        },
+        {
+          "loss": 0.33389896154403687,
+          "step": 1000
+        },
+        {
+          "loss": 0.32749655842781067,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6063978672027588,
+        "change_accuracy": 0.6133333444595337,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.5994623899459839,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.518825113773346,
+          "step": 1
+        },
+        {
+          "loss": 0.46385663747787476,
+          "step": 200
+        },
+        {
+          "loss": 0.42571890354156494,
+          "step": 400
+        },
+        {
+          "loss": 0.3882672190666199,
+          "step": 600
+        },
+        {
+          "loss": 0.43896955251693726,
+          "step": 800
+        },
+        {
+          "loss": 0.37682268023490906,
+          "step": 1000
+        },
+        {
+          "loss": 0.34646809101104736,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5315776169300079,
+        "change_accuracy": 0.5388291478157043,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5243260860443115,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.5706690549850464,
+          "step": 1
+        },
+        {
+          "loss": 0.4113604426383972,
+          "step": 200
+        },
+        {
+          "loss": 0.3876153826713562,
+          "step": 400
+        },
+        {
+          "loss": 0.3670186996459961,
+          "step": 600
+        },
+        {
+          "loss": 0.3500922918319702,
+          "step": 800
+        },
+        {
+          "loss": 0.3429628610610962,
+          "step": 1000
+        },
+        {
+          "loss": 0.30408424139022827,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6272379159927368,
+        "change_accuracy": 0.5443121790885925,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.7101636528968811,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.5786557793617249,
+          "step": 1
+        },
+        {
+          "loss": 0.4285622537136078,
+          "step": 200
+        },
+        {
+          "loss": 0.416410356760025,
+          "step": 400
+        },
+        {
+          "loss": 0.3381587266921997,
+          "step": 600
+        },
+        {
+          "loss": 0.3531329333782196,
+          "step": 800
+        },
+        {
+          "loss": 0.3433273136615753,
+          "step": 1000
+        },
+        {
+          "loss": 0.30892956256866455,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5733756721019745,
+        "change_accuracy": 0.5871501564979553,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.5596011877059937,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.5296043753623962,
+          "step": 1
+        },
+        {
+          "loss": 0.43040257692337036,
+          "step": 200
+        },
+        {
+          "loss": 0.41729259490966797,
+          "step": 400
+        },
+        {
+          "loss": 0.3542405366897583,
+          "step": 600
+        },
+        {
+          "loss": 0.32792139053344727,
+          "step": 800
+        },
+        {
+          "loss": 0.28923681378364563,
+          "step": 1000
+        },
+        {
+          "loss": 0.3158396780490875,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.6177628636360168,
+        "change_accuracy": 0.5347826480865479,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.7007430791854858,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.5965288877487183,
+          "step": 1
+        },
+        {
+          "loss": 0.3898233473300934,
+          "step": 200
+        },
+        {
+          "loss": 0.3780151605606079,
+          "step": 400
+        },
+        {
+          "loss": 0.34258925914764404,
+          "step": 600
+        },
+        {
+          "loss": 0.32858407497406006,
+          "step": 800
+        },
+        {
+          "loss": 0.34143900871276855,
+          "step": 1000
+        },
+        {
+          "loss": 0.31446078419685364,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5621705651283264,
+        "change_accuracy": 0.506892204284668,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.6174489259719849,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.6067233085632324,
+          "step": 1
+        },
+        {
+          "loss": 0.49219343066215515,
+          "step": 200
+        },
+        {
+          "loss": 0.40046632289886475,
+          "step": 400
+        },
+        {
+          "loss": 0.37566760182380676,
+          "step": 600
+        },
+        {
+          "loss": 0.3994606137275696,
+          "step": 800
+        },
+        {
+          "loss": 0.3208303153514862,
+          "step": 1000
+        },
+        {
+          "loss": 0.36472606658935547,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5410239398479462,
+        "change_accuracy": 0.5006195902824402,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.5814282894134521,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.6243672370910645,
+          "step": 1
+        },
+        {
+          "loss": 0.4710615873336792,
+          "step": 200
+        },
+        {
+          "loss": 0.39236822724342346,
+          "step": 400
+        },
+        {
+          "loss": 0.4097243845462799,
+          "step": 600
+        },
+        {
+          "loss": 0.35971611738204956,
+          "step": 800
+        },
+        {
+          "loss": 0.3404194116592407,
+          "step": 1000
+        },
+        {
+          "loss": 0.3522944748401642,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.542188972234726,
+        "change_accuracy": 0.5774011611938477,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.5069767832756042,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.6150377988815308,
+          "step": 1
+        },
+        {
+          "loss": 0.4510548412799835,
+          "step": 200
+        },
+        {
+          "loss": 0.4483199715614319,
+          "step": 400
+        },
+        {
+          "loss": 0.332871675491333,
+          "step": 600
+        },
+        {
+          "loss": 0.3588825464248657,
+          "step": 800
+        },
+        {
+          "loss": 0.3750973045825958,
+          "step": 1000
+        },
+        {
+          "loss": 0.3284391164779663,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.562722384929657,
+        "change_accuracy": 0.561973512172699,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.563471257686615,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.5716338157653809,
+          "step": 1
+        },
+        {
+          "loss": 0.4419268071651459,
+          "step": 200
+        },
+        {
+          "loss": 0.4162580370903015,
+          "step": 400
+        },
+        {
+          "loss": 0.40592697262763977,
+          "step": 600
+        },
+        {
+          "loss": 0.37164920568466187,
+          "step": 800
+        },
+        {
+          "loss": 0.3389955759048462,
+          "step": 1000
+        },
+        {
+          "loss": 0.38428786396980286,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5074260830879211,
+        "change_accuracy": 0.5102040767669678,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.5046480894088745,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.5492167472839355,
+          "step": 1
+        },
+        {
+          "loss": 0.4351513981819153,
+          "step": 200
+        },
+        {
+          "loss": 0.40755677223205566,
+          "step": 400
+        },
+        {
+          "loss": 0.38901764154434204,
+          "step": 600
+        },
+        {
+          "loss": 0.33464521169662476,
+          "step": 800
+        },
+        {
+          "loss": 0.34572672843933105,
+          "step": 1000
+        },
+        {
+          "loss": 0.3633241653442383,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.539256289601326,
+        "change_accuracy": 0.4987834393978119,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.5797291398048401,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.5569882392883301,
+          "step": 1
+        },
+        {
+          "loss": 0.4200895428657532,
+          "step": 200
+        },
+        {
+          "loss": 0.4353087246417999,
+          "step": 400
+        },
+        {
+          "loss": 0.36201053857803345,
+          "step": 600
+        },
+        {
+          "loss": 0.4026376008987427,
+          "step": 800
+        },
+        {
+          "loss": 0.3501787781715393,
+          "step": 1000
+        },
+        {
+          "loss": 0.3923330307006836,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.545342355966568,
+        "change_accuracy": 0.5183006525039673,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5723840594291687,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.5945477485656738,
+          "step": 1
+        },
+        {
+          "loss": 0.4929361045360565,
+          "step": 200
+        },
+        {
+          "loss": 0.4387131333351135,
+          "step": 400
+        },
+        {
+          "loss": 0.390485018491745,
+          "step": 600
+        },
+        {
+          "loss": 0.41243791580200195,
+          "step": 800
+        },
+        {
+          "loss": 0.3937561511993408,
+          "step": 1000
+        },
+        {
+          "loss": 0.3496846556663513,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5425769984722137,
+        "change_accuracy": 0.5540184378623962,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.5311355590820312,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.6126885414123535,
+          "step": 1
+        },
+        {
+          "loss": 0.4409961700439453,
+          "step": 200
+        },
+        {
+          "loss": 0.38671115040779114,
+          "step": 400
+        },
+        {
+          "loss": 0.3813403248786926,
+          "step": 600
+        },
+        {
+          "loss": 0.3544886112213135,
+          "step": 800
+        },
+        {
+          "loss": 0.33296599984169006,
+          "step": 1000
+        },
+        {
+          "loss": 0.33469080924987793,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5706971883773804,
+        "change_accuracy": 0.5740740895271301,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.5673202872276306,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.618063747882843,
+          "step": 1
+        },
+        {
+          "loss": 0.4699248969554901,
+          "step": 200
+        },
+        {
+          "loss": 0.4306444227695465,
+          "step": 400
+        },
+        {
+          "loss": 0.40620315074920654,
+          "step": 600
+        },
+        {
+          "loss": 0.3905244469642639,
+          "step": 800
+        },
+        {
+          "loss": 0.3602622449398041,
+          "step": 1000
+        },
+        {
+          "loss": 0.39931586384773254,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5164224803447723,
+        "change_accuracy": 0.49466192722320557,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.5381830334663391,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.599207878112793,
+          "step": 1
+        },
+        {
+          "loss": 0.4798648953437805,
+          "step": 200
+        },
+        {
+          "loss": 0.38293200731277466,
+          "step": 400
+        },
+        {
+          "loss": 0.4056878089904785,
+          "step": 600
+        },
+        {
+          "loss": 0.3553652763366699,
+          "step": 800
+        },
+        {
+          "loss": 0.37205612659454346,
+          "step": 1000
+        },
+        {
+          "loss": 0.4162810444831848,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5156886279582977,
+        "change_accuracy": 0.5026454925537109,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.5287317633628845,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.5455259084701538,
+          "step": 1
+        },
+        {
+          "loss": 0.42651063203811646,
+          "step": 200
+        },
+        {
+          "loss": 0.38756561279296875,
+          "step": 400
+        },
+        {
+          "loss": 0.38092535734176636,
+          "step": 600
+        },
+        {
+          "loss": 0.3547810912132263,
+          "step": 800
+        },
+        {
+          "loss": 0.2929559350013733,
+          "step": 1000
+        },
+        {
+          "loss": 0.3245176672935486,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5830957889556885,
+        "change_accuracy": 0.5753205418586731,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.5908710360527039,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3a_conditioning",
+      "cell_id": "llama70b-a1:xor:t3a_conditioning:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.5361881256103516,
+          "step": 1
+        },
+        {
+          "loss": 0.4538789391517639,
+          "step": 200
+        },
+        {
+          "loss": 0.433467835187912,
+          "step": 400
+        },
+        {
+          "loss": 0.41480812430381775,
+          "step": 600
+        },
+        {
+          "loss": 0.4525875449180603,
+          "step": 800
+        },
+        {
+          "loss": 0.35202234983444214,
+          "step": 1000
+        },
+        {
+          "loss": 0.3937080502510071,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 135626812,
+      "pointer_top1": null,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5037337690591812,
+        "change_accuracy": 0.45000001788139343,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.557467520236969,
+        "preservation_decisions": 9240
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:801",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3021,
+      "history": [
+        {
+          "loss": 0.9078542590141296,
+          "step": 1
+        },
+        {
+          "loss": 0.48753732442855835,
+          "step": 200
+        },
+        {
+          "loss": 0.4969612956047058,
+          "step": 400
+        },
+        {
+          "loss": 0.5000944137573242,
+          "step": 600
+        },
+        {
+          "loss": 0.42786043882369995,
+          "step": 800
+        },
+        {
+          "loss": 0.4618532061576843,
+          "step": 1000
+        },
+        {
+          "loss": 0.41983115673065186,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 801,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5344579815864563,
+        "change_accuracy": 0.42578125,
+        "change_decisions": 1536,
+        "preservation_accuracy": 0.6431347131729126,
+        "preservation_decisions": 9264
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:802",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3022,
+      "history": [
+        {
+          "loss": 0.953096866607666,
+          "step": 1
+        },
+        {
+          "loss": 0.5055117011070251,
+          "step": 200
+        },
+        {
+          "loss": 0.487505704164505,
+          "step": 400
+        },
+        {
+          "loss": 0.4734859764575958,
+          "step": 600
+        },
+        {
+          "loss": 0.4392489790916443,
+          "step": 800
+        },
+        {
+          "loss": 0.4143940508365631,
+          "step": 1000
+        },
+        {
+          "loss": 0.4115487337112427,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 802,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.517127200961113,
+        "change_accuracy": 0.4454022943973541,
+        "change_decisions": 1740,
+        "preservation_accuracy": 0.5888521075248718,
+        "preservation_decisions": 9060
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:803",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3023,
+      "history": [
+        {
+          "loss": 0.9458310604095459,
+          "step": 1
+        },
+        {
+          "loss": 0.49464601278305054,
+          "step": 200
+        },
+        {
+          "loss": 0.43287232518196106,
+          "step": 400
+        },
+        {
+          "loss": 0.4798852205276489,
+          "step": 600
+        },
+        {
+          "loss": 0.39528587460517883,
+          "step": 800
+        },
+        {
+          "loss": 0.43103331327438354,
+          "step": 1000
+        },
+        {
+          "loss": 0.4430290460586548,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 803,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5464516282081604,
+        "change_accuracy": 0.4300000071525574,
+        "change_decisions": 1500,
+        "preservation_accuracy": 0.6629032492637634,
+        "preservation_decisions": 9300
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:804",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3024,
+      "history": [
+        {
+          "loss": 0.8862910270690918,
+          "step": 1
+        },
+        {
+          "loss": 0.4857720136642456,
+          "step": 200
+        },
+        {
+          "loss": 0.4743436872959137,
+          "step": 400
+        },
+        {
+          "loss": 0.4195796847343445,
+          "step": 600
+        },
+        {
+          "loss": 0.5046386122703552,
+          "step": 800
+        },
+        {
+          "loss": 0.4304620027542114,
+          "step": 1000
+        },
+        {
+          "loss": 0.39537808299064636,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 804,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.49748678505420685,
+        "change_accuracy": 0.4737156331539154,
+        "change_decisions": 1674,
+        "preservation_accuracy": 0.5212579369544983,
+        "preservation_decisions": 9126
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:805",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3025,
+      "history": [
+        {
+          "loss": 0.9255208373069763,
+          "step": 1
+        },
+        {
+          "loss": 0.4852275550365448,
+          "step": 200
+        },
+        {
+          "loss": 0.5038367509841919,
+          "step": 400
+        },
+        {
+          "loss": 0.43123966455459595,
+          "step": 600
+        },
+        {
+          "loss": 0.4427025616168976,
+          "step": 800
+        },
+        {
+          "loss": 0.4427723288536072,
+          "step": 1000
+        },
+        {
+          "loss": 0.40651407837867737,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 805,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5612156987190247,
+        "change_accuracy": 0.42195767164230347,
+        "change_decisions": 1512,
+        "preservation_accuracy": 0.7004737257957458,
+        "preservation_decisions": 9288
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:806",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3026,
+      "history": [
+        {
+          "loss": 0.9462230205535889,
+          "step": 1
+        },
+        {
+          "loss": 0.4699344336986542,
+          "step": 200
+        },
+        {
+          "loss": 0.4940314292907715,
+          "step": 400
+        },
+        {
+          "loss": 0.38716042041778564,
+          "step": 600
+        },
+        {
+          "loss": 0.4209970533847809,
+          "step": 800
+        },
+        {
+          "loss": 0.42057377099990845,
+          "step": 1000
+        },
+        {
+          "loss": 0.3871111273765564,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 806,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5281668603420258,
+        "change_accuracy": 0.5203562378883362,
+        "change_decisions": 1572,
+        "preservation_accuracy": 0.5359774827957153,
+        "preservation_decisions": 9228
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:807",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3027,
+      "history": [
+        {
+          "loss": 0.8885824680328369,
+          "step": 1
+        },
+        {
+          "loss": 0.4971952736377716,
+          "step": 200
+        },
+        {
+          "loss": 0.554575502872467,
+          "step": 400
+        },
+        {
+          "loss": 0.43170762062072754,
+          "step": 600
+        },
+        {
+          "loss": 0.42571544647216797,
+          "step": 800
+        },
+        {
+          "loss": 0.38286688923835754,
+          "step": 1000
+        },
+        {
+          "loss": 0.4441830813884735,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 807,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5317086577415466,
+        "change_accuracy": 0.4275362491607666,
+        "change_decisions": 1380,
+        "preservation_accuracy": 0.6358810663223267,
+        "preservation_decisions": 9420
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:808",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3028,
+      "history": [
+        {
+          "loss": 0.9482660889625549,
+          "step": 1
+        },
+        {
+          "loss": 0.4506067633628845,
+          "step": 200
+        },
+        {
+          "loss": 0.44199123978614807,
+          "step": 400
+        },
+        {
+          "loss": 0.44465842843055725,
+          "step": 600
+        },
+        {
+          "loss": 0.4153802692890167,
+          "step": 800
+        },
+        {
+          "loss": 0.4135746657848358,
+          "step": 1000
+        },
+        {
+          "loss": 0.3908170163631439,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 808,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5235513597726822,
+        "change_accuracy": 0.417919784784317,
+        "change_decisions": 1596,
+        "preservation_accuracy": 0.6291829347610474,
+        "preservation_decisions": 9204
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:809",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3029,
+      "history": [
+        {
+          "loss": 0.940848708152771,
+          "step": 1
+        },
+        {
+          "loss": 0.5109187960624695,
+          "step": 200
+        },
+        {
+          "loss": 0.4736291468143463,
+          "step": 400
+        },
+        {
+          "loss": 0.4395691454410553,
+          "step": 600
+        },
+        {
+          "loss": 0.4699961841106415,
+          "step": 800
+        },
+        {
+          "loss": 0.38362637162208557,
+          "step": 1000
+        },
+        {
+          "loss": 0.4295843541622162,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 809,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.49944154918193817,
+        "change_accuracy": 0.4101611077785492,
+        "change_decisions": 1614,
+        "preservation_accuracy": 0.5887219905853271,
+        "preservation_decisions": 9186
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:810",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3030,
+      "history": [
+        {
+          "loss": 0.9829044938087463,
+          "step": 1
+        },
+        {
+          "loss": 0.5025710463523865,
+          "step": 200
+        },
+        {
+          "loss": 0.4550909101963043,
+          "step": 400
+        },
+        {
+          "loss": 0.47815361618995667,
+          "step": 600
+        },
+        {
+          "loss": 0.43825218081474304,
+          "step": 800
+        },
+        {
+          "loss": 0.39505651593208313,
+          "step": 1000
+        },
+        {
+          "loss": 0.3961621820926666,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 810,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5111492723226547,
+        "change_accuracy": 0.5519773960113525,
+        "change_decisions": 1770,
+        "preservation_accuracy": 0.4703211486339569,
+        "preservation_decisions": 9030
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:811",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3031,
+      "history": [
+        {
+          "loss": 0.9645148515701294,
+          "step": 1
+        },
+        {
+          "loss": 0.48369845747947693,
+          "step": 200
+        },
+        {
+          "loss": 0.4953868091106415,
+          "step": 400
+        },
+        {
+          "loss": 0.38417500257492065,
+          "step": 600
+        },
+        {
+          "loss": 0.4200316369533539,
+          "step": 800
+        },
+        {
+          "loss": 0.44163456559181213,
+          "step": 1000
+        },
+        {
+          "loss": 0.3899748921394348,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 811,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5464833974838257,
+        "change_accuracy": 0.48977136611938477,
+        "change_decisions": 1662,
+        "preservation_accuracy": 0.6031954288482666,
+        "preservation_decisions": 9138
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:812",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3032,
+      "history": [
+        {
+          "loss": 0.9252246618270874,
+          "step": 1
+        },
+        {
+          "loss": 0.4480895698070526,
+          "step": 200
+        },
+        {
+          "loss": 0.46593186259269714,
+          "step": 400
+        },
+        {
+          "loss": 0.44261425733566284,
+          "step": 600
+        },
+        {
+          "loss": 0.4155885577201843,
+          "step": 800
+        },
+        {
+          "loss": 0.38653814792633057,
+          "step": 1000
+        },
+        {
+          "loss": 0.4479283094406128,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 812,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5109087526798248,
+        "change_accuracy": 0.4682539701461792,
+        "change_decisions": 1764,
+        "preservation_accuracy": 0.5535635352134705,
+        "preservation_decisions": 9036
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:813",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3033,
+      "history": [
+        {
+          "loss": 0.8953238725662231,
+          "step": 1
+        },
+        {
+          "loss": 0.4754907488822937,
+          "step": 200
+        },
+        {
+          "loss": 0.47369852662086487,
+          "step": 400
+        },
+        {
+          "loss": 0.4583183228969574,
+          "step": 600
+        },
+        {
+          "loss": 0.3861220180988312,
+          "step": 800
+        },
+        {
+          "loss": 0.41844654083251953,
+          "step": 1000
+        },
+        {
+          "loss": 0.4555473327636719,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 813,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5112645924091339,
+        "change_accuracy": 0.41909974813461304,
+        "change_decisions": 1644,
+        "preservation_accuracy": 0.6034294366836548,
+        "preservation_decisions": 9156
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:814",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3034,
+      "history": [
+        {
+          "loss": 0.9070888757705688,
+          "step": 1
+        },
+        {
+          "loss": 0.45505717396736145,
+          "step": 200
+        },
+        {
+          "loss": 0.5314602255821228,
+          "step": 400
+        },
+        {
+          "loss": 0.47066745162010193,
+          "step": 600
+        },
+        {
+          "loss": 0.45228561758995056,
+          "step": 800
+        },
+        {
+          "loss": 0.4125751256942749,
+          "step": 1000
+        },
+        {
+          "loss": 0.4448268413543701,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 814,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5138968229293823,
+        "change_accuracy": 0.42941176891326904,
+        "change_decisions": 1530,
+        "preservation_accuracy": 0.5983818769454956,
+        "preservation_decisions": 9270
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:815",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3035,
+      "history": [
+        {
+          "loss": 0.9310317635536194,
+          "step": 1
+        },
+        {
+          "loss": 0.520383894443512,
+          "step": 200
+        },
+        {
+          "loss": 0.48879143595695496,
+          "step": 400
+        },
+        {
+          "loss": 0.4406055510044098,
+          "step": 600
+        },
+        {
+          "loss": 0.4521656334400177,
+          "step": 800
+        },
+        {
+          "loss": 0.4487042725086212,
+          "step": 1000
+        },
+        {
+          "loss": 0.4072127044200897,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 815,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5439075231552124,
+        "change_accuracy": 0.5810276865959167,
+        "change_decisions": 1518,
+        "preservation_accuracy": 0.5067873597145081,
+        "preservation_decisions": 9282
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:816",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3036,
+      "history": [
+        {
+          "loss": 0.951945424079895,
+          "step": 1
+        },
+        {
+          "loss": 0.49273809790611267,
+          "step": 200
+        },
+        {
+          "loss": 0.45171090960502625,
+          "step": 400
+        },
+        {
+          "loss": 0.45654600858688354,
+          "step": 600
+        },
+        {
+          "loss": 0.43746864795684814,
+          "step": 800
+        },
+        {
+          "loss": 0.4050828814506531,
+          "step": 1000
+        },
+        {
+          "loss": 0.4118466377258301,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 816,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5374001562595367,
+        "change_accuracy": 0.4969136118888855,
+        "change_decisions": 1620,
+        "preservation_accuracy": 0.577886700630188,
+        "preservation_decisions": 9180
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:817",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3037,
+      "history": [
+        {
+          "loss": 0.9870837926864624,
+          "step": 1
+        },
+        {
+          "loss": 0.496562123298645,
+          "step": 200
+        },
+        {
+          "loss": 0.4729732573032379,
+          "step": 400
+        },
+        {
+          "loss": 0.45586761832237244,
+          "step": 600
+        },
+        {
+          "loss": 0.44815585017204285,
+          "step": 800
+        },
+        {
+          "loss": 0.3933085799217224,
+          "step": 1000
+        },
+        {
+          "loss": 0.4497280716896057,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 817,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5289453566074371,
+        "change_accuracy": 0.5432977676391602,
+        "change_decisions": 1686,
+        "preservation_accuracy": 0.5145929455757141,
+        "preservation_decisions": 9114
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:818",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3038,
+      "history": [
+        {
+          "loss": 0.9572676420211792,
+          "step": 1
+        },
+        {
+          "loss": 0.4993736445903778,
+          "step": 200
+        },
+        {
+          "loss": 0.42021802067756653,
+          "step": 400
+        },
+        {
+          "loss": 0.43661338090896606,
+          "step": 600
+        },
+        {
+          "loss": 0.4013007581233978,
+          "step": 800
+        },
+        {
+          "loss": 0.41591084003448486,
+          "step": 1000
+        },
+        {
+          "loss": 0.4424225986003876,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 818,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5161936581134796,
+        "change_accuracy": 0.5211640000343323,
+        "change_decisions": 1890,
+        "preservation_accuracy": 0.511223316192627,
+        "preservation_decisions": 8910
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:819",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3039,
+      "history": [
+        {
+          "loss": 0.90217125415802,
+          "step": 1
+        },
+        {
+          "loss": 0.4939672350883484,
+          "step": 200
+        },
+        {
+          "loss": 0.4903862774372101,
+          "step": 400
+        },
+        {
+          "loss": 0.49819415807724,
+          "step": 600
+        },
+        {
+          "loss": 0.4600749909877777,
+          "step": 800
+        },
+        {
+          "loss": 0.3861512541770935,
+          "step": 1000
+        },
+        {
+          "loss": 0.4546811878681183,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 819,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5353027284145355,
+        "change_accuracy": 0.473557710647583,
+        "change_decisions": 1248,
+        "preservation_accuracy": 0.597047746181488,
+        "preservation_decisions": 9552
+      }
+    },
+    {
+      "amendment_sha256": "not-published",
+      "arm": "t3b_pointer",
+      "cell_id": "llama70b-a1:xor:t3b_pointer:820",
+      "checkpoint_sha256": "not-published",
+      "evaluation_split": "validation",
+      "feature_cache_sha256": "not-published",
+      "gpu_count": 1,
+      "graph_seed": 3040,
+      "history": [
+        {
+          "loss": 0.9000939130783081,
+          "step": 1
+        },
+        {
+          "loss": 0.48520439863204956,
+          "step": 200
+        },
+        {
+          "loss": 0.48854389786720276,
+          "step": 400
+        },
+        {
+          "loss": 0.4636320471763611,
+          "step": 600
+        },
+        {
+          "loss": 0.5092612504959106,
+          "step": 800
+        },
+        {
+          "loss": 0.4271456301212311,
+          "step": 1000
+        },
+        {
+          "loss": 0.456098735332489,
+          "step": 1200
+        }
+      ],
+      "manifest_sha256": "not-published",
+      "parameter_count": 1884250,
+      "pointer_top1": 1.0,
+      "protocol": "llama3_3_70b_a1_addressing_screen_v1",
+      "seed": 820,
+      "test_evaluated": false,
+      "validation": {
+        "balanced_intervention_score": 0.5054945200681686,
+        "change_accuracy": 0.4038461744785309,
+        "change_decisions": 1560,
+        "preservation_accuracy": 0.6071428656578064,
+        "preservation_decisions": 9240
+      }
+    }
+  ],
+  "test_evaluated": false
+}

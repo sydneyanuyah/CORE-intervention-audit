@@ -1,0 +1,11 @@
+*.pdf binary
+*.xlsx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.jsonl text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+

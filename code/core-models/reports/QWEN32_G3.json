@@ -1,0 +1,90 @@
+{
+  "candidates": [
+    {
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "layer": 5,
+      "manifest_sha256": "not-published",
+      "protocol": "qwen2_5_32b_g3_development_layer_selection_v1",
+      "seed": 900,
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5438337326049805
+    },
+    {
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "layer": 10,
+      "manifest_sha256": "not-published",
+      "protocol": "qwen2_5_32b_g3_development_layer_selection_v1",
+      "seed": 900,
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5595412254333496
+    },
+    {
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "layer": 15,
+      "manifest_sha256": "not-published",
+      "protocol": "qwen2_5_32b_g3_development_layer_selection_v1",
+      "seed": 900,
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5695778727531433
+    },
+    {
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "layer": 20,
+      "manifest_sha256": "not-published",
+      "protocol": "qwen2_5_32b_g3_development_layer_selection_v1",
+      "seed": 900,
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5727952718734741
+    },
+    {
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "layer": 25,
+      "manifest_sha256": "not-published",
+      "protocol": "qwen2_5_32b_g3_development_layer_selection_v1",
+      "seed": 900,
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5796802043914795
+    },
+    {
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "layer": 30,
+      "manifest_sha256": "not-published",
+      "protocol": "qwen2_5_32b_g3_development_layer_selection_v1",
+      "seed": 900,
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.586780309677124
+    },
+    {
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "layer": 35,
+      "manifest_sha256": "not-published",
+      "protocol": "qwen2_5_32b_g3_development_layer_selection_v1",
+      "seed": 900,
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5822668671607971
+    },
+    {
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "layer": 40,
+      "manifest_sha256": "not-published",
+      "protocol": "qwen2_5_32b_g3_development_layer_selection_v1",
+      "seed": 900,
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5885174870491028
+    }
+  ],
+  "evaluation_split": "validation",
+  "manifest_sha256": "not-published",
+  "protocol": "qwen2_5_32b_g3_development_layer_selection_v1",
+  "selected_layer": 40,
+  "selection_value": 0.5885174870491028,
+  "test_evaluated": false
+}

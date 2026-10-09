@@ -1,0 +1,759 @@
+{
+  "aggregates": [
+    {
+      "balanced_accuracy": {
+        "mean": 0.5341839373111725,
+        "n": 20,
+        "student_t_95": [
+          0.5239883383044974,
+          0.5443795363178476
+        ]
+      },
+      "commutation": {
+        "mean": 0.0,
+        "n": 20,
+        "student_t_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "idempotence": {
+        "mean": 0.21747217327356339,
+        "n": 20,
+        "student_t_95": [
+          0.1768741404354548,
+          0.258070206111672
+        ]
+      },
+      "identity": {
+        "mean": 0.21747323162853718,
+        "n": 20,
+        "student_t_95": [
+          0.17687527622270877,
+          0.2580711870343656
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.21747217327356339,
+        "n": 20,
+        "student_t_95": [
+          0.1768741404354548,
+          0.258070206111672
+        ]
+      },
+      "method": "lora_matched",
+      "operator_class": "parameter_matched_frozen_feature_adapter_v1",
+      "operator_parameter_counts": [
+        329728,
+        471040,
+        753664
+      ],
+      "scope": "ALL"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.536158911883831,
+        "n": 20,
+        "student_t_95": [
+          0.5268105656319647,
+          0.5455072581356973
+        ]
+      },
+      "commutation": {
+        "mean": 4.3275994820197514e-06,
+        "n": 20,
+        "student_t_95": [
+          -1.708966583611167e-06,
+          1.0364165547650669e-05
+        ]
+      },
+      "idempotence": {
+        "mean": 0.028474063985049723,
+        "n": 20,
+        "student_t_95": [
+          0.02343645227721792,
+          0.03351167569288153
+        ]
+      },
+      "identity": {
+        "mean": 0.028579101199284196,
+        "n": 20,
+        "student_t_95": [
+          0.023570873154253828,
+          0.03358732924431457
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.028496700804680586,
+        "n": 20,
+        "student_t_95": [
+          0.023460062978579152,
+          0.03353333863078202
+        ]
+      },
+      "method": "loreft",
+      "operator_class": "command_conditioned_loreft_style_residual_v1",
+      "operator_parameter_counts": [
+        115664,
+        164816,
+        263120
+      ],
+      "scope": "ALL"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.5543989479541779,
+        "n": 20,
+        "student_t_95": [
+          0.5428699628862655,
+          0.5659279330220902
+        ]
+      },
+      "commutation": {
+        "mean": 2.1563617440406717e-15,
+        "n": 20,
+        "student_t_95": [
+          1.2875054345593152e-15,
+          3.0252180535220283e-15
+        ]
+      },
+      "idempotence": {
+        "mean": 0.016666461271233855,
+        "n": 20,
+        "student_t_95": [
+          0.009989919995888842,
+          0.023343002546578867
+        ]
+      },
+      "identity": {
+        "mean": 0.004101389518473298,
+        "n": 20,
+        "student_t_95": [
+          0.002525246414818956,
+          0.005677532622127639
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.016666461154818533,
+        "n": 20,
+        "student_t_95": [
+          0.009989920072691992,
+          0.023343002236945076
+        ]
+      },
+      "method": "o2",
+      "operator_class": "state_independent_command_indexed_o2_v1",
+      "operator_parameter_counts": [
+        333312,
+        476160,
+        761856
+      ],
+      "scope": "ALL"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.530177116394043,
+        "n": 5,
+        "student_t_95": [
+          0.5041103934268589,
+          0.556243839361227
+        ]
+      },
+      "commutation": {
+        "mean": 0.0,
+        "n": 5,
+        "student_t_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "idempotence": {
+        "mean": 0.1338609576225281,
+        "n": 5,
+        "student_t_95": [
+          0.10794184631288338,
+          0.15978006893217278
+        ]
+      },
+      "identity": {
+        "mean": 0.13386095315217972,
+        "n": 5,
+        "student_t_95": [
+          0.10794183435378142,
+          0.15978007195057803
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.1338609576225281,
+        "n": 5,
+        "student_t_95": [
+          0.10794184631288338,
+          0.15978006893217278
+        ]
+      },
+      "method": "lora_matched",
+      "operator_class": "parameter_matched_frozen_feature_adapter_v1",
+      "operator_parameter_counts": [
+        753664
+      ],
+      "scope": "LLAMA70B"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.5311870336532593,
+        "n": 5,
+        "student_t_95": [
+          0.5021513081847805,
+          0.560222759121738
+        ]
+      },
+      "commutation": {
+        "mean": 0.0,
+        "n": 5,
+        "student_t_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "idempotence": {
+        "mean": 0.01725973077118397,
+        "n": 5,
+        "student_t_95": [
+          0.01454247871420409,
+          0.019976982828163847
+        ]
+      },
+      "identity": {
+        "mean": 0.017259730957448483,
+        "n": 5,
+        "student_t_95": [
+          0.014542478548307428,
+          0.019976983366589537
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.01725973077118397,
+        "n": 5,
+        "student_t_95": [
+          0.01454247871420409,
+          0.019976982828163847
+        ]
+      },
+      "method": "loreft",
+      "operator_class": "command_conditioned_loreft_style_residual_v1",
+      "operator_parameter_counts": [
+        263120
+      ],
+      "scope": "LLAMA70B"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.5579052686691284,
+        "n": 5,
+        "student_t_95": [
+          0.5284168394067571,
+          0.5873936979314996
+        ]
+      },
+      "commutation": {
+        "mean": 1.1113952970483329e-15,
+        "n": 5,
+        "student_t_95": [
+          9.039241970226945e-16,
+          1.3188663970739713e-15
+        ]
+      },
+      "idempotence": {
+        "mean": 0.007044009072706104,
+        "n": 5,
+        "student_t_95": [
+          0.003894120197776849,
+          0.010193897947635358
+        ]
+      },
+      "identity": {
+        "mean": 0.001943879621103406,
+        "n": 5,
+        "student_t_95": [
+          0.000977909327117872,
+          0.0029098499150889403
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.007044009072706104,
+        "n": 5,
+        "student_t_95": [
+          0.003894120197776849,
+          0.010193897947635358
+        ]
+      },
+      "method": "o2",
+      "operator_class": "state_independent_command_indexed_o2_v1",
+      "operator_parameter_counts": [
+        761856
+      ],
+      "scope": "LLAMA70B"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.5315723896026612,
+        "n": 5,
+        "student_t_95": [
+          0.486397363521735,
+          0.5767474156835873
+        ]
+      },
+      "commutation": {
+        "mean": 0.0,
+        "n": 5,
+        "student_t_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "idempotence": {
+        "mean": 0.187567862868309,
+        "n": 5,
+        "student_t_95": [
+          0.14149655568743733,
+          0.2336391700491807
+        ]
+      },
+      "identity": {
+        "mean": 0.18757209181785583,
+        "n": 5,
+        "student_t_95": [
+          0.1414978555736106,
+          0.23364632806210106
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.187567862868309,
+        "n": 5,
+        "student_t_95": [
+          0.14149655568743733,
+          0.2336391700491807
+        ]
+      },
+      "method": "lora_matched",
+      "operator_class": "parameter_matched_frozen_feature_adapter_v1",
+      "operator_parameter_counts": [
+        471040
+      ],
+      "scope": "PHI14B"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.537145870923996,
+        "n": 5,
+        "student_t_95": [
+          0.505442064715137,
+          0.5688496771328551
+        ]
+      },
+      "commutation": {
+        "mean": 1.7310397925863578e-05,
+        "n": 5,
+        "student_t_95": [
+          -1.0711378135385932e-05,
+          4.5332173987113087e-05
+        ]
+      },
+      "idempotence": {
+        "mean": 0.02552001439034939,
+        "n": 5,
+        "student_t_95": [
+          0.017706069562105842,
+          0.03333395921859293
+        ]
+      },
+      "identity": {
+        "mean": 0.025940162315964698,
+        "n": 5,
+        "student_t_95": [
+          0.018475758059974638,
+          0.03340456657195476
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.025610562041401864,
+        "n": 5,
+        "student_t_95": [
+          0.017752519849813044,
+          0.03346860423299068
+        ]
+      },
+      "method": "loreft",
+      "operator_class": "command_conditioned_loreft_style_residual_v1",
+      "operator_parameter_counts": [
+        164816
+      ],
+      "scope": "PHI14B"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.5486970186233521,
+        "n": 5,
+        "student_t_95": [
+          0.5001419872292568,
+          0.5972520500174473
+        ]
+      },
+      "commutation": {
+        "mean": 6.430991984668106e-16,
+        "n": 5,
+        "student_t_95": [
+          5.095892472907913e-16,
+          7.766091496428298e-16
+        ]
+      },
+      "idempotence": {
+        "mean": 0.005463482392951846,
+        "n": 5,
+        "student_t_95": [
+          0.002942801803860985,
+          0.007984162982042707
+        ]
+      },
+      "identity": {
+        "mean": 0.001588477287441492,
+        "n": 5,
+        "student_t_95": [
+          0.00047569120820823937,
+          0.002701263366674745
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.005463482299819589,
+        "n": 5,
+        "student_t_95": [
+          0.002942801785959791,
+          0.007984162813679387
+        ]
+      },
+      "method": "o2",
+      "operator_class": "state_independent_command_indexed_o2_v1",
+      "operator_parameter_counts": [
+        476160
+      ],
+      "scope": "PHI14B"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.5324720859527587,
+        "n": 5,
+        "student_t_95": [
+          0.5154006372371314,
+          0.5495435346683861
+        ]
+      },
+      "commutation": {
+        "mean": 0.0,
+        "n": 5,
+        "student_t_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "idempotence": {
+        "mean": 0.23634603321552278,
+        "n": 5,
+        "student_t_95": [
+          0.1693241480939423,
+          0.30336791833710325
+        ]
+      },
+      "identity": {
+        "mean": 0.236346036195755,
+        "n": 5,
+        "student_t_95": [
+          0.1693241415086602,
+          0.3033679308828498
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.23634603321552278,
+        "n": 5,
+        "student_t_95": [
+          0.1693241480939423,
+          0.30336791833710325
+        ]
+      },
+      "method": "lora_matched",
+      "operator_class": "parameter_matched_frozen_feature_adapter_v1",
+      "operator_parameter_counts": [
+        471040
+      ],
+      "scope": "QWEN32"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.5317077159881591,
+        "n": 5,
+        "student_t_95": [
+          0.5071765673488059,
+          0.5562388646275124
+        ]
+      },
+      "commutation": {
+        "mean": 2.2149000163248707e-15,
+        "n": 5,
+        "student_t_95": [
+          -3.934648292502841e-15,
+          8.364448325152583e-15
+        ]
+      },
+      "idempotence": {
+        "mean": 0.03206167556345463,
+        "n": 5,
+        "student_t_95": [
+          0.023535699077684158,
+          0.0405876520492251
+        ]
+      },
+      "identity": {
+        "mean": 0.03206167668104172,
+        "n": 5,
+        "student_t_95": [
+          0.023535701041586247,
+          0.04058765232049719
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.0320616751909256,
+        "n": 5,
+        "student_t_95": [
+          0.023535698522833114,
+          0.04058765185901808
+        ]
+      },
+      "method": "loreft",
+      "operator_class": "command_conditioned_loreft_style_residual_v1",
+      "operator_parameter_counts": [
+        164816
+      ],
+      "scope": "QWEN32"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.5533278942108154,
+        "n": 5,
+        "student_t_95": [
+          0.5241413623476389,
+          0.582514426073992
+        ]
+      },
+      "commutation": {
+        "mean": 1.7782531979383872e-15,
+        "n": 5,
+        "student_t_95": [
+          1.2852841240079458e-15,
+          2.2712222718688287e-15
+        ]
+      },
+      "idempotence": {
+        "mean": 0.01600081417709589,
+        "n": 5,
+        "student_t_95": [
+          0.00922749565002384,
+          0.022774132704167935
+        ]
+      },
+      "identity": {
+        "mean": 0.004563463386148214,
+        "n": 5,
+        "student_t_95": [
+          0.001989629396159276,
+          0.007137297376137153
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.01600081454962492,
+        "n": 5,
+        "student_t_95": [
+          0.009227495885924836,
+          0.022774133213325005
+        ]
+      },
+      "method": "o2",
+      "operator_class": "state_independent_command_indexed_o2_v1",
+      "operator_parameter_counts": [
+        476160
+      ],
+      "scope": "QWEN32"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.542514157295227,
+        "n": 5,
+        "student_t_95": [
+          0.5257726107294178,
+          0.5592557038610362
+        ]
+      },
+      "commutation": {
+        "mean": 0.0,
+        "n": 5,
+        "student_t_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "idempotence": {
+        "mean": 0.31211383938789367,
+        "n": 5,
+        "student_t_95": [
+          0.19097362559946987,
+          0.4332540531763175
+        ]
+      },
+      "identity": {
+        "mean": 0.3121138453483582,
+        "n": 5,
+        "student_t_95": [
+          0.19097362412669106,
+          0.4332540665700253
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.31211383938789367,
+        "n": 5,
+        "student_t_95": [
+          0.19097362559946987,
+          0.4332540531763175
+        ]
+      },
+      "method": "lora_matched",
+      "operator_class": "parameter_matched_frozen_feature_adapter_v1",
+      "operator_parameter_counts": [
+        329728
+      ],
+      "scope": "QWEN7B"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.5445950269699097,
+        "n": 5,
+        "student_t_95": [
+          0.5288793289223842,
+          0.5603107250174352
+        ]
+      },
+      "commutation": {
+        "mean": 5.3070836902509e-19,
+        "n": 5,
+        "student_t_95": [
+          -9.427742844421281e-19,
+          2.0041910224923082e-18
+        ]
+      },
+      "idempotence": {
+        "mean": 0.039054835215210915,
+        "n": 5,
+        "student_t_95": [
+          0.024646704899148338,
+          0.05346296553127349
+        ]
+      },
+      "identity": {
+        "mean": 0.039054834842681886,
+        "n": 5,
+        "student_t_95": [
+          0.024646705450170718,
+          0.053462964235193054
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.039054835215210915,
+        "n": 5,
+        "student_t_95": [
+          0.024646704899148338,
+          0.05346296553127349
+        ]
+      },
+      "method": "loreft",
+      "operator_class": "command_conditioned_loreft_style_residual_v1",
+      "operator_parameter_counts": [
+        115664
+      ],
+      "scope": "QWEN7B"
+    },
+    {
+      "balanced_accuracy": {
+        "mean": 0.5576656103134155,
+        "n": 5,
+        "student_t_95": [
+          0.541672621580314,
+          0.5736585990465171
+        ]
+      },
+      "commutation": {
+        "mean": 5.092699282709155e-15,
+        "n": 5,
+        "student_t_95": [
+          3.857238627714115e-15,
+          6.328159937704195e-15
+        ]
+      },
+      "idempotence": {
+        "mean": 0.03815753944218159,
+        "n": 5,
+        "student_t_95": [
+          0.027343931361837617,
+          0.04897114752252556
+        ]
+      },
+      "identity": {
+        "mean": 0.008309737779200077,
+        "n": 5,
+        "student_t_95": [
+          0.0039994425223245905,
+          0.012620033036075564
+        ]
+      },
+      "last_write_wins": {
+        "mean": 0.03815753869712353,
+        "n": 5,
+        "student_t_95": [
+          0.027343931961485567,
+          0.048971145432761494
+        ]
+      },
+      "method": "o2",
+      "operator_class": "state_independent_command_indexed_o2_v1",
+      "operator_parameter_counts": [
+        333312
+      ],
+      "scope": "QWEN7B"
+    }
+  ],
+  "cells": 60,
+  "checkpoint_collisions": [],
+  "comparison_scope": "frozen_feature_operator_probe",
+  "evaluation_split": "validation",
+  "protocol": "l3_independent_methods_cross_backbone_aggregate_v2",
+  "reporting_caveat": "lora_matched is a parameter-matched frozen-feature adapter, not Q/V LoRA on backbone weights",
+  "source_reports": {
+    "LLAMA70B": {
+      "manifest_sha256": "not-published",
+      "path": "work/l3_independent_repair/results/LLAMA70B_L3_INDEPENDENT_V2.json",
+      "sha256": "not-published"
+    },
+    "PHI14B": {
+      "manifest_sha256": "not-published",
+      "path": "work/l3_independent_repair/results/PHI14B_L3_INDEPENDENT_V2.json",
+      "sha256": "not-published"
+    },
+    "QWEN32": {
+      "manifest_sha256": "not-published",
+      "path": "work/l3_independent_repair/results/QWEN32_L3_INDEPENDENT_V2.json",
+      "sha256": "not-published"
+    },
+    "QWEN7B": {
+      "manifest_sha256": "not-published",
+      "path": "work/l3_independent_repair/results/QWEN7B_L3_INDEPENDENT_V2.json",
+      "sha256": "not-published"
+    }
+  },
+  "test_evaluated": false
+}

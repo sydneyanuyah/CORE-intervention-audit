@@ -1,0 +1,36 @@
+{
+  "completed_cells": 40,
+  "evaluation_split": "validation",
+  "expected_cells": 40,
+  "paired_contrasts": {
+    "o2_minus_o3_changed_pair_fraction": {
+      "mean": -0.02455284552845527,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        -0.02887113788669999,
+        -0.02023455317021055
+      ]
+    },
+    "o2_minus_o3_clean": {
+      "mean": 0.009622846289512965,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        0.0027214682406289156,
+        0.016524224338397016
+      ]
+    },
+    "o2_minus_o3_inversion_drop": {
+      "mean": -0.014259598426265091,
+      "n_paired_seeds": 20,
+      "student_t_95": [
+        -0.02442288844134905,
+        -0.0040963084111811324
+      ]
+    }
+  },
+  "protocol": "qwen2_5_32b_c3_derived_from_f2_v1",
+  "scope": "F2 editor-zeroed/do-nothing ablation",
+  "source_manifest_sha256": "not-published",
+  "source_report": "reports/QWEN32_EXTENSION.json",
+  "test_evaluated": false
+}

@@ -1,0 +1,5287 @@
+{
+  "cell_count": 400,
+  "cells": [
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:301",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "prompting",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:301",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "lora_matched",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:301",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "o2",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:301",
+      "family": "xor",
+      "graph_seed": 3061,
+      "method": "o3",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:302",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "prompting",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:302",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "lora_matched",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:302",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "o2",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:302",
+      "family": "xor",
+      "graph_seed": 3062,
+      "method": "o3",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:303",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "prompting",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:303",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "lora_matched",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:303",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "o2",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:303",
+      "family": "xor",
+      "graph_seed": 3063,
+      "method": "o3",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:304",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "prompting",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:304",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "lora_matched",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:304",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "o2",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:304",
+      "family": "xor",
+      "graph_seed": 3064,
+      "method": "o3",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:305",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "prompting",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:305",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "lora_matched",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:305",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "o2",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:305",
+      "family": "xor",
+      "graph_seed": 3065,
+      "method": "o3",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:306",
+      "family": "xor",
+      "graph_seed": 3066,
+      "method": "prompting",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:306",
+      "family": "xor",
+      "graph_seed": 3066,
+      "method": "lora_matched",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:306",
+      "family": "xor",
+      "graph_seed": 3066,
+      "method": "o2",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:306",
+      "family": "xor",
+      "graph_seed": 3066,
+      "method": "o3",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:307",
+      "family": "xor",
+      "graph_seed": 3067,
+      "method": "prompting",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:307",
+      "family": "xor",
+      "graph_seed": 3067,
+      "method": "lora_matched",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:307",
+      "family": "xor",
+      "graph_seed": 3067,
+      "method": "o2",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:307",
+      "family": "xor",
+      "graph_seed": 3067,
+      "method": "o3",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:308",
+      "family": "xor",
+      "graph_seed": 3068,
+      "method": "prompting",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:308",
+      "family": "xor",
+      "graph_seed": 3068,
+      "method": "lora_matched",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:308",
+      "family": "xor",
+      "graph_seed": 3068,
+      "method": "o2",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:308",
+      "family": "xor",
+      "graph_seed": 3068,
+      "method": "o3",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:309",
+      "family": "xor",
+      "graph_seed": 3069,
+      "method": "prompting",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:309",
+      "family": "xor",
+      "graph_seed": 3069,
+      "method": "lora_matched",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:309",
+      "family": "xor",
+      "graph_seed": 3069,
+      "method": "o2",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:309",
+      "family": "xor",
+      "graph_seed": 3069,
+      "method": "o3",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:310",
+      "family": "xor",
+      "graph_seed": 3070,
+      "method": "prompting",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:310",
+      "family": "xor",
+      "graph_seed": 3070,
+      "method": "lora_matched",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:310",
+      "family": "xor",
+      "graph_seed": 3070,
+      "method": "o2",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:310",
+      "family": "xor",
+      "graph_seed": 3070,
+      "method": "o3",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:311",
+      "family": "xor",
+      "graph_seed": 3071,
+      "method": "prompting",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:311",
+      "family": "xor",
+      "graph_seed": 3071,
+      "method": "lora_matched",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:311",
+      "family": "xor",
+      "graph_seed": 3071,
+      "method": "o2",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:311",
+      "family": "xor",
+      "graph_seed": 3071,
+      "method": "o3",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:312",
+      "family": "xor",
+      "graph_seed": 3072,
+      "method": "prompting",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:312",
+      "family": "xor",
+      "graph_seed": 3072,
+      "method": "lora_matched",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:312",
+      "family": "xor",
+      "graph_seed": 3072,
+      "method": "o2",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:312",
+      "family": "xor",
+      "graph_seed": 3072,
+      "method": "o3",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:313",
+      "family": "xor",
+      "graph_seed": 3073,
+      "method": "prompting",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:313",
+      "family": "xor",
+      "graph_seed": 3073,
+      "method": "lora_matched",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:313",
+      "family": "xor",
+      "graph_seed": 3073,
+      "method": "o2",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:313",
+      "family": "xor",
+      "graph_seed": 3073,
+      "method": "o3",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:314",
+      "family": "xor",
+      "graph_seed": 3074,
+      "method": "prompting",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:314",
+      "family": "xor",
+      "graph_seed": 3074,
+      "method": "lora_matched",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:314",
+      "family": "xor",
+      "graph_seed": 3074,
+      "method": "o2",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:314",
+      "family": "xor",
+      "graph_seed": 3074,
+      "method": "o3",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:315",
+      "family": "xor",
+      "graph_seed": 3075,
+      "method": "prompting",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:315",
+      "family": "xor",
+      "graph_seed": 3075,
+      "method": "lora_matched",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:315",
+      "family": "xor",
+      "graph_seed": 3075,
+      "method": "o2",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:315",
+      "family": "xor",
+      "graph_seed": 3075,
+      "method": "o3",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:316",
+      "family": "xor",
+      "graph_seed": 3076,
+      "method": "prompting",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:316",
+      "family": "xor",
+      "graph_seed": 3076,
+      "method": "lora_matched",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:316",
+      "family": "xor",
+      "graph_seed": 3076,
+      "method": "o2",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:316",
+      "family": "xor",
+      "graph_seed": 3076,
+      "method": "o3",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:317",
+      "family": "xor",
+      "graph_seed": 3077,
+      "method": "prompting",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:317",
+      "family": "xor",
+      "graph_seed": 3077,
+      "method": "lora_matched",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:317",
+      "family": "xor",
+      "graph_seed": 3077,
+      "method": "o2",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:317",
+      "family": "xor",
+      "graph_seed": 3077,
+      "method": "o3",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:318",
+      "family": "xor",
+      "graph_seed": 3078,
+      "method": "prompting",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:318",
+      "family": "xor",
+      "graph_seed": 3078,
+      "method": "lora_matched",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:318",
+      "family": "xor",
+      "graph_seed": 3078,
+      "method": "o2",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:318",
+      "family": "xor",
+      "graph_seed": 3078,
+      "method": "o3",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:319",
+      "family": "xor",
+      "graph_seed": 3079,
+      "method": "prompting",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:319",
+      "family": "xor",
+      "graph_seed": 3079,
+      "method": "lora_matched",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:319",
+      "family": "xor",
+      "graph_seed": 3079,
+      "method": "o2",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:319",
+      "family": "xor",
+      "graph_seed": 3079,
+      "method": "o3",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:prompting:320",
+      "family": "xor",
+      "graph_seed": 3080,
+      "method": "prompting",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:lora_matched:320",
+      "family": "xor",
+      "graph_seed": 3080,
+      "method": "lora_matched",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o2:320",
+      "family": "xor",
+      "graph_seed": 3080,
+      "method": "o2",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:xor:o3:320",
+      "family": "xor",
+      "graph_seed": 3080,
+      "method": "o3",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:301",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:301",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:301",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:301",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:302",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:302",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:302",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:302",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:303",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:303",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:303",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:303",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:304",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:304",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:304",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:304",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:305",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:305",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:305",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:305",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:306",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:306",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:306",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:306",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:307",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:307",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:307",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:307",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:308",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:308",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:308",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:308",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:309",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:309",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:309",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:309",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:310",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:310",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:310",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:310",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:311",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:311",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:311",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:311",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:312",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:312",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:312",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:312",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:313",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:313",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:313",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:313",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:314",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:314",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:314",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:314",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:315",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:315",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:315",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:315",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:316",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:316",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:316",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:316",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:317",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:317",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:317",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:317",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:318",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:318",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:318",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:318",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:319",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:319",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:319",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:319",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:prompting:320",
+      "family": "ccrgb",
+      "method": "prompting",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:lora_matched:320",
+      "family": "ccrgb",
+      "method": "lora_matched",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o2:320",
+      "family": "ccrgb",
+      "method": "o2",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:ccrgb:o3:320",
+      "family": "ccrgb",
+      "method": "o3",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:301",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:301",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:301",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:301",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:302",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:302",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:302",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:302",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:303",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:303",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:303",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:303",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:304",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:304",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:304",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:304",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:305",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:305",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:305",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:305",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:306",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:306",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:306",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:306",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:307",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:307",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:307",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:307",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:308",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:308",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:308",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:308",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:309",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:309",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:309",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:309",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:310",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:310",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:310",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:310",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:311",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:311",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:311",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:311",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:312",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:312",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:312",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:312",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:313",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:313",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:313",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:313",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:314",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:314",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:314",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:314",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:315",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:315",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:315",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:315",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:316",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:316",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:316",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:316",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:317",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:317",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:317",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:317",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:318",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:318",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:318",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:318",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:319",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:319",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:319",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:319",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:prompting:320",
+      "family": "cladder",
+      "method": "prompting",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:lora_matched:320",
+      "family": "cladder",
+      "method": "lora_matched",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o2:320",
+      "family": "cladder",
+      "method": "o2",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:cladder:o3:320",
+      "family": "cladder",
+      "method": "o3",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:301",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:301",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:301",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:301",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:302",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:302",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:302",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:302",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:303",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:303",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:303",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:303",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:304",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:304",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:304",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:304",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:305",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:305",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:305",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:305",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:306",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:306",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:306",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:306",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:307",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:307",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:307",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:307",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:308",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:308",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:308",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:308",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:309",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:309",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:309",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:309",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:310",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:310",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:310",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:310",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:311",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:311",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:311",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:311",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:312",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:312",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:312",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:312",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:313",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:313",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:313",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:313",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:314",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:314",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:314",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:314",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:315",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:315",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:315",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:315",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:316",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:316",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:316",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:316",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:317",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:317",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:317",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:317",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:318",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:318",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:318",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:318",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:319",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:319",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:319",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:319",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:prompting:320",
+      "family": "wiqa",
+      "method": "prompting",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:lora_matched:320",
+      "family": "wiqa",
+      "method": "lora_matched",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o2:320",
+      "family": "wiqa",
+      "method": "o2",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:wiqa:o3:320",
+      "family": "wiqa",
+      "method": "o3",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:301",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:301",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:301",
+      "family": "com2",
+      "method": "o2",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:301",
+      "family": "com2",
+      "method": "o3",
+      "seed": 301,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:302",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:302",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:302",
+      "family": "com2",
+      "method": "o2",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:302",
+      "family": "com2",
+      "method": "o3",
+      "seed": 302,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:303",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:303",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:303",
+      "family": "com2",
+      "method": "o2",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:303",
+      "family": "com2",
+      "method": "o3",
+      "seed": 303,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:304",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:304",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:304",
+      "family": "com2",
+      "method": "o2",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:304",
+      "family": "com2",
+      "method": "o3",
+      "seed": 304,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:305",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:305",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:305",
+      "family": "com2",
+      "method": "o2",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:305",
+      "family": "com2",
+      "method": "o3",
+      "seed": 305,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:306",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:306",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:306",
+      "family": "com2",
+      "method": "o2",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:306",
+      "family": "com2",
+      "method": "o3",
+      "seed": 306,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:307",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:307",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:307",
+      "family": "com2",
+      "method": "o2",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:307",
+      "family": "com2",
+      "method": "o3",
+      "seed": 307,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:308",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:308",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:308",
+      "family": "com2",
+      "method": "o2",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:308",
+      "family": "com2",
+      "method": "o3",
+      "seed": 308,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:309",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:309",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:309",
+      "family": "com2",
+      "method": "o2",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:309",
+      "family": "com2",
+      "method": "o3",
+      "seed": 309,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:310",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:310",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:310",
+      "family": "com2",
+      "method": "o2",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:310",
+      "family": "com2",
+      "method": "o3",
+      "seed": 310,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:311",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:311",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:311",
+      "family": "com2",
+      "method": "o2",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:311",
+      "family": "com2",
+      "method": "o3",
+      "seed": 311,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:312",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:312",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:312",
+      "family": "com2",
+      "method": "o2",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:312",
+      "family": "com2",
+      "method": "o3",
+      "seed": 312,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:313",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:313",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:313",
+      "family": "com2",
+      "method": "o2",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:313",
+      "family": "com2",
+      "method": "o3",
+      "seed": 313,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:314",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:314",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:314",
+      "family": "com2",
+      "method": "o2",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:314",
+      "family": "com2",
+      "method": "o3",
+      "seed": 314,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:315",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:315",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:315",
+      "family": "com2",
+      "method": "o2",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:315",
+      "family": "com2",
+      "method": "o3",
+      "seed": 315,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:316",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:316",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:316",
+      "family": "com2",
+      "method": "o2",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:316",
+      "family": "com2",
+      "method": "o3",
+      "seed": 316,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:317",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:317",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:317",
+      "family": "com2",
+      "method": "o2",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:317",
+      "family": "com2",
+      "method": "o3",
+      "seed": 317,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:318",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:318",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:318",
+      "family": "com2",
+      "method": "o2",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:318",
+      "family": "com2",
+      "method": "o3",
+      "seed": 318,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:319",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:319",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:319",
+      "family": "com2",
+      "method": "o2",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:319",
+      "family": "com2",
+      "method": "o3",
+      "seed": 319,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:prompting:320",
+      "family": "com2",
+      "method": "prompting",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:lora_matched:320",
+      "family": "com2",
+      "method": "lora_matched",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o2:320",
+      "family": "com2",
+      "method": "o2",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "allowed_splits": [
+        "train",
+        "validation"
+      ],
+      "cell_id": "f2:com2:o3:320",
+      "family": "com2",
+      "method": "o3",
+      "seed": 320,
+      "split_layer": 4,
+      "test_evaluated": false,
+      "world_size": 4
+    }
+  ],
+  "manifest_sha256": "not-published",
+  "protocol": "f2_main_sweep_v1"
+}

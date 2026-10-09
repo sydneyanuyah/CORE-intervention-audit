@@ -1,0 +1,778 @@
+{
+  "protocol": "reviewer2_a3_address_inversion_existing_checkpoints_v1",
+  "backbone": "microsoft/phi-4",
+  "prefix": "phi14b",
+  "split": "validation",
+  "test_evaluated": false,
+  "n_seeds": 20,
+  "wrong_target_rule": "(true target index + 7) mod 30, commanded value unchanged",
+  "inverted_value_rule": "true target unchanged, commanded binary value inverted",
+  "per_seed": [
+    {
+      "seed": 801,
+      "graph_seed": 3021,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4440104365348816,
+          "preservation_accuracy": 0.6008203625679016,
+          "balanced_accuracy": 0.5224153995513916,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.4440104365348816,
+          "preservation_accuracy": 0.6008203625679016,
+          "balanced_accuracy": 0.5224153995513916,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.4440104365348816,
+          "preservation_accuracy": 0.6008203625679016,
+          "balanced_accuracy": 0.5224153995513916,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-801/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 802,
+      "graph_seed": 3022,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.49425286054611206,
+          "preservation_accuracy": 0.5518763661384583,
+          "balanced_accuracy": 0.5230646133422852,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.49425286054611206,
+          "preservation_accuracy": 0.5518763661384583,
+          "balanced_accuracy": 0.5230646133422852,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.49425286054611206,
+          "preservation_accuracy": 0.5518763661384583,
+          "balanced_accuracy": 0.5230646133422852,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-802/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 803,
+      "graph_seed": 3023,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4266666769981384,
+          "preservation_accuracy": 0.6301075220108032,
+          "balanced_accuracy": 0.5283870995044708,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.4266666769981384,
+          "preservation_accuracy": 0.6301075220108032,
+          "balanced_accuracy": 0.5283870995044708,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.4266666769981384,
+          "preservation_accuracy": 0.6301075220108032,
+          "balanced_accuracy": 0.5283870995044708,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-803/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 804,
+      "graph_seed": 3024,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.43488648533821106,
+          "preservation_accuracy": 0.56695157289505,
+          "balanced_accuracy": 0.5009190291166306,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.43488648533821106,
+          "preservation_accuracy": 0.56695157289505,
+          "balanced_accuracy": 0.5009190291166306,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.43488648533821106,
+          "preservation_accuracy": 0.56695157289505,
+          "balanced_accuracy": 0.5009190291166306,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-804/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 805,
+      "graph_seed": 3025,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4325396716594696,
+          "preservation_accuracy": 0.6960594654083252,
+          "balanced_accuracy": 0.5642995685338974,
+          "target_success": 0.5555555820465088
+        },
+        "wrong_target": {
+          "change_accuracy": 0.40740740299224854,
+          "preservation_accuracy": 0.6919681429862976,
+          "balanced_accuracy": 0.5496877729892731,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.41600528359413147,
+          "preservation_accuracy": 0.6933677792549133,
+          "balanced_accuracy": 0.5546865314245224,
+          "target_success": 0.4444444477558136
+        }
+      },
+      "wrong_minus_correct_balanced": -0.014611795544624329,
+      "wrong_minus_correct_target_success": -0.05555558204650879,
+      "inverted_minus_correct_balanced": -0.009613037109375,
+      "inverted_minus_correct_target_success": -0.11111113429069519,
+      "wrong_decision_vector_changed_fraction": 0.46666666865348816,
+      "inverted_decision_vector_changed_fraction": 0.30000001192092896,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-805/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 806,
+      "graph_seed": 3026,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.5642493367195129,
+          "preservation_accuracy": 0.5449718236923218,
+          "balanced_accuracy": 0.5546105802059174,
+          "target_success": 0.550000011920929
+        },
+        "wrong_target": {
+          "change_accuracy": 0.5477099418640137,
+          "preservation_accuracy": 0.5421543121337891,
+          "balanced_accuracy": 0.5449321269989014,
+          "target_success": 0.5166666507720947
+        },
+        "inverted_value": {
+          "change_accuracy": 0.5419847369194031,
+          "preservation_accuracy": 0.5411790013313293,
+          "balanced_accuracy": 0.5415818691253662,
+          "target_success": 0.45000001788139343
+        }
+      },
+      "wrong_minus_correct_balanced": -0.009678453207015991,
+      "wrong_minus_correct_target_success": -0.03333336114883423,
+      "inverted_minus_correct_balanced": -0.013028711080551147,
+      "inverted_minus_correct_target_success": -0.09999999403953552,
+      "wrong_decision_vector_changed_fraction": 0.5833333730697632,
+      "inverted_decision_vector_changed_fraction": 0.4166666865348816,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-806/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 807,
+      "graph_seed": 3027,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.3637681305408478,
+          "preservation_accuracy": 0.7029723525047302,
+          "balanced_accuracy": 0.533370241522789,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.3637681305408478,
+          "preservation_accuracy": 0.7029723525047302,
+          "balanced_accuracy": 0.533370241522789,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.3637681305408478,
+          "preservation_accuracy": 0.7029723525047302,
+          "balanced_accuracy": 0.533370241522789,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-807/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 808,
+      "graph_seed": 3028,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4649122655391693,
+          "preservation_accuracy": 0.5915905833244324,
+          "balanced_accuracy": 0.5282514244318008,
+          "target_success": 0.6694444417953491
+        },
+        "wrong_target": {
+          "change_accuracy": 0.45927318930625916,
+          "preservation_accuracy": 0.5906127691268921,
+          "balanced_accuracy": 0.5249429792165756,
+          "target_success": 0.5111111402511597
+        },
+        "inverted_value": {
+          "change_accuracy": 0.439223051071167,
+          "preservation_accuracy": 0.5871360301971436,
+          "balanced_accuracy": 0.5131795406341553,
+          "target_success": 0.3305555582046509
+        }
+      },
+      "wrong_minus_correct_balanced": -0.0033084452152252197,
+      "wrong_minus_correct_target_success": -0.15833330154418945,
+      "inverted_minus_correct_balanced": -0.015071883797645569,
+      "inverted_minus_correct_target_success": -0.33888888359069824,
+      "wrong_decision_vector_changed_fraction": 0.8416666984558105,
+      "inverted_decision_vector_changed_fraction": 0.699999988079071,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-808/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 809,
+      "graph_seed": 3029,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4869888722896576,
+          "preservation_accuracy": 0.5885042548179626,
+          "balanced_accuracy": 0.5377465635538101,
+          "target_success": 0.5333333611488342
+        },
+        "wrong_target": {
+          "change_accuracy": 0.4690210819244385,
+          "preservation_accuracy": 0.5853472948074341,
+          "balanced_accuracy": 0.5271841883659363,
+          "target_success": 0.49722224473953247
+        },
+        "inverted_value": {
+          "change_accuracy": 0.4752168655395508,
+          "preservation_accuracy": 0.5864359140396118,
+          "balanced_accuracy": 0.5308263897895813,
+          "target_success": 0.46666666865348816
+        }
+      },
+      "wrong_minus_correct_balanced": -0.01056237518787384,
+      "wrong_minus_correct_target_success": -0.03611111640930176,
+      "inverted_minus_correct_balanced": -0.006920173764228821,
+      "inverted_minus_correct_target_success": -0.06666669249534607,
+      "wrong_decision_vector_changed_fraction": 0.28333333134651184,
+      "inverted_decision_vector_changed_fraction": 0.10000000149011612,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-809/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 810,
+      "graph_seed": 3030,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.505084753036499,
+          "preservation_accuracy": 0.5275747776031494,
+          "balanced_accuracy": 0.5163297653198242,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.505084753036499,
+          "preservation_accuracy": 0.5275747776031494,
+          "balanced_accuracy": 0.5163297653198242,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.505084753036499,
+          "preservation_accuracy": 0.5275747776031494,
+          "balanced_accuracy": 0.5163297653198242,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-810/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 811,
+      "graph_seed": 3031,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.5186522603034973,
+          "preservation_accuracy": 0.5495732426643372,
+          "balanced_accuracy": 0.5341127514839172,
+          "target_success": 0.5055555701255798
+        },
+        "wrong_target": {
+          "change_accuracy": 0.5174488425254822,
+          "preservation_accuracy": 0.5493543744087219,
+          "balanced_accuracy": 0.533401608467102,
+          "target_success": 0.5083333253860474
+        },
+        "inverted_value": {
+          "change_accuracy": 0.5174488425254822,
+          "preservation_accuracy": 0.5493543744087219,
+          "balanced_accuracy": 0.533401608467102,
+          "target_success": 0.49444445967674255
+        }
+      },
+      "wrong_minus_correct_balanced": -0.0007111430168151855,
+      "wrong_minus_correct_target_success": 0.0027777552604675293,
+      "inverted_minus_correct_balanced": -0.0007111430168151855,
+      "inverted_minus_correct_target_success": -0.01111111044883728,
+      "wrong_decision_vector_changed_fraction": 0.03333333507180214,
+      "inverted_decision_vector_changed_fraction": 0.03333333507180214,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-811/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 812,
+      "graph_seed": 3032,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4931972920894623,
+          "preservation_accuracy": 0.5849933624267578,
+          "balanced_accuracy": 0.53909532725811,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.4931972920894623,
+          "preservation_accuracy": 0.5849933624267578,
+          "balanced_accuracy": 0.53909532725811,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.4931972920894623,
+          "preservation_accuracy": 0.5849933624267578,
+          "balanced_accuracy": 0.53909532725811,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-812/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 813,
+      "graph_seed": 3033,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.3959853947162628,
+          "preservation_accuracy": 0.5796199440956116,
+          "balanced_accuracy": 0.4878026694059372,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.3959853947162628,
+          "preservation_accuracy": 0.5796199440956116,
+          "balanced_accuracy": 0.4878026694059372,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.3959853947162628,
+          "preservation_accuracy": 0.5796199440956116,
+          "balanced_accuracy": 0.4878026694059372,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-813/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 814,
+      "graph_seed": 3034,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.5117647051811218,
+          "preservation_accuracy": 0.547033429145813,
+          "balanced_accuracy": 0.5293990671634674,
+          "target_success": 0.5166666507720947
+        },
+        "wrong_target": {
+          "change_accuracy": 0.5039215683937073,
+          "preservation_accuracy": 0.545738935470581,
+          "balanced_accuracy": 0.5248302519321442,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.5013071894645691,
+          "preservation_accuracy": 0.545307457447052,
+          "balanced_accuracy": 0.5233073234558105,
+          "target_success": 0.4833333492279053
+        }
+      },
+      "wrong_minus_correct_balanced": -0.004568815231323242,
+      "wrong_minus_correct_target_success": -0.016666650772094727,
+      "inverted_minus_correct_balanced": -0.00609174370765686,
+      "inverted_minus_correct_target_success": -0.03333330154418945,
+      "wrong_decision_vector_changed_fraction": 0.06666667014360428,
+      "inverted_decision_vector_changed_fraction": 0.06666667014360428,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-814/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 815,
+      "graph_seed": 3035,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.5447958111763,
+          "preservation_accuracy": 0.546541690826416,
+          "balanced_accuracy": 0.545668751001358,
+          "target_success": 0.5833333730697632
+        },
+        "wrong_target": {
+          "change_accuracy": 0.5263504385948181,
+          "preservation_accuracy": 0.5435250997543335,
+          "balanced_accuracy": 0.5349377691745758,
+          "target_success": 0.49722224473953247
+        },
+        "inverted_value": {
+          "change_accuracy": 0.5191040635108948,
+          "preservation_accuracy": 0.5423400402069092,
+          "balanced_accuracy": 0.530722051858902,
+          "target_success": 0.4166666865348816
+        }
+      },
+      "wrong_minus_correct_balanced": -0.010730981826782227,
+      "wrong_minus_correct_target_success": -0.08611112833023071,
+      "inverted_minus_correct_balanced": -0.014946699142456055,
+      "inverted_minus_correct_target_success": -0.1666666865348816,
+      "wrong_decision_vector_changed_fraction": 0.2805555760860443,
+      "inverted_decision_vector_changed_fraction": 0.32777777314186096,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-815/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 816,
+      "graph_seed": 3036,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.47160497307777405,
+          "preservation_accuracy": 0.5472766757011414,
+          "balanced_accuracy": 0.5094408243894577,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.47160497307777405,
+          "preservation_accuracy": 0.5472766757011414,
+          "balanced_accuracy": 0.5094408243894577,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.47160497307777405,
+          "preservation_accuracy": 0.5472766757011414,
+          "balanced_accuracy": 0.5094408243894577,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-816/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 817,
+      "graph_seed": 3037,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.5172004699707031,
+          "preservation_accuracy": 0.5571647882461548,
+          "balanced_accuracy": 0.537182629108429,
+          "target_success": 0.5250000357627869
+        },
+        "wrong_target": {
+          "change_accuracy": 0.5172004699707031,
+          "preservation_accuracy": 0.5571647882461548,
+          "balanced_accuracy": 0.537182629108429,
+          "target_success": 0.49444445967674255
+        },
+        "inverted_value": {
+          "change_accuracy": 0.510083019733429,
+          "preservation_accuracy": 0.5558481812477112,
+          "balanced_accuracy": 0.5329656004905701,
+          "target_success": 0.4750000238418579
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": -0.03055557608604431,
+      "inverted_minus_correct_balanced": -0.004217028617858887,
+      "inverted_minus_correct_target_success": -0.050000011920928955,
+      "wrong_decision_vector_changed_fraction": 0.2222222238779068,
+      "inverted_decision_vector_changed_fraction": 0.21111111342906952,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-817/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 818,
+      "graph_seed": 3038,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.529629647731781,
+          "preservation_accuracy": 0.46588101983070374,
+          "balanced_accuracy": 0.49775533378124237,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.529629647731781,
+          "preservation_accuracy": 0.46588101983070374,
+          "balanced_accuracy": 0.49775533378124237,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.529629647731781,
+          "preservation_accuracy": 0.46588101983070374,
+          "balanced_accuracy": 0.49775533378124237,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-818/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 819,
+      "graph_seed": 3039,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.5328525900840759,
+          "preservation_accuracy": 0.6202889084815979,
+          "balanced_accuracy": 0.5765707492828369,
+          "target_success": 0.7138888835906982
+        },
+        "wrong_target": {
+          "change_accuracy": 0.44711539149284363,
+          "preservation_accuracy": 0.6090871095657349,
+          "balanced_accuracy": 0.5281012505292892,
+          "target_success": 0.49166667461395264
+        },
+        "inverted_value": {
+          "change_accuracy": 0.4615384638309479,
+          "preservation_accuracy": 0.6109715104103088,
+          "balanced_accuracy": 0.5362549871206284,
+          "target_success": 0.28611111640930176
+        }
+      },
+      "wrong_minus_correct_balanced": -0.04846949875354767,
+      "wrong_minus_correct_target_success": -0.2222222089767456,
+      "inverted_minus_correct_balanced": -0.04031576216220856,
+      "inverted_minus_correct_target_success": -0.4277777671813965,
+      "wrong_decision_vector_changed_fraction": 0.9166666865348816,
+      "inverted_decision_vector_changed_fraction": 0.7444444894790649,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-819/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 820,
+      "graph_seed": 3040,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4326923191547394,
+          "preservation_accuracy": 0.6309524178504944,
+          "balanced_accuracy": 0.5318223685026169,
+          "target_success": 0.5138888955116272
+        },
+        "wrong_target": {
+          "change_accuracy": 0.43397438526153564,
+          "preservation_accuracy": 0.6311688423156738,
+          "balanced_accuracy": 0.5325716137886047,
+          "target_success": 0.49722224473953247
+        },
+        "inverted_value": {
+          "change_accuracy": 0.4294871985912323,
+          "preservation_accuracy": 0.6304112672805786,
+          "balanced_accuracy": 0.5299492329359055,
+          "target_success": 0.4861111342906952
+        }
+      },
+      "wrong_minus_correct_balanced": 0.000749245285987854,
+      "wrong_minus_correct_target_success": -0.016666650772094727,
+      "inverted_minus_correct_balanced": -0.0018731355667114258,
+      "inverted_minus_correct_target_success": -0.027777761220932007,
+      "wrong_decision_vector_changed_fraction": 0.06666667014360428,
+      "inverted_decision_vector_changed_fraction": 0.06666667014360428,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/phi14b-a1/xor/t3b_pointer/seed-820/run_summary.json",
+      "metric_source_sha256": "not-published"
+    }
+  ],
+  "aggregate": {
+    "wrong_minus_correct_balanced": {
+      "mean": -0.005094613134860993,
+      "student_t_95": [
+        -0.010351322147336552,
+        0.00016209587761456708
+      ]
+    },
+    "wrong_minus_correct_target_success": {
+      "mean": -0.03263889104127884,
+      "student_t_95": [
+        -0.060546752796917916,
+        -0.0047310292856397596
+      ]
+    },
+    "inverted_minus_correct_balanced": {
+      "mean": -0.005639465898275376,
+      "student_t_95": [
+        -0.010205915741437675,
+        -0.0010730160551130777
+      ]
+    },
+    "inverted_minus_correct_target_success": {
+      "mean": -0.06666666716337204,
+      "student_t_95": [
+        -0.12225323019896114,
+        -0.01108010412778293
+      ]
+    },
+    "wrong_decision_vector_changed_fraction": {
+      "mean": 0.18805556166917087,
+      "student_t_95": [
+        0.05148842059478542,
+        0.3246227027435563
+      ]
+    },
+    "inverted_decision_vector_changed_fraction": {
+      "mean": 0.1483333369717002,
+      "student_t_95": [
+        0.03884979721070342,
+        0.257816876732697
+      ]
+    }
+  },
+  "source_manifest_sha256": "not-published",
+  "source_amendment_sha256": "not-published"
+}

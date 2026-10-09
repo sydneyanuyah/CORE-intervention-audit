@@ -1,0 +1,1086 @@
+{
+  "experiments": [
+    {
+      "directory": "Experiment-1-F1",
+      "experiment": "F1",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 4000,
+              "status": "present"
+            }
+          ],
+          "records": 4000,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 1200,
+              "status": "present"
+            }
+          ],
+          "records": 1200,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-2-F2",
+      "experiment": "F2",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 4000,
+              "status": "present"
+            },
+            {
+              "dataset": "ccrgb",
+              "note": "",
+              "records": 28800,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 1109,
+              "status": "present"
+            },
+            {
+              "dataset": "wiqa",
+              "note": "",
+              "records": 19758,
+              "status": "present"
+            },
+            {
+              "dataset": "com2",
+              "note": "",
+              "records": 615,
+              "status": "present"
+            }
+          ],
+          "records": 54282,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 1200,
+              "status": "present"
+            },
+            {
+              "dataset": "ccrgb",
+              "note": "",
+              "records": 3600,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 147,
+              "status": "present"
+            },
+            {
+              "dataset": "wiqa",
+              "note": "",
+              "records": 4547,
+              "status": "present"
+            },
+            {
+              "dataset": "com2",
+              "note": "",
+              "records": 73,
+              "status": "present"
+            }
+          ],
+          "records": 9567,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-3-F3",
+      "experiment": "F3",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "c1_real",
+              "note": "",
+              "records": 24000,
+              "status": "present"
+            },
+            {
+              "dataset": "c1_noncausal_placebo",
+              "note": "",
+              "records": 24000,
+              "status": "present"
+            }
+          ],
+          "records": 48000,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "c1_real",
+              "note": "",
+              "records": 7200,
+              "status": "present"
+            },
+            {
+              "dataset": "c1_noncausal_placebo",
+              "note": "",
+              "records": 7200,
+              "status": "present"
+            }
+          ],
+          "records": 14400,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-4-F4",
+      "experiment": "F4",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 4000,
+              "status": "present"
+            }
+          ],
+          "records": 4000,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 1200,
+              "status": "present"
+            }
+          ],
+          "records": 1200,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-5-A1",
+      "experiment": "A1",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [
+            {
+              "dataset": "xor_a1",
+              "note": "",
+              "records": 1200,
+              "status": "present"
+            },
+            {
+              "dataset": "ccrgb",
+              "note": "",
+              "records": 3600,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 166,
+              "status": "present"
+            },
+            {
+              "dataset": "wiqa",
+              "note": "",
+              "records": 1740,
+              "status": "present"
+            },
+            {
+              "dataset": "com2",
+              "note": "",
+              "records": 82,
+              "status": "present"
+            }
+          ],
+          "records": 6788,
+          "required": true,
+          "status": "present"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "xor_a1",
+              "note": "",
+              "records": 8000,
+              "status": "present"
+            },
+            {
+              "dataset": "ccrgb",
+              "note": "",
+              "records": 28800,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 1109,
+              "status": "present"
+            },
+            {
+              "dataset": "wiqa",
+              "note": "",
+              "records": 19758,
+              "status": "present"
+            },
+            {
+              "dataset": "com2",
+              "note": "",
+              "records": 615,
+              "status": "present"
+            }
+          ],
+          "records": 58282,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_a1",
+              "note": "",
+              "records": 2400,
+              "status": "present"
+            },
+            {
+              "dataset": "ccrgb",
+              "note": "",
+              "records": 3600,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 147,
+              "status": "present"
+            },
+            {
+              "dataset": "wiqa",
+              "note": "",
+              "records": 4547,
+              "status": "present"
+            },
+            {
+              "dataset": "com2",
+              "note": "",
+              "records": 73,
+              "status": "present"
+            }
+          ],
+          "records": 10767,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-6-A2",
+      "experiment": "A2",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_a1",
+              "note": "",
+              "records": 2400,
+              "status": "present"
+            },
+            {
+              "dataset": "ccrgb",
+              "note": "",
+              "records": 3600,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 147,
+              "status": "present"
+            },
+            {
+              "dataset": "wiqa",
+              "note": "",
+              "records": 4547,
+              "status": "present"
+            },
+            {
+              "dataset": "com2",
+              "note": "",
+              "records": 73,
+              "status": "present"
+            }
+          ],
+          "records": 10767,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-7-A3",
+      "experiment": "A3",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_a1",
+              "note": "",
+              "records": 2400,
+              "status": "present"
+            }
+          ],
+          "records": 2400,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-8-L1",
+      "experiment": "L1",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 4000,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 1109,
+              "status": "present"
+            }
+          ],
+          "records": 5109,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 1200,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 147,
+              "status": "present"
+            }
+          ],
+          "records": 1347,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-9-L2",
+      "experiment": "L2",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 4000,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 1109,
+              "status": "present"
+            }
+          ],
+          "records": 5109,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 1200,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 147,
+              "status": "present"
+            }
+          ],
+          "records": 1347,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-10-L3",
+      "experiment": "L3",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 4000,
+              "status": "present"
+            }
+          ],
+          "records": 4000,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 1200,
+              "status": "present"
+            },
+            {
+              "dataset": "c2_floor_suite",
+              "note": "",
+              "records": 7200,
+              "status": "present"
+            }
+          ],
+          "records": 8400,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-11-C1",
+      "experiment": "C1",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "c1_real",
+              "note": "",
+              "records": 24000,
+              "status": "present"
+            },
+            {
+              "dataset": "c1_noncausal_placebo",
+              "note": "",
+              "records": 24000,
+              "status": "present"
+            },
+            {
+              "dataset": "c1_shuffled",
+              "note": "",
+              "records": 24000,
+              "status": "present"
+            }
+          ],
+          "records": 72000,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "c1_real",
+              "note": "",
+              "records": 7200,
+              "status": "present"
+            },
+            {
+              "dataset": "c1_noncausal_placebo",
+              "note": "",
+              "records": 7200,
+              "status": "present"
+            },
+            {
+              "dataset": "c1_shuffled",
+              "note": "",
+              "records": 7200,
+              "status": "present"
+            }
+          ],
+          "records": 21600,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-12-C2",
+      "experiment": "C2",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "c2_floor_suite",
+              "note": "",
+              "records": 7200,
+              "status": "present"
+            }
+          ],
+          "records": 7200,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-13-C3",
+      "experiment": "C3",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_f1",
+              "note": "",
+              "records": 1200,
+              "status": "present"
+            },
+            {
+              "dataset": "ccrgb",
+              "note": "",
+              "records": 3600,
+              "status": "present"
+            },
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 147,
+              "status": "present"
+            },
+            {
+              "dataset": "wiqa",
+              "note": "",
+              "records": 4547,
+              "status": "present"
+            },
+            {
+              "dataset": "com2",
+              "note": "",
+              "records": 73,
+              "status": "present"
+            }
+          ],
+          "records": 9567,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-14-C4",
+      "experiment": "C4",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "validation": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-15-T1",
+      "experiment": "T1",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "f2_composed_pairs",
+              "note": "",
+              "records": 4929,
+              "status": "present"
+            }
+          ],
+          "records": 4929,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-16-T2",
+      "experiment": "T2",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [
+            {
+              "dataset": "csuite_t2",
+              "note": "",
+              "records": 2000,
+              "status": "present"
+            }
+          ],
+          "records": 2000,
+          "required": true,
+          "status": "present"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "csuite_t2",
+              "note": "",
+              "records": 11000,
+              "status": "present"
+            }
+          ],
+          "records": 11000,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "csuite_t2",
+              "note": "",
+              "records": 2000,
+              "status": "present"
+            }
+          ],
+          "records": 2000,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-17-T3",
+      "experiment": "T3",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "corr2cause_t3",
+              "note": "",
+              "records": 1076,
+              "status": "present"
+            }
+          ],
+          "records": 1076,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-18-T4",
+      "experiment": "T4",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [
+            {
+              "dataset": "csuite_t4",
+              "note": "",
+              "records": 6000,
+              "status": "present"
+            }
+          ],
+          "records": 6000,
+          "required": true,
+          "status": "present"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "csuite_t4",
+              "note": "",
+              "records": 33000,
+              "status": "present"
+            }
+          ],
+          "records": 33000,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "csuite_t4",
+              "note": "",
+              "records": 6000,
+              "status": "present"
+            }
+          ],
+          "records": 6000,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-19-T5",
+      "experiment": "T5",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [
+            {
+              "dataset": "native_t5",
+              "note": "",
+              "records": 590,
+              "status": "present"
+            }
+          ],
+          "records": 590,
+          "required": true,
+          "status": "present"
+        },
+        "train": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "native_t5",
+              "note": "",
+              "records": 1476,
+              "status": "present"
+            }
+          ],
+          "records": 1476,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-20-G1",
+      "experiment": "G1",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "cladder",
+              "note": "",
+              "records": 147,
+              "status": "present"
+            }
+          ],
+          "records": 147,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-21-G2",
+      "experiment": "G2",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "shared_target_sequences",
+              "note": "",
+              "records": 12000,
+              "status": "present"
+            }
+          ],
+          "records": 12000,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-22-G3",
+      "experiment": "G3",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "xor_g3",
+              "note": "",
+              "records": 4000,
+              "status": "present"
+            }
+          ],
+          "records": 4000,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "xor_g3",
+              "note": "",
+              "records": 1200,
+              "status": "present"
+            }
+          ],
+          "records": 1200,
+          "required": true,
+          "status": "present"
+        }
+      }
+    },
+    {
+      "directory": "Experiment-23-G4",
+      "experiment": "G4",
+      "manifest_sha256": "not-published",
+      "splits": {
+        "test": {
+          "datasets": [],
+          "records": 0,
+          "required": false,
+          "status": "not_required"
+        },
+        "train": {
+          "datasets": [
+            {
+              "dataset": "evidence_inference_g4",
+              "note": "",
+              "records": 1911,
+              "status": "present"
+            }
+          ],
+          "records": 1911,
+          "required": true,
+          "status": "present"
+        },
+        "validation": {
+          "datasets": [
+            {
+              "dataset": "evidence_inference_g4",
+              "note": "",
+              "records": 230,
+              "status": "present"
+            }
+          ],
+          "records": 230,
+          "required": true,
+          "status": "present"
+        }
+      }
+    }
+  ]
+}

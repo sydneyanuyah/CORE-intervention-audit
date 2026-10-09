@@ -1,0 +1,114 @@
+{
+  "protocol": "EXPERIMENT_REGISTRY_v2",
+  "evidence_status": "fresh_runs_required",
+  "experimental_unit": "graph",
+  "intervals": ["paired_graph_bootstrap_95", "student_t_95"],
+  "models": {
+    "bert_base": {"checkpoint": "google-bert/bert-base-uncased", "gpus": [4], "role": "screening_and_replication"},
+    "bert_large": {"checkpoint": "google-bert/bert-large-uncased", "gpus": [8, 16], "role": "scale_confirmation", "selection_rule": "use_16_only_if_fixed_workload_throughput_exceeds_8"}
+  },
+  "server_implementations": {
+    "operators_and_controls": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+    "joint_text_addressing": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_20graph/core_components.py",
+    "graph_masked_o3": "${PRIVATE_STORAGE_ROOT}/CORE_o3g/core_components.py",
+    "law_gate": "${PRIVATE_STORAGE_ROOT}/CORE_final_law_gate/core_components.py"
+  },
+  "global_rules": {
+    "held_out_test": "once_after_validation_selection",
+    "laws_require_floors": ["do_nothing", "do_everything", "random_init"],
+    "report_both_intervals_if_they_disagree": true,
+    "noncausal_controls": true,
+    "parameter_matched_baselines": true
+  },
+  "experiments": [
+    {"id":"F1","priority":"core","kind":"train","datasets":["xor"],"methods":["o2","o3"],"seeds":20,"primary":"two_edit_balanced:o3-o2"},
+    {"id":"F2","priority":"paper","kind":"train","datasets":["xor","ccrgb","cladder","wiqa","com2"],"methods":["prompting","lora_matched","o2","o3"],"seeds":20,"primary":"two_edit_balanced:o3-o2_per_family"},
+    {"id":"F3","priority":"core","kind":"train","datasets":["xor_real","xor_noncausal"],"methods":["o2","o3"],"seeds":20,"primary":"causal_minus_placebo_under_shared_selection"},
+    {"id":"F4","priority":"optional","kind":"train","datasets":["xor"],"methods":["o2","o3"],"seeds":25,"primary":"two_edit_balanced:o3-o2_across_reader_size"},
+    {
+      "id": "A1",
+      "priority": "paper",
+      "kind": "train",
+      "datasets": ["xor", "ccrgb", "cladder", "wiqa", "com2"],
+      "methods": ["t0_id", "t1_text", "t2b_encode_only", "t2a_naive", "t3b_pointer", "t3a_conditioning"],
+      "seeds": 20,
+      "primary": "two_edit_balanced:each_scheme-vs-t0_with_unseen_paraphrase_and_2pt_rule",
+      "applicability": {
+        "t0_id": ["xor"],
+        "t1_text": ["xor", "ccrgb", "cladder", "wiqa", "com2"],
+        "t2b_encode_only": ["xor", "ccrgb", "cladder", "wiqa", "com2"],
+        "t2a_naive": ["xor", "ccrgb", "cladder", "wiqa", "com2"],
+        "t3b_pointer": ["xor", "ccrgb", "cladder", "wiqa", "com2"],
+        "t3a_conditioning": ["xor", "ccrgb", "cladder", "wiqa", "com2"]
+      },
+      "stages": {
+        "screening": {
+          "seeds_per_family": 5,
+          "families": 5,
+          "cartesian_budget_envelope_runs_per_reader": 150,
+          "applicable_runs_per_reader": 130,
+          "undefined_t0_real_cells": 20,
+          "evidence_status": "architecture_screening_only"
+        },
+        "confirmatory": {
+          "seeds_per_family": 20,
+          "families": 5,
+          "cartesian_budget_envelope_runs_per_reader": 600,
+          "applicable_runs_per_reader": 520,
+          "undefined_t0_real_cells": 80,
+          "evidence_status": "preregistered_evidence"
+        }
+      }
+    },
+    {
+      "id": "A2",
+      "priority": "mandatory_measurement",
+      "kind": "measure",
+      "datasets": ["a1_t2b_checkpoints"],
+      "methods": ["t2b_editor_active", "t2b_editor_zeroed", "no_instruction_baseline", "prompting_baseline"],
+      "seeds": 0,
+      "primary": "masking_check:t2b_editor_zeroed-no_instruction_baseline",
+      "secondary": "edit_contribution:t2b_editor_active-t2b_editor_zeroed"
+    },
+    {
+      "id": "A3",
+      "priority": "mandatory_measurement",
+      "kind": "measure",
+      "datasets": ["a1_t3b_checkpoints"],
+      "methods": ["t3b_correct_span", "t3b_adjacent_span", "t3b_random_span"],
+      "seeds": 0,
+      "primary": "t3b_random_span_pointer_and_task_collapse",
+      "reports": ["pointer_probability_mass", "pointer_top1_accuracy", "target_success", "change_accuracy", "preservation"]
+    },
+    {"id":"L1","priority":"paper","kind":"train","datasets":["xor","held_out_family"],"methods":["core_base_1law","core_i_3law","core_full_4law"],"seeds":15,"primary":"held_out_retention_across_1_3_4_laws","requires_floors":true},
+    {"id":"L2","priority":"conditional","kind":"train","datasets":["xor","held_out_family"],"methods":["full","drop_identity","drop_idempotence","drop_commutation","drop_selective_invariance"],"seeds":20,"primary":"held_out_delta_by_dropped_law","requires_floors":true},
+    {"id":"L3","priority":"paper","kind":"train","datasets":["xor"],"methods":["prompting","lora_matched","loreft","task_vector_add","router","o1","o2","o3"],"seeds":5,"primary":"each_law_score-vs-random_init_per_method","requires_floors":true},
+    {"id":"C1","priority":"paper","kind":"train","datasets":["real","noncausal","shuffled"],"methods":["o3"],"seeds":20,"primary":"two_edit_balanced:real-placebo"},
+    {"id":"C2","priority":"paper","kind":"measure","datasets":["law_suite"],"methods":["do_nothing","do_everything","random_init","trained_o3"],"seeds":0,"primary":"law_floor_calibration"},
+    {"id":"C3","priority":"mandatory_measurement","kind":"measure","datasets":["f2_checkpoints"],"methods":["full","edit_zeroed"],"seeds":0,"primary":"full-edit_zeroed"},
+    {
+      "id": "C4",
+      "priority": "mandatory_measurement",
+      "kind": "measure",
+      "datasets": ["all_methods"],
+      "methods": ["parameter_accounting_including_t3b_pointer_head", "lora_rank_rematched_to_t3b"],
+      "seeds": 0,
+      "primary": "two_edit_delta_per_10k_trainable_parameters",
+      "t3b_accounting": {
+        "include": ["pointer_query_projection", "pointer_key_projection", "t3_editor"],
+        "compute_separately_for": ["bert_base", "bert_large"],
+        "matched_lora_rule": "recompute_rank_against_total_t3b_trainable_parameters",
+        "counts": "measured_from_instantiated_models_not_hard_coded"
+      }
+    },
+    {"id":"T1","priority":"paper","kind":"measure","datasets":["f2_composed_pairs"],"methods":["prompting","o2","o3"],"seeds":0,"primary":"composed_accuracy:o3-prompting"},
+    {"id":"T2","priority":"core","kind":"train","datasets":["causalt5k_10_domains"],"methods":["o3"],"seeds":5,"primary":"ood_and_retention_by_held_out_domain"},
+    {"id":"T3","priority":"mandatory_measurement","kind":"measure","datasets":["corr2cause","variable_rename","cladder_variants","boundless_das"],"methods":["selected_methods"],"seeds":0,"primary":"clean-perturbed"},
+    {"id":"T4","priority":"optional","kind":"train","datasets":["meter","causalt5k_fallback"],"methods":["changing_only","imagining_only","joint"],"seeds":5,"primary":"rung_transfer_matrix"},
+    {"id":"T5","priority":"mandatory_measurement","kind":"measure","datasets":["crass","com2","counterbench","corr2cause"],"methods":["baseline","o3"],"seeds":0,"primary":"external_held_out_delta"},
+    {"id":"G1","priority":"paper","kind":"measure","datasets":["cladder"],"methods":["baseline","o3"],"seeds":0,"primary":"estimand_selection_accuracy:ours-baseline"},
+    {"id":"G2","priority":"paper","kind":"measure","datasets":["shared_target_sequences"],"methods":["all_operators"],"seeds":0,"primary":"last_write_wins"},
+    {"id":"G3","priority":"selection","kind":"train","datasets":["development_only"],"methods":["edit_layer_sweep"],"seeds":1,"primary":"select_layer_on_dev_only"},
+    {"id":"G4","priority":"exploratory","kind":"train","datasets":["pubmedcausal"],"methods":["baseline","o3"],"seeds":5,"primary":"implicit_intra_f1_delta"}
+  ]
+}

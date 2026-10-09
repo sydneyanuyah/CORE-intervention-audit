@@ -1,0 +1,49 @@
+{
+  "protocol": "f1_o2_o3_v1",
+  "registry": "registry/bert_scope.json",
+  "registry_sha256": "not-published",
+  "model": "google-bert/bert-base-uncased",
+  "model_size": "base",
+  "world_size": 4,
+  "split_layer": 4,
+  "methods": ["o2", "o3"],
+  "optimization_seeds": [101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120],
+  "graph_seeds": [3041,3042,3043,3044,3045,3046,3047,3048,3049,3050,3051,3052,3053,3054,3055,3056,3057,3058,3059,3060],
+  "data": {
+    "artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_f1/runs/graph_{graph}",
+    "pair_manifest_template": "data/two_edit/f1/xor_graph_{graph}.jsonl",
+    "provenance": "data/two_edit/f1/provenance.json",
+    "provenance_sha256": "not-published",
+    "allowed_splits": ["train", "validation"],
+    "test_evaluated": false
+  },
+  "operator": {
+    "source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+    "source_sha256": "not-published",
+    "rank": 16,
+    "world_tokens": 16,
+    "interface": "world16",
+    "law_count": 4,
+    "law_weights": {"identity":1.0,"idempotence":1.0,"commutation":1.0,"last_write_wins":1.0},
+    "profile_search": false
+  },
+  "training": {
+    "reader_epochs": 8,
+    "reader_batch_size_per_rank": 8,
+    "reader_lr": 0.0001,
+    "operator_steps": 500,
+    "operator_batch_size_per_rank": 16,
+    "operator_lr": 0.005,
+    "max_length": 512,
+    "checkpoint_selection": "minimum_validation_reader_loss_then_final_operator_step"
+  },
+  "analysis": {
+    "primary": "two_edit_balanced:o3-o2",
+    "experimental_unit": "graph",
+    "intervals": ["paired_graph_bootstrap_95", "paired_seed_student_t_95"]
+  },
+  "paths": {
+    "reader_output_template": "outputs/f1/readers/seed-{seed}",
+    "cell_output_template": "outputs/f1/{method}/seed-{seed}"
+  }
+}

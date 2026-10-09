@@ -1,0 +1,136 @@
+{
+  "protocol": "T2-T4-G4 annotation pilot",
+  "annotator_id": "ann-001",
+  "adjudicator_id": "adj-001",
+  "pass_type": "single independent pass, ann-001, with senior audit and adjudication of contested annotations",
+  "second_independent_annotator": "not performed - required before any accepted row becomes experimental evidence",
+  "production_items": 900,
+  "task_views_annotated": 1200,
+  "task_views_per_dataset": {
+    "causalt5k": 600,
+    "meter": 300,
+    "pubmedcausal": 300
+  },
+  "ann_001_pass": {
+    "causalt5k": {
+      "task_views": 600,
+      "decisions": {
+        "reject": 580,
+        "accept": 13,
+        "needs_adjudication": 7
+      },
+      "reason_codes": {
+        "COUNTERFACTUAL_STATE_NOT_IDENTIFIED": 380,
+        "NO_INTERVENTION": 263,
+        "FACTUAL_STATE_NOT_IDENTIFIED": 254,
+        "GRAPH_NOT_IDENTIFIED": 134,
+        "EDGE_NOT_SUPPORTED": 82,
+        "AMBIGUOUS_OR_CONFLICTING_EVIDENCE": 62,
+        "NO_OBSERVED_MAY_CHANGE_EFFECT": 14,
+        "ACCEPT_EXPLICIT_PAIR": 9,
+        "DUPLICATE_OR_LEAKAGE_RISK": 7,
+        "TARGET_NOT_GROUNDED": 6,
+        "ACCEPT_DETERMINISTIC_SCM": 4
+      }
+    },
+    "meter": {
+      "task_views": 300,
+      "decisions": {
+        "reject": 299,
+        "needs_adjudication": 1
+      },
+      "reason_codes": {
+        "COUNTERFACTUAL_STATE_NOT_IDENTIFIED": 198,
+        "NO_INTERVENTION": 102,
+        "TARGET_NOT_GROUNDED": 96,
+        "FACTUAL_STATE_NOT_IDENTIFIED": 41,
+        "EDGE_NOT_SUPPORTED": 37,
+        "GRAPH_NOT_IDENTIFIED": 13,
+        "AMBIGUOUS_OR_CONFLICTING_EVIDENCE": 5,
+        "NO_OBSERVED_MAY_CHANGE_EFFECT": 2
+      }
+    },
+    "pubmedcausal": {
+      "task_views": 300,
+      "decisions": {
+        "reject": 298,
+        "needs_adjudication": 2
+      },
+      "reason_codes": {
+        "NO_INTERVENTION": 249,
+        "FACTUAL_STATE_NOT_IDENTIFIED": 147,
+        "COUNTERFACTUAL_STATE_NOT_IDENTIFIED": 120,
+        "EDGE_NOT_SUPPORTED": 70,
+        "GRAPH_NOT_IDENTIFIED": 13,
+        "AMBIGUOUS_OR_CONFLICTING_EVIDENCE": 7,
+        "DUPLICATE_OR_LEAKAGE_RISK": 2
+      }
+    }
+  },
+  "post_adjudication": {
+    "causalt5k": {
+      "task_views": 600,
+      "decisions": {
+        "reject": 588,
+        "accept": 12
+      },
+      "reason_codes": {
+        "COUNTERFACTUAL_STATE_NOT_IDENTIFIED": 386,
+        "NO_INTERVENTION": 263,
+        "FACTUAL_STATE_NOT_IDENTIFIED": 259,
+        "GRAPH_NOT_IDENTIFIED": 134,
+        "EDGE_NOT_SUPPORTED": 81,
+        "AMBIGUOUS_OR_CONFLICTING_EVIDENCE": 56,
+        "NO_OBSERVED_MAY_CHANGE_EFFECT": 16,
+        "ACCEPT_EXPLICIT_PAIR": 12,
+        "DUPLICATE_OR_LEAKAGE_RISK": 7,
+        "TARGET_NOT_GROUNDED": 6
+      },
+      "adjudicated_task_views": 14
+    },
+    "meter": {
+      "task_views": 300,
+      "decisions": {
+        "reject": 300
+      },
+      "reason_codes": {
+        "COUNTERFACTUAL_STATE_NOT_IDENTIFIED": 199,
+        "NO_INTERVENTION": 102,
+        "TARGET_NOT_GROUNDED": 96,
+        "FACTUAL_STATE_NOT_IDENTIFIED": 41,
+        "EDGE_NOT_SUPPORTED": 37,
+        "GRAPH_NOT_IDENTIFIED": 14,
+        "AMBIGUOUS_OR_CONFLICTING_EVIDENCE": 4,
+        "NO_OBSERVED_MAY_CHANGE_EFFECT": 2
+      },
+      "adjudicated_task_views": 2
+    },
+    "pubmedcausal": {
+      "task_views": 300,
+      "decisions": {
+        "reject": 300
+      },
+      "reason_codes": {
+        "NO_INTERVENTION": 247,
+        "FACTUAL_STATE_NOT_IDENTIFIED": 148,
+        "COUNTERFACTUAL_STATE_NOT_IDENTIFIED": 124,
+        "EDGE_NOT_SUPPORTED": 67,
+        "GRAPH_NOT_IDENTIFIED": 14,
+        "AMBIGUOUS_OR_CONFLICTING_EVIDENCE": 5,
+        "DUPLICATE_OR_LEAKAGE_RISK": 3
+      },
+      "adjudicated_task_views": 8
+    }
+  },
+  "adjudicated_task_views": 44,
+  "mechanical_checks": {
+    "validator": "40_VALIDATE_SUBMISSION.py PASS on all three ann-001 and all three adjudicated files",
+    "pubmedcausal_offset_spans_verified": 437,
+    "pubmedcausal_spans_recorded_null": 192,
+    "evidence_quotes_checked_verbatim": 1978,
+    "evidence_quotes_not_verbatim": 0,
+    "distinct_notes": 1200,
+    "duplicate_notes": 0
+  },
+  "pubmed_test_accessed": false
+}

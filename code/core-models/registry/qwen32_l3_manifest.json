@@ -1,0 +1,352 @@
+{
+  "backbone_frozen": true,
+  "cells": [
+    {
+      "cell_id": "qwen32-l3:prompting:941",
+      "gpu_count": 1,
+      "method": "prompting",
+      "output": "outputs/qwen32-l3/prompting/seed-941",
+      "seed": 941,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen32-l3:lora_matched:941",
+      "gpu_count": 1,
+      "method": "lora_matched",
+      "output": "outputs/qwen32-l3/lora_matched/seed-941",
+      "seed": 941,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen32-l3:loreft:941",
+      "gpu_count": 1,
+      "method": "loreft",
+      "output": "outputs/qwen32-l3/loreft/seed-941",
+      "seed": 941,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen32-l3:task_vector_add:941",
+      "gpu_count": 1,
+      "method": "task_vector_add",
+      "output": "outputs/qwen32-l3/task_vector_add/seed-941",
+      "seed": 941,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen32-l3:router:941",
+      "gpu_count": 1,
+      "method": "router",
+      "output": "outputs/qwen32-l3/router/seed-941",
+      "seed": 941,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen32-l3:o1:941",
+      "gpu_count": 1,
+      "method": "o1",
+      "output": "outputs/qwen32-l3/o1/seed-941",
+      "seed": 941,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen32-l3:o2:941",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen32-l3/o2/seed-941",
+      "seed": 941,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen32-l3:o3:941",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-l3/o3/seed-941",
+      "seed": 941,
+      "source_seed": 501
+    },
+    {
+      "cell_id": "qwen32-l3:prompting:942",
+      "gpu_count": 1,
+      "method": "prompting",
+      "output": "outputs/qwen32-l3/prompting/seed-942",
+      "seed": 942,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen32-l3:lora_matched:942",
+      "gpu_count": 1,
+      "method": "lora_matched",
+      "output": "outputs/qwen32-l3/lora_matched/seed-942",
+      "seed": 942,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen32-l3:loreft:942",
+      "gpu_count": 1,
+      "method": "loreft",
+      "output": "outputs/qwen32-l3/loreft/seed-942",
+      "seed": 942,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen32-l3:task_vector_add:942",
+      "gpu_count": 1,
+      "method": "task_vector_add",
+      "output": "outputs/qwen32-l3/task_vector_add/seed-942",
+      "seed": 942,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen32-l3:router:942",
+      "gpu_count": 1,
+      "method": "router",
+      "output": "outputs/qwen32-l3/router/seed-942",
+      "seed": 942,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen32-l3:o1:942",
+      "gpu_count": 1,
+      "method": "o1",
+      "output": "outputs/qwen32-l3/o1/seed-942",
+      "seed": 942,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen32-l3:o2:942",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen32-l3/o2/seed-942",
+      "seed": 942,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen32-l3:o3:942",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-l3/o3/seed-942",
+      "seed": 942,
+      "source_seed": 502
+    },
+    {
+      "cell_id": "qwen32-l3:prompting:943",
+      "gpu_count": 1,
+      "method": "prompting",
+      "output": "outputs/qwen32-l3/prompting/seed-943",
+      "seed": 943,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen32-l3:lora_matched:943",
+      "gpu_count": 1,
+      "method": "lora_matched",
+      "output": "outputs/qwen32-l3/lora_matched/seed-943",
+      "seed": 943,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen32-l3:loreft:943",
+      "gpu_count": 1,
+      "method": "loreft",
+      "output": "outputs/qwen32-l3/loreft/seed-943",
+      "seed": 943,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen32-l3:task_vector_add:943",
+      "gpu_count": 1,
+      "method": "task_vector_add",
+      "output": "outputs/qwen32-l3/task_vector_add/seed-943",
+      "seed": 943,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen32-l3:router:943",
+      "gpu_count": 1,
+      "method": "router",
+      "output": "outputs/qwen32-l3/router/seed-943",
+      "seed": 943,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen32-l3:o1:943",
+      "gpu_count": 1,
+      "method": "o1",
+      "output": "outputs/qwen32-l3/o1/seed-943",
+      "seed": 943,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen32-l3:o2:943",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen32-l3/o2/seed-943",
+      "seed": 943,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen32-l3:o3:943",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-l3/o3/seed-943",
+      "seed": 943,
+      "source_seed": 503
+    },
+    {
+      "cell_id": "qwen32-l3:prompting:944",
+      "gpu_count": 1,
+      "method": "prompting",
+      "output": "outputs/qwen32-l3/prompting/seed-944",
+      "seed": 944,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen32-l3:lora_matched:944",
+      "gpu_count": 1,
+      "method": "lora_matched",
+      "output": "outputs/qwen32-l3/lora_matched/seed-944",
+      "seed": 944,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen32-l3:loreft:944",
+      "gpu_count": 1,
+      "method": "loreft",
+      "output": "outputs/qwen32-l3/loreft/seed-944",
+      "seed": 944,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen32-l3:task_vector_add:944",
+      "gpu_count": 1,
+      "method": "task_vector_add",
+      "output": "outputs/qwen32-l3/task_vector_add/seed-944",
+      "seed": 944,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen32-l3:router:944",
+      "gpu_count": 1,
+      "method": "router",
+      "output": "outputs/qwen32-l3/router/seed-944",
+      "seed": 944,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen32-l3:o1:944",
+      "gpu_count": 1,
+      "method": "o1",
+      "output": "outputs/qwen32-l3/o1/seed-944",
+      "seed": 944,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen32-l3:o2:944",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen32-l3/o2/seed-944",
+      "seed": 944,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen32-l3:o3:944",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-l3/o3/seed-944",
+      "seed": 944,
+      "source_seed": 504
+    },
+    {
+      "cell_id": "qwen32-l3:prompting:945",
+      "gpu_count": 1,
+      "method": "prompting",
+      "output": "outputs/qwen32-l3/prompting/seed-945",
+      "seed": 945,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen32-l3:lora_matched:945",
+      "gpu_count": 1,
+      "method": "lora_matched",
+      "output": "outputs/qwen32-l3/lora_matched/seed-945",
+      "seed": 945,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen32-l3:loreft:945",
+      "gpu_count": 1,
+      "method": "loreft",
+      "output": "outputs/qwen32-l3/loreft/seed-945",
+      "seed": 945,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen32-l3:task_vector_add:945",
+      "gpu_count": 1,
+      "method": "task_vector_add",
+      "output": "outputs/qwen32-l3/task_vector_add/seed-945",
+      "seed": 945,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen32-l3:router:945",
+      "gpu_count": 1,
+      "method": "router",
+      "output": "outputs/qwen32-l3/router/seed-945",
+      "seed": 945,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen32-l3:o1:945",
+      "gpu_count": 1,
+      "method": "o1",
+      "output": "outputs/qwen32-l3/o1/seed-945",
+      "seed": 945,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen32-l3:o2:945",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen32-l3/o2/seed-945",
+      "seed": 945,
+      "source_seed": 505
+    },
+    {
+      "cell_id": "qwen32-l3:o3:945",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen32-l3/o3/seed-945",
+      "seed": 945,
+      "source_seed": 505
+    }
+  ],
+  "evaluation_split": "validation",
+  "law_weight": 0.1,
+  "methods": [
+    "prompting",
+    "lora_matched",
+    "loreft",
+    "task_vector_add",
+    "router",
+    "o1",
+    "o2",
+    "o3"
+  ],
+  "protocol": "qwen2_5_32b_l3_law_probe_v1",
+  "seeds": [
+    941,
+    942,
+    943,
+    944,
+    945
+  ],
+  "source_amendment": "${CORE_PROJECT_ROOT}/registry/qwen32_f1_cache_amendment.json",
+  "source_amendment_sha256": "not-published",
+  "source_manifest": "${CORE_PROJECT_ROOT}/registry/qwen32_f1_manifest.json",
+  "source_manifest_sha256": "not-published",
+  "task": "l3",
+  "test_evaluated": false,
+  "training_steps": 600
+}

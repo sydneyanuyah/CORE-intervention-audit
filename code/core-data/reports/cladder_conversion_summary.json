@@ -1,0 +1,43 @@
+{
+  "accepted": 1422,
+  "balanced_questions": 10112,
+  "group_sidecar_entries": 1422,
+  "oracle_check": "all accepted answers matched deterministic SCM reconstruction",
+  "raw_sha256": "not-published",
+  "rejected": 8690,
+  "rejected_query_type_counts": {
+    "ate": 1422,
+    "backadj": 1580,
+    "collider_bias": 158,
+    "correlation": 1422,
+    "ett": 1264,
+    "exp_away": 158,
+    "marginal": 1580,
+    "nde": 316,
+    "nie": 790
+  },
+  "rejection_reason_counts": {
+    "adjustment-set selection query is not a state intervention": 1580,
+    "collider-bias query does not supply a single before/after world": 158,
+    "conditioning/explaining-away query is not a state intervention": 158,
+    "effect-on-treated estimand contrasts counterfactual populations": 1264,
+    "nested direct-effect estimand cannot be represented by one value_set action": 316,
+    "nested indirect-effect estimand cannot be represented by one value_set action": 790,
+    "observational association query has no intervention action": 1422,
+    "observational marginal query has no intervention action": 1580,
+    "population effect contrasts two actions rather than one before/after world": 1422
+  },
+  "source": "cladder",
+  "split_algorithm": "sha256('cladder-split-v1:' + model_id) modulo 100; 0-79 train, 80-89 validation, 90-99 test",
+  "split_counts": {
+    "test": 166,
+    "train": 1109,
+    "validation": 147
+  },
+  "split_group": "model_id",
+  "split_model_counts": {
+    "test": 51,
+    "train": 428,
+    "validation": 60
+  }
+}

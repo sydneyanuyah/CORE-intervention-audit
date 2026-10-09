@@ -1,0 +1,33 @@
+{
+  "protocol": "f2_real_baseline_execution_amendment_v1",
+  "status": "preregistered_prelaunch",
+  "base_manifest_sha256": "not-published",
+  "base_cells_sha256": "not-published",
+  "real_family_amendment_sha256": "not-published",
+  "scope": ["ccrgb", "cladder", "wiqa", "com2"],
+  "source_seed_rule": "2026090300 + f2_seed",
+  "prompting": {
+    "reader": "paired frozen A1 T2-b reader and output head; addressed editor bypassed",
+    "single_edit_input": "factual passage followed by the complete intervention command under full attention",
+    "ordered_pair_input": "factual passage followed by first command, explicit Then separator, and second command under full attention",
+    "post_edit_readout": "upper reader layers followed by the frozen per-variable output head",
+    "updates": false
+  },
+  "lora_matched": {
+    "base": "the same paired frozen reader and output head as prompting",
+    "target_modules": ["bert.encoder.layer.*.attention.self.query", "bert.encoder.layer.*.attention.self.value"],
+    "rank_rule": "integer rank 1-128 minimizing absolute distance to the paired canonical O3 trainable-parameter count; smaller rank breaks ties",
+    "initialization": "Kaiming-uniform A and all-zero B",
+    "steps": 500,
+    "batch_size_per_rank": 8,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "objective": "equal-weight changed-variable and preservation-variable cross entropy"
+  },
+  "training_split": "train",
+  "evaluation_split": "validation",
+  "world_size": 4,
+  "held_out_test": "forbidden",
+  "test_evaluated": false
+}

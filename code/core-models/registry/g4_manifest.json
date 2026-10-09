@@ -1,0 +1,15 @@
+{
+  "protocol":"g4_evidence_inference_candidate_transfer_v1",
+  "status":"preregistered_prelaunch",
+  "model":"google-bert/bert-base-uncased",
+  "world_size":4,
+  "operator_source":"${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+  "operator_source_sha256":"not-published",
+  "data":"data/experiments/g4/evidence_inference/adjudicated_prompts.jsonl",
+  "data_sha256":"not-published",
+  "methods":["baseline","o3"],
+  "seeds":[521,522,523,524,525],
+  "training_policy":"article-grouped train and validation; candidate direction classification",
+  "primary":"validation_article_grouped_direction_accuracy:o3-minus-baseline",
+  "test_evaluated":false
+}

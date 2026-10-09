@@ -1,0 +1,19 @@
+{
+  "accepted": 0,
+  "ladder_counts": {
+    "Causal_Discovery": 4145,
+    "Counterfactual": 4150,
+    "Intervention": 4150
+  },
+  "pinned_revision": "not-published",
+  "raw_contexts": 4145,
+  "raw_questions": 12445,
+  "raw_sha256": "not-published",
+  "rejected": 12445,
+  "rejection_reason_counts": {
+    "causal-discovery question has no intervention": 4145,
+    "natural-language intervention/counterfactual has no explicit graph or paired world states": 8300
+  },
+  "source": "meter",
+  "status": "contract-incompatible; no licence stated"
+}

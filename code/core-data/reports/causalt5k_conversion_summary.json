@@ -1,0 +1,31 @@
+{
+  "accepted": 0,
+  "domain_counts": {
+    "D1": 912,
+    "D10": 1004,
+    "D2": 573,
+    "D3": 620,
+    "D4": 1190,
+    "D5": 920,
+    "D6": 291,
+    "D7": 584,
+    "D8": 618,
+    "D9": 548
+  },
+  "future_split_policy": "leave one complete named domain out per evaluation fold if a compatible representation is added",
+  "level_counts": {
+    "L1": 916,
+    "L2": 4494,
+    "L3": 1850
+  },
+  "pinned_revision": "not-published",
+  "raw_questions": 7260,
+  "raw_sha256": "not-published",
+  "rejected": 7260,
+  "rejection_reason_counts": {
+    "L1 association item has no intervention": 916,
+    "item has no machine-readable edge list or paired factual/intervened states": 6344
+  },
+  "source": "causalt5k",
+  "status": "contract-incompatible"
+}

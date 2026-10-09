@@ -1,0 +1,31 @@
+{
+  "accepted": 26045,
+  "graph_sha256": "not-published",
+  "group_sidecar_entries": 26045,
+  "influence_graphs": 2107,
+  "metric_semantics": "direction of change, not state-value match",
+  "question_type_counts": {
+    "EXOGENOUS_EFFECT": 16728,
+    "INPARA_EFFECT": 9488,
+    "OUTOFPARA_DISTRACTOR": 13489
+  },
+  "raw_question_counts": {
+    "test": 3003,
+    "train": 29808,
+    "validation": 6894
+  },
+  "raw_total": 39705,
+  "rejected": 13660,
+  "rejection_reason_counts": {
+    "out-of-paragraph no-effect distractor has no in-graph intervention and no observed change": 13489,
+    "question maps ambiguously to multiple signed graph node pairs": 14,
+    "question text does not resolve to a signed graph path": 157
+  },
+  "source": "wiqa",
+  "split_counts": {
+    "test": 1740,
+    "train": 19758,
+    "validation": 4547
+  },
+  "split_source": "official no-explanation-v2 train/dev/test files; dev renamed validation"
+}

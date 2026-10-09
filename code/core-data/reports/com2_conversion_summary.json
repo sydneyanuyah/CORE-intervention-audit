@@ -1,0 +1,55 @@
+{
+  "accepted_counts": {
+    "counterfactual": 500,
+    "intervention": 270
+  },
+  "chain_length_counts": {
+    "counterfactual": {
+      "5/4": 4,
+      "5/5": 495,
+      "6/6": 1
+    },
+    "intervention": {
+      "5/5": 258,
+      "6/6": 12
+    }
+  },
+  "group_sidecar_entries": 770,
+  "prefix_counts": {
+    "counterfactual": {
+      "0": 448,
+      "1": 52
+    },
+    "intervention": {
+      "1": 270
+    }
+  },
+  "raw_count": 2500,
+  "raw_sha256": "not-published",
+  "rejected_counts": {
+    "counterfactual": 0,
+    "intervention": 0
+  },
+  "source": "com2",
+  "split_algorithm": "sha256('com2-split-v1:' + root_event) modulo 100; 0-79 train, 80-89 validation, 90-99 test",
+  "split_counts": {
+    "counterfactual": {
+      "test": 59,
+      "train": 392,
+      "validation": 49
+    },
+    "intervention": {
+      "test": 23,
+      "train": 223,
+      "validation": 24
+    }
+  },
+  "split_group": "exact first event in the factual chain",
+  "type_counts": {
+    "counterfactual": 500,
+    "decision": 500,
+    "direct": 500,
+    "intervention": 500,
+    "reco": 500
+  }
+}

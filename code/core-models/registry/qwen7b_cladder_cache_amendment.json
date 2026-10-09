@@ -1,0 +1,296 @@
+{
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "base_manifest": "${CORE_PROJECT_ROOT}/registry/qwen7b_cladder_extension_manifest.json",
+  "base_manifest_sha256": "not-published",
+  "cells": [
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:401",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-401",
+      "seed": 401
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:401",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-401",
+      "seed": 401
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:402",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-402",
+      "seed": 402
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:402",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-402",
+      "seed": 402
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:403",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-403",
+      "seed": 403
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:403",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-403",
+      "seed": 403
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:404",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-404",
+      "seed": 404
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:404",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-404",
+      "seed": 404
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:405",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-405",
+      "seed": 405
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:405",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-405",
+      "seed": 405
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:406",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-406",
+      "seed": 406
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:406",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-406",
+      "seed": 406
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:407",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-407",
+      "seed": 407
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:407",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-407",
+      "seed": 407
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:408",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-408",
+      "seed": 408
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:408",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-408",
+      "seed": 408
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:409",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-409",
+      "seed": 409
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:409",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-409",
+      "seed": 409
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:410",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-410",
+      "seed": 410
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:410",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-410",
+      "seed": 410
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:411",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-411",
+      "seed": 411
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:411",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-411",
+      "seed": 411
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:412",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-412",
+      "seed": 412
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:412",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-412",
+      "seed": 412
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:413",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-413",
+      "seed": 413
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:413",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-413",
+      "seed": 413
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:414",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-414",
+      "seed": 414
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:414",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-414",
+      "seed": 414
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:415",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-415",
+      "seed": 415
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:415",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-415",
+      "seed": 415
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:416",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-416",
+      "seed": 416
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:416",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-416",
+      "seed": 416
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:417",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-417",
+      "seed": 417
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:417",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-417",
+      "seed": 417
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:418",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-418",
+      "seed": 418
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:418",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-418",
+      "seed": 418
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:419",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-419",
+      "seed": 419
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:419",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-419",
+      "seed": 419
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o2:420",
+      "gpu_count": 1,
+      "method": "o2",
+      "output": "outputs/qwen7b-f2/cladder/o2/seed-420",
+      "seed": 420
+    },
+    {
+      "cell_id": "qwen7b-f2:cladder:o3:420",
+      "gpu_count": 1,
+      "method": "o3",
+      "output": "outputs/qwen7b-f2/cladder/o3/seed-420",
+      "seed": 420
+    }
+  ],
+  "feature_cache": "outputs/qwen7b-f2/cache/cladder_features.pt",
+  "feature_cache_sha256": "not-published",
+  "feature_cache_summary": "outputs/qwen7b-f2/cache/cache_summary.json",
+  "feature_cache_summary_sha256": "not-published",
+  "protocol": "qwen2p5_7b_cladder_feature_cache_binding_v1",
+  "test_evaluated": false
+}

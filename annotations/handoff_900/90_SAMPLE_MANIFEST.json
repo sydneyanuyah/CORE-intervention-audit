@@ -1,0 +1,66 @@
+{
+  "examples_excluded_from_production": true,
+  "production_items_per_dataset": 300,
+  "production_items_total": 900,
+  "protocol": "T2-T4-G4 annotation pilot",
+  "pubmed_test_accessed": false,
+  "queues": {
+    "causalt5k": {
+      "count": 300,
+      "id_first": "C5K-001",
+      "id_last": "C5K-300",
+      "path": "data/annotation_pilots/causalt5k.queue.jsonl",
+      "sha256": "not-published",
+      "unique_ids": 300,
+      "unique_locators": 300
+    },
+    "meter": {
+      "count": 300,
+      "id_first": "MTR-001",
+      "id_last": "MTR-300",
+      "path": "data/annotation_pilots/meter.queue.jsonl",
+      "sha256": "not-published",
+      "unique_ids": 300,
+      "unique_locators": 300
+    },
+    "pubmedcausal": {
+      "count": 300,
+      "id_first": "PMC-001",
+      "id_last": "PMC-300",
+      "path": "data/annotation_pilots/pubmedcausal.queue.jsonl",
+      "sha256": "not-published",
+      "unique_ids": 300,
+      "unique_locators": 300
+    }
+  },
+  "selection_seed": 317,
+  "source_hashes": {
+    "causalt5k": "not-published",
+    "meter": "not-published",
+    "pubmedcausal_train": "not-published",
+    "pubmedcausal_validation": "not-published"
+  },
+  "stratification": {
+    "causalt5k": "10 records per D1-D10 x L1-L3 stratum",
+    "meter": "100 intact contexts x discovery/intervention/counterfactual",
+    "pubmedcausal": {
+      "Explicit_Inter": 30,
+      "Explicit_Intra": 120,
+      "Implicit_Inter": 30,
+      "Implicit_Intra": 120
+    }
+  },
+  "validation_passed": true,
+  "worked_examples": {
+    "count": 15,
+    "path": "data/annotation_pilots/worked_examples.jsonl",
+    "sha256": "not-published",
+    "source_counts": {
+      "causalt5k": 5,
+      "meter": 5,
+      "pubmedcausal": 5
+    }
+  },
+  "worked_examples_per_dataset": 5,
+  "worked_examples_total": 15
+}

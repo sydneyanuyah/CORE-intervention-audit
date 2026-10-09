@@ -1,0 +1,43 @@
+{
+  "evaluation_split": "validation",
+  "methods": {
+    "do_everything": {
+      "cases": 7200,
+      "graphs": 20,
+      "mean": 0.6534381442163777,
+      "student_t_95": [
+        0.6502743772294731,
+        0.6566019112032823
+      ]
+    },
+    "do_nothing": {
+      "cases": 7200,
+      "graphs": 20,
+      "mean": 0.75,
+      "student_t_95": [
+        0.75,
+        0.75
+      ]
+    },
+    "random_init": {
+      "cases": 7200,
+      "graphs": 20,
+      "mean": 0.6260337518016691,
+      "student_t_95": [
+        0.6239554809303375,
+        0.6281120226730007
+      ]
+    },
+    "trained_o3": {
+      "graphs": 20,
+      "mean": 0.5779234208166599,
+      "student_t_95": [
+        0.5517737142102177,
+        0.6040731274231022
+      ]
+    }
+  },
+  "model": "Qwen/Qwen2.5-7B-Instruct",
+  "protocol": "qwen2p5_7b_c2_floor_calibration_v1",
+  "test_evaluated": false
+}

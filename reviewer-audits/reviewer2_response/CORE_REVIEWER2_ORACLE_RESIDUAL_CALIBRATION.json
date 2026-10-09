@@ -1,0 +1,199 @@
+{
+  "protocol": "reviewer2_oracle_residual_calibration_v1",
+  "split": "validation",
+  "test_evaluated": false,
+  "families": {
+    "xor": {
+      "identity_residual": {
+        "count": 120,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "identity_correct": {
+        "count": 120,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "idempotence_residual": {
+        "count": 7200,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "idempotence_correct": {
+        "count": 7200,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "commutation_residual": {
+        "count": 1200,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "commutation_correct": {
+        "count": 1200,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "provenance": [
+        {
+          "graph_seed": 3061,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3062,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3063,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3064,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3065,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3066,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3067,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3068,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3069,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3070,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3071,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3072,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3073,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3074,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3075,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3076,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3077,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3078,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3079,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        },
+        {
+          "graph_seed": 3080,
+          "graph_sha256": "not-published",
+          "worlds_sha256": "not-published",
+          "records_sha256": "not-published"
+        }
+      ]
+    },
+    "ccrgb": {
+      "identity_residual": {
+        "count": 600,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "identity_correct": {
+        "count": 600,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "idempotence_residual": {
+        "count": 1800,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "idempotence_correct": {
+        "count": 1800,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "commutation_residual": {
+        "count": 2974,
+        "mean": 0.0,
+        "max": 0.0
+      },
+      "commutation_correct": {
+        "count": 2974,
+        "mean": 1.0,
+        "max": 1.0
+      },
+      "provenance": {
+        "artifact_path": "data/two_edit/ccrgb/artifact.json",
+        "artifact_sha256": "not-published",
+        "manifest_path": "data/two_edit/ccrgb/manifest.jsonl",
+        "manifest_sha256": "not-published"
+      }
+    }
+  }
+}

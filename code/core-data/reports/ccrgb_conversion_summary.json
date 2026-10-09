@@ -1,0 +1,27 @@
+{
+  "accepted": 36000,
+  "candidate_interventions": 72000,
+  "counterfactual_pairs": 36000,
+  "generator_commit": "not-published",
+  "generator_domain": "ClinicalNotes",
+  "generator_seed": 20260903,
+  "group_sidecar_entries": 36000,
+  "raw_sha256": "not-published",
+  "rejected": 36000,
+  "rejection_reason_counts": {
+    "record has no may-change probe with an observed change": 36000
+  },
+  "source": "ccrgb",
+  "split_counts": {
+    "test": 3600,
+    "train": 28800,
+    "validation": 3600
+  },
+  "split_group": "context_id world",
+  "split_world_counts": {
+    "test": 600,
+    "train": 4800,
+    "validation": 600
+  },
+  "worlds": 6000
+}

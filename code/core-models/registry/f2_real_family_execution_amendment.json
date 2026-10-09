@@ -1,0 +1,43 @@
+{
+  "protocol": "f2_real_family_execution_amendment_v1",
+  "status": "preregistered_prelaunch",
+  "base_manifest_sha256": "not-published",
+  "base_cells_sha256": "not-published",
+  "scope": ["ccrgb", "cladder", "wiqa", "com2"],
+  "source_catalog": "registry/a2_source_catalog.json",
+  "source_catalog_sha256": "not-published",
+  "source_seed_rule": "2026090300 + f2_seed",
+  "source_checkpoint_policy": "freeze the exactly paired validation-selected A1 T2-b BERT-base reader and output head; ignore its addressed editor",
+  "canonical_operator": {
+    "source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+    "source_sha256": "not-published",
+    "world_tokens": 16,
+    "rank": 16,
+    "intervention_id": "2 * dynamic_target_slot + binary_value",
+    "unused_slots": "slots 16 through 29 pass through unchanged",
+    "o2": "O2ConditionalLowRank",
+    "o3": "O3StateGated"
+  },
+  "training": {
+    "split": "train",
+    "steps": 500,
+    "batch_size_per_rank": 8,
+    "learning_rate": 0.005,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "objective": "equal-weight changed-variable and preservation-variable cross entropy",
+    "reader_updates": false
+  },
+  "selection": "fixed step 500; no validation-driven hyperparameter or checkpoint selection",
+  "evaluation": {
+    "split": "validation",
+    "metric": "authoritative ordered-pair two_edit_balanced",
+    "experimental_unit": "graph"
+  },
+  "model": "google-bert/bert-base-uncased",
+  "split_layer": 4,
+  "world_size": 4,
+  "allowed_splits": ["train", "validation"],
+  "held_out_test": "forbidden",
+  "test_evaluated": false
+}

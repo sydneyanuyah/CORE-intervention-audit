@@ -1,0 +1,57 @@
+{
+  "protocol": "f2_main_sweep_v1",
+  "status": "preregistered_prelaunch",
+  "model": "google-bert/bert-base-uncased",
+  "world_size": 4,
+  "split_layer": 4,
+  "optimization_seeds": [301,302,303,304,305,306,307,308,309,310,311,312,313,314,315,316,317,318,319,320],
+  "families": ["xor","ccrgb","cladder","wiqa","com2"],
+  "xor_graph_seeds": [3061,3062,3063,3064,3065,3066,3067,3068,3069,3070,3071,3072,3073,3074,3075,3076,3077,3078,3079,3080],
+  "operator": {
+    "source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+    "source_sha256": "not-published",
+    "rank": 16,
+    "world_tokens": 16,
+    "law_count": 4,
+    "profile_search": false
+  },
+  "paths": {
+    "xor_artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/graph_{graph_seed}",
+    "xor_provenance": "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/provenance.json",
+    "ccrgb_artifact": "data/two_edit/ccrgb/artifact.json",
+    "ccrgb_manifest": "data/two_edit/ccrgb/manifest.jsonl",
+    "cladder_artifact": "data/two_edit/cladder/artifact.json",
+    "cladder_manifest": "data/two_edit/cladder/manifest.jsonl",
+    "wiqa_queue": "data/two_edit/wiqa/queue.jsonl",
+    "wiqa_truth": "data/two_edit/wiqa/truth.jsonl",
+    "com2_queue": "data/two_edit/manual/annotation_queue.jsonl",
+    "com2_truth": "data/two_edit/manual/authoritative_manual_truth.jsonl",
+    "com2_provenance": "data/two_edit/manual/authoritative_manual_truth.provenance.json",
+    "paraphrase_catalog": "data/paraphrases/structured_catalog.json"
+  },
+  "artifact_sha256": {
+    "${PRIVATE_STORAGE_ROOT}/CORE_f2/runs/provenance.json": "not-published",
+    "data/two_edit/ccrgb/artifact.json": "not-published",
+    "data/two_edit/ccrgb/manifest.jsonl": "not-published",
+    "data/two_edit/cladder/artifact.json": "not-published",
+    "data/two_edit/cladder/manifest.jsonl": "not-published",
+    "data/two_edit/wiqa/queue.jsonl": "not-published",
+    "data/two_edit/wiqa/truth.jsonl": "not-published",
+    "data/two_edit/manual/annotation_queue.jsonl": "not-published",
+    "data/two_edit/manual/authoritative_manual_truth.jsonl": "not-published",
+    "data/two_edit/manual/authoritative_manual_truth.provenance.json": "not-published",
+    "data/paraphrases/structured_catalog.json": "not-published"
+  },
+  "methods": {
+    "prompting": "full-attention command input with addressed editor bypassed",
+    "lora_matched": "LoRA rank selected deterministically against the instantiated O3 trainable-parameter count",
+    "o2": "canonical O2ConditionalLowRank from frozen CORE_closing_controls/core_components.py",
+    "o3": "canonical O3StateGated from frozen CORE_closing_controls/core_components.py"
+  },
+  "shared_selection": "maximum validation two_edit_balanced with smallest-epoch tie break",
+  "primary": "two_edit_balanced:o3-o2_per_family",
+  "experimental_unit": "graph",
+  "intervals": ["paired_graph_bootstrap_95","paired_seed_student_t_95"],
+  "allowed_splits": ["train","validation"],
+  "test_evaluated": false
+}

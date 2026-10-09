@@ -1,0 +1,1458 @@
+{
+  "protocol": "reviewer1_f2_uncertainty_existing_artifacts_v1",
+  "estimator": "paired seed Student-t; equal-weight graph means bootstrapped over graph IDs with seed deltas averaged within graph",
+  "families": [
+    {
+      "backbone": "bert-base-uncased",
+      "family": "ccrgb",
+      "n_seeds": 20,
+      "n_graphs": 2,
+      "paired_seed_deltas_o2_minus_o3": [
+        0.19930069930069938,
+        0.19930069930069938,
+        0.25349650349650354,
+        0.21853146853146854,
+        0.23776223776223793,
+        0.2097902097902099,
+        0.256993006993007,
+        0.10839160839160844,
+        0.13111888111888126,
+        0.17657342657342667,
+        0.1923076923076924,
+        -0.036713286713286664,
+        0.2220279720279721,
+        0.029720279720279796,
+        0.02447552447552459,
+        0.2744755244755245,
+        0.034965034965035,
+        0.2902097902097902,
+        0.1451048951048951,
+        0.18706293706293708
+      ],
+      "paired_seed_mean": 0.16774475524475532,
+      "paired_seed_student_t_95": [
+        0.12461771270560186,
+        0.2108717977839088
+      ],
+      "equal_graph_mean": 0.16925595238095237,
+      "paired_graph_bootstrap_95": [
+        0.1364285714285714,
+        0.20208333333333334
+      ],
+      "graph_bootstrap_replicates": 10000,
+      "split": "validation",
+      "test_evaluated": false,
+      "provenance": [
+        {
+          "seed": 301,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:301",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-301/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 301,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:301",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-301/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 302,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:302",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-302/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 302,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:302",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-302/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 303,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:303",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-303/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 303,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:303",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-303/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 304,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:304",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-304/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 304,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:304",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-304/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 305,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:305",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-305/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 305,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:305",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-305/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 306,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:306",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-306/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 306,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:306",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-306/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 307,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:307",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-307/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 307,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:307",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-307/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 308,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:308",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-308/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 308,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:308",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-308/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 309,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:309",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-309/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 309,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:309",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-309/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 310,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:310",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-310/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 310,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:310",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-310/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 311,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:311",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-311/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 311,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:311",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-311/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 312,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:312",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-312/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 312,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:312",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-312/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 313,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:313",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-313/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 313,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:313",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-313/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 314,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:314",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-314/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 314,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:314",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-314/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 315,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:315",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-315/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 315,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:315",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-315/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 316,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:316",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-316/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 316,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:316",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-316/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 317,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:317",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-317/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 317,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:317",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-317/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 318,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:318",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-318/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 318,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:318",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-318/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 319,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:319",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-319/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 319,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:319",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-319/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 320,
+          "method": "o2",
+          "cell_id": "f2:ccrgb:o2:320",
+          "summary_path": "outputs/f2/ccrgb/o2/seed-320/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 320,
+          "method": "o3",
+          "cell_id": "f2:ccrgb:o3:320",
+          "summary_path": "outputs/f2/ccrgb/o3/seed-320/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        }
+      ]
+    },
+    {
+      "backbone": "bert-base-uncased",
+      "family": "cladder",
+      "n_seeds": 20,
+      "n_graphs": 20,
+      "paired_seed_deltas_o2_minus_o3": [
+        0.17022792022792022,
+        0.1152862569529236,
+        0.11274250440917111,
+        0.22446750780084113,
+        0.09129019129019134,
+        0.20131257631257626,
+        0.08492741826075156,
+        0.08693867860534532,
+        0.09964726631393306,
+        0.2598188848188848,
+        0.1346052096052096,
+        0.0868403201736534,
+        0.17947700447700443,
+        0.08519536019536034,
+        0.07917853751187076,
+        0.14380341880341885,
+        0.10737688237688237,
+        0.11604259937593275,
+        0.07471509971509971,
+        0.12970085470085468
+      ],
+      "paired_seed_mean": 0.12917972459639124,
+      "paired_seed_student_t_95": [
+        0.10465725794914016,
+        0.15370219124364232
+      ],
+      "equal_graph_mean": 0.14056170969996779,
+      "paired_graph_bootstrap_95": [
+        0.1164481615910858,
+        0.16520294133009264
+      ],
+      "graph_bootstrap_replicates": 10000,
+      "split": "validation",
+      "test_evaluated": false,
+      "provenance": [
+        {
+          "seed": 301,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:301",
+          "summary_path": "outputs/f2/cladder/o2/seed-301/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 301,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:301",
+          "summary_path": "outputs/f2/cladder/o3/seed-301/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 302,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:302",
+          "summary_path": "outputs/f2/cladder/o2/seed-302/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 302,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:302",
+          "summary_path": "outputs/f2/cladder/o3/seed-302/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 303,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:303",
+          "summary_path": "outputs/f2/cladder/o2/seed-303/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 303,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:303",
+          "summary_path": "outputs/f2/cladder/o3/seed-303/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 304,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:304",
+          "summary_path": "outputs/f2/cladder/o2/seed-304/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 304,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:304",
+          "summary_path": "outputs/f2/cladder/o3/seed-304/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 305,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:305",
+          "summary_path": "outputs/f2/cladder/o2/seed-305/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 305,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:305",
+          "summary_path": "outputs/f2/cladder/o3/seed-305/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 306,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:306",
+          "summary_path": "outputs/f2/cladder/o2/seed-306/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 306,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:306",
+          "summary_path": "outputs/f2/cladder/o3/seed-306/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 307,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:307",
+          "summary_path": "outputs/f2/cladder/o2/seed-307/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 307,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:307",
+          "summary_path": "outputs/f2/cladder/o3/seed-307/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 308,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:308",
+          "summary_path": "outputs/f2/cladder/o2/seed-308/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 308,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:308",
+          "summary_path": "outputs/f2/cladder/o3/seed-308/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 309,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:309",
+          "summary_path": "outputs/f2/cladder/o2/seed-309/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 309,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:309",
+          "summary_path": "outputs/f2/cladder/o3/seed-309/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 310,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:310",
+          "summary_path": "outputs/f2/cladder/o2/seed-310/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 310,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:310",
+          "summary_path": "outputs/f2/cladder/o3/seed-310/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 311,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:311",
+          "summary_path": "outputs/f2/cladder/o2/seed-311/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 311,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:311",
+          "summary_path": "outputs/f2/cladder/o3/seed-311/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 312,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:312",
+          "summary_path": "outputs/f2/cladder/o2/seed-312/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 312,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:312",
+          "summary_path": "outputs/f2/cladder/o3/seed-312/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 313,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:313",
+          "summary_path": "outputs/f2/cladder/o2/seed-313/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 313,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:313",
+          "summary_path": "outputs/f2/cladder/o3/seed-313/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 314,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:314",
+          "summary_path": "outputs/f2/cladder/o2/seed-314/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 314,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:314",
+          "summary_path": "outputs/f2/cladder/o3/seed-314/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 315,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:315",
+          "summary_path": "outputs/f2/cladder/o2/seed-315/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 315,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:315",
+          "summary_path": "outputs/f2/cladder/o3/seed-315/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 316,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:316",
+          "summary_path": "outputs/f2/cladder/o2/seed-316/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 316,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:316",
+          "summary_path": "outputs/f2/cladder/o3/seed-316/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 317,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:317",
+          "summary_path": "outputs/f2/cladder/o2/seed-317/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 317,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:317",
+          "summary_path": "outputs/f2/cladder/o3/seed-317/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 318,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:318",
+          "summary_path": "outputs/f2/cladder/o2/seed-318/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 318,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:318",
+          "summary_path": "outputs/f2/cladder/o3/seed-318/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 319,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:319",
+          "summary_path": "outputs/f2/cladder/o2/seed-319/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 319,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:319",
+          "summary_path": "outputs/f2/cladder/o3/seed-319/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 320,
+          "method": "o2",
+          "cell_id": "f2:cladder:o2:320",
+          "summary_path": "outputs/f2/cladder/o2/seed-320/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 320,
+          "method": "o3",
+          "cell_id": "f2:cladder:o3:320",
+          "summary_path": "outputs/f2/cladder/o3/seed-320/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        }
+      ]
+    },
+    {
+      "backbone": "bert-base-uncased",
+      "family": "com2",
+      "n_seeds": 20,
+      "n_graphs": 63,
+      "paired_seed_deltas_o2_minus_o3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "paired_seed_mean": 0.0,
+      "paired_seed_student_t_95": [
+        0.0,
+        0.0
+      ],
+      "equal_graph_mean": 0.0,
+      "paired_graph_bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "graph_bootstrap_replicates": 10000,
+      "split": "validation",
+      "test_evaluated": false,
+      "provenance": [
+        {
+          "seed": 301,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:301",
+          "summary_path": "outputs/f2/com2/o2/seed-301/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 301,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:301",
+          "summary_path": "outputs/f2/com2/o3/seed-301/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 302,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:302",
+          "summary_path": "outputs/f2/com2/o2/seed-302/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 302,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:302",
+          "summary_path": "outputs/f2/com2/o3/seed-302/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 303,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:303",
+          "summary_path": "outputs/f2/com2/o2/seed-303/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 303,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:303",
+          "summary_path": "outputs/f2/com2/o3/seed-303/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 304,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:304",
+          "summary_path": "outputs/f2/com2/o2/seed-304/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 304,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:304",
+          "summary_path": "outputs/f2/com2/o3/seed-304/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 305,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:305",
+          "summary_path": "outputs/f2/com2/o2/seed-305/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 305,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:305",
+          "summary_path": "outputs/f2/com2/o3/seed-305/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 306,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:306",
+          "summary_path": "outputs/f2/com2/o2/seed-306/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 306,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:306",
+          "summary_path": "outputs/f2/com2/o3/seed-306/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 307,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:307",
+          "summary_path": "outputs/f2/com2/o2/seed-307/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 307,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:307",
+          "summary_path": "outputs/f2/com2/o3/seed-307/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 308,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:308",
+          "summary_path": "outputs/f2/com2/o2/seed-308/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 308,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:308",
+          "summary_path": "outputs/f2/com2/o3/seed-308/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 309,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:309",
+          "summary_path": "outputs/f2/com2/o2/seed-309/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 309,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:309",
+          "summary_path": "outputs/f2/com2/o3/seed-309/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 310,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:310",
+          "summary_path": "outputs/f2/com2/o2/seed-310/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 310,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:310",
+          "summary_path": "outputs/f2/com2/o3/seed-310/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 311,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:311",
+          "summary_path": "outputs/f2/com2/o2/seed-311/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 311,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:311",
+          "summary_path": "outputs/f2/com2/o3/seed-311/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 312,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:312",
+          "summary_path": "outputs/f2/com2/o2/seed-312/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 312,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:312",
+          "summary_path": "outputs/f2/com2/o3/seed-312/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 313,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:313",
+          "summary_path": "outputs/f2/com2/o2/seed-313/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 313,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:313",
+          "summary_path": "outputs/f2/com2/o3/seed-313/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 314,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:314",
+          "summary_path": "outputs/f2/com2/o2/seed-314/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 314,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:314",
+          "summary_path": "outputs/f2/com2/o3/seed-314/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 315,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:315",
+          "summary_path": "outputs/f2/com2/o2/seed-315/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 315,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:315",
+          "summary_path": "outputs/f2/com2/o3/seed-315/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 316,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:316",
+          "summary_path": "outputs/f2/com2/o2/seed-316/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 316,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:316",
+          "summary_path": "outputs/f2/com2/o3/seed-316/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 317,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:317",
+          "summary_path": "outputs/f2/com2/o2/seed-317/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 317,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:317",
+          "summary_path": "outputs/f2/com2/o3/seed-317/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 318,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:318",
+          "summary_path": "outputs/f2/com2/o2/seed-318/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 318,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:318",
+          "summary_path": "outputs/f2/com2/o3/seed-318/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 319,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:319",
+          "summary_path": "outputs/f2/com2/o2/seed-319/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 319,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:319",
+          "summary_path": "outputs/f2/com2/o3/seed-319/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 320,
+          "method": "o2",
+          "cell_id": "f2:com2:o2:320",
+          "summary_path": "outputs/f2/com2/o2/seed-320/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 320,
+          "method": "o3",
+          "cell_id": "f2:com2:o3:320",
+          "summary_path": "outputs/f2/com2/o3/seed-320/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        }
+      ]
+    },
+    {
+      "backbone": "bert-base-uncased",
+      "family": "wiqa",
+      "n_seeds": 20,
+      "n_graphs": 68,
+      "paired_seed_deltas_o2_minus_o3": [
+        0.04999999999999993,
+        0.061166429587482196,
+        0.025533428165007144,
+        0.04167852062588906,
+        0.10945945945945945,
+        0.006401137980085347,
+        0.14182076813655764,
+        0.07290184921763865,
+        -0.017994310099573307,
+        0.014153627311522143,
+        0.034850640113798015,
+        -0.02837837837837842,
+        0.03307254623044109,
+        0.04971550497866295,
+        0.08221906116642963,
+        -0.0018492176386912806,
+        0.024039829302987203,
+        0.03492176386913237,
+        0.026671408250355633,
+        0.04992887624466569
+      ],
+      "paired_seed_mean": 0.040515647226173554,
+      "paired_seed_student_t_95": [
+        0.02157323806800566,
+        0.05945805638434144
+      ],
+      "equal_graph_mean": 0.043589015151515136,
+      "paired_graph_bootstrap_95": [
+        0.0277689950980392,
+        0.058750306372549
+      ],
+      "graph_bootstrap_replicates": 10000,
+      "split": "validation",
+      "test_evaluated": false,
+      "provenance": [
+        {
+          "seed": 301,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:301",
+          "summary_path": "outputs/f2/wiqa/o2/seed-301/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 301,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:301",
+          "summary_path": "outputs/f2/wiqa/o3/seed-301/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 302,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:302",
+          "summary_path": "outputs/f2/wiqa/o2/seed-302/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 302,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:302",
+          "summary_path": "outputs/f2/wiqa/o3/seed-302/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 303,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:303",
+          "summary_path": "outputs/f2/wiqa/o2/seed-303/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 303,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:303",
+          "summary_path": "outputs/f2/wiqa/o3/seed-303/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 304,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:304",
+          "summary_path": "outputs/f2/wiqa/o2/seed-304/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 304,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:304",
+          "summary_path": "outputs/f2/wiqa/o3/seed-304/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 305,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:305",
+          "summary_path": "outputs/f2/wiqa/o2/seed-305/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 305,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:305",
+          "summary_path": "outputs/f2/wiqa/o3/seed-305/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 306,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:306",
+          "summary_path": "outputs/f2/wiqa/o2/seed-306/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 306,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:306",
+          "summary_path": "outputs/f2/wiqa/o3/seed-306/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 307,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:307",
+          "summary_path": "outputs/f2/wiqa/o2/seed-307/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 307,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:307",
+          "summary_path": "outputs/f2/wiqa/o3/seed-307/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 308,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:308",
+          "summary_path": "outputs/f2/wiqa/o2/seed-308/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 308,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:308",
+          "summary_path": "outputs/f2/wiqa/o3/seed-308/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 309,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:309",
+          "summary_path": "outputs/f2/wiqa/o2/seed-309/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 309,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:309",
+          "summary_path": "outputs/f2/wiqa/o3/seed-309/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 310,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:310",
+          "summary_path": "outputs/f2/wiqa/o2/seed-310/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 310,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:310",
+          "summary_path": "outputs/f2/wiqa/o3/seed-310/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 311,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:311",
+          "summary_path": "outputs/f2/wiqa/o2/seed-311/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 311,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:311",
+          "summary_path": "outputs/f2/wiqa/o3/seed-311/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 312,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:312",
+          "summary_path": "outputs/f2/wiqa/o2/seed-312/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 312,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:312",
+          "summary_path": "outputs/f2/wiqa/o3/seed-312/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 313,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:313",
+          "summary_path": "outputs/f2/wiqa/o2/seed-313/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 313,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:313",
+          "summary_path": "outputs/f2/wiqa/o3/seed-313/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 314,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:314",
+          "summary_path": "outputs/f2/wiqa/o2/seed-314/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 314,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:314",
+          "summary_path": "outputs/f2/wiqa/o3/seed-314/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 315,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:315",
+          "summary_path": "outputs/f2/wiqa/o2/seed-315/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 315,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:315",
+          "summary_path": "outputs/f2/wiqa/o3/seed-315/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 316,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:316",
+          "summary_path": "outputs/f2/wiqa/o2/seed-316/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 316,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:316",
+          "summary_path": "outputs/f2/wiqa/o3/seed-316/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 317,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:317",
+          "summary_path": "outputs/f2/wiqa/o2/seed-317/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 317,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:317",
+          "summary_path": "outputs/f2/wiqa/o3/seed-317/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 318,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:318",
+          "summary_path": "outputs/f2/wiqa/o2/seed-318/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 318,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:318",
+          "summary_path": "outputs/f2/wiqa/o3/seed-318/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 319,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:319",
+          "summary_path": "outputs/f2/wiqa/o2/seed-319/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 319,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:319",
+          "summary_path": "outputs/f2/wiqa/o3/seed-319/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 320,
+          "method": "o2",
+          "cell_id": "f2:wiqa:o2:320",
+          "summary_path": "outputs/f2/wiqa/o2/seed-320/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        },
+        {
+          "seed": 320,
+          "method": "o3",
+          "cell_id": "f2:wiqa:o3:320",
+          "summary_path": "outputs/f2/wiqa/o3/seed-320/run_summary.json",
+          "summary_sha256": "not-published",
+          "checkpoint_sha256": "not-published"
+        }
+      ]
+    }
+  ]
+}

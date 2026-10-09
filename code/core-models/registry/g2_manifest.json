@@ -1,0 +1,413 @@
+{
+  "cells": [
+    {
+      "cell_id": "g2:o2:seed-101",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-101/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-101",
+      "seed": 101,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-102",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-102/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-102",
+      "seed": 102,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-103",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-103/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-103",
+      "seed": 103,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-104",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-104/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-104",
+      "seed": 104,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-105",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-105/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-105",
+      "seed": 105,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-106",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-106/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-106",
+      "seed": 106,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-107",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-107/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-107",
+      "seed": 107,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-108",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-108/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-108",
+      "seed": 108,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-109",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-109/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-109",
+      "seed": 109,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-110",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-110/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-110",
+      "seed": 110,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-111",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-111/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-111",
+      "seed": 111,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-112",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-112/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-112",
+      "seed": 112,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-113",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-113/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-113",
+      "seed": 113,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-114",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-114/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-114",
+      "seed": 114,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-115",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-115/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-115",
+      "seed": 115,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-116",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-116/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-116",
+      "seed": 116,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-117",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-117/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-117",
+      "seed": 117,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-118",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-118/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-118",
+      "seed": 118,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-119",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-119/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-119",
+      "seed": 119,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o2:seed-120",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o2/seed-120/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o2",
+      "output": "outputs/g2/o2/seed-120",
+      "seed": 120,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-101",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-101/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-101",
+      "seed": 101,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-102",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-102/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-102",
+      "seed": 102,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-103",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-103/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-103",
+      "seed": 103,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-104",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-104/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-104",
+      "seed": 104,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-105",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-105/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-105",
+      "seed": 105,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-106",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-106/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-106",
+      "seed": 106,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-107",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-107/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-107",
+      "seed": 107,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-108",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-108/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-108",
+      "seed": 108,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-109",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-109/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-109",
+      "seed": 109,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-110",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-110/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-110",
+      "seed": 110,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-111",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-111/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-111",
+      "seed": 111,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-112",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-112/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-112",
+      "seed": 112,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-113",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-113/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-113",
+      "seed": 113,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-114",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-114/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-114",
+      "seed": 114,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-115",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-115/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-115",
+      "seed": 115,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-116",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-116/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-116",
+      "seed": 116,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-117",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-117/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-117",
+      "seed": 117,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-118",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-118/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-118",
+      "seed": 118,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-119",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-119/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-119",
+      "seed": 119,
+      "test_evaluated": false,
+      "world_size": 4
+    },
+    {
+      "cell_id": "g2:o3:seed-120",
+      "checkpoint": "${CORE_PROJECT_ROOT}/outputs/f1/o3/seed-120/operator.pt",
+      "checkpoint_sha256": "not-published",
+      "method": "o3",
+      "output": "outputs/g2/o3/seed-120",
+      "seed": 120,
+      "test_evaluated": false,
+      "world_size": 4
+    }
+  ],
+  "operator_source": "${PRIVATE_STORAGE_ROOT}/CORE_closing_controls/core_components.py",
+  "operator_source_sha256": "not-published",
+  "primary": "hidden_agreement_at_1e-5:o3-minus-o2",
+  "protocol": "g2_frozen_operator_last_write_wins_v1",
+  "state_probe": "fixed_nonlearned_sinusoidal_16x768_plus_binary_state_offset",
+  "status": "preregistered_prelaunch",
+  "test_evaluated": false,
+  "validation_data": "${CORE_PROJECT_ROOT}/data/experiments/g2/sequences_validation.jsonl",
+  "validation_data_sha256": "not-published"
+}

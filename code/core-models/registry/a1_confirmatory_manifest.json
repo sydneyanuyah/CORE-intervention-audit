@@ -1,0 +1,69 @@
+{
+  "protocol": "a1_confirmatory_v1",
+  "registry": "registry/bert_scope.json",
+  "registry_sha256": "not-published",
+  "stage": "confirmatory",
+  "evidence_status": "preregistered_evidence",
+  "model_size": "base",
+  "seed_namespace": "a1-confirmatory-v1",
+  "seeds": [
+    2026090601, 2026090602, 2026090603, 2026090604, 2026090605,
+    2026090606, 2026090607, 2026090608, 2026090609, 2026090610,
+    2026090611, 2026090612, 2026090613, 2026090614, 2026090615,
+    2026090616, 2026090617, 2026090618, 2026090619, 2026090620
+  ],
+  "frozen_selection": {
+    "report": "reports/A1_SCREENING.json",
+    "sha256": "not-published",
+    "selected_arm": "t3b_pointer",
+    "manifest": "registry/a1_screening_manifest.json",
+    "manifest_sha256": "not-published"
+  },
+  "data_access": {
+    "allowed_splits": ["train", "validation"],
+    "held_out_test": "forbidden",
+    "final_eval": false
+  },
+  "families": {
+    "xor": {"source": "xor", "two_edit": "authoritative_xor"},
+    "ccrgb": {"source": "ccrgb", "two_edit": "authoritative_executable_boolean_scm"},
+    "cladder": {"source": "cladder", "two_edit": "authoritative_executable_scm"},
+    "wiqa": {"source": "wiqa", "two_edit": "authoritative_executable_signed_graph"},
+    "com2": {"source": "com2", "two_edit": "authoritative_adjudicated_open_text"}
+  },
+  "arms": {
+    "t0_id": {"mode": "t0", "pointer": false},
+    "t1_text": {"mode": "t1", "pointer": false},
+    "t2b_encode_only": {"mode": "t2b", "pointer": false},
+    "t2a_naive": {"mode": "t2a", "pointer": false},
+    "t3b_pointer": {"mode": "t3b", "pointer": true},
+    "t3a_conditioning": {"mode": "t3a", "pointer": false}
+  },
+  "paths": {
+    "data_root": "data",
+    "groups_dir": "data/groups",
+    "paraphrase_catalog": "data/paraphrases/structured_catalog.json",
+    "cladder_artifact": "data/two_edit/cladder/artifact.json",
+    "cladder_manifest": "data/two_edit/cladder/manifest.jsonl",
+    "wiqa_queue": "data/two_edit/wiqa/queue.jsonl",
+    "wiqa_truth": "data/two_edit/wiqa/truth.jsonl",
+    "ccrgb_artifact": "data/two_edit/ccrgb/artifact.json",
+    "ccrgb_manifest": "data/two_edit/ccrgb/manifest.jsonl",
+    "com2_queue": "data/two_edit/manual/annotation_queue.jsonl",
+    "com2_truth": "data/two_edit/manual/authoritative_manual_truth.jsonl",
+    "com2_provenance": "data/two_edit/manual/authoritative_manual_truth.provenance.json",
+    "xor_artifact_template": "${PRIVATE_STORAGE_ROOT}/CORE_joint_text_confirmatory/runs/graph_{graph}",
+    "xor_manifest_template": "data/two_edit/confirmatory/xor_graph_{graph}.jsonl",
+    "output_template": "outputs/a1-confirmatory/{family}/{arm}/seed-{seed}",
+    "xor_graphs": [3021, 3022, 3023, 3024, 3025, 3026, 3027, 3028, 3029, 3030, 3031, 3032, 3033, 3034, 3035, 3036, 3037, 3038, 3039, 3040]
+  },
+  "training": {
+    "epochs": 3,
+    "batch_size": 16,
+    "variable_loss_weight": 1.0,
+    "balanced_variable_loss": true,
+    "transition_variable_loss": true,
+    "causal_task_readout": true,
+    "pointer_loss_weight": 1.0
+  }
+}

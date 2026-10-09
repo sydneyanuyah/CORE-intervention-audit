@@ -1,0 +1,778 @@
+{
+  "protocol": "reviewer2_a3_address_inversion_existing_checkpoints_v1",
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "prefix": "qwen7b",
+  "split": "validation",
+  "test_evaluated": false,
+  "n_seeds": 20,
+  "wrong_target_rule": "(true target index + 7) mod 30, commanded value unchanged",
+  "inverted_value_rule": "true target unchanged, commanded binary value inverted",
+  "per_seed": [
+    {
+      "seed": 801,
+      "graph_seed": 3021,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4029948115348816,
+          "preservation_accuracy": 0.6587867140769958,
+          "balanced_accuracy": 0.5308907628059387,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.4029948115348816,
+          "preservation_accuracy": 0.6587867140769958,
+          "balanced_accuracy": 0.5308907628059387,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.4029948115348816,
+          "preservation_accuracy": 0.6587867140769958,
+          "balanced_accuracy": 0.5308907628059387,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-801/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 802,
+      "graph_seed": 3022,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4637930989265442,
+          "preservation_accuracy": 0.5658940076828003,
+          "balanced_accuracy": 0.5148435533046722,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.4637930989265442,
+          "preservation_accuracy": 0.5658940076828003,
+          "balanced_accuracy": 0.5148435533046722,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.4637930989265442,
+          "preservation_accuracy": 0.5658940076828003,
+          "balanced_accuracy": 0.5148435533046722,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-802/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 803,
+      "graph_seed": 3023,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.40533334016799927,
+          "preservation_accuracy": 0.6653763651847839,
+          "balanced_accuracy": 0.5353548526763916,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.40533334016799927,
+          "preservation_accuracy": 0.6653763651847839,
+          "balanced_accuracy": 0.5353548526763916,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.40533334016799927,
+          "preservation_accuracy": 0.6653763651847839,
+          "balanced_accuracy": 0.5353548526763916,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-803/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 804,
+      "graph_seed": 3024,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.5029868483543396,
+          "preservation_accuracy": 0.533420979976654,
+          "balanced_accuracy": 0.5182039141654968,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.5029868483543396,
+          "preservation_accuracy": 0.533420979976654,
+          "balanced_accuracy": 0.5182039141654968,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.5029868483543396,
+          "preservation_accuracy": 0.533420979976654,
+          "balanced_accuracy": 0.5182039141654968,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-804/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 805,
+      "graph_seed": 3025,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.29629629850387573,
+          "preservation_accuracy": 0.7962962985038757,
+          "balanced_accuracy": 0.5462962985038757,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.29629629850387573,
+          "preservation_accuracy": 0.7962962985038757,
+          "balanced_accuracy": 0.5462962985038757,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.29629629850387573,
+          "preservation_accuracy": 0.7962962985038757,
+          "balanced_accuracy": 0.5462962985038757,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-805/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 806,
+      "graph_seed": 3026,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4554707407951355,
+          "preservation_accuracy": 0.6094495058059692,
+          "balanced_accuracy": 0.5324601233005524,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.4554707407951355,
+          "preservation_accuracy": 0.6094495058059692,
+          "balanced_accuracy": 0.5324601233005524,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.4554707407951355,
+          "preservation_accuracy": 0.6094495058059692,
+          "balanced_accuracy": 0.5324601233005524,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-806/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 807,
+      "graph_seed": 3027,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.2565217614173889,
+          "preservation_accuracy": 0.8019108176231384,
+          "balanced_accuracy": 0.5292162895202637,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.2565217614173889,
+          "preservation_accuracy": 0.8019108176231384,
+          "balanced_accuracy": 0.5292162895202637,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.2565217614173889,
+          "preservation_accuracy": 0.8019108176231384,
+          "balanced_accuracy": 0.5292162895202637,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-807/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 808,
+      "graph_seed": 3028,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.45614033937454224,
+          "preservation_accuracy": 0.6032159924507141,
+          "balanced_accuracy": 0.5296781659126282,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.45614033937454224,
+          "preservation_accuracy": 0.6032159924507141,
+          "balanced_accuracy": 0.5296781659126282,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.45614033937454224,
+          "preservation_accuracy": 0.6032159924507141,
+          "balanced_accuracy": 0.5296781659126282,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-808/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 809,
+      "graph_seed": 3029,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.4553903341293335,
+          "preservation_accuracy": 0.622795581817627,
+          "balanced_accuracy": 0.5390929579734802,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.4553903341293335,
+          "preservation_accuracy": 0.622795581817627,
+          "balanced_accuracy": 0.5390929579734802,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.4553903341293335,
+          "preservation_accuracy": 0.622795581817627,
+          "balanced_accuracy": 0.5390929579734802,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-809/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 810,
+      "graph_seed": 3030,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.5322033762931824,
+          "preservation_accuracy": 0.5129567980766296,
+          "balanced_accuracy": 0.522580087184906,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.5322033762931824,
+          "preservation_accuracy": 0.5129567980766296,
+          "balanced_accuracy": 0.522580087184906,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.5322033762931824,
+          "preservation_accuracy": 0.5129567980766296,
+          "balanced_accuracy": 0.522580087184906,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-810/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 811,
+      "graph_seed": 3031,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.48736461997032166,
+          "preservation_accuracy": 0.6224557161331177,
+          "balanced_accuracy": 0.5549101680517197,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.48736461997032166,
+          "preservation_accuracy": 0.6224557161331177,
+          "balanced_accuracy": 0.5549101680517197,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.48736461997032166,
+          "preservation_accuracy": 0.6224557161331177,
+          "balanced_accuracy": 0.5549101680517197,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-811/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 812,
+      "graph_seed": 3032,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.5515872836112976,
+          "preservation_accuracy": 0.5034307241439819,
+          "balanced_accuracy": 0.5275090038776398,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.5515872836112976,
+          "preservation_accuracy": 0.5034307241439819,
+          "balanced_accuracy": 0.5275090038776398,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.5515872836112976,
+          "preservation_accuracy": 0.5034307241439819,
+          "balanced_accuracy": 0.5275090038776398,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-812/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 813,
+      "graph_seed": 3033,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.47566908597946167,
+          "preservation_accuracy": 0.6070336699485779,
+          "balanced_accuracy": 0.5413513779640198,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.47566908597946167,
+          "preservation_accuracy": 0.6070336699485779,
+          "balanced_accuracy": 0.5413513779640198,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.47566908597946167,
+          "preservation_accuracy": 0.6070336699485779,
+          "balanced_accuracy": 0.5413513779640198,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-813/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 814,
+      "graph_seed": 3034,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.530718982219696,
+          "preservation_accuracy": 0.550377607345581,
+          "balanced_accuracy": 0.5405482947826385,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.530718982219696,
+          "preservation_accuracy": 0.550377607345581,
+          "balanced_accuracy": 0.5405482947826385,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.530718982219696,
+          "preservation_accuracy": 0.550377607345581,
+          "balanced_accuracy": 0.5405482947826385,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-814/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 815,
+      "graph_seed": 3035,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.3445322811603546,
+          "preservation_accuracy": 0.7072829008102417,
+          "balanced_accuracy": 0.5259075909852982,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.3445322811603546,
+          "preservation_accuracy": 0.7072829008102417,
+          "balanced_accuracy": 0.5259075909852982,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.3445322811603546,
+          "preservation_accuracy": 0.7072829008102417,
+          "balanced_accuracy": 0.5259075909852982,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-815/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 816,
+      "graph_seed": 3036,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.47962966561317444,
+          "preservation_accuracy": 0.5683006644248962,
+          "balanced_accuracy": 0.5239651650190353,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.47962966561317444,
+          "preservation_accuracy": 0.5683006644248962,
+          "balanced_accuracy": 0.5239651650190353,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.47962966561317444,
+          "preservation_accuracy": 0.5683006644248962,
+          "balanced_accuracy": 0.5239651650190353,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-816/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 817,
+      "graph_seed": 3037,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.46144720911979675,
+          "preservation_accuracy": 0.5652841925621033,
+          "balanced_accuracy": 0.51336570084095,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.46144720911979675,
+          "preservation_accuracy": 0.5652841925621033,
+          "balanced_accuracy": 0.51336570084095,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.46144720911979675,
+          "preservation_accuracy": 0.5652841925621033,
+          "balanced_accuracy": 0.51336570084095,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-817/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 818,
+      "graph_seed": 3038,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.39841270446777344,
+          "preservation_accuracy": 0.6198652982711792,
+          "balanced_accuracy": 0.5091390013694763,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.39841270446777344,
+          "preservation_accuracy": 0.6198652982711792,
+          "balanced_accuracy": 0.5091390013694763,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.39841270446777344,
+          "preservation_accuracy": 0.6198652982711792,
+          "balanced_accuracy": 0.5091390013694763,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-818/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 819,
+      "graph_seed": 3039,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.5056089758872986,
+          "preservation_accuracy": 0.5447026491165161,
+          "balanced_accuracy": 0.5251558125019073,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.5056089758872986,
+          "preservation_accuracy": 0.5447026491165161,
+          "balanced_accuracy": 0.5251558125019073,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.5056089758872986,
+          "preservation_accuracy": 0.5447026491165161,
+          "balanced_accuracy": 0.5251558125019073,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-819/run_summary.json",
+      "metric_source_sha256": "not-published"
+    },
+    {
+      "seed": 820,
+      "graph_seed": 3040,
+      "arms": {
+        "correct": {
+          "change_accuracy": 0.48269233107566833,
+          "preservation_accuracy": 0.5879870057106018,
+          "balanced_accuracy": 0.5353396683931351,
+          "target_success": 0.5
+        },
+        "wrong_target": {
+          "change_accuracy": 0.48269233107566833,
+          "preservation_accuracy": 0.5879870057106018,
+          "balanced_accuracy": 0.5353396683931351,
+          "target_success": 0.5
+        },
+        "inverted_value": {
+          "change_accuracy": 0.48269233107566833,
+          "preservation_accuracy": 0.5879870057106018,
+          "balanced_accuracy": 0.5353396683931351,
+          "target_success": 0.5
+        }
+      },
+      "wrong_minus_correct_balanced": 0.0,
+      "wrong_minus_correct_target_success": 0.0,
+      "inverted_minus_correct_balanced": 0.0,
+      "inverted_minus_correct_target_success": 0.0,
+      "wrong_decision_vector_changed_fraction": 0.0,
+      "inverted_decision_vector_changed_fraction": 0.0,
+      "correct_pointer_top1": 1.0,
+      "wrong_pointer_top1_against_true": 0.0,
+      "inverted_pointer_top1_against_true": 1.0,
+      "checkpoint_sha256": "not-published",
+      "metric_source_path": "outputs/qwen7b-a1/xor/t3b_pointer/seed-820/run_summary.json",
+      "metric_source_sha256": "not-published"
+    }
+  ],
+  "aggregate": {
+    "wrong_minus_correct_balanced": {
+      "mean": 0.0,
+      "student_t_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "wrong_minus_correct_target_success": {
+      "mean": 0.0,
+      "student_t_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "inverted_minus_correct_balanced": {
+      "mean": 0.0,
+      "student_t_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "inverted_minus_correct_target_success": {
+      "mean": 0.0,
+      "student_t_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "wrong_decision_vector_changed_fraction": {
+      "mean": 0.0,
+      "student_t_95": [
+        0.0,
+        0.0
+      ]
+    },
+    "inverted_decision_vector_changed_fraction": {
+      "mean": 0.0,
+      "student_t_95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "source_manifest_sha256": "not-published",
+  "source_amendment_sha256": "not-published"
+}

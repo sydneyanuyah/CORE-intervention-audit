@@ -1,0 +1,18 @@
+{
+  "accepted": 0,
+  "pinned_revision": "not-published",
+  "raw_files": {
+    "data_balanced_alpha_V1.json": "not-published",
+    "data_balanced_backdoor_V2.json": "not-published",
+    "meta_model_alpha_V1.json": "not-published",
+    "meta_model_backdoor_V2.json": "not-published"
+  },
+  "raw_questions": 1200,
+  "rejected": 1200,
+  "rejection_reason_counts": {
+    "counterfactual answer is supplied without a factual outcome/state pair needed to prove an observed change": 700,
+    "multiple simultaneous interventions cannot be represented by one intervention.target": 500
+  },
+  "source": "counterbench",
+  "status": "contract-incompatible"
+}

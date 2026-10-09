@@ -1,0 +1,44 @@
+{
+  "annotator_submission": {
+    "annotator_id": "ann-001",
+    "candidate_file": "10_CAUSALT5K_PRODUCTION_300.jsonl",
+    "instructions": "Edit only each row's task_views object; preserve every source and identity field exactly."
+  },
+  "completed_task_view_example": {
+    "annotator_id": "ann-001",
+    "decision": "reject",
+    "reason_codes": [
+      "COUNTERFACTUAL_STATE_NOT_IDENTIFIED"
+    ],
+    "graph": null,
+    "factual_state": null,
+    "intervention": null,
+    "intervened_state": null,
+    "evidence_spans": [
+      {
+        "field": "causal_structure",
+        "text": "Copy the exact source-supported evidence here."
+      }
+    ],
+    "notes": "Explain exactly why the missing evidence prevents acceptance."
+  },
+  "valid_decisions": [
+    "accept",
+    "reject",
+    "needs_adjudication"
+  ],
+  "approved_reason_codes": [
+    "ACCEPT_EXPLICIT_PAIR",
+    "ACCEPT_DETERMINISTIC_SCM",
+    "NO_INTERVENTION",
+    "GRAPH_NOT_IDENTIFIED",
+    "EDGE_NOT_SUPPORTED",
+    "FACTUAL_STATE_NOT_IDENTIFIED",
+    "COUNTERFACTUAL_STATE_NOT_IDENTIFIED",
+    "TARGET_NOT_GROUNDED",
+    "NO_OBSERVED_MAY_CHANGE_EFFECT",
+    "AMBIGUOUS_OR_CONFLICTING_EVIDENCE",
+    "LICENCE_NOT_CLEARED",
+    "DUPLICATE_OR_LEAKAGE_RISK"
+  ]
+}

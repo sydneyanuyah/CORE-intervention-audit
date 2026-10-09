@@ -1,0 +1,41 @@
+{
+  "protocol": "f2_baseline_execution_amendment_v1",
+  "status": "preregistered_prelaunch",
+  "base_manifest_sha256": "not-published",
+  "base_cells_sha256": "not-published",
+  "scope": [
+    "prompting",
+    "lora_matched"
+  ],
+  "prompting": {
+    "checkpoint_policy": "frozen paired F2 reader; no parameter updates",
+    "input": "passage followed by the registered intervention command",
+    "attention": "full attention",
+    "addressed_editor": "bypassed",
+    "evaluation_split": "validation"
+  },
+  "lora_matched": {
+    "checkpoint_policy": "frozen paired F2 reader base weights",
+    "target_modules": [
+      "bert.encoder.layer.*.attention.self.query",
+      "bert.encoder.layer.*.attention.self.value"
+    ],
+    "rank_rule": "integer rank 1-128 minimizing absolute distance to instantiated O3 trainable parameter count; smaller rank breaks ties",
+    "initialization": "Kaiming-uniform A and all-zero B",
+    "steps": 500,
+    "batch_size_per_rank": 16,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0,
+    "objective": "equal-weight mean changed-variable and invariant-variable cross entropy",
+    "evaluation_split": "validation"
+  },
+  "model": "google-bert/bert-base-uncased",
+  "split_layer": 4,
+  "world_size": 4,
+  "allowed_splits": [
+    "train",
+    "validation"
+  ],
+  "test_evaluated": false
+}

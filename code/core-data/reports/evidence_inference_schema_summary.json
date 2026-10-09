@@ -1,0 +1,19 @@
+{
+  "development_annotation_rows": 4366,
+  "development_prompts": 2412,
+  "protocol_boundary": "trial-level comparative evidence; not a complete DAG world state",
+  "raw_sha256": "not-published",
+  "repository_revision": "not-published",
+  "source": "evidence_inference_2",
+  "task": "comparative intervention/comparator outcome direction",
+  "test_evaluated": false,
+  "train_articles": 743,
+  "valid_label_counts": {
+    "no significant difference": 1991,
+    "significantly decreased": 979,
+    "significantly increase": 552,
+    "significantly increased": 555
+  },
+  "valid_label_rows": 4077,
+  "validation_articles": 92
+}

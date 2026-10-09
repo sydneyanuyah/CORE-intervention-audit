@@ -1,0 +1,2750 @@
+{
+  "completed_cells": 120,
+  "evaluation_split": "validation",
+  "expected_cells": 120,
+  "manifest_sha256": "not-published",
+  "protocol": "qwen2_5_32b_l1_law_probe_v1",
+  "results": [
+    {
+      "cell_id": "qwen32-l1:core_base_1law:901",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.29099240899086,
+        "idempotence": 0.821441113948822,
+        "identity": 0.0031308725010603666,
+        "last_write_wins": 1.0392121076583862
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 901,
+      "source_seed": 501,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5581238865852356
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:901",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.12600742280483246,
+        "idempotence": 0.1080297902226448,
+        "identity": 0.001086640520952642,
+        "last_write_wins": 0.3228023946285248
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 901,
+      "source_seed": 501,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5600087642669678
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:901",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.07584677636623383,
+        "idempotence": 0.07863423228263855,
+        "identity": 0.00059939781203866,
+        "last_write_wins": 0.1842278093099594
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 901,
+      "source_seed": 501,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5542435646057129
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:901",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 901,
+      "source_seed": 501,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5395053625106812
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:901",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 1.0310905808905233e-14,
+        "idempotence": 1.0015263557434082,
+        "identity": 0.9929587244987488,
+        "last_write_wins": 1.0015263557434082
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 901,
+      "source_seed": 501,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5129247903823853
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:901",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 901,
+      "source_seed": 501,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5365736484527588
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:902",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.495094895362854,
+        "idempotence": 0.9034917950630188,
+        "identity": 0.0016982841771095991,
+        "last_write_wins": 1.2887524366378784
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 902,
+      "source_seed": 502,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.711707592010498
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:902",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.11862320452928543,
+        "idempotence": 0.11103162914514542,
+        "identity": 0.0006947368965484202,
+        "last_write_wins": 0.3466931879520416
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 902,
+      "source_seed": 502,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.719057559967041
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:902",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.06749239563941956,
+        "idempotence": 0.07420459389686584,
+        "identity": 0.0004068246635142714,
+        "last_write_wins": 0.1773621290922165
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 902,
+      "source_seed": 502,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.7047036290168762
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:902",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 902,
+      "source_seed": 502,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5465251803398132
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:902",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 8.860492329806121e-15,
+        "idempotence": 0.998613178730011,
+        "identity": 0.9834115505218506,
+        "last_write_wins": 0.9986132383346558
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 902,
+      "source_seed": 502,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5903049111366272
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:902",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 902,
+      "source_seed": 502,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5451937913894653
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:903",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.48585274815559387,
+        "idempotence": 1.1625653505325317,
+        "identity": 0.018987072631716728,
+        "last_write_wins": 1.5523548126220703
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 903,
+      "source_seed": 503,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5374799966812134
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:903",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.1750282645225525,
+        "idempotence": 0.12586809694766998,
+        "identity": 0.006454098504036665,
+        "last_write_wins": 0.40229514241218567
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 903,
+      "source_seed": 503,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.535373330116272
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:903",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.07384833693504333,
+        "idempotence": 0.06521504372358322,
+        "identity": 0.0018177763558924198,
+        "last_write_wins": 0.1852777749300003
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 903,
+      "source_seed": 503,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5413545370101929
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:903",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 903,
+      "source_seed": 503,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5137017369270325
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:903",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 9.076820309370133e-15,
+        "idempotence": 1.0022571086883545,
+        "identity": 0.9892133474349976,
+        "last_write_wins": 1.0022571086883545
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 903,
+      "source_seed": 503,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5114809274673462
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:903",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 903,
+      "source_seed": 503,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5168988108634949
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:904",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.45943483710289,
+        "idempotence": 0.981975257396698,
+        "identity": 0.001480715349316597,
+        "last_write_wins": 1.3646786212921143
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 904,
+      "source_seed": 504,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5540813207626343
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:904",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.155389204621315,
+        "idempotence": 0.10205678641796112,
+        "identity": 0.000555042119231075,
+        "last_write_wins": 0.35116392374038696
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 904,
+      "source_seed": 504,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5554096698760986
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:904",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.08717367053031921,
+        "idempotence": 0.07268036901950836,
+        "identity": 0.0003058220900129527,
+        "last_write_wins": 0.19420714676380157
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 904,
+      "source_seed": 504,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5587097406387329
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:904",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 904,
+      "source_seed": 504,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5284580588340759
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:904",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 1.2161269610972986e-14,
+        "idempotence": 0.9992868900299072,
+        "identity": 0.996212899684906,
+        "last_write_wins": 0.9992868900299072
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 904,
+      "source_seed": 504,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5577679872512817
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:904",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 904,
+      "source_seed": 504,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5338224172592163
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:905",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.25820374488830566,
+        "idempotence": 0.8751585483551025,
+        "identity": 0.002118117641657591,
+        "last_write_wins": 1.0831581354141235
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 905,
+      "source_seed": 505,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6045993566513062
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:905",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.08686162531375885,
+        "idempotence": 0.19011126458644867,
+        "identity": 0.001273995847441256,
+        "last_write_wins": 0.3326270282268524
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 905,
+      "source_seed": 505,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.609100341796875
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:905",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.047562941908836365,
+        "idempotence": 0.11713971197605133,
+        "identity": 0.000852890545502305,
+        "last_write_wins": 0.17976006865501404
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 905,
+      "source_seed": 505,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6027263402938843
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:905",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 905,
+      "source_seed": 505,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5268159508705139
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:905",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 8.254548676262918e-15,
+        "idempotence": 1.0023126602172852,
+        "identity": 0.9857274293899536,
+        "last_write_wins": 1.0023126602172852
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 905,
+      "source_seed": 505,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5489758849143982
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:905",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 905,
+      "source_seed": 505,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5282042622566223
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:906",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.23251815140247345,
+        "idempotence": 0.7920421361923218,
+        "identity": 0.004942308180034161,
+        "last_write_wins": 0.9857712388038635
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 906,
+      "source_seed": 506,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5287745594978333
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:906",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.11250822246074677,
+        "idempotence": 0.10032158344984055,
+        "identity": 0.0014395324978977442,
+        "last_write_wins": 0.3116253614425659
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 906,
+      "source_seed": 506,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5312683582305908
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:906",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.06936103105545044,
+        "idempotence": 0.0742793157696724,
+        "identity": 0.0007765900227241218,
+        "last_write_wins": 0.17881114780902863
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 906,
+      "source_seed": 506,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5257700681686401
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:906",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 906,
+      "source_seed": 506,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5219153761863708
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:906",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 1.0934150110396106e-14,
+        "idempotence": 0.9999614953994751,
+        "identity": 1.0200001001358032,
+        "last_write_wins": 0.9999614357948303
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 906,
+      "source_seed": 506,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.4959368109703064
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:906",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 906,
+      "source_seed": 506,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5221275091171265
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:907",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.42878416180610657,
+        "idempotence": 0.9367415308952332,
+        "identity": 0.003081275150179863,
+        "last_write_wins": 1.3029261827468872
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 907,
+      "source_seed": 507,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6462811827659607
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:907",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.12470440566539764,
+        "idempotence": 0.11774297058582306,
+        "identity": 0.0011024253908544779,
+        "last_write_wins": 0.3213604688644409
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 907,
+      "source_seed": 507,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6434347629547119
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:907",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.07571841776371002,
+        "idempotence": 0.08128845691680908,
+        "identity": 0.0005970284109935164,
+        "last_write_wins": 0.17947323620319366
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 907,
+      "source_seed": 507,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6508986353874207
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:907",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 907,
+      "source_seed": 507,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5351331233978271
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:907",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 8.011141900408133e-15,
+        "idempotence": 1.0059651136398315,
+        "identity": 0.9898521304130554,
+        "last_write_wins": 1.005965232849121
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 907,
+      "source_seed": 507,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5327777862548828
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:907",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 907,
+      "source_seed": 507,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5355397462844849
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:908",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.45515280961990356,
+        "idempotence": 0.935978889465332,
+        "identity": 0.0010169220622628927,
+        "last_write_wins": 1.2907755374908447
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 908,
+      "source_seed": 508,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.7070149779319763
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:908",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.10718239098787308,
+        "idempotence": 0.08402053266763687,
+        "identity": 0.0007264020969159901,
+        "last_write_wins": 0.32950595021247864
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 908,
+      "source_seed": 508,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.7126327753067017
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:908",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.05869308486580849,
+        "idempotence": 0.04730550944805145,
+        "identity": 0.00019745029567275196,
+        "last_write_wins": 0.16955387592315674
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 908,
+      "source_seed": 508,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.7083643674850464
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:908",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 908,
+      "source_seed": 508,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5346235036849976
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:908",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 1.0035703957309364e-14,
+        "idempotence": 1.0003139972686768,
+        "identity": 0.9718143939971924,
+        "last_write_wins": 1.0003139972686768
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 908,
+      "source_seed": 508,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5887254476547241
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:908",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 908,
+      "source_seed": 508,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5392761826515198
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:909",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.29328474402427673,
+        "idempotence": 0.7886808514595032,
+        "identity": 0.002031957032158971,
+        "last_write_wins": 1.0338882207870483
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 909,
+      "source_seed": 509,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.7349012494087219
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:909",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.10706271976232529,
+        "idempotence": 0.11905248463153839,
+        "identity": 0.0008489846950396895,
+        "last_write_wins": 0.29452332854270935
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 909,
+      "source_seed": 509,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.7304636836051941
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:909",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.06301937997341156,
+        "idempotence": 0.08272825926542282,
+        "identity": 0.00048239933676086366,
+        "last_write_wins": 0.1680660992860794
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 909,
+      "source_seed": 509,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.7207587957382202
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:909",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 909,
+      "source_seed": 509,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.51839280128479
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:909",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 9.78387513286003e-15,
+        "idempotence": 0.9998716711997986,
+        "identity": 1.0224722623825073,
+        "last_write_wins": 0.999871551990509
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 909,
+      "source_seed": 509,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6169699430465698
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:909",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 909,
+      "source_seed": 509,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5106005072593689
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:910",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.3498998284339905,
+        "idempotence": 0.9230882525444031,
+        "identity": 0.0003437684790696949,
+        "last_write_wins": 1.2241110801696777
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 910,
+      "source_seed": 510,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5613927841186523
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:910",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.10164029896259308,
+        "idempotence": 0.06354746967554092,
+        "identity": 0.0002485219738446176,
+        "last_write_wins": 0.29326918721199036
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 910,
+      "source_seed": 510,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5615051984786987
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:910",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.04758153110742569,
+        "idempotence": 0.060817766934633255,
+        "identity": 0.00019492268620524555,
+        "last_write_wins": 0.16506890952587128
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 910,
+      "source_seed": 510,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5637446045875549
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:910",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 910,
+      "source_seed": 510,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5192307829856873
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:910",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 9.668159420836778e-15,
+        "idempotence": 1.0041136741638184,
+        "identity": 0.9870682954788208,
+        "last_write_wins": 1.0041136741638184
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 910,
+      "source_seed": 510,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5073260068893433
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:910",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 910,
+      "source_seed": 510,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5265984535217285
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:911",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.3654981851577759,
+        "idempotence": 0.8554461002349854,
+        "identity": 0.0018839513650164008,
+        "last_write_wins": 1.1422827243804932
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 911,
+      "source_seed": 511,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6862595081329346
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:911",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.12916621565818787,
+        "idempotence": 0.0972418263554573,
+        "identity": 0.0008118875557556748,
+        "last_write_wins": 0.30840906500816345
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 911,
+      "source_seed": 511,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6924217939376831
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:911",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.07555393129587173,
+        "idempotence": 0.06759773939847946,
+        "identity": 0.0004392573609948158,
+        "last_write_wins": 0.17149363458156586
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 911,
+      "source_seed": 511,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.675796389579773
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:911",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 911,
+      "source_seed": 511,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5636642575263977
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:911",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 9.373501222442477e-15,
+        "idempotence": 0.9979713559150696,
+        "identity": 1.0150560140609741,
+        "last_write_wins": 0.9979713559150696
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 911,
+      "source_seed": 511,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.58810955286026
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:911",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 911,
+      "source_seed": 511,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5611885786056519
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:912",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.41098344326019287,
+        "idempotence": 0.8830541968345642,
+        "identity": 0.0015480667352676392,
+        "last_write_wins": 1.2256312370300293
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 912,
+      "source_seed": 512,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6435385942459106
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:912",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.11830641329288483,
+        "idempotence": 0.12531732022762299,
+        "identity": 0.00018792119226418436,
+        "last_write_wins": 0.3377775251865387
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 912,
+      "source_seed": 512,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6442669630050659
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:912",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.06979180872440338,
+        "idempotence": 0.08611893653869629,
+        "identity": 6.905969348736107e-05,
+        "last_write_wins": 0.18187391757965088
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 912,
+      "source_seed": 512,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6435542106628418
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:912",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 912,
+      "source_seed": 512,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5412359237670898
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:912",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 8.873404500054066e-15,
+        "idempotence": 1.0005826950073242,
+        "identity": 1.0200951099395752,
+        "last_write_wins": 1.0005826950073242
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 912,
+      "source_seed": 512,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5570488572120667
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:912",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 912,
+      "source_seed": 512,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5413534045219421
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:913",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.3894258737564087,
+        "idempotence": 0.8186781406402588,
+        "identity": 0.000546289375051856,
+        "last_write_wins": 1.182281255722046
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 913,
+      "source_seed": 513,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.735427975654602
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:913",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0689842700958252,
+        "idempotence": 0.12814271450042725,
+        "identity": 0.0004528142453636974,
+        "last_write_wins": 0.291543573141098
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 913,
+      "source_seed": 513,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.7376380562782288
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:913",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.03601759299635887,
+        "idempotence": 0.07825123518705368,
+        "identity": 7.327113416977227e-05,
+        "last_write_wins": 0.14748132228851318
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 913,
+      "source_seed": 513,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.7417404651641846
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:913",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 913,
+      "source_seed": 513,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5585177540779114
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:913",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 8.345281998539851e-15,
+        "idempotence": 1.003180742263794,
+        "identity": 0.9770047068595886,
+        "last_write_wins": 1.003180742263794
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 913,
+      "source_seed": 513,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5734580755233765
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:913",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 913,
+      "source_seed": 513,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5543729066848755
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:914",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.25202062726020813,
+        "idempotence": 0.7532839775085449,
+        "identity": 0.003841742407530546,
+        "last_write_wins": 0.9496786594390869
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 914,
+      "source_seed": 514,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5589514374732971
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:914",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.09603333473205566,
+        "idempotence": 0.09434938430786133,
+        "identity": 0.0009812114294618368,
+        "last_write_wins": 0.2841344177722931
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 914,
+      "source_seed": 514,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5614199638366699
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:914",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0614013671875,
+        "idempotence": 0.07061979919672012,
+        "identity": 0.0005868113366886973,
+        "last_write_wins": 0.16325204074382782
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 914,
+      "source_seed": 514,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5565935373306274
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:914",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 914,
+      "source_seed": 514,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.4942643940448761
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:914",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 1.12687755584066e-14,
+        "idempotence": 0.998855710029602,
+        "identity": 0.9815784692764282,
+        "last_write_wins": 0.998855710029602
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 914,
+      "source_seed": 514,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5082696676254272
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:914",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 914,
+      "source_seed": 514,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.4982253313064575
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:915",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.35652056336402893,
+        "idempotence": 0.9079596996307373,
+        "identity": 0.002384442836046219,
+        "last_write_wins": 1.2060381174087524
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 915,
+      "source_seed": 515,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5913642644882202
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:915",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0952569767832756,
+        "idempotence": 0.11486256122589111,
+        "identity": 0.0013807856012135744,
+        "last_write_wins": 0.3025487959384918
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 915,
+      "source_seed": 515,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5887670516967773
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:915",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.06104673817753792,
+        "idempotence": 0.09340552985668182,
+        "identity": 0.0009989581303671002,
+        "last_write_wins": 0.1811421811580658
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 915,
+      "source_seed": 515,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5930618047714233
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:915",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 915,
+      "source_seed": 515,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.543093740940094
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:915",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 8.596035091146172e-15,
+        "idempotence": 0.9986413717269897,
+        "identity": 1.004433035850525,
+        "last_write_wins": 0.9986413717269897
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 915,
+      "source_seed": 515,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5494323968887329
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:915",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 915,
+      "source_seed": 515,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5313366055488586
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:916",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.512355625629425,
+        "idempotence": 0.964798092842102,
+        "identity": 0.001137344865128398,
+        "last_write_wins": 1.3865115642547607
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 916,
+      "source_seed": 516,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6582302451133728
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:916",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.12997978925704956,
+        "idempotence": 0.11159374564886093,
+        "identity": 0.0006777431117370725,
+        "last_write_wins": 0.3553793430328369
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 916,
+      "source_seed": 516,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6615140438079834
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:916",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.07284826785326004,
+        "idempotence": 0.07651781290769577,
+        "identity": 0.0005235447315499187,
+        "last_write_wins": 0.18098224699497223
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 916,
+      "source_seed": 516,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6500983834266663
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:916",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 916,
+      "source_seed": 516,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5260803699493408
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:916",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 9.225295020628445e-15,
+        "idempotence": 0.9962062239646912,
+        "identity": 1.0072311162948608,
+        "last_write_wins": 0.9962062239646912
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 916,
+      "source_seed": 516,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5177898406982422
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:916",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 916,
+      "source_seed": 516,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5211308002471924
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:917",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.3682083487510681,
+        "idempotence": 0.8938199877738953,
+        "identity": 0.0024441061541438103,
+        "last_write_wins": 1.2089195251464844
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 917,
+      "source_seed": 517,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6064580082893372
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:917",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.10566996783018112,
+        "idempotence": 0.12482652068138123,
+        "identity": 0.0012087442446500063,
+        "last_write_wins": 0.33671510219573975
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 917,
+      "source_seed": 517,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6062642931938171
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:917",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.06222034990787506,
+        "idempotence": 0.10228677839040756,
+        "identity": 0.0005343427765183151,
+        "last_write_wins": 0.186411514878273
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 917,
+      "source_seed": 517,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6024242639541626
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:917",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 917,
+      "source_seed": 517,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5232489109039307
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:917",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 1.109728696197139e-14,
+        "idempotence": 1.0001157522201538,
+        "identity": 0.9765903353691101,
+        "last_write_wins": 1.0001156330108643
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 917,
+      "source_seed": 517,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5321808457374573
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:917",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 917,
+      "source_seed": 517,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5186587572097778
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:918",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.42391979694366455,
+        "idempotence": 0.9648755788803101,
+        "identity": 0.001861452590674162,
+        "last_write_wins": 1.306846261024475
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 918,
+      "source_seed": 518,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6605333089828491
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:918",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.10396108031272888,
+        "idempotence": 0.14636275172233582,
+        "identity": 0.0010903142392635345,
+        "last_write_wins": 0.35770851373672485
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 918,
+      "source_seed": 518,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.663593053817749
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:918",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.060405999422073364,
+        "idempotence": 0.09805377572774887,
+        "identity": 0.0007840084144845605,
+        "last_write_wins": 0.18970657885074615
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 918,
+      "source_seed": 518,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6547383069992065
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:918",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 918,
+      "source_seed": 518,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5134713053703308
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:918",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 9.058874222316656e-15,
+        "idempotence": 0.9971915483474731,
+        "identity": 0.9772754311561584,
+        "last_write_wins": 0.9971915483474731
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 918,
+      "source_seed": 518,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.532192587852478
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:918",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 918,
+      "source_seed": 518,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5181862711906433
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:919",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.4603317379951477,
+        "idempotence": 0.9591154456138611,
+        "identity": 0.0013229898177087307,
+        "last_write_wins": 1.3677200078964233
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 919,
+      "source_seed": 519,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6127595901489258
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:919",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.09289157390594482,
+        "idempotence": 0.14982198178768158,
+        "identity": 0.0006519499002024531,
+        "last_write_wins": 0.3569258451461792
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 919,
+      "source_seed": 519,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.6121463775634766
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:919",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.05070006474852562,
+        "idempotence": 0.0864505022764206,
+        "identity": 0.0010880861664190888,
+        "last_write_wins": 0.18413540720939636
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 919,
+      "source_seed": 519,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5985287427902222
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:919",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 919,
+      "source_seed": 519,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5347869396209717
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:919",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 9.355544123960686e-15,
+        "idempotence": 1.000699758529663,
+        "identity": 1.0044149160385132,
+        "last_write_wins": 1.0006996393203735
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 919,
+      "source_seed": 519,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5549538135528564
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:919",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 919,
+      "source_seed": 519,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5400699973106384
+    },
+    {
+      "cell_id": "qwen32-l1:core_base_1law:920",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.3540736734867096,
+        "idempotence": 0.9588459134101868,
+        "identity": 0.0028830189257860184,
+        "last_write_wins": 1.2330036163330078
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_base_1law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 920,
+      "source_seed": 520,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5468419790267944
+    },
+    {
+      "cell_id": "qwen32-l1:core_i_3law:920",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.13255245983600616,
+        "idempotence": 0.13946537673473358,
+        "identity": 0.0014143302105367184,
+        "last_write_wins": 0.35329511761665344
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_i_3law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 920,
+      "source_seed": 520,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5589099526405334
+    },
+    {
+      "cell_id": "qwen32-l1:core_full_4law:920",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [
+        "commutation",
+        "idempotence",
+        "identity",
+        "selective_invariance"
+      ],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.07793717831373215,
+        "idempotence": 0.09282311797142029,
+        "identity": 0.000986965373158455,
+        "last_write_wins": 0.1936386227607727
+      },
+      "manifest_sha256": "not-published",
+      "method": "core_full_4law",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 920,
+      "source_seed": 520,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5558888912200928
+    },
+    {
+      "cell_id": "qwen32-l1:do_nothing:920",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_nothing",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 920,
+      "source_seed": 520,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5168278217315674
+    },
+    {
+      "cell_id": "qwen32-l1:do_everything:920",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 9.360851632408181e-15,
+        "idempotence": 1.0013874769210815,
+        "identity": 0.9908203482627869,
+        "last_write_wins": 1.0013874769210815
+      },
+      "manifest_sha256": "not-published",
+      "method": "do_everything",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 920,
+      "source_seed": 520,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5202049016952515
+    },
+    {
+      "cell_id": "qwen32-l1:random_init:920",
+      "checkpoint_sha256": "not-published",
+      "enforced_laws": [],
+      "evaluation_split": "validation",
+      "gpu_count": 1,
+      "law_residuals": {
+        "commutation": 0.0,
+        "idempotence": 0.0,
+        "identity": 0.0,
+        "last_write_wins": 0.0
+      },
+      "manifest_sha256": "not-published",
+      "method": "random_init",
+      "protocol": "qwen2_5_32b_l1_law_probe_v1",
+      "seed": 920,
+      "source_seed": 520,
+      "task": "l1",
+      "test_evaluated": false,
+      "validation_balanced_accuracy": 0.5165280103683472
+    }
+  ],
+  "test_evaluated": false
+}

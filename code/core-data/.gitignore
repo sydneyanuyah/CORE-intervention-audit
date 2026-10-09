@@ -1,0 +1,24 @@
+# Raw third-party datasets are fetched locally and never committed.
+data/raw/**
+!data/raw/.gitkeep
+
+# Generated records and split manifests are reproducible outputs.
+data/records/*.jsonl
+data/splits/*.txt
+data/groups/*.jsonl
+data/two_edit/
+data/t3/
+data/g2/
+data/g4/
+data/t5/
+data/c1/
+data/c2/
+data/t2/
+data/t4/
+data/annotation_pilots/
+
+# Python caches and local environments.
+__pycache__/
+.pycache/
+*.py[cod]
+.venv/
